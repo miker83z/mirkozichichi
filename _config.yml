@@ -20,6 +20,7 @@
 # Dependencies
 markdown: kramdown
 highlighter: rouge
+remote_theme: fongandrew/hydeout
 
 title: Mirko Zichichi
 email: mirko.zichichi@upm.es
@@ -41,7 +42,6 @@ paginate: 5
 sidebar_home_link: true
 sidebar_blog_link: '/category/blog/'
 paginate_path: '/category/blog/page:5/'
-remote_theme: fongandrew/hydeout
 disqus:
   shortname: mirkozichichi
 # Exclude from processing.
