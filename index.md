@@ -3,11 +3,7 @@ layout: index
 title: Home
 ---
 
----
-
 # Biography
-
----
 
 <p class="message">
   &rarr;  <b>PhD student</b> in <b>Law, Science and Technology</b> (since Nov 2019).
@@ -20,7 +16,7 @@ title: Home
 </p>
 
 I am a Doctoral Researcher in the [_Law, Science, and Technology Joint Doctorate - Rights
-of Internet of Everything_](https://last-jd-rioe.eu/), an Horizon 2020 research and innovation programme funded by the Marie Skłodowska-Curie Actions.
+of Internet of Everything_](https://last-jd-rioe.eu/), a Horizon 2020 research and innovation programme funded by the Marie Skłodowska-Curie Actions.
 
 My affiliations are:
 
@@ -38,29 +34,50 @@ My affiliations are:
 
 # Selected Publications
 
----
-
-6 -- Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
-<br>
-**A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems**,
-<br>
-_IEEE Access, IEEE._ May 2020. (pp. 100384 - 100402).
-
----
-
-4 -- Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
-<br>
-**A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good**,
-<br>
-_in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE._ January 2020, Las Vegas, USA. (pp. 1-6).
-
----
-
-3 -- Zichichi Mirko,
-<br>
-**Location Privacy and Inference in Online Social Networks**,
-<br>
-_in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019)._ December 2019, Madrid, Spain.
+<table>
+    <tr>
+        <td>
+          6) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
+          <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
+        </td>
+        <td>
+          <br>
+          <a href="https://doi.org/10.1109/ACCESS.2020.2998012"><img src="/figs/doi.svg" alt="doi" title="DOI" width="40" height="40" /></a>
+          <a href=""><img src="/figs/download.svg" alt="dwnl" title="Download" width="40" height="40" /></a>
+          <a href="/assets/papers/bibtexts/6framework.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="40" height="40" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          4) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
+          <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA. (pp. 1-6).
+        </td>
+        <td>
+          <br>
+          <a href="https://doi.org/10.1109/CCNC46108.2020.9045640"><img src="/figs/doi.svg" alt="doi" title="DOI" width="80" height="80" /></a>
+          <a href=""><img src="/figs/download.svg" alt="dwnl" title="Download" width="80" height="80" /></a>
+          <a href="/assets/papers/bibtexts/4distributed.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="80" height="80" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          3) Zichichi Mirko,
+          <br>
+          <b>Location Privacy and Inference in Online Social Networks</b>,
+          <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
+        </td>
+        <td>
+          <br>
+          <a href="http://ceur-ws.org/Vol-2598/"><img src="/figs/doi.svg" alt="doi" title="DOI" width="80" height="80" /></a>
+          <a href="/assets/papers/3location.pdf"><img src="/figs/download.svg" alt="dwnl" title="Download" width="80" height="80" /></a>
+          <a href="/assets/papers/bibtexts/3location.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="80" height="80" /></a>
+        </td>
+    </tr>
+</table>
 
 ---
 

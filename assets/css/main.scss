@@ -3,6 +3,10 @@
 # only main files contain this front matter, not partials.
 ---
 
+$large-font-size: 1.1rem;
+$sidebar-width: 25rem;
+$sidebar-sticky: true;
+
 @import 'hydeout';
 
 #sidebar {
@@ -21,7 +25,14 @@
 
 @media (min-width: $large-breakpoint) {
   .responsive-image {
-    width: 175px;
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 85rem) {
+  .responsive-image {
+    width: 200px;
     margin-left: 0;
   }
 }

@@ -1,12 +1,12 @@
 <div id="sidebar">
   <header>
-    <p class="lead"><img class="responsive-image" src="{{ "/profilepic.jpg" | relative_url }}" alt="Photo"></p>
+    <p class="lead"><img class="responsive-image" src="{{ "/profilepic.jpg" | relative_url }}" alt="Photo"></p> 
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        {{ site.title }}
+        {{ site.title }}        
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <p class="lead">{{ site.description }}</p>
@@ -18,6 +18,6 @@
   {% endif %}
 
   {% include sidebar-icon-links.html %}
-  <span class="site-version">mirko.zichichi AT upm.es<br><br></span> 
+  <span class="site-version"><b>Email:</b> mirko.zichichi AT upm.es<br><br></span> 
   {% include copyright.html %}
 </div>

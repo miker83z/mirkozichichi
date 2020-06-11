@@ -5,7 +5,7 @@
 html, body { margin: 0; padding: 0; }
 
 html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif; font-size: 1rem; line-height: 1.5; }
-@media (min-width: 49rem) { html { font-size: 1.25rem; } }
+@media (min-width: 49rem) { html { font-size: 1.1rem; } }
 
 body { text-size-adjust: 100%; }
 
@@ -268,7 +268,7 @@ pre code { background-color: transparent; color: inherit; font-size: 100%; paddi
 body { background-attachment: fixed; background-color: #202020; background-image: linear-gradient(to bottom, #323232, #0e0e0e); color: rgba(255, 255, 255, 0.75); display: flex; flex-direction: column; min-height: 100vh; }
 
 #sidebar { flex: 0 0 auto; padding: 2rem; }
-#sidebar .site-title { font-family: 'Abril Fatface', serif; font-size: 1.25rem; font-weight: normal; margin-bottom: 0.5rem; margin-top: 0; }
+#sidebar .site-title { font-family: 'Abril Fatface', serif; font-size: 1.1rem; font-weight: normal; margin-bottom: 0.5rem; margin-top: 0; }
 #sidebar .site-title .back-arrow { margin-right: 0.5rem; }
 
 .content { background: #fff; color: #515151; padding: 2rem; }
@@ -297,7 +297,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
 @media (min-width: 49rem) { body { flex-direction: row; min-height: 100vh; -webkit-overflow-scrolling: touch; overflow-y: auto; }
   body > * { -webkit-overflow-scrolling: touch; overflow-y: auto; }
   /* Undo mobile CSS */
-  #sidebar, .home #sidebar { text-align: left; width: 18rem; }
+  #sidebar, .home #sidebar { text-align: left; width: 25rem; }
   #sidebar > *:last-child, .home #sidebar > *:last-child { margin-bottom: 0; }
   #sidebar { position: fixed; bottom: 0; left: 0; }
   #sidebar .site-title { font-size: 3.25rem; }
@@ -305,7 +305,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
   #sidebar p.lead, #sidebar header ~ * { display: block; }
   #sidebar header ~ nav { display: flex; }
   .index #sidebar { margin-bottom: 0; }
-  .container { background: #fff; color: #515151; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 18rem; }
+  .container { background: #fff; color: #515151; min-height: 100vh; padding: 4rem 4rem 0; margin-left: 25rem; }
   .container > header { color: #313131; margin: 0; }
   .container > header h1, .container > header h2 { color: inherit; }
   .container > header h1:last-child, .container > header h2:last-child { margin-bottom: 0.5rem; }
@@ -378,7 +378,7 @@ button.disqus-load { margin-top: 1em; }
  Super lightweight (HTML-wise) blog pagination. Should only be visible when there is navigation available -- single buttons at top or bottom of each page.
 */
 .pagination { color: #ccc; margin-bottom: 2rem; text-align: center; }
-.pagination > a { background: #fff; border: solid #e5e5e5; border-radius: 300px; border-width: 1px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); display: inline-block; max-width: 18rem; padding: 1em 1.5em; width: 60%; }
+.pagination > a { background: #fff; border: solid #e5e5e5; border-radius: 300px; border-width: 1px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); display: inline-block; max-width: 25rem; padding: 1em 1.5em; width: 60%; }
 .pagination > a:hover { background-color: #e5e5e5; }
 
 * + .pagination { margin-top: 2rem; }
@@ -416,4 +416,5 @@ button.disqus-load { margin-top: 1em; }
 
 .responsive-image { width: 100px; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 
-@media (min-width: 49rem) { .responsive-image { width: 175px; margin-left: 0; } }
+@media (min-width: 49rem) { .responsive-image { width: 150px; margin-left: 0; } }
+@media (min-width: 85rem) { .responsive-image { width: 200px; margin-left: 0; } }

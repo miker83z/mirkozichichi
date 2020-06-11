@@ -25,14 +25,14 @@ remote_theme: fongandrew/hydeout
 title: Mirko Zichichi
 email: mirko.zichichi@upm.es
 description: >- # this means to ignore newlines until "baseurl:"
-  <b>MSCA ITN Early Stage Researcher</b> in <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law Science and Technology Joint Doctorate - RIoE</a></em>
+  <b>MSCA ITN Early Stage Researcher</b> in <br> <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law, Science and Technology</a></em>
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://mirkozichichi.me/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miker83z
 github_username: miker83z
 
 # Build settings
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -40,8 +40,8 @@ plugins:
 
 paginate: 5
 sidebar_home_link: true
-sidebar_blog_link: '/category/blog/'
-paginate_path: '/category/blog/page:5/'
+sidebar_blog_link: '/blog/'
+paginate_path: '/blog/page:5/'
 disqus:
   shortname: mirkozichichi
 # Exclude from processing.
