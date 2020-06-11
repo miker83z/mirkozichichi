@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I build my personal website with Jekyll
+title: I built my personal website with Jekyll
 date: 2020-06-11 12:08:00 +0200
 categories: misc
 ---
