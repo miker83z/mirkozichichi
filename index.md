@@ -5,7 +5,7 @@ title: Home
 
 ---
 
-# Biograpy
+# Biography
 
 ---
 
