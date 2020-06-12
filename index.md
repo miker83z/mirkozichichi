@@ -43,10 +43,9 @@ My affiliations are:
           <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
         </td>
         <td>
-          <br>
-          <a href="https://doi.org/10.1109/ACCESS.2020.2998012"><img src="/figs/doi.svg" alt="doi" title="DOI" width="40" height="40" /></a>
-          <a href=""><img src="/figs/download.svg" alt="dwnl" title="Download" width="40" height="40" /></a>
-          <a href="/assets/papers/bibtexts/6framework.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="40" height="40" /></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
+          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/6framework.bib"></a>
         </td>
     </tr>
     <tr>
@@ -57,10 +56,9 @@ My affiliations are:
           <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA. (pp. 1-6).
         </td>
         <td>
-          <br>
-          <a href="https://doi.org/10.1109/CCNC46108.2020.9045640"><img src="/figs/doi.svg" alt="doi" title="DOI" width="80" height="80" /></a>
-          <a href=""><img src="/figs/download.svg" alt="dwnl" title="Download" width="80" height="80" /></a>
-          <a href="/assets/papers/bibtexts/4distributed.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="80" height="80" /></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
+          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/4distributed.bib"></a>
         </td>
     </tr>
     <tr>
@@ -71,10 +69,9 @@ My affiliations are:
           <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
         </td>
         <td>
-          <br>
-          <a href="http://ceur-ws.org/Vol-2598/"><img src="/figs/doi.svg" alt="doi" title="DOI" width="80" height="80" /></a>
-          <a href="/assets/papers/3location.pdf"><img src="/figs/download.svg" alt="dwnl" title="Download" width="80" height="80" /></a>
-          <a href="/assets/papers/bibtexts/3location.bib"><img src="/figs/quote.svg" alt="quot" title="Bibtex" width="80" height="80" /></a>
+          <a class="get get_doi" target="_blank" href="http://ceur-ws.org/Vol-2598/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/3location.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/3location.bib"></a>
         </td>
     </tr>
 </table>

@@ -414,6 +414,14 @@ button.disqus-load { margin-top: 1em; }
 
 #sidebar .site-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif; }
 
+.get { line-height: 1.55; display: block; width: 1.75em; height: 1.75em; background-size: 100% 100%; margin: 1em 0.2em 1em 0.2em; color: #ffffff; font-weight: 400; text-decoration: underline; cursor: pointer !important; }
+
+.get_doi { background-image: url("/figs/doi.svg"); }
+
+.get_download { background-image: url("/figs/download.svg"); }
+
+.get_cite { background-image: url("/figs/quote.svg"); }
+
 .responsive-image { width: 100px; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 
 @media (min-width: 49rem) { .responsive-image { width: 150px; margin-left: 0; } }

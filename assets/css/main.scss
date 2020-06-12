@@ -15,6 +15,31 @@ $sidebar-sticky: true;
   }
 }
 
+.get {
+  line-height: 1.55;
+  display: block;
+  width: 1.75em;
+  height: 1.75em;
+  background-size: 100% 100%;
+  margin: 1em 0.2em 1em 0.2em;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+
+.get_doi {
+  background-image: url('/figs/doi.svg');
+}
+
+.get_download {
+  background-image: url('/figs/download.svg');
+}
+
+.get_cite {
+  background-image: url('/figs/quote.svg');
+}
+
 .responsive-image {
   width: 100px;
   max-width: 100%;
