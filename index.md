@@ -37,7 +37,7 @@ My affiliations are:
 <table>
     <tr>
         <td>
-          6) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          J1) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
           <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
@@ -50,7 +50,7 @@ My affiliations are:
     </tr>
     <tr>
         <td>
-          4) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          C4) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
           <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA. (pp. 1-6).
@@ -63,13 +63,13 @@ My affiliations are:
     </tr>
     <tr>
         <td>
-          3) Zichichi Mirko,
+          C3) Zichichi Mirko,
           <br>
           <b>Location Privacy and Inference in Online Social Networks</b>,
           <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
         </td>
         <td>
-          <a class="get get_doi" target="_blank" href="http://ceur-ws.org/Vol-2598/"></a>
+          <a class="get get_external" target="_blank" href="http://ceur-ws.org/Vol-2598/"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/3location.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/3location.bib"></a>
         </td>

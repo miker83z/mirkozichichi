@@ -9,17 +9,11 @@ $sidebar-sticky: true;
 
 @import 'hydeout';
 
-#sidebar {
-  .site-title {
-    font-family: $root-font-family;
-  }
-}
-
 .get {
   line-height: 1.55;
   display: block;
-  width: 1.75em;
-  height: 1.75em;
+  width: 1.5em;
+  height: 1.5em;
   background-size: 100% 100%;
   margin: 1em 0.2em 1em 0.2em;
   color: #ffffff;
@@ -30,6 +24,10 @@ $sidebar-sticky: true;
 
 .get_doi {
   background-image: url('/figs/doi.svg');
+}
+
+.get_external {
+  background-image: url('/figs/external.svg');
 }
 
 .get_download {
@@ -46,6 +44,12 @@ $sidebar-sticky: true;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+#sidebar {
+  .site-title {
+    font-family: $root-font-family;
+  }
 }
 
 @media (min-width: $large-breakpoint) {
