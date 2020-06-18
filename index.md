@@ -44,7 +44,7 @@ My affiliations are:
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
-          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/6framework.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/6framework.bib"></a>
         </td>
     </tr>

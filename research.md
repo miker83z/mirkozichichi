@@ -17,7 +17,7 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
-          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/6framework.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/6framework.bib"></a>
         </td>
     </tr>
@@ -50,7 +50,7 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
-          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/4distributed.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/4distributed.bib"></a>
         </td>
     </tr>
@@ -89,7 +89,7 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/INFCOMW.2019.8845133"></a>
-          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/1likestarter.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/1likestarter.bib"></a>
         </td>
     </tr>
