@@ -110,6 +110,7 @@ title: Research
         <td>
           <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/18440/"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/mscdistributed.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/mscslides.pdf"></a>
         </td>
     </tr>
     <tr>
@@ -121,6 +122,7 @@ title: Research
         </td>
         <td>
           <a class="get get_download" target="_blank" href="/assets/papers/bsctecniche.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/bscslides.pdf"></a>
         </td>
     </tr>
 </table>
