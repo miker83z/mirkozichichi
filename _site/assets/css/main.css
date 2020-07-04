@@ -420,6 +420,10 @@ button.disqus-load { margin-top: 1em; }
 
 .get_download { background-image: url("/figs/download.svg"); }
 
+.get_github { background-image: url("/figs/github.svg"); }
+
+.get_ppt { background-image: url("/figs/ppt.svg"); }
+
 .get_cite { background-image: url("/figs/quote.svg"); }
 
 .responsive-image { width: 100px; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
