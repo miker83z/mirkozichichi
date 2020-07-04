@@ -224,7 +224,7 @@ title: Tutoring
           Zichichi Mirko
           <br>
           <b>The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability</b>,
-          <i>JURIX2019.</i> December 2019.
+          <i>JURIX2019 (workshop).</i> December 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/jurix2019.pdf"></a>
@@ -250,6 +250,17 @@ title: Tutoring
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/locationwelcome.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>LikeStarter: a Smart-contract based Social DAO for Crowdfunding</b>,
+          <i>CRYBLOCK 2019 (workshop).</i> April 2019.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/likestarter.pdf"></a>
         </td>
     </tr>
     <tr>
