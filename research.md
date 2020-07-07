@@ -30,6 +30,19 @@ title: Research
 <table>
     <tr>
         <td>
+          [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
+          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France. (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://conferences.imt-atlantique.fr/iscc2020/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/7efficiency.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/7efficiency.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C5] Zichichi Mirko, Contu Michele, Ferretti Stefano, and Victor Rodríguez-Doncel,
           <br>
           <b>Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger</b>,

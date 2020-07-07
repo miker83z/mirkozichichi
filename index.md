@@ -50,6 +50,19 @@ My affiliations are:
     </tr>
     <tr>
         <td>
+          [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
+          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France. (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://conferences.imt-atlantique.fr/iscc2020/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/7efficiency.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/7efficiency.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           C4) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
@@ -59,19 +72,6 @@ My affiliations are:
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
           <a class="get get_download" target="_blank" href=""></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/4distributed.bib"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          C3) Zichichi Mirko,
-          <br>
-          <b>Location Privacy and Inference in Online Social Networks</b>,
-          <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="http://ceur-ws.org/Vol-2598/"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/3location.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/3location.bib"></a>
         </td>
     </tr>
 </table>
