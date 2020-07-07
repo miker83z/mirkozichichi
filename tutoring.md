@@ -188,6 +188,17 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Zichichi Mirko
+          <br>
+          <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
+          <i>Social Media Sensing 2020 (workshop).</i> July 2020.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sms2020.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Zichichi Mirko,
           <br>
           <b>Smart contracts and Proof of Location in Smart Cities</b>,
