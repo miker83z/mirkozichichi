@@ -30,6 +30,34 @@ title: Research
 <table>
     <tr>
         <td>
+          [C8] Biagio Distefano, Nadia Pocher, Mirko Zichichi,
+          <br>
+          <b>MOATcoin: Exploring Challenges and Legal Implications of Smart Contracts Through a Gamelike DApp Experiment</b>,
+          <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
+          </i> September 25th, 2020, London, United Kingdom (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3410699.3413798"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/9moatcoin.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/9moatcoin.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C7] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?</b>,
+          <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
+          </i> September 25th, 2020, London, United Kingdom (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3410699.3413789"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/8aredistributed.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/8aredistributed.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
@@ -188,6 +216,17 @@ title: Research
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/miker83z/testingIPFS"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko, Biagio Distefano
+          <br>
+          <b>MOATCoin</b>,
+          <i>A smart contract that combines a variation of a standard ERC20 token with a voting contract.</i> January 2020.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://gitlab.com/CIRSFID/moatcoin"></a>
         </td>
     </tr>
     <tr>

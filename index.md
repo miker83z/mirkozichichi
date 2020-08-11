@@ -70,7 +70,7 @@ My affiliations are:
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
-          <a class="get get_download" target="_blank" href=""></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/4distributed.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/4distributed.bib"></a>
         </td>
     </tr>
