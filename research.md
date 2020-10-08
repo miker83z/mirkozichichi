@@ -30,7 +30,7 @@ title: Research
 <table>
     <tr>
         <td>
-          [C8] Biagio Distefano, Nadia Pocher, Mirko Zichichi,
+          [C8] Biagio Distefano, Nadia Pocher, and Mirko Zichichi,
           <br>
           <b>MOATcoin: Exploring Challenges and Legal Implications of Smart Contracts Through a Gamelike DApp Experiment</b>,
           <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
@@ -177,22 +177,34 @@ title: Research
         <td>
           Zichichi Mirko,
           <br>
-          <b>Umbral Pre Network</b>,
-          <i>Umbral Proxy Re-Encryption network test for data sharing.</i> July 2020.
+          <b>Umbral-rs</b>,
+          <i> Implementation of the <a href="https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf" target="_blank">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href="https://github.com/nucypher/pyUmbral" target="_blank">Python</a> version createdby the Umbral authors.</i> September 2020.
         </td>
         <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/umbralPre"></a>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/umbral-rs"></a>
         </td>
     </tr>
     <tr>
         <td>
-          Sparber Julian, and Zichichi Mirko,
+          Zichichi Mirko,
           <br>
-          <b>Parity SecretStore Network</b>,
-          <i>Parity SecretStore network test for data sharing.</i> June 2020.
+          <b>MPEG-21 Media Contract Ontology to Smart Contracts</b>,
+          <i> Demo for the <a href="http://cosasbuenas.es/mpeg/" target="_blank">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non Fungible Tokens.</i> September 2020.
         </td>
         <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/parity-secretstore"></a>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/mpeg21mco2sc"></a>
+          <a class="get get_external" target="_blank" href="https://mpeg21mco2sc.herokuapp.com/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>Personal Data Decentralized Access Control tests</b>,
+          <i>Assessing the feasibility of lesser-used cryptographic methods in the field of access control, with particular attention to personal information.</i> July 2020.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/decentralizedAuthTests"></a>
         </td>
     </tr>
     <tr>

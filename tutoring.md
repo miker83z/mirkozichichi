@@ -188,10 +188,32 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Zichichi Mirko, and Ferretti Stefano
+          <br>
+          <b>Non ripudio nella Sicurezza Digitale e Marcatura Temporale Fidata</b>,
+          <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/460830" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  October 2020.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2020.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?</b>,
+          <a href="http://www.cryblock.org/index.html" target="_blank"><i>Cryblock 2020 (workshop).</i></a> September 2020.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/cryblock2020.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Zichichi Mirko
           <br>
           <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
-          <i>Social Media Sensing 2020 (workshop).</i> July 2020.
+          <a href="https://www.cs.unibo.it/~mirri/sms20/" target="_blank"><i>Social Media Sensing 2020 (workshop).</i></a> July 2020.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sms2020.pdf"></a>
@@ -224,7 +246,7 @@ title: Tutoring
           Zichichi Mirko
           <br>
           <b>Ensuring Personal Data Anonymity in Data Marketplaces through Sensing-as-a-Service and DLTs</b>,
-          <i>Distributed Ledger Technologies 2020 (workshop).</i> February 2020.
+          <a href="http://www.dmi.unipg.it/DLTWorkshop/dlt2020.html" target="_blank"><i>Distributed Ledger Technologies 2020 (workshop).</i></a> February 2020.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dlt2020.pdf"></a>
@@ -235,7 +257,7 @@ title: Tutoring
           Zichichi Mirko
           <br>
           <b>The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability</b>,
-          <i>JURIX2019 (workshop).</i> December 2019.
+          <a href="http://gdprjurix.cs.bath.ac.uk/" target="_blank"><i>GDPR Compliance - Theories, Techniques, Tools, JURIX2019 (workshop).</i></a> December 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/jurix2019.pdf"></a>
@@ -246,7 +268,7 @@ title: Tutoring
           Zichichi Mirko,
           <br>
           <b>Distributed Ledger Technologies Applications</b>,
-          <i>Sistemi Peer-to-Peer 19/20.</i> November 2019.
+          <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2019/400431" target="_blank"><i>Sistemi Peer-to-Peer 19/20.</i></a> November 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dltapp.pdf"></a>
@@ -268,7 +290,7 @@ title: Tutoring
           Zichichi Mirko,
           <br>
           <b>LikeStarter: a Smart-contract based Social DAO for Crowdfunding</b>,
-          <i>CRYBLOCK 2019 (workshop).</i> April 2019.
+          <a href="http://www.cryblock.org/index.html" target="_blank"><i>CryBlock 2019 (workshop).</i></a> April 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/likestarter.pdf"></a>
