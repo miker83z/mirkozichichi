@@ -76,7 +76,7 @@ title: Research
           <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://conferences.imt-atlantique.fr/iscc2020/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ISCC50000.2020.9219623"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/7efficiency.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/7efficiency.bib"></a>
         </td>
