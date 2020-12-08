@@ -69,6 +69,30 @@ sidebar_sort_order: 123
           <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/information-processing-and-management/"></a>
         </td>
     </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>CCPE</b>,
+          Concurrency and Computation: Practice and Experience - Wiley
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://onlinelibrary.wiley.com/journal/15320634"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>OJ-CS</b>,
+          IEEE Open Journal of the Computer Society
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.computer.org/csdl/journal/oj"></a>
+        </td>
+    </tr>
 </table>
 
 ### 2019

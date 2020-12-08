@@ -37,6 +37,18 @@ My affiliations are:
 <table>
     <tr>
         <td>
+          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, and Victor Rodríguez-Doncel,
+          <br>
+          <b>Personal Data Access Control Through Distributed Authorization</b>,
+          <i>2020 IEEE 19th International Symposium on Network Computing and Applications (NCA2020), IEEE.</i> November 2020, Online conference (pp. 1-4).
+        </td>
+        <td>
+          <a class="get get_download" target="_blank" href="/assets/papers/10personal.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/10personal.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           J1) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
@@ -59,19 +71,6 @@ My affiliations are:
           <a class="get get_external" target="_blank" href="http://conferences.imt-atlantique.fr/iscc2020/"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/7efficiency.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/7efficiency.bib"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          C4) Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
-          <br>
-          <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
-          <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA. (pp. 1-6).
-        </td>
-        <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/4distributed.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/4distributed.bib"></a>
         </td>
     </tr>
 </table>

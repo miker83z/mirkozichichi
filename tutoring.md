@@ -10,13 +10,25 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          [BSc] Cavallin Riccardo, Ferretti Stefano, and Zichichi Mirko,
+          <br>
+          <b>Approccio blockchain per la gestione dei dati personali</b>,
+          <i>University of Bologna.</i> October 2020, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/bsccavallin.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [MSc] Sparber Julian, Ferretti Stefano, and Zichichi Mirko,
           <br>
           <b>Blockchain-based end-to-end encryption for Matrix instant messaging</b>,
           <i>University of Bologna.</i> July 2020, Bologna, Italy.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/20836/"></a>
           <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscsparber.pdf"></a>
         </td>
     </tr>
@@ -87,6 +99,17 @@ title: Tutoring
 ## Supervised Projects
 
 <table>
+    <tr>
+        <td>
+          [BSc] Cavallin Riccardo,
+          <br>
+          <b>Testing Google Drive</b>,
+          <i>Testing Google Drive storage solution.</i> September 2020.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/riccardocavallin/testingGDrive"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [MSc] Sparber Julian,

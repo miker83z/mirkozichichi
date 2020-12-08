@@ -30,7 +30,19 @@ title: Research
 <table>
     <tr>
         <td>
-          [C8] Biagio Distefano, Nadia Pocher, Mirko Zichichi,
+          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, and Victor Rodríguez-Doncel,
+          <br>
+          <b>Personal Data Access Control Through Distributed Authorization</b>,
+          <i>2020 IEEE 19th International Symposium on Network Computing and Applications (NCA2020), IEEE.</i> November 2020, Online conference (pp. 1-4).
+        </td>
+        <td>
+          <a class="get get_download" target="_blank" href="/assets/papers/10personal.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/10personal.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C8] Biagio Distefano, Nadia Pocher, and Mirko Zichichi,
           <br>
           <b>MOATcoin: Exploring Challenges and Legal Implications of Smart Contracts Through a Gamelike DApp Experiment</b>,
           <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
@@ -61,7 +73,7 @@ title: Research
           [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
-          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France. (pp. 1-6).
+          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France (pp. 1-6).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://conferences.imt-atlantique.fr/iscc2020/"></a>
@@ -74,7 +86,7 @@ title: Research
           [C5] Zichichi Mirko, Contu Michele, Ferretti Stefano, and Victor Rodríguez-Doncel,
           <br>
           <b>Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger</b>,
-          <i>in Proc. of the 3nd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020.</i> February 2020, Ancona, Italy. (pp. 1-16).
+          <i>in Proc. of the 3nd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020.</i> February 2020, Ancona, Italy (pp. 1-16).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://ceur-ws.org/Vol-2580/"></a>
@@ -87,7 +99,7 @@ title: Research
           [C4] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
-          <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA. (pp. 1-6).
+          <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
@@ -126,7 +138,7 @@ title: Research
           [C1] Zichichi Mirko, Contu Michele, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>LikeStarter: a Smart-contract based Social DAO for Crowdfunding</b>,
-          <i>in Proc. of the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2019), co-located with IEEE InfoCom 2019, IEEE.</i> April 2019, Paris, France. (pp. 313-318).
+          <i>in Proc. of the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2019), co-located with IEEE InfoCom 2019, IEEE.</i> April 2019, Paris, France (pp. 313-318).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/INFCOMW.2019.8845133"></a>
@@ -296,3 +308,20 @@ title: Research
         </td>
     </tr>
 </table>
+
+---
+
+## Resources
+
+<table>
+    <tr>
+        <td>
+          Complete BibTeX list of works
+        </td>
+        <td>
+          <a class="get get_cite" href="/assets/papers/bibtexts/complete.bib"></a>
+        </td>
+    </tr>
+</table>
+
+---
