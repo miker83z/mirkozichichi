@@ -211,6 +211,17 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Zichichi Mirko
+          <br>
+          <b>Personal Data Access Control Through Distributed Authorization</b>,
+          <a href="https://www.ieee-nca.org/2020/" target="_blank"><i>IEEE NCA 2020.</i></a> November 2020.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/nca2020.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Zichichi Mirko, and Ferretti Stefano
           <br>
           <b>Non ripudio nella Sicurezza Digitale e Marcatura Temporale Fidata</b>,
