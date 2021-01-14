@@ -16,7 +16,7 @@ title: Tutoring
           <i>University of Bologna.</i> October 2020, Bologna, Italy.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/21604/"></a>
           <a class="get get_download" target="_blank" href="/assets/tutor/theses/bsccavallin.pdf"></a>
         </td>
     </tr>

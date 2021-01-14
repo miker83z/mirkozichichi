@@ -36,6 +36,7 @@ title: Research
           <i>2020 IEEE 19th International Symposium on Network Computing and Applications (NCA2020), IEEE.</i> November 2020, Online conference (pp. 1-4).
         </td>
         <td>
+          <a class="get get_doi" target="_blank" href="http://dx.doi.org/10.1109/NCA51143.2020.9306721"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/10personal.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/10personal.bib"></a>
         </td>
