@@ -6,6 +6,35 @@ sidebar_sort_order: 123
 
 ---
 
+### 2021
+
+<table>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>CCPE</b>,
+          Concurrency and Computation: Practice and Experience - Wiley
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://onlinelibrary.wiley.com/journal/15320634"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>OJ-CS</b>,
+          IEEE Open Journal of the Computer Society
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.computer.org/csdl/journal/oj"></a>
+        </td>
+    </tr>
+</table>
+
 ### 2020
 
 <table>
@@ -124,6 +153,7 @@ sidebar_sort_order: 123
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://scienzeenonsolo.wordpress.com/ordine-caos-complessita-e-sistemica/"></a>
+          <a class="get get_decentr" target="_blank" href="https://arweave.net/bBIgfTl6ZxWbhGvPxXN2tpogRCxutKp7i0c3aO2FDEo"></a>
         </td>
     </tr>
 </table>

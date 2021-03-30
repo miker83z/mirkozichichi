@@ -10,6 +10,18 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          [MSc] Giansante Cesare, Ferretti Stefano, and Zichichi Mirko,
+          <br>
+          <b>Ricerca su Registri Distribuiti: un Approccio Basato su Distributed Hash Tables</b>,
+          <i>University of Bologna.</i> March 2021, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscgiansante.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [BSc] Cavallin Riccardo, Ferretti Stefano, and Zichichi Mirko,
           <br>
           <b>Approccio blockchain per la gestione dei dati personali</b>,
@@ -99,6 +111,88 @@ title: Tutoring
 ## Supervised Projects
 
 <table>
+    <tr>
+        <td>
+          [MSc] Tsiotas Giorgio, and Lorello Luca,
+          <br>
+          <b>Filecoin</b>,
+          <i>Technical analysis and testing of Filecoin.</i> February 2021.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://www.tsiotas.com/AI/blockchain/filecoin_project.zip"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ppttsiotas1.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ppttsiotas2.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Rambaldi Francesco,
+          <br>
+          <b>Secret Sharing Authorization (COOL Pizza!)</b>,
+          <i>The implementation of authorization through smart contracts and secret sharing using OpenEthereum (+ mobile game development).</i> January 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://play.google.com/store/apps/details?id=com.puccworks.coolpizza"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/pptrambaldi.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Mazzieri Diego, Giuliani Luca, and Lombardi Alessandro,
+          <br>
+          <b>IoTrace</b>,
+          <i>A contact tracing app built using the IOTA Tangle and based on geo-spatial information about the agents.</i> January 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/mazzio97/IoTrace"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/pptmazzieri.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Lanzarone Lorenzo Biagio, and Romanello Cristian,
+          <br>
+          <b>Holobook</b>,
+          <i>Holochain application that implements (the basic features of) a decentralized social network.</i> January 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/Krystian95/Holobook"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/pptlanzarone.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Amoriello Nicola, and Massaro Valerio Giuseppe,
+          <br>
+          <b>Holosensor</b>,
+          <i>A dApp for IoT data acquisition and sharing in Holochain (+ devices simulation).</i> December 2020.
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Tallaros Andrea Elia,
+          <br>
+          <b>D-Votes</b>,
+          <i>A dApp that uses Ethereum smart contracts and IPFS to completely decentralize voting.</i> December 2020.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/froggyflex/D-Votes"></a>
+          <a class="get get_decentr" target="_blank" href="https://bafybeib7jqf35bnts7azeocmm4vior3jeat4666zqkylygpox3da3zsxyu.ipfs.infura-ipfs.io/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Giansante Cesare,
+          <br>
+          <b>Hypeercube</b>,
+          <i>DHT with the aim of facilitating the search of large amounts of data in DLTs using specific keywords.</i> December 2020.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/Sisar1/Hypeercube"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [BSc] Cavallin Riccardo,

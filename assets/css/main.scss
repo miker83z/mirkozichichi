@@ -30,6 +30,10 @@ $sidebar-sticky: true;
   background-image: url('/figs/external.svg');
 }
 
+.get_decentr {
+  background-image: url('/figs/decentr.svg');
+}
+
 .get_download {
   background-image: url('/figs/download.svg');
 }
@@ -62,7 +66,7 @@ $sidebar-sticky: true;
 
 @media (min-width: $large-breakpoint) {
   .responsive-image {
-    width: 150px;
+    width: 130px;
     margin-left: 0;
   }
 }
