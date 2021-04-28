@@ -30,6 +30,32 @@ title: Research
 <table>
     <tr>
         <td>
+          [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
+          <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://icccn.org/icccn21/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/12towards.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/12towards.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C10] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>MOVO: a dApp for DLT-based Smart Mobility</b>,
+          <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://icccn.org/icccn21/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/11movo.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/11movo.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, and Victor Rodríguez-Doncel,
           <br>
           <b>Personal Data Access Control Through Distributed Authorization</b>,
