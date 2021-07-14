@@ -30,6 +30,32 @@ title: Research
 <table>
     <tr>
         <td>
+          [C13] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
+          <br>
+          <b>Governing Decentralized Complex Queries Through a DAO</b>,
+          <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://www.grc.upv.es/goodit2021/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/14governing.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/14governing.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C12] Serena Luca, Zichichi Mirko, D'Angelo Gabriele and Ferretti Stefano
+          <br>
+          <b>Simulation of Dissemination Strategies on Temporal Networks</b>,
+          <i>in Proc. of the 2021 Annual Modeling and Simulation Conference (ANNSIM 2021), Society for Modeling and Simulation International (SCS).</i>  19-22 July 2021, Fairfax, VA, USA (pp. 1-12).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://scs.org/annsim/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/13simulation.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/13simulation.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
