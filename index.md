@@ -18,17 +18,20 @@ title: Home
 I am a Doctoral Researcher in the [_Law, Science, and Technology Joint Doctorate - Rights
 of Internet of Everything_](https://last-jd-rioe.eu/), a Horizon 2020 research and innovation programme funded by the Marie Skłodowska-Curie Actions.
 
-My affiliations are:
+<p class="message">
+My research focuses on <b>location privacy</b> and inference in online
+social networks and on the use of <b>distributed ledger technologies</b> and smart
+contracts for the protection and distribution of individuals’ personal data.
+</p>
+
+## Labs/Projects/Affiliations
 
 - [Ontology Engineering Group (OEG)](https://www.oeg-upm.net/), Universidad Politécnica de Madrid
+- [MPEG Ad-hoc Group on Smart Contracts for Media](https://www.iso.org/standard/82527.html), ISO/IEC JTC 1/SC 29
+- [Analysis of Networks and Simulation Research Group (AnaNSi)](https://site.unibo.it/anansi/en), University of Bologna
+- [Legal Blockchain Lab](http://lbl.cirsfid.unibo.it/), University of Bologna
 - [Department of Computer Science and Engineering (DISI)](https://disi.unibo.it), University of Bologna
 - [Department of Law](http://www.law.unito.it/do/home.pl), University of Turin
-
-<p class="message">
-  My research focuses on <b>location privacy</b> and inference in online
-  social networks and on the use of <b>distributed ledger technologies</b> and smart
-  contracts for the protection and distribution of individuals’ personal data.
-</p>
 
 ---
 

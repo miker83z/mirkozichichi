@@ -11,6 +11,54 @@ sidebar_sort_order: 123
 <table>
     <tr>
         <td>
+          TPC member
+        </td>
+        <td>
+          <b>Blockchain 2021</b>,
+           International Congress on Blockchain and Applications
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.blockchain-congress.net/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>PMC</b>,
+          Pervasive and Mobile Computing - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/pervasive-and-mobile-computing"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>IPM</b>,
+          Information Processing & Management - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/information-processing-and-management/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>BCRA</b>,
+          Blockchain: Research and Applications - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/blockchain-research-and-applications"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Reviewer
         </td>
         <td>

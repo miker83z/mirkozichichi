@@ -216,6 +216,41 @@ title: Research
         <td>
           Zichichi Mirko,
           <br>
+          <b>Reference Software for ISO/IEC 21000-23 Smart Contracts for Media</b>,
+          <i> Implementation of the standard specification composed of conversion modules, smart contracts, demo and APIs.</i> July 2021.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://scm.linkeddata.es/"></a>
+          <a class="get get_external" target="_blank" href="https://scm.linkeddata.es/docs/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>Hypercube DAO Contracts</b>,
+          <i> Implementation of a DAO in Ethereum that governs a P2P network of nodes maintaining a Distributed Hash Table.</i> May 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/HypercubeDAOContracts"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>Intelligible Identity and Certificate</b>,
+          <i> Implementation of the <a href="http://lbl.cirsfid.unibo.it/index.php/publications/" target="_blank">Intelligible</a> models for verifying the authenticity of digital certificates and online identity assertions, namely Intelligible Identity and Intelligible Certificate, based on the use of DLTs, smart contracts and standards for mark-up and identification of legal documents.</i> April 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/BitNomos/Intelligible-Identity-SDK/tree/suite"></a>
+          <a class="get get_external" target="_blank" href="https://demo.intelligible.io"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
           <b>Umbral-rs</b>,
           <i> Implementation of the <a href="https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf" target="_blank">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href="https://github.com/nucypher/pyUmbral" target="_blank">Python</a> version createdby the Umbral authors.</i> September 2020.
         </td>

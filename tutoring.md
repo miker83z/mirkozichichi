@@ -5,6 +5,53 @@ title: Tutoring
 
 ---
 
+## Tutoring
+
+<table>
+    <tr>
+        <td>
+          2020/2021
+        </td>
+        <td>
+          Lecturer (9h) for
+          <br>
+          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <i>Single Cycle Degree in Law</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/460830"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          2020/2021
+        </td>
+        <td>
+          Teaching assistant for
+          <br>
+          <b>Blockchain and Cryptocurrencies</b>,
+          <i>Master Degree in Computer Science and Master Degree in Artificial Intelligence</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/448362"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          2019/2020
+        </td>
+        <td>
+          Teaching assistant for
+          <br>
+          <b>Peer-to-Peer Systems</b>,
+          <i>Master Degree in Computer Science</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/400431"></a>
+        </td>
+    </tr>
+</table>
+
 ## Supervised Theses
 
 <table>
@@ -111,6 +158,17 @@ title: Tutoring
 ## Supervised Projects
 
 <table>
+    <tr>
+        <td>
+          [MSc] Tropea Davide, and Leurini Alessio,
+          <br>
+          <b>HYPFS</b>,
+          <i>Implementation of a Decentralized keywords Search Engine based on a hypercube-structured DHT, that integrates IPFS</i> April 2021.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://github.com/daduz11/hypfs"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [MSc] Tsiotas Giorgio, and Lorello Luca,
@@ -307,6 +365,50 @@ title: Tutoring
         <td>
           Zichichi Mirko
           <br>
+          <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
+          <a href="http://icccn.org/icccn21/" target="_blank"><i>IEEE ICCCN 2021.</i></a> July 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/icccn20212.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>MOVO: a dApp for DLT-based Smart Mobility</b>,
+          <a href="http://icccn.org/icccn21/" target="_blank"><i>IEEE ICCCN 2021.</i></a> July 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/icccn20211.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b> Distributed Ledger Technologies and Personal Data Protection</b>,
+          <a href="https://oeg.fi.upm.es/" target="_blank"><i>Ontology Engineering Group Talks.</i></a> June 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/oeg2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Intelligible Identity and Certificate</b>,
+          <i>Last-JD-RIoE Assessment.</i> April 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/intelligible2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
           <b>Personal Data Access Control Through Distributed Authorization</b>,
           <a href="https://www.ieee-nca.org/2020/" target="_blank"><i>IEEE NCA 2020.</i></a> November 2020.
         </td>
@@ -418,7 +520,7 @@ title: Tutoring
           Zichichi Mirko,
           <br>
           <b>LikeStarter: a Smart-contract based Social DAO for Crowdfunding</b>,
-          <a href="http://www.cryblock.org/index.html" target="_blank"><i>CryBlock 2019 (workshop).</i></a> April 2019.
+          <a href="http://cryblock.org/cryblock-2019/index.html" target="_blank"><i>CryBlock 2019 (workshop).</i></a> April 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/likestarter.pdf"></a>
