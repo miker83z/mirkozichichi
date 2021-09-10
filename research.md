@@ -30,13 +30,26 @@ title: Research
 <table>
     <tr>
         <td>
+          [C14] Serena Luca, Zichichi Mirko, D'Angelo Gabriele and Ferretti Stefano
+          <br>
+          <b>Simulation of Hybrid Edge Computing Architectures</b>,
+          <i>in Proc. of the 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT 2021).</i>  27-29 September 2021, Valencia, Spain (pp. 1-8).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://ds-rt.com/2021/home"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/15simulation2.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/15simulation2.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C13] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
           <br>
           <b>Governing Decentralized Complex Queries Through a DAO</b>,
           <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://www.grc.upv.es/goodit2021/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3462203.3475910"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/14governing.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/14governing.bib"></a>
         </td>
@@ -62,7 +75,7 @@ title: Research
           <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://icccn.org/icccn21/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522165"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/12towards.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/12towards.bib"></a>
         </td>
@@ -75,7 +88,7 @@ title: Research
           <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://icccn.org/icccn21/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522257"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/11movo.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/11movo.bib"></a>
         </td>

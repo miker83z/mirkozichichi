@@ -26,6 +26,18 @@ sidebar_sort_order: 123
           Reviewer
         </td>
         <td>
+          <b>JNCA</b>,
+          Journal of Network and Computer Applications - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/journal-of-network-and-computer-applications"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
           <b>PMC</b>,
           Pervasive and Mobile Computing - Elsevier
         </td>

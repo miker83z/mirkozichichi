@@ -365,6 +365,17 @@ title: Tutoring
         <td>
           Zichichi Mirko
           <br>
+          <b>Governing Decentralized Complex Queries Through a DAO</b>,
+          <a href="http://www.grc.upv.es/goodit2021/" target="_blank"><i>GoodIT 2021.</i></a> September 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/goodit2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
           <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
           <a href="http://icccn.org/icccn21/" target="_blank"><i>IEEE ICCCN 2021.</i></a> July 2021.
         </td>
