@@ -10,7 +10,7 @@ title: Research
 <table>
     <tr>
         <td>
-          [J1] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [J1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
           <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
@@ -30,23 +30,75 @@ title: Research
 <table>
     <tr>
         <td>
-          [C14] Serena Luca, Zichichi Mirko, D'Angelo Gabriele and Ferretti Stefano
+          [C18] Pocher Nadia, Zichichi Mirko
           <br>
-          <b>Simulation of Hybrid Edge Computing Architectures</b>,
-          <i>in Proc. of the 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT 2021).</i>  27-29 September 2021, Valencia, Spain (pp. 1-8).
+          <b>Towards CBDC-based Machine-to-Machine Payments in Consumer IoT</b>,
+          <i>in Proc. of the 37th ACM/SIGAPP Symposium on Applied Computing (SAC).</i> 25 - 29 April 2022, Brno, Czech Republic (pp. 1-8).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://ds-rt.com/2021/home"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3477314.3507078"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/19towardscbdc.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/19towardscbdc.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C17] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          <br>
+          <b>Intelligent Human-input-based Blockchain Oracle (IHiBO)</b>,
+          <i>in Proc. of the 14th International Conference on Agents and Artificial Intelligence (ICAART).</i> Special Session on Super Distributed and Multi-agent Intelligent Systems (SDMIS). 3-5 February 2022, Virtual Event (pp. 1-12).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.insticc.org/node/technicalprogram/icaart/2022"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/18intelligent.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/18intelligent.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C16] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          <br>
+          <b>Enhancing Trust in Trust Services: Towards an Intelligent Human-input-based Blockchain Oracle (IHiBO)</b>,
+          <i>in Proc. of the 55th Hawaii International Conference on System Sciences (HICSS).</i>  3-6 January 2022, Hawaii, USA (pp. 1-10).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://hicss.org/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/17enhancing.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/17enhancing.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C15] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          <br>
+          <b>Argumentation in Trust Services within a Blockchain Environment</b>,
+          <i>in Proc. of the 33rd Benelux Conference on Artificial Intelligence (BNAIC) and the 30th Belgian Dutch Conference on Machine Learning (BENELEARN).</i>  10-12 November 2021, Esch-sur-Alzette, Luxembourg (pp. 1-21).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://bnaic2021.uni.lu/programme/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/16argumentation.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/16argumentation.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C14] Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano
+          <br>
+          <b>Simulation of Hybrid Edge Computing Architectures</b>,
+          <i>in Proc. of the 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT).</i>  27-29 September 2021, Valencia, Spain (pp. 1-8).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/DS-RT52167.2021.9576121"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/15simulation2.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/15simulation2.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C13] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
+          [C13] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Governing Decentralized Complex Queries Through a DAO</b>,
-          <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+          <i>in Proc. of the Conference on Information Technology for Social Good (GoodIT).</i>  9-11 September 2021, Rome, Italy (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3462203.3475910"></a>
@@ -56,23 +108,23 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C12] Serena Luca, Zichichi Mirko, D'Angelo Gabriele and Ferretti Stefano
+          [C12] Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano
           <br>
           <b>Simulation of Dissemination Strategies on Temporal Networks</b>,
-          <i>in Proc. of the 2021 Annual Modeling and Simulation Conference (ANNSIM 2021), Society for Modeling and Simulation International (SCS).</i>  19-22 July 2021, Fairfax, VA, USA (pp. 1-12).
+          <i>in Proc. of the 2021 Annual Modeling and Simulation Conference (ANNSIM), Society for Modeling and Simulation International (SCS).</i>  19-22 July 2021, Fairfax, VA, USA (pp. 1-12).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://scs.org/annsim/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.23919/ANNSIM52504.2021.9552126"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/13simulation.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/13simulation.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, and D'Angelo Gabriele,
+          [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
-          <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+          <i>in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN).</i> 3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522165"></a>
@@ -82,10 +134,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C10] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [C10] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>MOVO: a dApp for DLT-based Smart Mobility</b>,
-          <i>in Proc. of the 3rd International Workshop on Social (Media) Sensing, co-located with 30th IEEE International Conference on Computer Communications and Networks (ICCCN 2021).</i>  19-22 July 2021, Athens, Greece (pp. 1-6).
+          <i>in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN).</i> 3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522257"></a>
@@ -95,10 +147,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, and Victor Rodríguez-Doncel,
+          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Victor Rodríguez-Doncel,
           <br>
           <b>Personal Data Access Control Through Distributed Authorization</b>,
-          <i>2020 IEEE 19th International Symposium on Network Computing and Applications (NCA2020), IEEE.</i> November 2020, Online conference (pp. 1-4).
+          <i>in Proc. of the 2020 IEEE 19th International Symposium on Network Computing and Applications (NCA).</i> November 2020, Boston, MA, USA (pp. 1-4).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="http://dx.doi.org/10.1109/NCA51143.2020.9306721"></a>
@@ -108,11 +160,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C8] Biagio Distefano, Nadia Pocher, and Mirko Zichichi,
+          [C8] Distefano Biagio, Pocher Nadia, Zichichi Mirko,
           <br>
           <b>MOATcoin: Exploring Challenges and Legal Implications of Smart Contracts Through a Gamelike DApp Experiment</b>,
-          <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
-          </i> September 25th, 2020, London, United Kingdom (pp. 1-6).
+          <i>in Proc. of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom).</i> September 25th, 2020, London, United Kingdom (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3410699.3413798"></a>
@@ -122,11 +173,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C7] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [C7] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?</b>,
-          <i>in Proc. of the  3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2020), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom 2020), ACM.
-          </i> September 25th, 2020, London, United Kingdom (pp. 1-6).
+          <i>in Proc. of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom).</i> September 25th, 2020, London, United Kingdom (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3410699.3413789"></a>
@@ -136,10 +186,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [C6] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
-          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France (pp. 1-6).
+          <i>in Proc. of the 25th IEEE Symposium on Computers and Communications (ISCC).</i> 2nd International Workshop on Social (Media) Sensing. July 2020, Rennes, France (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ISCC50000.2020.9219623"></a>
@@ -149,7 +199,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C5] Zichichi Mirko, Contu Michele, Ferretti Stefano, and Victor Rodríguez-Doncel,
+          [C5] Zichichi Mirko, Contu Michele, Ferretti Stefano, Rodríguez-Doncel Victor,
           <br>
           <b>Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger</b>,
           <i>in Proc. of the 3nd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020.</i> February 2020, Ancona, Italy (pp. 1-16).
@@ -162,10 +212,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C4] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [C4] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good</b>,
-          <i>in Proc. of the IEEE 17th Annual Consumer Communications & Networking Conference (CCNC 2020), IEEE.</i> January 2020, Las Vegas, USA (pp. 1-6).
+          <i>in Proc. of the 2020 IEEE 17th Annual Consumer Communications \& Networking Conference (CCNC).</i> January 2020, Las Vegas, USA (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC46108.2020.9045640"></a>
@@ -178,7 +228,7 @@ title: Research
           [C3] Zichichi Mirko,
           <br>
           <b>Location Privacy and Inference in Online Social Networks</b>,
-          <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
+          <i>in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (JURIX).</i> December 2019, Madrid, Spain (pp. 1-10).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://ceur-ws.org/Vol-2598/"></a>
@@ -188,23 +238,23 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C2] Zichichi Mirko, Rodriguez-Doncel Victor, and Ferretti Stefano,
+          [C2] Zichichi Mirko, Rodriguez-Doncel Victor, Ferretti Stefano,
           <br>
           <b>The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability</b>,
-          <i>in Proc. of the Workshop on GDPR Compliance - Theories, Techniques, Tools, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (Jurix 2019).</i> December 2019, Madrid, Spain.
+          <i>in AI Approaches to the Complexity of Legal Systems XI-XII.</i> JURIX 2019 Workshop. December 2019, Madrid, Spain (pp. 328-355).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://gdprjurix.cs.bath.ac.uk/programme/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1007/978-3-030-89811-3_23"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/2theuse.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/2theuse.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C1] Zichichi Mirko, Contu Michele, Ferretti Stefano, and D'Angelo Gabriele,
+          [C1] Zichichi Mirko, Contu Michele, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>LikeStarter: a Smart-contract based Social DAO for Crowdfunding</b>,
-          <i>in Proc. of the 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2019), co-located with IEEE InfoCom 2019, IEEE.</i> April 2019, Paris, France (pp. 313-318).
+          <i>in Proc. of the IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS).</i> 2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2019). April 2019, Paris, France (pp. 313-318).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/INFCOMW.2019.8845133"></a>
@@ -221,7 +271,7 @@ title: Research
 <table>
     <tr>
         <td>
-          [MSc] Zichichi Mirko, and Ferretti Stefano,
+          [MSc] Zichichi Mirko, Ferretti Stefano,
           <br>
           <b>A Distributed Ledger based infrastructure for Intelligent Transportation Systems</b>,
           <i>University of Bologna.</i> July 2019, Bologna, Italy.
@@ -234,7 +284,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [BSc] Zichichi Mirko, Cossentino Massimo, and Sabatucci Luca, and De Simone Giada,
+          [BSc] Zichichi Mirko, Cossentino Massimo, Sabatucci Luca, De Simone Giada,
           <br>
           <b>Tecniche di Monitoring di Servizi per la Soddisfazione Parziale dei Requisiti</b>,
           <i>Università degli Studi di Palermo.</i> October 2017, Palermo, Italy.
@@ -322,7 +372,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          Zichichi Mirko, Contu Michele, and Rak Richard
+          Zichichi Mirko, Contu Michele, Rak Richard
           <br>
           <b>Capitalism 2.0</b>,
           <i>A Multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments.</i> May 2020.
@@ -400,7 +450,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          Zichichi Mirko, and Contu Michele
+          Zichichi Mirko, Contu Michele
           <br>
           <b>LikeStarter</b>,
           <i>Blockchain-based decentralized platform that combines social interactions with crowdfunding mechanisms, allowing any user to raise funds while becoming popular in the social network.</i> November 2018.

@@ -19,9 +19,12 @@ I am a Doctoral Researcher in the [_Law, Science, and Technology Joint Doctorate
 of Internet of Everything_](https://last-jd-rioe.eu/), a Horizon 2020 research and innovation programme funded by the Marie Skłodowska-Curie Actions.
 
 <p class="message">
-My research focuses on <b>location privacy</b> and inference in online
-social networks and on the use of <b>distributed ledger technologies</b> and smart
-contracts for the protection and distribution of individuals’ personal data.
+My PhD thesis title is <i>"Decentralized Systems for the Protection and Portability of Personal Data"<i>.
+
+The right to protect <b>personal data</b> is currently one of the most controversial topics arising from the proliferation of data abuse scandals involving the world's largest companies. The economics of exploiting personal information is assisted by the more pervasive nature of today's digital world. This information enables organizations to provide personalized or more useful services in digital and physical spaces, but it could also have potentially damaging consequences for the <b>privacy and autonomy of users</b> and for society at large.
+
+The overall goal of my research is to investigate methodologies and design systems that direct the control of the flow of personal data to individuals through <b>disintermediation</b>. I consider personal data management by approaching new paradigms based on disintermediation and autonomous identity management, referring to the <b>European Union General Data Protection Regulation</b>. The main goal is to decentralize data custody, authorization mechanisms and control of personal data flow through a system that prioritizes user security, privacy and self-empowerment.
+
 </p>
 
 ## Labs/Projects/Affiliations
@@ -40,10 +43,23 @@ contracts for the protection and distribution of individuals’ personal data.
 <table>
     <tr>
         <td>
-          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, and Victor Rodríguez-Doncel,
+          [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
+          <i>in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN).</i> 3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522165"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/12towards.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/12towards.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Victor Rodríguez-Doncel,
           <br>
           <b>Personal Data Access Control Through Distributed Authorization</b>,
-          <i>2020 IEEE 19th International Symposium on Network Computing and Applications (NCA2020), IEEE.</i> November 2020, Online conference (pp. 1-4).
+          <i>in Proc. of the 2020 IEEE 19th International Symposium on Network Computing and Applications (NCA).</i> November 2020, Boston, MA, USA (pp. 1-4).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="http://dx.doi.org/10.1109/NCA51143.2020.9306721"></a>
@@ -53,28 +69,15 @@ contracts for the protection and distribution of individuals’ personal data.
     </tr>
     <tr>
         <td>
-          [J1] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
+          [J1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
           <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
         </td>
         <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/6framework.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/6framework.bib"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          [C6] Zichichi Mirko, Ferretti Stefano, and D'Angelo Gabriele,
-          <br>
-          <b>On the Efficiency of Decentralized File Storage for Personal Information Management Systems</b>,
-          <i>in Proc. of the 2nd International Workshop on Social (Media) Sensing, co-located with 25th IEEE Symposium on Computers and Communications 2020 (ISCC2020).</i> July 2020, Rennes, France. (pp. 1-6).
-        </td>
-        <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ISCC50000.2020.9219623"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/7efficiency.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/7efficiency.bib"></a>
         </td>
     </tr>
 </table>
@@ -83,13 +86,11 @@ contracts for the protection and distribution of individuals’ personal data.
 
 # Contacts
 
-Artificial Intelligence Department
+Departamento de Inteligencia Artificial (DIA) - Universidad Politécnica de Madrid
 <br>
-ETS de Ingenieros Informáticos - Campus de Montegancedo s/n
+ETS de Ingenieros Informáticos (ETSIINF) - Campus de Montegancedo s/n
 <br>
-Universidad Politécnica de Madrid
-<br>
-Boadilla del Monte-28660 Madrid, Spain
+Boadilla del Monte (Comunidad de Madrid), 28660, España
 
 **Emails**:
 <br>

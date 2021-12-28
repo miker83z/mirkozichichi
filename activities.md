@@ -11,6 +11,18 @@ sidebar_sort_order: 123
 <table>
     <tr>
         <td>
+          Organizer
+        </td>
+        <td>
+          First Digital Media and Human Well-Being (Digeing) Workshop, Madrid
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://digeing2021-madrid.herokuapp.com/"></a>
+          <a class="get get_external" target="_blank" href="https://iscpif.fr/digeing/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           TPC member
         </td>
         <td>
@@ -31,6 +43,18 @@ sidebar_sort_order: 123
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/journal-of-network-and-computer-applications"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>TELE</b>,
+          Telematics and Informatics - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/telematics-and-informatics"></a>
         </td>
     </tr>
     <tr>

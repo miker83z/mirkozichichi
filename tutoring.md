@@ -10,6 +10,34 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          2021/2022
+        </td>
+        <td>
+          Lecturer (9h) for
+          <br>
+          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <i>Single Cycle Degree in Law</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          2021/2022
+        </td>
+        <td>
+          Teaching assistant for
+          <br>
+          <b>Blockchain and Cryptocurrencies</b>,
+          <i>Master Degree in Computer Science and Master Degree in Artificial Intelligence</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/448362"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           2020/2021
         </td>
         <td>
@@ -57,19 +85,43 @@ title: Tutoring
 <table>
     <tr>
         <td>
-          [MSc] Giansante Cesare, Ferretti Stefano, and Zichichi Mirko,
+          [MSc] Andrea Elia Tallaros, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>B-Mule: A Blockchain based Secure Data Delivery Service</b>,
+          <i>University of Bologna.</i> December 2021, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/msctallaros.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] La Piana Fedrica, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>Gestione e Indicizzazione di Dati in Contesti di Smart Transportation: un Approccio basato su Registri Distribuiti</b>,
+          <i>University of Bologna.</i> October 2021, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/msclapiana.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Giansante Cesare, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Ricerca su Registri Distribuiti: un Approccio Basato su Distributed Hash Tables</b>,
           <i>University of Bologna.</i> March 2021, Bologna, Italy.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/22887/"></a>
           <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscgiansante.pdf"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [BSc] Cavallin Riccardo, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Cavallin Riccardo, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Approccio blockchain per la gestione dei dati personali</b>,
           <i>University of Bologna.</i> October 2020, Bologna, Italy.
@@ -81,7 +133,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Sparber Julian, Ferretti Stefano, and Zichichi Mirko,
+          [MSc] Sparber Julian, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Blockchain-based end-to-end encryption for Matrix instant messaging</b>,
           <i>University of Bologna.</i> July 2020, Bologna, Italy.
@@ -93,7 +145,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Gurioli Andrea, D'Angelo Gabriele, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Gurioli Andrea, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Ethereum alla prova dei fatti: Analisi sull'utilizzo degli smart contracts per l'implementazione di opzioni nei mercati finanziari</b>,
           <i>University of Bologna.</i> March 2020, Bologna, Italy.
@@ -105,7 +157,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Mazzini Federico, D'Angelo Gabriele, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Mazzini Federico, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Query sull’infrastruttura IOTA: un approccio keyword-based</b>,
           <i>University of Bologna.</i> March 2020, Bologna, Italy.
@@ -117,7 +169,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Morselli Enrico, D'Angelo Gabriele, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Morselli Enrico, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b> Radix DLT: un'alternativa scalabile alle Blockchain</b>,
           <i>University of Bologna.</i> March 2020, Bologna, Italy.
@@ -129,7 +181,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Mongardi Michele, D'Angelo Gabriele, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Mongardi Michele, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Progettazione di un sistema DLT per l'interoperabilità e lo scambio di dati sanitari utilizzando le tecnologie IOTA e IPFS</b>,
           <i>University of Bologna.</i> March 2020, Bologna, Italy.
@@ -141,7 +193,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Pietrucci Giovanni, D'Angelo Gabriele, Ferretti Stefano, and Zichichi Mirko,
+          [BSc] Pietrucci Giovanni, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Un sistema di micropagamenti su piattaforma Ethereum per il wireless roaming</b>,
           <i>University of Bologna.</i> March 2020, Bologna, Italy.
@@ -160,7 +212,7 @@ title: Tutoring
 <table>
     <tr>
         <td>
-          [MSc] Tropea Davide, and Leurini Alessio,
+          [MSc] Tropea Davide, Leurini Alessio,
           <br>
           <b>HYPFS</b>,
           <i>Implementation of a Decentralized keywords Search Engine based on a hypercube-structured DHT, that integrates IPFS</i> April 2021.
@@ -171,7 +223,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Tsiotas Giorgio, and Lorello Luca,
+          [MSc] Tsiotas Giorgio, Lorello Luca,
           <br>
           <b>Filecoin</b>,
           <i>Technical analysis and testing of Filecoin.</i> February 2021.
@@ -196,7 +248,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Mazzieri Diego, Giuliani Luca, and Lombardi Alessandro,
+          [MSc] Mazzieri Diego, Giuliani Luca, Lombardi Alessandro,
           <br>
           <b>IoTrace</b>,
           <i>A contact tracing app built using the IOTA Tangle and based on geo-spatial information about the agents.</i> January 2021.
@@ -208,7 +260,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Lanzarone Lorenzo Biagio, and Romanello Cristian,
+          [MSc] Lanzarone Lorenzo Biagio, Romanello Cristian,
           <br>
           <b>Holobook</b>,
           <i>Holochain application that implements (the basic features of) a decentralized social network.</i> January 2021.
@@ -220,7 +272,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Amoriello Nicola, and Massaro Valerio Giuseppe,
+          [MSc] Amoriello Nicola, Massaro Valerio Giuseppe,
           <br>
           <b>Holosensor</b>,
           <i>A dApp for IoT data acquisition and sharing in Holochain (+ devices simulation).</i> December 2020.
@@ -287,7 +339,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] D’Ambrosio Luca, and Silvestri Marco,
+          [MSc] D’Ambrosio Luca, Silvestri Marco,
           <br>
           <b>LibraFaceWallet</b>,
           <i>Web platform that hosts a Wallet for Libra cryptocurrency based on Facebook profiles.</i> March 2020.
@@ -299,7 +351,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Serra Alessandro, and Longo Andrea,
+          [MSc] Serra Alessandro, Longo Andrea,
           <br>
           <b>IPFS and Sia Buses Simulation</b>,
           <i>Simulation of an IoT smart city bus network over IPFS and Sia.</i> March 2020.
@@ -363,6 +415,50 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Pocher Nadia, Zichichi Mirko
+          <br>
+          <b>Towards CBDC-based Machine-to-Machine Payments in Consumer IoT​</b>,
+          <a href="https://www.p2pfisy.com/full-programme/" target="_blank"><i>Peer-to-Peer Financial Systems (P2PFSY).</i></a>  December 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/cbdcm2m2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Smart contracts: Law plus technology</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  October 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/smartcontractgiur2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Argumentation in Trust Services within a Blockchain Environment</b>,
+          <a href="https://bnaic2021.uni.lu/programme/" target="_blank"><i>BNAIC/BENELEARN 2021.</i></a> November 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/bnaic21.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko, Ferretti Stefano
+          <br>
+          <b>Introduzione alla Crittografia (sulla sicurezza ed altre amenità informatiche)</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  October 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Zichichi Mirko
           <br>
           <b>Governing Decentralized Complex Queries Through a DAO</b>,
@@ -370,6 +466,17 @@ title: Tutoring
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/goodit2021.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>(Location) Privacy by Design through Disintermediation: from Data Silos to Decentralized Technologies</b>,
+          <a href="https://rioe.oeg.fi.upm.es/conference/" target="_blank"><i>First Annual LAST-JD-RIOE Conference.</i></a> July 2021.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/lastjd2021.pdf"></a>
         </td>
     </tr>
     <tr>
@@ -429,7 +536,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          Zichichi Mirko, and Ferretti Stefano
+          Zichichi Mirko, Ferretti Stefano
           <br>
           <b>Non ripudio nella Sicurezza Digitale e Marcatura Temporale Fidata</b>,
           <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/460830" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  October 2020.
@@ -539,7 +646,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          Zichichi Mirko, and Contu Michele,
+          Zichichi Mirko, Contu Michele,
           <br>
           <b>dApp development</b>,
           <i>Sistemi Peer-to-Peer 18/19.</i> November 2018.
