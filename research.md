@@ -305,6 +305,17 @@ title: Research
         <td>
           Zichichi Mirko,
           <br>
+          <b>TruDaMul Smart Contracts</b>,
+          <i> TruDaMul is a decentralized application that combines the use of Distributed Ledger Technologies and Decentralized File Storages, mostly for verifying the correct behavior of all the participants and to incentivize them in Data Mule-based communications.</i> August 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/TruDaMul"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
           <b>Reference Software for ISO/IEC 21000-23 Smart Contracts for Media</b>,
           <i> Implementation of the standard specification composed of conversion modules, smart contracts, demo and APIs.</i> July 2021.
         </td>

@@ -14,7 +14,7 @@ sidebar_sort_order: 123
           Organizer
         </td>
         <td>
-          First Digital Media and Human Well-Being (Digeing) Workshop, Madrid
+          <b>First Digital Media and Human Well-Being</b> (Digeing) Workshop, Madrid
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://digeing2021-madrid.herokuapp.com/"></a>

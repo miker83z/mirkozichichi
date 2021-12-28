@@ -19,12 +19,7 @@ I am a Doctoral Researcher in the [_Law, Science, and Technology Joint Doctorate
 of Internet of Everything_](https://last-jd-rioe.eu/), a Horizon 2020 research and innovation programme funded by the Marie Skłodowska-Curie Actions.
 
 <p class="message">
-My PhD thesis title is <i>"Decentralized Systems for the Protection and Portability of Personal Data"<i>.
-
-The right to protect <b>personal data</b> is currently one of the most controversial topics arising from the proliferation of data abuse scandals involving the world's largest companies. The economics of exploiting personal information is assisted by the more pervasive nature of today's digital world. This information enables organizations to provide personalized or more useful services in digital and physical spaces, but it could also have potentially damaging consequences for the <b>privacy and autonomy of users</b> and for society at large.
-
-The overall goal of my research is to investigate methodologies and design systems that direct the control of the flow of personal data to individuals through <b>disintermediation</b>. I consider personal data management by approaching new paradigms based on disintermediation and autonomous identity management, referring to the <b>European Union General Data Protection Regulation</b>. The main goal is to decentralize data custody, authorization mechanisms and control of personal data flow through a system that prioritizes user security, privacy and self-empowerment.
-
+My PhD thesis title is <i>''Decentralized Systems for the Protection and Portability of Personal Data''<i>. <br>The right to protect <b>personal data</b> is currently one of the most controversial topics arising from the proliferation of data abuse scandals involving the world's largest companies. The economics of exploiting personal information is assisted by the more pervasive nature of today's digital world. This information enables organizations to provide personalized or more useful services in digital and physical spaces, but it could also have potentially damaging consequences for the <b>privacy and autonomy of users</b> and for society at large. <br>The overall goal of my research is to investigate methodologies and design systems that direct the control of the flow of personal data to individuals through <b>disintermediation</b>. I consider personal data management by approaching new paradigms based on disintermediation and autonomous identity management, referring to the <b>European Union General Data Protection Regulation</b>. The main goal is to decentralize data custody, authorization mechanisms and control of personal data flow through a system that prioritizes user security, privacy and self-empowerment.
 </p>
 
 ## Labs/Projects/Affiliations
