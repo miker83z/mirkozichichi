@@ -10,6 +10,48 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          2022
+        </td>
+        <td>
+          Invited Lecturer for
+          <br>
+          <b>Community Innovation Lecture Series</b>,
+          <i>MOBI</i>, Mobility Open Blockchain Initiative.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://dlt.mobi/complex-queries-over-decentralized-systems-for-smart-mobility-geodata-retrieval-6-april-2022/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          2021/2022
+        </td>
+        <td>
+          Teaching assistant (6h) for
+          <br>
+          <b>Social/Legal/Ethical Aspects in Data Science</b>,
+          <i>Master's Degree in Data Science</i>, Universidad Politécnica de Madrid.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          2021/2022
+        </td>
+        <td>
+          Teaching assistant (6h) for
+          <br>
+          <b>Aspectos Sociales, Éticos y Legales de los Datos y la Inteligencia Artificial</b>,
+          <i>Bachelor's Degree in Artificial Intelligence and Data Science</i>, Universidad Politécnica de Madrid.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10CD_105001022_2S_2021-22.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           2021/2022
         </td>
         <td>
@@ -30,7 +72,7 @@ title: Tutoring
           Teaching assistant for
           <br>
           <b>Blockchain and Cryptocurrencies</b>,
-          <i>Master Degree in Computer Science and Master Degree in Artificial Intelligence</i>, University of Bologna.
+          <i>Master's Degree in Computer Science and Master's Degree in Artificial Intelligence</i>, University of Bologna.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/448362"></a>
@@ -58,7 +100,7 @@ title: Tutoring
           Teaching assistant for
           <br>
           <b>Blockchain and Cryptocurrencies</b>,
-          <i>Master Degree in Computer Science and Master Degree in Artificial Intelligence</i>, University of Bologna.
+          <i>Master's Degree in Computer Science and Master's Degree in Artificial Intelligence</i>, University of Bologna.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/448362"></a>
@@ -72,7 +114,7 @@ title: Tutoring
           Teaching assistant for
           <br>
           <b>Peer-to-Peer Systems</b>,
-          <i>Master Degree in Computer Science</i>, University of Bologna.
+          <i>Master's Degree in Computer Science</i>, University of Bologna.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/400431"></a>
@@ -83,6 +125,18 @@ title: Tutoring
 ## Supervised Theses
 
 <table>
+    <tr>
+        <td>
+          [BSc] Matteo Serafini, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>Implementation of a Smart Contract based System for Traceability in Agrifood</b>,
+          <i>University of Urbino.</i> February 2022, Urbino, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://github.com/inifares23lab/Agri_EVM_IOTA"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/bscserafini.pdf"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [MSc] Andrea Elia Tallaros, Ferretti Stefano, Zichichi Mirko,
@@ -210,6 +264,28 @@ title: Tutoring
 ## Supervised Projects
 
 <table>
+    <tr>
+        <td>
+          [MSc] Davide Pruscini, Giosuè Cotugno,
+          <br>
+          <b>cloud-chain-simulation</b>,
+          <i>This project aims to test different kinds of blockchains and consensus mechanism with the same CloudSLA smart contract</i> March 2022.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://github.com/cotus997/cloud-chain-simulation"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Håvard Brenne,
+          <br>
+          <b>DataMuleIoT</b>,
+          <i>Proof of Concept of Data Mules using IoT devices over a State Channel Network</i> March 2022.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://github.com/h-brenne/DataMuleIoT"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [MSc] Tropea Davide, Leurini Alessio,
@@ -413,6 +489,39 @@ title: Tutoring
 ## Slides
 
 <table>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Incentivized Data Mules Based on State-Channels​</b>,
+          <a href="https://icbc2022.ieee-icbc.org/program" target="_blank"><i>2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC).</i></a>  May 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/icbc22.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Authentication, Non-repudiation and Data Integrity: Technical and Law Perspective​</b>,
+          <a href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf" target="_blank"><i>Social/Legal/Ethical Aspects in Data Science.</i></a>  March 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ethics22upm.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Intelligent Human-input-based Blockchain Oracle (IHiBO)​</b>,
+          <a href="https://www.insticc.org/node/technicalprogram/icaart/2022" target="_blank"><i>14th International Conference on Agents and Artificial Intelligence (ICAART).</i></a>  February 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ihibo22icaart.pdf"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           Pocher Nadia, Zichichi Mirko

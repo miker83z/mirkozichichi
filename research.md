@@ -10,6 +10,19 @@ title: Research
 <table>
     <tr>
         <td>
+          [J2] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>	Complex queries over decentralised systems for geodata retrieval</b>,
+          <i>IET Networks, Wiley.</i> March 2022.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="http://dx.doi.org/10.1049/ntw2.12037"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/20complex.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/20complex.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [J1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
@@ -25,9 +38,42 @@ title: Research
 
 ---
 
+## Book Chapters
+
+<table>
+    <tr>
+        <td>
+          [B1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>	Blockchain-based Data Management for Smart Transportation</b>,
+          <i>Handbook on Blockchain, Springer Nature.</i> First Half 2022.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.springer.com/series/7393/books"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/21blockchain.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/21blockchain.bib"></a>
+        </td>
+    </tr>
+</table>
+
+---
+
 ## Conference and Workshops Papers
 
 <table>
+    <tr>
+        <td>
+          [C19] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>Incentivized Data Mules Based on State-Channels</b>,
+          <i>in Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC).</i> 2 - 5 May 2022, Virtual (pp. 1-2).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://icbc2022.ieee-icbc.org/program"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/22incentivized.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/22incentivized.bib"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [C18] Pocher Nadia, Zichichi Mirko
@@ -49,7 +95,7 @@ title: Research
           <i>in Proc. of the 14th International Conference on Agents and Artificial Intelligence (ICAART).</i> Special Session on Super Distributed and Multi-agent Intelligent Systems (SDMIS). 3-5 February 2022, Virtual Event (pp. 1-12).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://www.insticc.org/node/technicalprogram/icaart/2022"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.5220/0010945300003116"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/18intelligent.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/18intelligent.bib"></a>
         </td>
@@ -62,7 +108,7 @@ title: Research
           <i>in Proc. of the 55th Hawaii International Conference on System Sciences (HICSS).</i>  3-6 January 2022, Hawaii, USA (pp. 1-10).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://hicss.org/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.24251/HICSS.2022.712"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/17enhancing.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/17enhancing.bib"></a>
         </td>

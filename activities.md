@@ -6,6 +6,83 @@ sidebar_sort_order: 123
 
 ---
 
+### 2022
+
+<table>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>NETWORKING 2022</b>,
+          IFIP Networking Conference
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://networking.ifip.org/2022/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>Blockchain 2022</b>,
+           International Congress on Blockchain and Applications
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.blockchain-congress.net/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>SREP</b>,
+          Scientific Reports - Nature
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.nature.com/srep/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>SNCS</b>,
+          SN Computer Science - Springer Nature
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.springer.com/journal/42979"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>BCRA</b>,
+          Blockchain: Research and Applications - Elsevier
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.journals.elsevier.com/blockchain-research-and-applications"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>CCPE</b>,
+          Frontiers in Blockchain - Frontiers
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.frontiersin.org/journals/blockchain"></a>
+        </td>
+    </tr>
+</table>
+
 ### 2021
 
 <table>
