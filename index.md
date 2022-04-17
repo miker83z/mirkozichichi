@@ -38,15 +38,15 @@ My PhD thesis title is: <br><i>''Decentralized Systems for the Protection and Po
 <table>
     <tr>
         <td>
-          [C11] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
+          [J2] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
           <br>
-          <b>Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case</b>,
-          <i>in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN).</i> 3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6).
+          <b>	Complex queries over decentralised systems for geodata retrieval</b>,
+          <i>IET Networks, Wiley.</i> March 2022.
         </td>
         <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN52240.2021.9522165"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/12towards.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/12towards.bib"></a>
+          <a class="get get_doi" target="_blank" target="_blank" href="http://dx.doi.org/10.1049/ntw2.12037"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/20complex.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/20complex.bib"></a>
         </td>
     </tr>
     <tr>
