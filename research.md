@@ -108,7 +108,7 @@ title: Research
           <i>in Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC).</i> 2 - 5 May 2022, Virtual (pp. 1-2).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://icbc2022.ieee-icbc.org/program"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICBC54727.2022.9805515"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/22incentivized.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/22incentivized.bib"></a>
         </td>
