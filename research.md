@@ -10,7 +10,7 @@ title: Research
 <table>
     <tr>
         <td>
-          [J2] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
+          [J2] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>	Complex queries over decentralised systems for geodata retrieval</b>,
           <i>IET Networks, Wiley.</i> March 2022.
@@ -49,7 +49,7 @@ title: Research
           <i>Handbook on Blockchain, Springer Nature.</i> First Half 2022.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://www.springer.com/series/7393/books"></a>
+          <a class="get get_external" target="_blank" href="https://link.springer.com/book/9783031075346"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/21blockchain.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/21blockchain.bib"></a>
         </td>
@@ -63,7 +63,46 @@ title: Research
 <table>
     <tr>
         <td>
-          [C19] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
+          [C22] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>Decentralized Health Data Distribution: a DLT-based Architecture for Data Protection</b>,
+          <i>in Proc. of the 5th IEEE International Conference on Blockchain (IEEE Blockchain 2022).</i> 22 - 25 August 2022, Espoo, Finland (pp. 1-7).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://www.blockchain-ieee.org/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/25decentralized.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/25decentralized.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C21] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>DLT-based Data Mules for Smart Territories</b>,
+          <i>in Proc. of the 31st International Conference on Computer Communications and Networks (ICCCN 2022).</i> 25 - 27 July 2022, Honolulu, Hawaii (pp. 1-7).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://icccn.org/icccn22/wp-content/uploads/2022/ICCCN%2022-Combined-Final-program-5-20-2022.pdf"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/24dlt.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/24dlt.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C20] Li AoXuan, Serena Luca, Zichichi Mirko, Tang Su-Kit, D'Angelo Gabriele, Ferretti Stefano,
+          <br>
+          <b>Modelling of the Internet Computer Protocol Architecture: the Next Generation Blockchain</b>,
+          <i>in Proc. of the 4th International Congress on Blockchain and Applications (Blockchain 22).</i> 13 - 15 July 2022, L'Aquila, Italy (pp. 1-10).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.blockchain-congress.net/programme"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/23modelling.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/23modelling.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C19] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Incentivized Data Mules Based on State-Channels</b>,
           <i>in Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC).</i> 2 - 5 May 2022, Virtual (pp. 1-2).
@@ -121,7 +160,7 @@ title: Research
           <i>in Proc. of the 33rd Benelux Conference on Artificial Intelligence (BNAIC) and the 30th Belgian Dutch Conference on Machine Learning (BENELEARN).</i>  10-12 November 2021, Esch-sur-Alzette, Luxembourg (pp. 1-21).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://bnaic2021.uni.lu/programme/"></a>
+          <a class="get get_external" target="_blank" href="https://orbilu.uni.lu/bitstream/10993/48924/1/bnaic2021_preproceedings.pdf"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/16argumentation.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/16argumentation.bib"></a>
         </td>
@@ -347,6 +386,28 @@ title: Research
 ## Projects
 
 <table>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>[desp3d] The PhD Thesis Software Repository</b>,
+          <i> A set of software modules that support the work behind the PhD thesis.</i> May 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/stars/miker83z/lists/phd-thesis"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
+          <b>k-DaO</b>,
+          <i> Implementation of a k-DAO in Ethereum that governs the exchange of data with an aggregator.</i> May 2021.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/k-DaO"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           Zichichi Mirko,

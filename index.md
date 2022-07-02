@@ -24,7 +24,7 @@ My PhD thesis title is: <br><i>''Decentralized Systems for the Protection and Po
 
 ## Labs/Projects/Affiliations
 
-- [Ontology Engineering Group (OEG)](https://www.oeg-upm.net/), Universidad Politécnica de Madrid
+- [Ontology Engineering Group (OEG)](https://oeg.fi.upm.es/), Universidad Politécnica de Madrid
 - [MPEG Ad-hoc Group on Smart Contracts for Media](https://www.iso.org/standard/82527.html), ISO/IEC JTC 1/SC 29
 - [Analysis of Networks and Simulation Research Group (AnaNSi)](https://site.unibo.it/anansi/en), University of Bologna
 - [Legal Blockchain Lab](http://lbl.cirsfid.unibo.it/), University of Bologna

@@ -10,6 +10,20 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          2021/2022
+        </td>
+        <td>
+          Tutor (40h) for
+          <br>
+          <b>Legal Computer Science IUS/20 </b>,
+          <i>Bachelor's Degree in Legal Consultant in Business and Public Administration</i>, University of Bologna (Ravenna Campus).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/432904"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           2022
         </td>
         <td>
@@ -489,6 +503,30 @@ title: Tutoring
 ## Slides
 
 <table>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Smart Legal Contracts​</b>,
+          <a href="https://protect.oeg.fi.upm.es/cercedilla/" target="_blank"><i>PROTECT Workshop in Cercedilla.</i></a>  June 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/cercedilla.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Blockchain and Smart Contracts​</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/467332" target="_blank"><i>Legal Tech and Blockchain.</i></a>  May 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ravenna1.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ravenna2.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/ravenna3.pdf"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           Zichichi Mirko
