@@ -7,14 +7,14 @@ title: Tutoring
 
 ## Tutoring
 
+#### 2021/2022
+
 <table>
     <tr>
         <td>
-          2021/2022
+          Tutor (40h)
         </td>
         <td>
-          Tutor (40h) for
-          <br>
           <b>Legal Computer Science IUS/20 </b>,
           <i>Bachelor's Degree in Legal Consultant in Business and Public Administration</i>, University of Bologna (Ravenna Campus).
         </td>
@@ -24,11 +24,9 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          2022
+          Invited Lecturer 
         </td>
         <td>
-          Invited Lecturer for
-          <br>
           <b>Community Innovation Lecture Series</b>,
           <i>MOBI</i>, Mobility Open Blockchain Initiative.
         </td>
@@ -38,39 +36,9 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          2021/2022
+          Lecturer (9h)
         </td>
         <td>
-          Teaching assistant (6h) for
-          <br>
-          <b>Social/Legal/Ethical Aspects in Data Science</b>,
-          <i>Master's Degree in Data Science</i>, Universidad Politécnica de Madrid.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          2021/2022
-        </td>
-        <td>
-          Teaching assistant (6h) for
-          <br>
-          <b>Aspectos Sociales, Éticos y Legales de los Datos y la Inteligencia Artificial</b>,
-          <i>Bachelor's Degree in Artificial Intelligence and Data Science</i>, Universidad Politécnica de Madrid.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10CD_105001022_2S_2021-22.pdf"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          2021/2022
-        </td>
-        <td>
-          Lecturer (9h) for
-          <br>
           <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
@@ -80,11 +48,57 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          2021/2022
+          Lecturer (3h)
         </td>
         <td>
-          Teaching assistant for
-          <br>
+          <b>Trattamento dei dati personali e Data Protection Officer</b>,
+          <i>Professional Master's Programme 1st Level</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Lecturer (2h)
+        </td>
+        <td>
+          <b>IT Law and Legal Informatics</b>,
+          <i>Professional Master's Programme 1st Level</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://master.unibo.it/ict-law/en"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Teaching assistant (6h)
+        </td>
+        <td>
+          <b>Social/Legal/Ethical Aspects in Data Science</b>,
+          <i>Master's Degree in Data Science</i>, Universidad Politécnica de Madrid.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Teaching assistant (6h)
+        </td>
+        <td>
+          <b>Aspectos Sociales, Éticos y Legales de los Datos y la Inteligencia Artificial</b>,
+          <i>Bachelor's Degree in Artificial Intelligence and Data Science</i>, Universidad Politécnica de Madrid.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10CD_105001022_2S_2021-22.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Teaching assistant
+        </td>
+        <td>
           <b>Blockchain and Cryptocurrencies</b>,
           <i>Master's Degree in Computer Science and Master's Degree in Artificial Intelligence</i>, University of Bologna.
         </td>
@@ -92,13 +106,16 @@ title: Tutoring
           <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/448362"></a>
         </td>
     </tr>
+</table>
+
+#### 2020/2021
+
+<table>
     <tr>
         <td>
-          2020/2021
+          Lecturer (9h)
         </td>
         <td>
-          Lecturer (9h) for
-          <br>
           <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
@@ -108,11 +125,9 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          2020/2021
+          Teaching assistant
         </td>
         <td>
-          Teaching assistant for
-          <br>
           <b>Blockchain and Cryptocurrencies</b>,
           <i>Master's Degree in Computer Science and Master's Degree in Artificial Intelligence</i>, University of Bologna.
         </td>
@@ -120,13 +135,16 @@ title: Tutoring
           <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/448362"></a>
         </td>
     </tr>
+</table>
+
+#### 2019/2020
+
+<table>
     <tr>
         <td>
-          2019/2020
+          Teaching assistant
         </td>
         <td>
-          Teaching assistant for
-          <br>
           <b>Peer-to-Peer Systems</b>,
           <i>Master's Degree in Computer Science</i>, University of Bologna.
         </td>
