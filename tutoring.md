@@ -24,18 +24,6 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          Invited Lecturer 
-        </td>
-        <td>
-          <b>Community Innovation Lecture Series</b>,
-          <i>MOBI</i>, Mobility Open Blockchain Initiative.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://dlt.mobi/complex-queries-over-decentralized-systems-for-smart-mobility-geodata-retrieval-6-april-2022/"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
           Lecturer (9h)
         </td>
         <td>

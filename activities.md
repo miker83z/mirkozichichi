@@ -11,6 +11,18 @@ sidebar_sort_order: 123
 <table>
     <tr>
         <td>
+          Invited Lecturer 
+        </td>
+        <td>
+          <b>Community Innovation Lecture Series</b>,
+          <i>MOBI</i>, Mobility Open Blockchain Initiative.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://dlt.mobi/complex-queries-over-decentralized-systems-for-smart-mobility-geodata-retrieval-6-april-2022/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           TPC member
         </td>
         <td>
@@ -19,6 +31,18 @@ sidebar_sort_order: 123
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://networking.ifip.org/2022/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>HICSS 56</b>,
+           Hawaii International Conference on System Sciences
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://hicss.hawaii.edu"></a>
         </td>
     </tr>
     <tr>
@@ -35,6 +59,18 @@ sidebar_sort_order: 123
     </tr>
     <tr>
         <td>
+          TPC member
+        </td>
+        <td>
+          <b>GoodIT 2022</b>,
+           ACM International Conference on Information Technology for Social Good
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://cyprusconferences.org/goodit2022/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Reviewer
         </td>
         <td>
@@ -43,6 +79,18 @@ sidebar_sort_order: 123
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.nature.com/srep/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Reviewer
+        </td>
+        <td>
+          <b>DLT</b>,
+          Distributed Ledger Technologies - ACM
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.springer.com/journal/42979"></a>
         </td>
     </tr>
     <tr>
@@ -74,7 +122,7 @@ sidebar_sort_order: 123
           Reviewer
         </td>
         <td>
-          <b>CCPE</b>,
+          <b>BLOCKCHAIN</b>,
           Frontiers in Blockchain - Frontiers
         </td>
         <td>
@@ -96,6 +144,18 @@ sidebar_sort_order: 123
         <td>
           <a class="get get_external" target="_blank" href="https://digeing2021-madrid.herokuapp.com/"></a>
           <a class="get get_external" target="_blank" href="https://iscpif.fr/digeing/"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>HICSS 55</b>,
+           Hawaii International Conference on System Sciences
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://hicss.hawaii.edu"></a>
         </td>
     </tr>
     <tr>
