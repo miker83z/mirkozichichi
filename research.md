@@ -10,6 +10,45 @@ title: Research
 <table>
     <tr>
         <td>
+          [J4] Zichichi Mirko, Ferretti Stefano, Rodríguez-Doncel Victor
+          <br>
+          <b>	Decentralized Personal Data Marketplaces: How Participation in a DAO Can Support the Production of Citizen-Generated Data</b>,
+          <i>Sensors, MDPI.</i> August 2022.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.3390/s22166260"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/28decentralized2.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/28decentralized2.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [J3] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Rodríguez-Doncel Victor
+          <br>
+          <b>	Data governance through a multi-DLT architecture in view of the GDPR</b>,
+          <i>Cluster Computing, Springer.</i> July 2022.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1007/s10586-022-03691-3"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/27data.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/27data.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [J2] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>	Complex queries over decentralised systems for geodata retrieval</b>,
+          <i>IET Networks, Wiley.</i> March 2022.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="http://dx.doi.org/10.1049/ntw2.12037"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/20complex.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/20complex.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [J2] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>	Complex queries over decentralised systems for geodata retrieval</b>,
@@ -63,28 +102,67 @@ title: Research
 <table>
     <tr>
         <td>
-          [C22] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
+          [C25] Serena Luca, Li AoXuan, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano, Tang Su-Kit, 
+          <br>
+          <b>Simulation of the Internet Computer Protocol: the Next Generation Multi-Blockchain Architecture</b>,
+          <i>in Proc. of the 2022 IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS-RT 2022).</i> 26-28 September 2022, Alès, France (pp. 1-8).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="http://ds-rt.com/2022/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/30simulation3.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/30simulation3.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C24] Casale-Brunet Simone, Zichichi Mirko, Hutchinson Lee, Mattavelli Marco, Ferretti Stefano,
+          <br>
+          <b>The impact of NFT profile pictures within social network communities</b>,
+          <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022).</i> 7-9 September 2022, Limassol, Cyprus (pp. 1-11).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://cyprusconferences.org/goodit2022/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C23] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Decentralized Health Data Distribution: a DLT-based Architecture for Data Protection</b>,
           <i>in Proc. of the 5th IEEE International Conference on Blockchain (IEEE Blockchain 2022).</i> 22 - 25 August 2022, Espoo, Finland (pp. 1-7).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://www.blockchain-ieee.org/"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/25decentralized.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/25decentralized.bib"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/26decentralized.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/26decentralized.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C21] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
+          [C22] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>DLT-based Data Mules for Smart Territories</b>,
           <i>in Proc. of the 31st International Conference on Computer Communications and Networks (ICCCN 2022).</i> 25 - 27 July 2022, Honolulu, Hawaii (pp. 1-7).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://icccn.org/icccn22/wp-content/uploads/2022/ICCCN%2022-Combined-Final-program-5-20-2022.pdf"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/24dlt.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/24dlt.bib"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/25dlt.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/25dlt.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C21] Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano
+          <br>
+          <b>On the modeling of P2P systems as temporal networks: a case study with data streaming</b>,
+          <i>in Proc. of the 2022 Annual Modeling and Simulation Conference (ANNSIM).</i>  18-20 July 2022, San Diego, CA, USA (pp. 1-12).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.23919/ANNSIM55834.2022.9859513"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/24modeling.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/24modeling.bib"></a>
         </td>
     </tr>
     <tr>
@@ -232,7 +310,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Victor Rodríguez-Doncel,
+          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Rodríguez-Doncel Victor,
           <br>
           <b>Personal Data Access Control Through Distributed Authorization</b>,
           <i>in Proc. of the 2020 IEEE 19th International Symposium on Network Computing and Applications (NCA).</i> November 2020, Boston, MA, USA (pp. 1-4).

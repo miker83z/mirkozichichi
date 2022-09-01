@@ -38,41 +38,54 @@ My PhD thesis title is: <br><i>''Decentralized Systems for the Protection and Po
 <table>
     <tr>
         <td>
-          [J2] Zichichi Mirko, Luca Serena, Ferretti Stefano, D'Angelo Gabriele,
+          [J3] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Rodríguez-Doncel Victor
           <br>
-          <b>	Complex queries over decentralised systems for geodata retrieval</b>,
-          <i>IET Networks, Wiley.</i> March 2022.
+          <b>	Data governance through a multi-DLT architecture in view of the GDPR</b>,
+          <i>Cluster Computing, Springer.</i> July 2022.
         </td>
         <td>
-          <a class="get get_doi" target="_blank" target="_blank" href="http://dx.doi.org/10.1049/ntw2.12037"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/20complex.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/20complex.bib"></a>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1007/s10586-022-03691-3"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/27data.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/27data.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C9] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Victor Rodríguez-Doncel,
+          [C24] Casale-Brunet Simone, Zichichi Mirko, Hutchinson Lee, Mattavelli Marco, Ferretti Stefano,
           <br>
-          <b>Personal Data Access Control Through Distributed Authorization</b>,
-          <i>in Proc. of the 2020 IEEE 19th International Symposium on Network Computing and Applications (NCA).</i> November 2020, Boston, MA, USA (pp. 1-4).
+          <b>The impact of NFT profile pictures within social network communities</b>,
+          <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022).</i> 7-9 September 2022, Limassol, Cyprus (pp. 1-11).
         </td>
         <td>
-          <a class="get get_doi" target="_blank" href="http://dx.doi.org/10.1109/NCA51143.2020.9306721"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/10personal.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/10personal.bib"></a>
+          <a class="get get_external" target="_blank" href="https://cyprusconferences.org/goodit2022/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [J1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
+          [C18] Pocher Nadia, Zichichi Mirko
           <br>
-          <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
-          <i>IEEE Access, IEEE.</i> May 2020. (pp. 100384 - 100402).
+          <b>Towards CBDC-based Machine-to-Machine Payments in Consumer IoT</b>,
+          <i>in Proc. of the 37th ACM/SIGAPP Symposium on Applied Computing (SAC).</i> 25 - 29 April 2022, Brno, Czech Republic (pp. 1-8).
         </td>
         <td>
-          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/ACCESS.2020.2998012"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/6framework.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/6framework.bib"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3477314.3507078"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/19towardscbdc.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/19towardscbdc.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [J4] Zichichi Mirko, Ferretti Stefano, Rodríguez-Doncel Victor
+          <br>
+          <b>	Decentralized Personal Data Marketplaces: How Participation in a DAO Can Support the Production of Citizen-Generated Data</b>,
+          <i>Sensors, MDPI.</i> August 2022.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.3390/s22166260"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/28decentralized2.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/28decentralized2.bib"></a>
         </td>
     </tr>
 </table>
