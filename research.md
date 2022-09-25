@@ -49,19 +49,6 @@ title: Research
     </tr>
     <tr>
         <td>
-          [J2] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele,
-          <br>
-          <b>	Complex queries over decentralised systems for geodata retrieval</b>,
-          <i>IET Networks, Wiley.</i> March 2022.
-        </td>
-        <td>
-          <a class="get get_doi" target="_blank" target="_blank" href="http://dx.doi.org/10.1049/ntw2.12037"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/20complex.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/20complex.bib"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
           [J1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems</b>,
@@ -469,7 +456,7 @@ title: Research
           Zichichi Mirko,
           <br>
           <b>[desp3d] The PhD Thesis Software Repository</b>,
-          <i> A set of software modules that support the work behind the PhD thesis.</i> May 2021.
+          <i> A set of software modules that support the work behind the PhD thesis.</i> May 2022.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/stars/miker83z/lists/phd-thesis"></a>
@@ -480,7 +467,7 @@ title: Research
           Zichichi Mirko,
           <br>
           <b>k-DaO</b>,
-          <i> Implementation of a k-DAO in Ethereum that governs the exchange of data with an aggregator.</i> May 2021.
+          <i> Implementation of a k-DAO in Ethereum that governs the exchange of data with an aggregator.</i> May 2022.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/miker83z/k-DaO"></a>
