@@ -24,7 +24,7 @@ My PhD thesis title is: _''Decentralized Systems for the Protection and Portabil
 ## Projects
 
 <p class="message">
-  - A <b>DecentDIS</b>? Find out more about <i>Decentralized Data Intermediation Services</i> in my blog &rarr; post
+  - A <b>DecentDIS</b>? Find out more about <i>Decentralized Data Intermediation Services</i> in my blog &rarr; <a href="/projects/2022/10/01/DecentDIS.html">post</a>
 </p>
 
 ---
