@@ -1,7 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-07T18:31:21+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko Zichichi</title><subtitle>&lt;b&gt;MSCA ITN Early Stage Researcher&lt;/b&gt; in &lt;br&gt; &lt;em&gt;&lt;a href=&quot;https://last-jd-rioe.eu/mirko-zichichi.html&quot; target=&quot;_blank&quot;&gt;Law, Science and Technology&lt;/a&gt;&lt;/em&gt;</subtitle><entry><title type="html">I built my personal website with Jekyll</title><link href="http://localhost:4000/miscellaneous/2020/06/11/built-this-personal-website-in-jekyll.html" rel="alternate" type="text/html" title="I built my personal website with Jekyll" /><published>2020-06-11T12:08:00+02:00</published><updated>2020-06-11T12:08:00+02:00</updated><id>http://localhost:4000/miscellaneous/2020/06/11/built-this-personal-website-in-jekyll</id><content type="html" xml:base="http://localhost:4000/miscellaneous/2020/06/11/built-this-personal-website-in-jekyll.html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-02T01:41:35+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mirko Zichichi</title><subtitle>&lt;b&gt;MSCA ITN Early Stage Researcher&lt;/b&gt; in &lt;br&gt; &lt;em&gt;&lt;a href=&quot;https://last-jd-rioe.eu/mirko-zichichi.html&quot; target=&quot;_blank&quot;&gt;Law, Science and Technology&lt;/a&gt;&lt;/em&gt;</subtitle><entry><title type="html">A Decent DIS? Building a Decentralized Data Intermediation Service</title><link href="http://localhost:4000/projects/2022/10/01/DecentDIS.html" rel="alternate" type="text/html" title="A Decent DIS? Building a Decentralized Data Intermediation Service" /><published>2022-10-01T21:08:00+02:00</published><updated>2022-10-01T21:08:00+02:00</updated><id>http://localhost:4000/projects/2022/10/01/DecentDIS</id><content type="html" xml:base="http://localhost:4000/projects/2022/10/01/DecentDIS.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Single point of failure&lt;/strong&gt;: part of a system that, if it fails, will stop the entire system from working [1].&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I used the Hydeout theme. Find out more by &lt;a href=&quot;https://github.com/fongandrew/hydeout&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:</summary></entry></feed>
+&lt;p&gt;Arguably, the existence of a single point of failure involves our lives in many ways. The centralization of power in a few entities’ hands is likely to threaten many aspects of our daily lives significantly. Life on the Internet now covers most of our day-to-day routines, and, in this very system consisting of computer networks, the founding principle is control and not freedom, as desired at its inception [2]. This may be due to many factors, such as the spontaneous emergence of hierarchies in natural systems [3] or market dynamics effects, such as preferential attachment and the manifestation of the power law [4].&lt;/p&gt;
+
+&lt;h3 id=&quot;but-what-can-its-opposite-ie-de-centralization-do-what-does-decentralization-mean&quot;&gt;But what can its opposite, i.e., &lt;em&gt;de&lt;/em&gt;-centralization, do? What does decentralization mean?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In systems theory, a system is &lt;strong&gt;decentralized&lt;/strong&gt; when lower-level components operate on local information to achieve global goals. Such a system operates through the emergent behavior of its component parts rather than as a result of the influence of a centralized part [5].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a more technical definition, systems are decentralized in the sense that their architecture is such that it seeks to avoid single points of failure.
+With the advent of Bitcoin [6] as the first system providing a Peer-to-Peer (P2P) cryptocurrency, there has been a new wave of development of decentralized systems to combat the single point of failure issue. The first widely used systems of this type, in fact, date back to the start of the new millennium for making it possible to share and exchange resources such as text files, music, and video, e.g., BitTorrent, Emule, Gnutella, and Napster.
+To date, Nakamoto’s blockchain has brought a revolution in many industries, and his invention has influenced financial sectors. In addition, this new P2P wave has brought optimism for incentivizing participation models, resource contribution, and consensus that could provide a substrate for a decentralized Internet, i.e., the Web3.
+Nakamoto has made possible the coordinated operation of peers in a network without needing to control their access to the system itself, i.e., a permissionless transactional decentralized system. Transactions are placed in a block, which all the other peers accept only if it “solves a puzzle.” To make it solving this ``crypto-puzzle,’’ it is required intensive computation work that consumes time. This creates a consensus, an order within decentralization, i.e., a chain of blocks.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-any-good&quot;&gt;Is it any good?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A critical part of a permissionless blockchain is that anyone can participate in the consensus mechanism, and thus one does not have a point of reference for placing its &lt;strong&gt;trust&lt;/strong&gt; [7].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The blockchain brought many criticisms as well, above all, the issue of trust. In many ways, blockchains’ attempt to replace trust with code, i.e., the source code that implements the network consensus algorithm, makes these technologies less trustworthy than non-blockchain systems. Indeed, it can be argued that many blockchains are not truly decentralized, and their inevitable centralization is detrimental because it is largely emergent and ill-defined [7]. Bruce Scheiner argues that non-blockchain systems are based on other general mechanisms humans use to incentivize trustworthy behavior that make consensus mechanisms unnecessary: morals, reputation, institutions, and security mechanisms. Thus, what blockchains’ consensus mechanisms do is shift some of the trust in people and institutions to trust in the technology. When that trust turns out to be misplaced, there is no recourse.
+Moreover, in such a permissionless environment, it may be infeasible to incentivize participants to adequately provide functions like quality control or coordination of system development and evolution. Thus centralization emerges de facto [3], such as the hierarchy of the small number of developers controlling the blockchain software or the few numbers of centralized networks that control the consensus mechanism execution, i.e., mining pools [8].&lt;/p&gt;
+
+&lt;h3 id=&quot;permissioned-blockchains-to-the-rescue&quot;&gt;Permissioned blockchains to the rescue&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In permissioned blockchain, the nodes executing the consensus mechanism are &lt;strong&gt;identified&lt;/strong&gt; and the access to the P2P network &lt;strong&gt;restricted&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Permissioned blockchains might resemble append-only distributed databases that are &lt;em&gt;“completely uninteresting”&lt;/em&gt; [7]. However, unlike a traditional database, no central entity manages the information, but different interested parties control, maintain and guard the information that is stored on it. Different actors with different interests (possibly clashing between themselves) constantly monitor their “adversary-peers” and control if one of them attempts to alter or inadvertently change previously agreed-upon information. These systems enable confidence between a collection of parties, negotiations, and validation of contractual obligations, with clear business relations that already require trust and reputation [3,4]. Relying on multiple validators for blockchain maintenance allows the system to induce single parties not to deviate from the protocol. A permissioned decentralized system such as a blockchain, thus, becomes uniquely effective when used as a framework for collaboration in competition scenarios [9].&lt;/p&gt;
+
+&lt;h3 id=&quot;solving-one-threat-at-a-time-de-centralize-personal-data-management&quot;&gt;Solving one threat at a time: de-centralize personal data management&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockchains can provide individuals with impossible functionalities in traditional cloud services. In particular, they favor the creation of decentralized Personal Information Management Systems (PIMS), guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Permissioned decentralized systems, including blockchains, can be pivotal in placing individuals at the center of personal data management and in relieving the absence of technical instruments and standards that make the exercise of one’s rights simple and not excessively burdensome (as envisioned in the European strategy for data [10]).
+Decentralized PIMS can be considered consent management tools or trusts built on distributed software architectures that act as new neutral intermediaries in the personal data economy. These empower individuals with tools and means to decide at a granular level what is done with their data to provide, among many benefits, greater oversight and transparency over the data.
+These decentralized systems would also allow data collectors to prove their compliance with regulations. Not only that, but it could also benefit the creation of a single data market that capitalizes on data interoperability between data spaces for the social and economic good [10]. The current practice of data collectors, in fact, is to store data in disconnected silos that are inaccessible to innovative services, researchers, and often to the individual who generated them.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-creation-of-a-new-decentralized-data-intermediation-service&quot;&gt;The creation of a new Decent(ralized) Data Intermediation Service&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A data intermediary can be defined as a mediator between those who wish to make their data available and those who seek to use them while providing some &lt;strong&gt;degree of confidence&lt;/strong&gt; about how the data will be used [11].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Data intermediary services (DIS) can be built based on permissioned decentralized systems to avoid the natural rise of dominance hierarchies in the exchange and handling of personal data. Intermediaries in a &lt;strong&gt;Decent&lt;/strong&gt;(ralized) &lt;strong&gt;DIS&lt;/strong&gt; aim to provide a neutral service with respect to the exploitation of individuals’ data, i.e., the sum of the privacy threat forces in the system of intermediaries is equal to zero. A permissioned blockchain maintains this balance. The primary ability that a permissioned decentralized system can bring in this case to the final users is “gaining truth through the ability to share data safely” [12]:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a blockchain can provide a single source of verifiable truth among organizations and some level of appropriate automation of data processing.&lt;/li&gt;
+  &lt;li&gt;organizations can arrange a form of governance to decide the distributed sources of trust and moderate such permissioned systems.&lt;/li&gt;
+  &lt;li&gt;the system authority can be distributed among many trusted actors so that the compromise of one or even a few authorities does not destroy the consensus.&lt;/li&gt;
+  &lt;li&gt;intrinsic cryptographical properties of blockchains can enable distributed safe computation and data minimization.&lt;/li&gt;
+  &lt;li&gt;the networked collaboration environment can be easily exploited for the audit and accountability of operations.&lt;/li&gt;
+  &lt;li&gt;P2P networks offer an essential solution for data resiliency and scalability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-decentdis-implementation&quot;&gt;The DecentDIS implementation&lt;/h3&gt;
+
+&lt;p&gt;This project aims to create an infrastructure for the joint management of data intermediary services. A permissioned network of intermediaries provides:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;an IPFS-protocol-based Personal Data Space (PDS) to store data,&lt;/li&gt;
+  &lt;li&gt;an Ethereum-based private blockchain to provide a distributed authorization mechanism, and&lt;/li&gt;
+  &lt;li&gt;a distributed execution of codified policies based on standard ontologies to reply to data requests.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Data are encrypted and stored in the PDS, while blockchain’s smart contracts govern their access. Data subjects select their data-sharing policies in an intelligible and machine-readable way. Data holders (or subjects themselves) manage data and encryption keys through a threshold cryptosystem. Intermediaries assist both by executing policies through smart contracts and distributing keys to eligible data recipients. Hash-based URIs, together with an on-chain token representation, enable the indexing and validation of data, policies, and their relation. The private blockchain enables the tracing of data access and policies, and its untamperability is strengthened through a multi-DLT architecture, in which periodical commitments are stored in a permissionless DLT.&lt;/p&gt;
+
+&lt;p&gt;The relevant open source software can be found in Zenodo:&lt;/p&gt;
+
+&lt;h5 id=&quot;ethereum-smart-contract-authorization-using-a-threshold-proxy-re-encryption-scheme-in-rust&quot;&gt;Ethereum smart contract authorization using a Threshold Proxy Re-Encryption scheme in Rust&lt;/h5&gt;
+
+&lt;p&gt;DOI: &lt;a href=&quot;https://doi.org/10.5281/zenodo.6548262&quot;&gt;10.5281/zenodo.6548262&lt;/a&gt;&lt;br /&gt;
+In this implementation, a network of nodes provides access to eligible data recipients by releasing the keys used to encrypt personal data stored in a PDS. An Ethereum private permissioned blockchain is used as a sidechain, and the public permissionless audit DLT as the mainchain where to store periodic commitments.
+The primary use of the permissioned blockchain is the execution of smart contracts implementing personal data access control. Access to the personal data stored in PDS can be allowed by the data holder through smart contracts through a data structure, namely an access control list (ACL).
+For the encryption, decryption, and keys distribution phase, a Threshold Proxy Re-Encryption (TPRE) scheme is used. In this scene, network nodes maintain fragments of a key. Such fragments are re-encrypted using a re-encryption key generated by the data holder in favor of an eligible recipient.&lt;/p&gt;
+
+&lt;h5 id=&quot;decentralized-intelligible-identity-and-certification-based-on-did-and-vc-and-ipfs-storage&quot;&gt;Decentralized intelligible identity and certification based on DID and VC and IPFS storage&lt;/h5&gt;
+
+&lt;p&gt;DOI: &lt;a href=&quot;https://doi.org/10.5281/zenodo.7132777&quot;&gt;10.5281/zenodo.7132777&lt;/a&gt;
+The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID), i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
+The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain. Intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.&lt;/p&gt;
+
+&lt;h5 id=&quot;handling-policies-in-smart-contracts-based-on-access-control-and-dpv-ontology&quot;&gt;Handling policies in smart contracts based on access control and DPV ontology&lt;/h5&gt;
+
+&lt;p&gt;DOI: &lt;a href=&quot;https://doi.org/10.5281/zenodo.7132775&quot;&gt;10.5281/zenodo.7132775&lt;/a&gt;
+The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL or the MPEG-21 framework. Those are integrated with the Data Privacy Vocabulary (DPV), i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ipfs://someCID/Pippo&amp;gt;
+        a           dpv:DataProcessor ;
+        rdfs:label  &quot;Data Processor&quot; .
+&amp;lt;ipfs://someCID/Catullo&amp;gt;
+        a           dpv:DataController ;
+        rdfs:label  &quot;Data Controller&quot; .
+&amp;lt;ipfs://someCID/Susy&amp;gt;
+        a           dpv:DataSubject ;
+        rdfs:label  &quot;Data Subject&quot; .
+&amp;lt;ipfs://someCID/permission0&amp;gt;
+        a                       mvco:Permission ;
+        mco-core:implements     &amp;lt;ipfs://someCID/textClause1&amp;gt; ;
+        mvco:issuedBy           &amp;lt;ipfs://someCID/Catullo&amp;gt; ;
+        mco-core:permitsAction  &amp;lt;ipfs://someCID/actionConsult&amp;gt; ;
+        mco-core:hasRequired    &amp;lt;ipfs://someCID/factConsent&amp;gt;.
+&amp;lt;ipfs://someCID/latLonXY&amp;gt;
+        a               dpv:PseudoAnonymisedData .
+&amp;lt;ipfs://someCID/locationDataZ&amp;gt;
+        a                       dpv:SensitivePersonalData ;
+        mvco:isMadeUpOf         &amp;lt;ipfs://someCID/latLonXY&amp;gt; ;
+&amp;lt;ipfs://someCID/actionConsult&amp;gt;
+        a               dpv:Consult ;
+        mvco:actedBy    &amp;lt;ipfs://someCID/Pippo&amp;gt; ;
+        mvco:actedOver  &amp;lt;ipfs://someCID/locationDataZ&amp;gt; .
+&amp;lt;ipfs://someCID/factConsent&amp;gt;
+        a                       dpv:Consent ;
+        dpv:hasDataSubject      &amp;lt;ipfs://someCID/Susy&amp;gt; ;
+        dpv:hasDataController   &amp;lt;ipfs://someCID/Catullo&amp;gt; ;
+        dpv:hasPurpose          &amp;lt;ipfs://someCID/purpose1&amp;gt; ;
+        dpv:hasProcessing       &amp;lt;ipfs://someCID/processing1&amp;gt; .
+&amp;lt;ipfs://someCID/purpose1&amp;gt;
+        a               dpv:SocialMediaMarketing .
+&amp;lt;ipfs://someCID/processing1&amp;gt;
+        a               dpv:Consult .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Wikipedia community. &lt;em&gt;Single point of failure.&lt;/em&gt; (2022).
+&lt;a href=&quot;https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure&quot;&gt;ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Galloway, Alexander R. &lt;em&gt;Protocol: How control exists after decentralization.&lt;/em&gt; MIT press, 2004.&lt;/li&gt;
+  &lt;li&gt;Bakos, Yannis, Hanna Halaburda, and Christoph Mueller-Bloch. &lt;em&gt;“When permissioned blockchains deliver more decentralization than permissionless.”&lt;/em&gt; Communications of the ACM 64.2 (2021): 20-22.&lt;/li&gt;
+  &lt;li&gt;Lopez, Pedro Garcia, Alberto Montresor, and Anwitaman Datta. &lt;em&gt;“Please, do not decentralize the Internet with (permissionless) blockchains!.”&lt;/em&gt; 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS). IEEE, 2019.&lt;/li&gt;
+  &lt;li&gt;Wikipedia community. &lt;em&gt;Decentralised system.&lt;/em&gt; (2022).
+&lt;a href=&quot;https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Decentralised_system&quot;&gt;ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Decentralised_
+system&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nakamoto, Satoshi. &lt;em&gt;“A peer-to-peer electronic cash system.”&lt;/em&gt; (2008).&lt;/li&gt;
+  &lt;li&gt;Schneier, Bruce. &lt;em&gt;Blockchain and trust.&lt;/em&gt; (2019). &lt;a href=&quot;https://www.schneier.com/blog/archives/2019/02/blockchain_and_.html&quot;&gt;https://www.schneier.com/blog/archives/2019/02/blockchain&lt;em&gt;and&lt;/em&gt;.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Trail of Bits (2022). &lt;em&gt;Are blockchains decentralized?&lt;/em&gt; &lt;a href=&quot;https://assets-global.website-files.com/5fd11235b3950c2c1a3b6df4/62af6c641a672b3329b9a480_Unintended_Centralities_in_Distributed_Ledgers.pdf&quot;&gt;https://assets-global.website-files.com/5fd11235b3950c2c1a3b6df4/62af6c641a672b3329b9a480_Unintended_Centralities_in_Distributed_Ledgers.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bakarich, Kathleen. &lt;em&gt;“Using a Permissioned Blockchain?.”&lt;/em&gt; The CPA Journal 91.6/7 (2021): 48-51.&lt;/li&gt;
+  &lt;li&gt;European Commission. &lt;em&gt;A European Strategy for data.&lt;/em&gt; (2020). &lt;a href=&quot;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066&quot;&gt;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Janssen, Heleen and Jatinder Singh. &lt;em&gt;“Data intermediary”.&lt;/em&gt; Internet Policy Review 11.1 (2022). &lt;a href=&quot;https://policyreview.info/glossary/data-intermediary&quot;&gt;https://policyreview.info/glossary/data-intermediary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hardjono, Thomas, David L. Shrier, and Alex Pentland. &lt;em&gt;Trusted Data, revised and expanded edition: A New Framework for Identity and Data Sharing.&lt;/em&gt; MIT Press, 2019.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="projects" /><summary type="html">Single point of failure: part of a system that, if it fails, will stop the entire system from working [1].</summary></entry></feed>

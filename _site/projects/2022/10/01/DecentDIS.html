@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      A Decent DIS? Building a Decentralized Data Intermediation Service &middot; Mirko Zichichi
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <p class="lead"><img class="responsive-image" src="/profilepic.jpg" alt="Photo"></p> 
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Mirko Zichichi        
+      </a>
+    </div>
+    <p class="lead"><b>MSCA ITN Early Stage Researcher</b> in <br> <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law, Science and Technology</a></em></p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/research.html">Research</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/tutoring.html">Tutoring</a>
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/activities.html">Activities</a>
+    
+  
+
+  
+  
+    <a class="page-link "
+	href="/blog/">Blog</a>
+  
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+  
+
+  <nav id="sidebar-icon-links">
+         <!-- Optional additional links to insert for icons links -->
+
+<a
+  id="linkedin-link"
+  class="icon"
+  target="_blank"
+  title="LinkedIn"
+  aria-label="LinkedIn"
+  href="https://www.linkedin.com/in/mirko-zichichi-63a803100/"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>linkedin</title><path d='M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z'/></svg>
+</a>
+<a
+  id="github-link"
+  class="icon"
+  target="_blank"
+  title="github"
+  aria-label="github"
+  href="https://www.github.com/miker83z"
+>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+</a>
+<a
+  id="scholar-link"
+  class="icon"
+  target="_blank"
+  title="Google Scholar"
+  aria-label="Google Scholar"
+  href="https://scholar.google.com/citations?user=ikI56qoAAAAJ"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>google scholar</title><path d='M256,368a16,16,0,0,1-7.94-2.11L108,285.84a8,8,0,0,0-12,6.94V368a16,16,0,0,0,8.23,14l144,80a16,16,0,0,0,15.54,0l144-80A16,16,0,0,0,416,368V292.78a8,8,0,0,0-12-6.94L263.94,365.89A16,16,0,0,1,256,368Z'/><path d='M495.92,190.5s0-.08,0-.11a16,16,0,0,0-8-12.28l-224-128a16,16,0,0,0-15.88,0l-224,128a16,16,0,0,0,0,27.78l224,128a16,16,0,0,0,15.88,0L461,221.28a2,2,0,0,1,3,1.74V367.55c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,496,368V192A14.76,14.76,0,0,0,495.92,190.5Z'/></svg>
+</a>
+<a
+  id="researchgate-link"
+  class="icon"
+  target="_blank"
+  title="Researchgate"
+  aria-label="Researchgate"
+  href="https://www.researchgate.net/profile/Mirko_Zichichi"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>researchgate</title><path d='M256,64C150.13,64,64,150.13,64,256s86.13,192,192,192,192-86.13,192-192S361.87,64,256,64Zm91.31,283.31a16,16,0,0,1-22.62,0l-42.84-42.83a88.08,88.08,0,1,1,22.63-22.63l42.83,42.84A16,16,0,0,1,347.31,347.31Z'/><circle cx='232' cy='232' r='56'/></svg>
+</a>
+<a
+  id="orcid-link"
+  class="icon"
+  target="_blank"
+  title="Orcid"
+  aria-label="Orcid"
+  href="https://orcid.org/0000-0002-4159-4269"
+>
+  <?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><link xmlns="" type="text/css" id="dark-mode" rel="stylesheet" href=""/><style xmlns="" type="text/css" id="dark-mode-custom-style"/>
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>orcid</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero" transform="translate(-924.000000, -72.000000)" fill-rule="nonzero">
+            <g id="Group-4">
+                <g id="vector_iD_icon" transform="translate(924.000000, 72.000000)">
+                    <path d="M72,36 C72,55.884375 55.884375,72 36,72 C16.115625,72 0,55.884375 0,36 C0,16.115625 16.115625,0 36,0 C55.884375,0 72,16.115625 72,36 Z" id="Path" fill="#DCDCDC"/>
+                    <g id="Group" transform="translate(18.868966, 12.910345)" fill="#161616">
+                        <polygon id="Path" points="5.03734929 39.1250878 0.695429861 39.1250878 0.695429861 9.14431787 5.03734929 9.14431787 5.03734929 22.6930505 5.03734929 39.1250878"/>
+                        <path d="M11.409257,9.14431787 L23.1380784,9.14431787 C34.303014,9.14431787 39.2088191,17.0664074 39.2088191,24.1486995 C39.2088191,31.846843 33.1470485,39.1530811 23.1944669,39.1530811 L11.409257,39.1530811 L11.409257,9.14431787 Z M15.7511765,35.2620194 L22.6587756,35.2620194 C32.49858,35.2620194 34.7541226,27.8438084 34.7541226,24.1486995 C34.7541226,18.1301509 30.8915059,13.0353795 22.4332213,13.0353795 L15.7511765,13.0353795 L15.7511765,35.2620194 Z" id="Shape"/>
+                        <path d="M5.71401206,2.90182329 C5.71401206,4.441452 4.44526937,5.72914146 2.86638958,5.72914146 C1.28750978,5.72914146 0.0187670918,4.441452 0.0187670918,2.90182329 C0.0187670918,1.33420133 1.28750978,0.0745051096 2.86638958,0.0745051096 C4.44526937,0.0745051096 5.71401206,1.36219458 5.71401206,2.90182329 Z" id="Path"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+<a
+  id="skype-link"
+  class="icon"
+  target="_blank"
+  title="mirko.zichichi"
+  aria-label="mirko.zichichi"
+  href="skype:mirko.zichichi?chat"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>mirko.zichichi</title><path d='M467.16,303.6a205.69,205.69,0,0,0,4.9-45.15c0-116.32-95.69-210.7-213.79-210.7a221.83,221.83,0,0,0-36.52,3A123.58,123.58,0,0,0,155.93,32C87.55,32,32,86.72,32,154.15A119.56,119.56,0,0,0,49,216a211.16,211.16,0,0,0-4.32,42.35c0,116.44,95.69,210.7,213.67,210.7a214,214,0,0,0,39.09-3.5A125.45,125.45,0,0,0,356.07,480C424.57,480,480,425.28,480,357.85A118,118,0,0,0,467.16,303.6ZM368,359c-9.92,13.76-24.51,24.73-43.41,32.43S283.36,403,257.69,403c-30.69,0-56.36-5.37-76.55-15.87a101,101,0,0,1-35.24-30.8c-9.11-12.83-13.66-25.66-13.66-38,0-7.7,3-14.35,8.87-19.95,5.84-5.37,13.42-8.17,22.29-8.17,7.35,0,13.65,2.1,18.79,6.42,4.9,4.08,9.1,10.15,12.48,18.08A108.09,108.09,0,0,0,207,336.15q6.32,8.22,17.86,13.65c7.82,3.62,18.2,5.48,31,5.48,17.62,0,32.09-3.73,42.94-11.08,10.74-7.12,15.88-15.75,15.88-26.25,0-8.28-2.69-14.82-8.29-19.95-5.83-5.37-13.42-9.57-22.87-12.37-9.69-3-22.87-6.18-39.21-9.56-22.17-4.67-41-10.27-56-16.57-15.28-6.42-27.65-15.4-36.76-26.48-9.22-11.32-13.77-25.55-13.77-42.24a67.86,67.86,0,0,1,14.47-42.58c9.57-12.25,23.46-21.82,41.55-28.35,17.74-6.53,38.86-9.8,62.66-9.8,19.14,0,35.83,2.22,49.83,6.42s25.91,10.15,35.36,17.38,16.34,14.93,20.77,23,6.66,16.22,6.66,24c0,7.46-2.92,14.35-8.76,20.3a29.65,29.65,0,0,1-21.94,9.1c-7.93,0-14.12-1.87-18.43-5.6-4-3.5-8.17-8.87-12.72-16.69-5.37-9.91-11.79-17.85-19.14-23.45-7.24-5.36-19.14-8.16-35.71-8.16-15.29,0-27.77,3-37,9-8.87,5.72-13.19,12.37-13.19,20.18a18.26,18.26,0,0,0,4.32,12.25,38.13,38.13,0,0,0,12.72,9.57,90.14,90.14,0,0,0,17.15,6.53c6,1.64,15.87,4.09,29.53,7.12,17.38,3.62,33.25,7.82,47.26,12.13,14.24,4.55,26.49,10,36.52,16.45a72.93,72.93,0,0,1,24.16,25.09c5.72,10,8.64,22.63,8.64,37.1A75.09,75.09,0,0,1,368,359Z'/></svg>
+</a>
+<a
+  id="youtube-link"
+  class="icon"
+  target="_blank"
+  title="Youtube"
+  aria-label="Youtube"
+  href="https://www.youtube.com/user/miker83z"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>youtube</title><path d='M508.64,148.79c0-45-33.1-81.2-74-81.2C379.24,65,322.74,64,265,64H247c-57.6,0-114.2,1-169.6,3.6-40.8,0-73.9,36.4-73.9,81.4C1,184.59-.06,220.19,0,255.79q-.15,53.4,3.4,106.9c0,45,33.1,81.5,73.9,81.5,58.2,2.7,117.9,3.9,178.6,3.8q91.2.3,178.6-3.8c40.9,0,74-36.5,74-81.5,2.4-35.7,3.5-71.3,3.4-107Q512.24,202.29,508.64,148.79ZM207,353.89V157.39l145,98.2Z'/></svg>
+</a>
+
+</nav>
+
+  <span class="site-version"><b>Email:</b> mirko.zichichi AT upm.es<br><br></span> 
+  <p>
+  &copy; 2022 Zichichi
+  <!-- <a href="/LICENSE">MIT License.</a> -->
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">A Decent DIS? Building a Decentralized Data Intermediation Service</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">01 Oct 2022</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        projects
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <blockquote>
+  <p><strong>Single point of failure</strong>: part of a system that, if it fails, will stop the entire system from working [1].</p>
+</blockquote>
+
+<p>Arguably, the existence of a single point of failure involves our lives in many ways. The centralization of power in a few entities’ hands is likely to threaten many aspects of our daily lives significantly. Life on the Internet now covers most of our day-to-day routines, and, in this very system consisting of computer networks, the founding principle is control and not freedom, as desired at its inception [2]. This may be due to many factors, such as the spontaneous emergence of hierarchies in natural systems [3] or market dynamics effects, such as preferential attachment and the manifestation of the power law [4].</p>
+
+<h3 id="but-what-can-its-opposite-ie-de-centralization-do-what-does-decentralization-mean">But what can its opposite, i.e., <em>de</em>-centralization, do? What does decentralization mean?</h3>
+
+<blockquote>
+  <p>In systems theory, a system is <strong>decentralized</strong> when lower-level components operate on local information to achieve global goals. Such a system operates through the emergent behavior of its component parts rather than as a result of the influence of a centralized part [5].</p>
+</blockquote>
+
+<p>In a more technical definition, systems are decentralized in the sense that their architecture is such that it seeks to avoid single points of failure.
+With the advent of Bitcoin [6] as the first system providing a Peer-to-Peer (P2P) cryptocurrency, there has been a new wave of development of decentralized systems to combat the single point of failure issue. The first widely used systems of this type, in fact, date back to the start of the new millennium for making it possible to share and exchange resources such as text files, music, and video, e.g., BitTorrent, Emule, Gnutella, and Napster.
+To date, Nakamoto’s blockchain has brought a revolution in many industries, and his invention has influenced financial sectors. In addition, this new P2P wave has brought optimism for incentivizing participation models, resource contribution, and consensus that could provide a substrate for a decentralized Internet, i.e., the Web3.
+Nakamoto has made possible the coordinated operation of peers in a network without needing to control their access to the system itself, i.e., a permissionless transactional decentralized system. Transactions are placed in a block, which all the other peers accept only if it “solves a puzzle.” To make it solving this ``crypto-puzzle,’’ it is required intensive computation work that consumes time. This creates a consensus, an order within decentralization, i.e., a chain of blocks.</p>
+
+<h3 id="is-it-any-good">Is it any good?</h3>
+
+<blockquote>
+  <p>A critical part of a permissionless blockchain is that anyone can participate in the consensus mechanism, and thus one does not have a point of reference for placing its <strong>trust</strong> [7].</p>
+</blockquote>
+
+<p>The blockchain brought many criticisms as well, above all, the issue of trust. In many ways, blockchains’ attempt to replace trust with code, i.e., the source code that implements the network consensus algorithm, makes these technologies less trustworthy than non-blockchain systems. Indeed, it can be argued that many blockchains are not truly decentralized, and their inevitable centralization is detrimental because it is largely emergent and ill-defined [7]. Bruce Scheiner argues that non-blockchain systems are based on other general mechanisms humans use to incentivize trustworthy behavior that make consensus mechanisms unnecessary: morals, reputation, institutions, and security mechanisms. Thus, what blockchains’ consensus mechanisms do is shift some of the trust in people and institutions to trust in the technology. When that trust turns out to be misplaced, there is no recourse.
+Moreover, in such a permissionless environment, it may be infeasible to incentivize participants to adequately provide functions like quality control or coordination of system development and evolution. Thus centralization emerges de facto [3], such as the hierarchy of the small number of developers controlling the blockchain software or the few numbers of centralized networks that control the consensus mechanism execution, i.e., mining pools [8].</p>
+
+<h3 id="permissioned-blockchains-to-the-rescue">Permissioned blockchains to the rescue</h3>
+
+<blockquote>
+  <p>In permissioned blockchain, the nodes executing the consensus mechanism are <strong>identified</strong> and the access to the P2P network <strong>restricted</strong>.</p>
+</blockquote>
+
+<p>Permissioned blockchains might resemble append-only distributed databases that are <em>“completely uninteresting”</em> [7]. However, unlike a traditional database, no central entity manages the information, but different interested parties control, maintain and guard the information that is stored on it. Different actors with different interests (possibly clashing between themselves) constantly monitor their “adversary-peers” and control if one of them attempts to alter or inadvertently change previously agreed-upon information. These systems enable confidence between a collection of parties, negotiations, and validation of contractual obligations, with clear business relations that already require trust and reputation [3,4]. Relying on multiple validators for blockchain maintenance allows the system to induce single parties not to deviate from the protocol. A permissioned decentralized system such as a blockchain, thus, becomes uniquely effective when used as a framework for collaboration in competition scenarios [9].</p>
+
+<h3 id="solving-one-threat-at-a-time-de-centralize-personal-data-management">Solving one threat at a time: de-centralize personal data management</h3>
+
+<blockquote>
+  <p>Blockchains can provide individuals with impossible functionalities in traditional cloud services. In particular, they favor the creation of decentralized Personal Information Management Systems (PIMS), guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.</p>
+</blockquote>
+
+<p>Permissioned decentralized systems, including blockchains, can be pivotal in placing individuals at the center of personal data management and in relieving the absence of technical instruments and standards that make the exercise of one’s rights simple and not excessively burdensome (as envisioned in the European strategy for data [10]).
+Decentralized PIMS can be considered consent management tools or trusts built on distributed software architectures that act as new neutral intermediaries in the personal data economy. These empower individuals with tools and means to decide at a granular level what is done with their data to provide, among many benefits, greater oversight and transparency over the data.
+These decentralized systems would also allow data collectors to prove their compliance with regulations. Not only that, but it could also benefit the creation of a single data market that capitalizes on data interoperability between data spaces for the social and economic good [10]. The current practice of data collectors, in fact, is to store data in disconnected silos that are inaccessible to innovative services, researchers, and often to the individual who generated them.</p>
+
+<h3 id="the-creation-of-a-new-decentralized-data-intermediation-service">The creation of a new Decent(ralized) Data Intermediation Service</h3>
+
+<blockquote>
+  <p>A data intermediary can be defined as a mediator between those who wish to make their data available and those who seek to use them while providing some <strong>degree of confidence</strong> about how the data will be used [11].</p>
+</blockquote>
+
+<p>Data intermediary services (DIS) can be built based on permissioned decentralized systems to avoid the natural rise of dominance hierarchies in the exchange and handling of personal data. Intermediaries in a <strong>Decent</strong>(ralized) <strong>DIS</strong> aim to provide a neutral service with respect to the exploitation of individuals’ data, i.e., the sum of the privacy threat forces in the system of intermediaries is equal to zero. A permissioned blockchain maintains this balance. The primary ability that a permissioned decentralized system can bring in this case to the final users is “gaining truth through the ability to share data safely” [12]:</p>
+
+<ul>
+  <li>a blockchain can provide a single source of verifiable truth among organizations and some level of appropriate automation of data processing.</li>
+  <li>organizations can arrange a form of governance to decide the distributed sources of trust and moderate such permissioned systems.</li>
+  <li>the system authority can be distributed among many trusted actors so that the compromise of one or even a few authorities does not destroy the consensus.</li>
+  <li>intrinsic cryptographical properties of blockchains can enable distributed safe computation and data minimization.</li>
+  <li>the networked collaboration environment can be easily exploited for the audit and accountability of operations.</li>
+  <li>P2P networks offer an essential solution for data resiliency and scalability.</li>
+</ul>
+
+<h3 id="the-decentdis-implementation">The DecentDIS implementation</h3>
+
+<p>This project aims to create an infrastructure for the joint management of data intermediary services. A permissioned network of intermediaries provides:</p>
+
+<ol>
+  <li>an IPFS-protocol-based Personal Data Space (PDS) to store data,</li>
+  <li>an Ethereum-based private blockchain to provide a distributed authorization mechanism, and</li>
+  <li>a distributed execution of codified policies based on standard ontologies to reply to data requests.</li>
+</ol>
+
+<p>Data are encrypted and stored in the PDS, while blockchain’s smart contracts govern their access. Data subjects select their data-sharing policies in an intelligible and machine-readable way. Data holders (or subjects themselves) manage data and encryption keys through a threshold cryptosystem. Intermediaries assist both by executing policies through smart contracts and distributing keys to eligible data recipients. Hash-based URIs, together with an on-chain token representation, enable the indexing and validation of data, policies, and their relation. The private blockchain enables the tracing of data access and policies, and its untamperability is strengthened through a multi-DLT architecture, in which periodical commitments are stored in a permissionless DLT.</p>
+
+<p>The relevant open source software can be found in Zenodo:</p>
+
+<h5 id="ethereum-smart-contract-authorization-using-a-threshold-proxy-re-encryption-scheme-in-rust">Ethereum smart contract authorization using a Threshold Proxy Re-Encryption scheme in Rust</h5>
+
+<p>DOI: <a href="https://doi.org/10.5281/zenodo.6548262">10.5281/zenodo.6548262</a><br />
+In this implementation, a network of nodes provides access to eligible data recipients by releasing the keys used to encrypt personal data stored in a PDS. An Ethereum private permissioned blockchain is used as a sidechain, and the public permissionless audit DLT as the mainchain where to store periodic commitments.
+The primary use of the permissioned blockchain is the execution of smart contracts implementing personal data access control. Access to the personal data stored in PDS can be allowed by the data holder through smart contracts through a data structure, namely an access control list (ACL).
+For the encryption, decryption, and keys distribution phase, a Threshold Proxy Re-Encryption (TPRE) scheme is used. In this scene, network nodes maintain fragments of a key. Such fragments are re-encrypted using a re-encryption key generated by the data holder in favor of an eligible recipient.</p>
+
+<h5 id="decentralized-intelligible-identity-and-certification-based-on-did-and-vc-and-ipfs-storage">Decentralized intelligible identity and certification based on DID and VC and IPFS storage</h5>
+
+<p>DOI: <a href="https://doi.org/10.5281/zenodo.7132777">10.5281/zenodo.7132777</a>
+The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID), i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
+The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain. Intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.</p>
+
+<h5 id="handling-policies-in-smart-contracts-based-on-access-control-and-dpv-ontology">Handling policies in smart contracts based on access control and DPV ontology</h5>
+
+<p>DOI: <a href="https://doi.org/10.5281/zenodo.7132775">10.5281/zenodo.7132775</a>
+The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL or the MPEG-21 framework. Those are integrated with the Data Privacy Vocabulary (DPV), i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ipfs://someCID/Pippo&gt;
+        a           dpv:DataProcessor ;
+        rdfs:label  "Data Processor" .
+&lt;ipfs://someCID/Catullo&gt;
+        a           dpv:DataController ;
+        rdfs:label  "Data Controller" .
+&lt;ipfs://someCID/Susy&gt;
+        a           dpv:DataSubject ;
+        rdfs:label  "Data Subject" .
+&lt;ipfs://someCID/permission0&gt;
+        a                       mvco:Permission ;
+        mco-core:implements     &lt;ipfs://someCID/textClause1&gt; ;
+        mvco:issuedBy           &lt;ipfs://someCID/Catullo&gt; ;
+        mco-core:permitsAction  &lt;ipfs://someCID/actionConsult&gt; ;
+        mco-core:hasRequired    &lt;ipfs://someCID/factConsent&gt;.
+&lt;ipfs://someCID/latLonXY&gt;
+        a               dpv:PseudoAnonymisedData .
+&lt;ipfs://someCID/locationDataZ&gt;
+        a                       dpv:SensitivePersonalData ;
+        mvco:isMadeUpOf         &lt;ipfs://someCID/latLonXY&gt; ;
+&lt;ipfs://someCID/actionConsult&gt;
+        a               dpv:Consult ;
+        mvco:actedBy    &lt;ipfs://someCID/Pippo&gt; ;
+        mvco:actedOver  &lt;ipfs://someCID/locationDataZ&gt; .
+&lt;ipfs://someCID/factConsent&gt;
+        a                       dpv:Consent ;
+        dpv:hasDataSubject      &lt;ipfs://someCID/Susy&gt; ;
+        dpv:hasDataController   &lt;ipfs://someCID/Catullo&gt; ;
+        dpv:hasPurpose          &lt;ipfs://someCID/purpose1&gt; ;
+        dpv:hasProcessing       &lt;ipfs://someCID/processing1&gt; .
+&lt;ipfs://someCID/purpose1&gt;
+        a               dpv:SocialMediaMarketing .
+&lt;ipfs://someCID/processing1&gt;
+        a               dpv:Consult .
+</code></pre></div></div>
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Wikipedia community. <em>Single point of failure.</em> (2022).
+<a href="https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure">ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure</a></li>
+  <li>Galloway, Alexander R. <em>Protocol: How control exists after decentralization.</em> MIT press, 2004.</li>
+  <li>Bakos, Yannis, Hanna Halaburda, and Christoph Mueller-Bloch. <em>“When permissioned blockchains deliver more decentralization than permissionless.”</em> Communications of the ACM 64.2 (2021): 20-22.</li>
+  <li>Lopez, Pedro Garcia, Alberto Montresor, and Anwitaman Datta. <em>“Please, do not decentralize the Internet with (permissionless) blockchains!.”</em> 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS). IEEE, 2019.</li>
+  <li>Wikipedia community. <em>Decentralised system.</em> (2022).
+<a href="https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Decentralised_system">ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Decentralised_
+system</a></li>
+  <li>Nakamoto, Satoshi. <em>“A peer-to-peer electronic cash system.”</em> (2008).</li>
+  <li>Schneier, Bruce. <em>Blockchain and trust.</em> (2019). <a href="https://www.schneier.com/blog/archives/2019/02/blockchain_and_.html">https://www.schneier.com/blog/archives/2019/02/blockchain<em>and</em>.html</a></li>
+  <li>Trail of Bits (2022). <em>Are blockchains decentralized?</em> <a href="https://assets-global.website-files.com/5fd11235b3950c2c1a3b6df4/62af6c641a672b3329b9a480_Unintended_Centralities_in_Distributed_Ledgers.pdf">https://assets-global.website-files.com/5fd11235b3950c2c1a3b6df4/62af6c641a672b3329b9a480_Unintended_Centralities_in_Distributed_Ledgers.pdf</a></li>
+  <li>Bakarich, Kathleen. <em>“Using a Permissioned Blockchain?.”</em> The CPA Journal 91.6/7 (2021): 48-51.</li>
+  <li>European Commission. <em>A European Strategy for data.</em> (2020). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066</a></li>
+  <li>Janssen, Heleen and Jatinder Singh. <em>“Data intermediary”.</em> Internet Policy Review 11.1 (2022). <a href="https://policyreview.info/glossary/data-intermediary">https://policyreview.info/glossary/data-intermediary</a></li>
+  <li>Hardjono, Thomas, David L. Shrier, and Alex Pentland. <em>Trusted Data, revised and expanded edition: A New Framework for Identity and Data Sharing.</em> MIT Press, 2019.</li>
+</ol>
+
+    
+
+
+
+<div class="post-tags">
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/projects/2022/10/01/DecentDIS.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/projects/2022/10/01/DecentDIS.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//mirkozichichi.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>
