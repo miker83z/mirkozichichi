@@ -5,6 +5,8 @@ date: 2022-10-01 21:08:00 +0200
 categories: projects
 ---
 
+([versione in italiano](https://mirkozichichi.medium.com/un-decentdis-costruendo-un-servizio-di-intermediazione-dei-dati-decent-ralizzato-3197ff58030e))
+
 > **Single point of failure**: part of a system that, if it fails, will stop the entire system from working [1].
 
 Arguably, the existence of a single point of failure involves our lives in many ways. The centralization of power in a few entities' hands is likely to threaten many aspects of our daily lives significantly. Life on the Internet now covers most of our day-to-day routines, and, in this very system consisting of computer networks, the founding principle is control and not freedom, as desired at its inception [2]. This may be due to many factors, such as the spontaneous emergence of hierarchies in natural systems [3] or market dynamics effects, such as preferential attachment and the manifestation of the power law [4].
@@ -33,7 +35,7 @@ Permissioned blockchains might resemble append-only distributed databases that a
 
 ### Solving one threat at a time: de-centralize personal data management
 
-> Blockchains can provide individuals with impossible functionalities in traditional cloud services. In particular, they favor the creation of decentralized Personal Information Management Systems (PIMS), guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.
+> Blockchains can provide individuals with functionalities that are impossible in traditional cloud services. In particular, they favor the creation of **decentralized Personal Information Management Systems (PIMS)**, guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.
 
 Permissioned decentralized systems, including blockchains, can be pivotal in placing individuals at the center of personal data management and in relieving the absence of technical instruments and standards that make the exercise of one’s rights simple and not excessively burdensome (as envisioned in the European strategy for data [10]).
 Decentralized PIMS can be considered consent management tools or trusts built on distributed software architectures that act as new neutral intermediaries in the personal data economy. These empower individuals with tools and means to decide at a granular level what is done with their data to provide, among many benefits, greater oversight and transparency over the data.
@@ -56,8 +58,8 @@ Data intermediary services (DIS) can be built based on permissioned decentralize
 
 This project aims to create an infrastructure for the joint management of data intermediary services. A permissioned network of intermediaries provides:
 
-1. an IPFS-protocol-based Personal Data Space (PDS) to store data,
-2. an Ethereum-based private blockchain to provide a distributed authorization mechanism, and
+1. an IPFS-protocol-based [13] Personal Data Space (PDS) to store data,
+2. an Ethereum-based [14] private blockchain to provide a distributed authorization mechanism, and
 3. a distributed execution of codified policies based on standard ontologies to reply to data requests.
 
 Data are encrypted and stored in the PDS, while blockchain's smart contracts govern their access. Data subjects select their data-sharing policies in an intelligible and machine-readable way. Data holders (or subjects themselves) manage data and encryption keys through a threshold cryptosystem. Intermediaries assist both by executing policies through smart contracts and distributing keys to eligible data recipients. Hash-based URIs, together with an on-chain token representation, enable the indexing and validation of data, policies, and their relation. The private blockchain enables the tracing of data access and policies, and its untamperability is strengthened through a multi-DLT architecture, in which periodical commitments are stored in a permissionless DLT.
@@ -74,13 +76,13 @@ For the encryption, decryption, and keys distribution phase, a Threshold Proxy R
 ##### Decentralized intelligible identity and certification based on DID and VC and IPFS storage
 
 DOI: [10.5281/zenodo.7132777](https://doi.org/10.5281/zenodo.7132777)
-The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID), i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
-The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain. Intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.
+The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID) [15], i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
+The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain; (iii) a metadata document. In this document, intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.
 
 ##### Handling policies in smart contracts based on access control and DPV ontology
 
 DOI: [10.5281/zenodo.7132775](https://doi.org/10.5281/zenodo.7132775)
-The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL or the MPEG-21 framework. Those are integrated with the Data Privacy Vocabulary (DPV), i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:
+The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL [16] or the MPEG-21 framework [17]. Those are integrated with the Data Privacy Vocabulary (DPV) [18], i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:
 
 ```
 <ipfs://someCID/Pippo>
@@ -119,7 +121,7 @@ The general idea is to enforce policies and enable access control mechanisms and
         a               dpv:Consult .
 ```
 
-## References
+### References
 
 1. Wikipedia community. _Single point of failure._ (2022).
    [ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure](https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Single_point_of_failure)
@@ -136,3 +138,10 @@ The general idea is to enforce policies and enable access control mechanisms and
 10. European Commission. _A European Strategy for data._ (2020). [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066)
 11. Janssen, Heleen and Jatinder Singh. _"Data intermediary"._ Internet Policy Review 11.1 (2022). [https://policyreview.info/glossary/data-intermediary](https://policyreview.info/glossary/data-intermediary)
 12. Hardjono, Thomas, David L. Shrier, and Alex Pentland. _Trusted Data, revised and expanded edition: A New Framework for Identity and Data Sharing._ MIT Press, 2019.
+13. InterPlanetary File System (IPFS), [https://ipfs.io/](https://ipfs.io/)
+14. Ethereum, [https://ethereum.org/](https://ethereum.org/)
+15. Decentralized Identifier (DID), [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
+16. Open Digital Rights Language (ODRL), [https://www.w3.org/TR/odrl-model/](https://www.w3.org/TR/odrl-model/)
+17. Wikipedia community. _MPEG-21._ (2022).
+    [ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/MPEG-21](https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/MPEG-21)
+18. Data Privacy Vocabulary (DPV), [https://w3c.github.io/dpv/dpv/](https://w3c.github.io/dpv/dpv/)

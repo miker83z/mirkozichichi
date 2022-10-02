@@ -64,7 +64,7 @@ My PhD thesis title is: _''Decentralized Systems for the Protection and Portabil
           <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022).</i> 7-9 September 2022, Limassol, Cyprus (pp. 1-11).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://cyprusconferences.org/goodit2022/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3524458.3547230"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
         </td>

@@ -108,7 +108,7 @@ title: Research
           <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022).</i> 7-9 September 2022, Limassol, Cyprus (pp. 1-11).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://cyprusconferences.org/goodit2022/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3524458.3547230"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
         </td>
@@ -121,7 +121,7 @@ title: Research
           <i>in Proc. of the 5th IEEE International Conference on Blockchain (IEEE Blockchain 2022).</i> 22 - 25 August 2022, Espoo, Finland (pp. 1-7).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://www.blockchain-ieee.org/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/Blockchain55522.2022.00023"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/26decentralized.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/26decentralized.bib"></a>
         </td>
@@ -134,7 +134,7 @@ title: Research
           <i>in Proc. of the 31st International Conference on Computer Communications and Networks (ICCCN 2022).</i> 25 - 27 July 2022, Honolulu, Hawaii (pp. 1-7).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://icccn.org/icccn22/wp-content/uploads/2022/ICCCN%2022-Combined-Final-program-5-20-2022.pdf"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICCCN54977.2022.9868916"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/25dlt.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/25dlt.bib"></a>
         </td>
