@@ -513,6 +513,17 @@ title: Tutoring
         <td>
           Zichichi Mirko
           <br>
+          <b>Decentralized Systems for the Protection and Portability of Personal Data​ (Short Thesis Presentation)</b>,
+          <a href="https://last-jd-rioe.eu/" target="_blank"><i>LAST-JD-RIoE November 2022 Board in Bologna.</i></a>  October 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/shortthesis.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
           <b>Smart Legal Contracts​</b>,
           <a href="https://protect.oeg.fi.upm.es/cercedilla/" target="_blank"><i>PROTECT Workshop in Cercedilla.</i></a>  June 2022.
         </td>

@@ -83,8 +83,6 @@ title: Research
 
 ---
 
----
-
 ## Book Chapters
 
 <table>
