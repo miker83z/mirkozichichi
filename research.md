@@ -64,6 +64,27 @@ title: Research
 
 ---
 
+## International Standard
+
+<table>
+    <tr>
+        <td>
+          [S1] ISO/IEC JTC 1/SC 29 Technical Committee,
+          <br>
+          <b> ISO/IEC 21000-23 Information technology — Multimedia framework (MPEG-21) — Part 23: Smart Contracts for Media</b>
+          , 2022.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.iso.org/standard/82527.html"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/smartcontractformedia.bib"></a>
+        </td>
+    </tr>
+</table>
+
+---
+
+---
+
 ## Book Chapters
 
 <table>
@@ -72,10 +93,10 @@ title: Research
           [B1] Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>	Blockchain-based Data Management for Smart Transportation</b>,
-          <i>Handbook on Blockchain, Springer Nature.</i> First Half 2022.
+          <i>Handbook on Blockchain, Springer Nature.</i> Duc A. Tran, My T. Thai, Bhaskar Krishnamachari (Editors). 2022.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://link.springer.com/book/9783031075346"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1007/978-3-031-07535-3_20"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/21blockchain.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/21blockchain.bib"></a>
         </td>
@@ -89,13 +110,35 @@ title: Research
 <table>
     <tr>
         <td>
+          [C27] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>On the Decentralization of Health Systems for Data Availability: a DLT-based Architecture</b>,
+          <i>Proc. of the 2023 IEEE 20th Annual Consumer Communications \& Networking Conference (CCNC 2023).</i> 8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://ccnc2023.ieee-ccnc.org/program"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C26] Rossini Martina, Zichichi Mirko, Ferretti Stefano, 
+          <br>
+          <b>Smart Contracts Vulnerability Classification Through Deep Learning</b>,
+          <i>in Proc. of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys 2022).</i> 6-9 November 2022, Boston, United States (pp. 1-2).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://acmblocksys.github.io/blocksys2022/BlockSys-Program-2022.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C25] Serena Luca, Li AoXuan, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano, Tang Su-Kit, 
           <br>
           <b>Simulation of the Internet Computer Protocol: the Next Generation Multi-Blockchain Architecture</b>,
           <i>in Proc. of the 2022 IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS-RT 2022).</i> 26-28 September 2022, Alès, France (pp. 1-8).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="http://ds-rt.com/2022/"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/DS-RT55542.2022.9932122"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/30simulation3.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/30simulation3.bib"></a>
         </td>
