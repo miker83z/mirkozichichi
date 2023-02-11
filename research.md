@@ -115,6 +115,8 @@ title: Research
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://ccnc2023.ieee-ccnc.org/program"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/32decentralization.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/32decentralization.bib"></a>
         </td>
     </tr>
     <tr>
@@ -125,7 +127,9 @@ title: Research
           <i>in Proc. of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys 2022).</i> 6-9 November 2022, Boston, United States (pp. 1-2).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://acmblocksys.github.io/blocksys2022/BlockSys-Program-2022.pdf"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/DS-RT55542.2022.9932122"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/31smart.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/31smart.bib"></a>
         </td>
     </tr>
     <tr>

@@ -7,6 +7,23 @@ title: Tutoring
 
 ## Tutoring
 
+#### 2022/2023
+
+<table>
+    <tr>
+        <td>
+          Lecturer (9h)
+        </td>
+        <td>
+          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <i>Single Cycle Degree in Law</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/472765"></a>
+        </td>
+    </tr>
+</table>
+
 #### 2021/2022
 
 <table>
@@ -509,6 +526,17 @@ title: Tutoring
 ## Slides
 
 <table>
+    <tr>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>ERC-20 Tokens, NFT and DAO</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/472765" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  November 2022.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/smartcontractgiur2022.pdf"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           Zichichi Mirko
