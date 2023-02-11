@@ -127,7 +127,7 @@ title: Research
           <i>in Proc. of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys 2022).</i> 6-9 November 2022, Boston, United States (pp. 1-2).
         </td>
         <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/DS-RT55542.2022.9932122"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3560905.3568175"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/31smart.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/31smart.bib"></a>
         </td>
