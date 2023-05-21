@@ -10,6 +10,32 @@ title: Research
 <table>
     <tr>
         <td>
+          [J6] Zichichi Mirko, D'Angelo Gabriele, Marzolla Moreno, Ferretti Stefano
+          <br>
+          <b>	Accountable Clouds through Blockchain</b>,
+          <i>IEEE Access, IEEE.</i> May 2023.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/ACCESS.2023.3276240"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/34accountable.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/34accountable.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [J5] Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele
+          <br>
+          <b>	InDaMul: Incentivized Data Mules for Opportunistic Networking Through Smart Contracts and Decentralized Systems</b>,
+          <i>Distributed Ledger Technologies: Research and Practice, ACM.</i> March 2023.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1145/3587696"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/33indamul.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/33indamul.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [J4] Zichichi Mirko, Ferretti Stefano, Rodríguez-Doncel Victor
           <br>
           <b>	Decentralized Personal Data Marketplaces: How Participation in a DAO Can Support the Production of Citizen-Generated Data</b>,
@@ -108,13 +134,65 @@ title: Research
 <table>
     <tr>
         <td>
+          [C31] Bonini Michele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>Proof of Location through a Blockchain Agnostic Smart Contract Language</b>,
+          <i>in Proc. of the 1st Workshop on Fintech and Decentralized Finance (FiDeFix), co-located with the 43rd IEEE International Conference on Distributed Computing Systems (ICDCS 2023).</i> July 18-21, 2023, Hong Kong, China (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://sites.google.com/uniurb.it/fidefix-2023/home"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/38proof.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/38proof.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C30] Zichichi Mirko, Bomprezzi Chantal, Sorrentino Giovanni, Palmirani Monica 
+          <br>
+          <b>Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland</b>,
+          <i>in Proc. of the 5th Distributed Ledger Technology Workshop.</i> May 25-26, 2023, Bologna, Italy (pp. 1-12).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html#prog"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/37protecting.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/37protecting.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C29] Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio, 
+          <br>
+          <b>A Decentralized Data Sharing Framework based on a Key-Redistribution method</b>,
+          <i>in Proc. of the 5th Distributed Ledger Technology Workshop.</i> May 25-26, 2023, Bologna, Italy (pp. 1-16).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html#prog"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/36decentralized.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/36decentralized.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C28] Rossini Martina, Zichichi Mirko, Ferretti Stefano, 
+          <br>
+          <b>On the Use of Deep Neural Networks for Security Vulnerabilities Detection in Smart Contracts</b>,
+          <i>in Proc. of the 4th Workshop on Blockchain theoRy and ApplicatIoNs (BRAIN 2023), co-located with the 21nd International Conference on Pervasive Computing and Communications (PerCom 2023), IEEE.</i> March 13-17, 2023, Atlanta, Georgia (USA) (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://sites.google.com/view/brain-2023/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/35deep.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/35deep.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C27] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>On the Decentralization of Health Systems for Data Availability: a DLT-based Architecture</b>,
           <i>Proc. of the 2023 IEEE 20th Annual Consumer Communications \& Networking Conference (CCNC 2023).</i> 8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://ccnc2023.ieee-ccnc.org/program"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC51644.2023.10059701"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/32decentralization.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/32decentralization.bib"></a>
         </td>
@@ -433,7 +511,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C2] Zichichi Mirko, Rodriguez-Doncel Victor, Ferretti Stefano,
+          [C2] Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano,
           <br>
           <b>The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability</b>,
           <i>in AI Approaches to the Complexity of Legal Systems XI-XII.</i> JURIX 2019 Workshop. December 2019, Madrid, Spain (pp. 328-355).
@@ -464,6 +542,18 @@ title: Research
 ## Theses
 
 <table>
+    <tr>
+        <td>
+          [PhD] Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano,
+          <br>
+          <b>Decentralized Systems for the Protection and Portability of Personal Data</b>,
+          <i>University of Madrid - University of Bologna.</i> April 2023, Madrid, Spain.
+        </td>
+        <td>
+          <a class="get get_download" target="_blank" href="/assets/papers/phddesp3d.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/phdslides.pdf"></a>
+        </td>
+    </tr>
     <tr>
         <td>
           [MSc] Zichichi Mirko, Ferretti Stefano,

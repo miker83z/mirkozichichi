@@ -23,9 +23,9 @@ highlighter: rouge
 remote_theme: fongandrew/hydeout
 
 title: Mirko Zichichi
-email: mirko.zichichi@upm.es
+email: mirko.zichichi@iota.org
 description: >- # this means to ignore newlines until "baseurl:"
-  <b>MSCA ITN Early Stage Researcher</b> in <br> <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law, Science and Technology</a></em>
+  <b>Research Scientist</b> at <em><a href="https://www.iota.org/foundation/research-department" target="_blank">IOTA Foundation</a></em> <br> PhD in <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law, Science and Technology (MSCA Grant)</a></em>
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://mirkozichichi.me/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miker83z
