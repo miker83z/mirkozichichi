@@ -6,6 +6,47 @@ sidebar_sort_order: 123
 
 ---
 
+### 2023
+
+<table>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>GoodIT 2023</b>,
+           Special track Blockchain and Decentralized technologies for social good (BANDIT)
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://sites.google.com/unipi.it/bandit2023/home"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>FiDeFix 2023</b>,
+          ICDCS Workshop - 1st Workshop on Fintech and Decentralized Finance
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://sites.google.com/uniurb.it/fidefix-2023/home"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          TPC member
+        </td>
+        <td>
+          <b>Blockchain 2023</b>,
+           International Congress on Blockchain and Applications
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.blockchain-congress.net/"></a>
+        </td>
+    </tr>
+</table>
+
 ### 2022
 
 <table>

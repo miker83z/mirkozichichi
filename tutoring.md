@@ -12,6 +12,30 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Lecturer (4h)
+        </td>
+        <td>
+          <b>IT Law and Legal Informatics</b>,
+          <i>Professional Master's Programme 1st Level</i>, University of Bologna.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://master.unibo.it/ict-law/en"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Lecturer (3h)
+        </td>
+        <td>
+          <b>Legal Tech & Blockchain </b>,
+          <i>Single cycle degree programme (LMCU) in Law and Bachelor's Degree in Legal Consultant in Business and Public Administration</i>, University of Bologna (Ravenna Campus).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467332"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Lecturer (9h)
         </td>
         <td>
@@ -164,6 +188,42 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          [MSc] Bonini Michele, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>Proof of Location through a Blockchain Agnostic Smart Contract Language: Design and Evaluation over Algorand and Ethereum</b>,
+          <i>University of Bologna.</i> December 2022, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/27599/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscbonini.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Fazzini Emanuele, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>Keyword-based multimedia data lookup in decentralized systems</b>,
+          <i>University of Bologna.</i> December 2022, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/27598/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscfazzini.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Mioli Riccardo, Ferretti Stefano, Zichichi Mirko,
+          <br>
+          <b>Trasferimento di Token Inter-Blockchain: attacchi e soluzioni in uno scenario di Blockchain locali</b>,
+          <i>University of Bologna.</i> July 2022, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/26222/"></a>
+          <a class="get get_download" target="_blank" href="/assets/tutor/theses/mscmioli.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [BSc] Matteo Serafini, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Implementation of a Smart Contract based System for Traceability in Agrifood</b>,
@@ -182,7 +242,7 @@ title: Tutoring
           <i>University of Bologna.</i> December 2021, Bologna, Italy.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/24899/"></a>
           <a class="get get_download" target="_blank" href="/assets/tutor/theses/msctallaros.pdf"></a>
         </td>
     </tr>
@@ -194,7 +254,7 @@ title: Tutoring
           <i>University of Bologna.</i> October 2021, Bologna, Italy.
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/"></a>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/24250/"></a>
           <a class="get get_download" target="_blank" href="/assets/tutor/theses/msclapiana.pdf"></a>
         </td>
     </tr>

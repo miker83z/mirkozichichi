@@ -590,6 +590,17 @@ title: Research
         <td>
           Zichichi Mirko,
           <br>
+          <b> NFTicket for the Metaverse</b>,
+          <i> Proof-of-concept implementation of a NFT that performs an Anonymous Credentials Verification before minting a Ticket.</i> March 2023.
+        </td>
+        <td>
+          <a class="get get_github" target="_blank" href="https://github.com/miker83z/nfticket"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Zichichi Mirko,
+          <br>
           <b>[desp3d] The PhD Thesis Software Repository</b>,
           <i> A set of software modules that support the work behind the PhD thesis.</i> May 2022.
         </td>
