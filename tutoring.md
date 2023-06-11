@@ -588,6 +588,17 @@ title: Tutoring
 <table>
     <tr>
         <td>
+          Zichichi Mirko, Giovanni Sorrentino
+          <br>
+          <b>Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland</b>,
+          <a href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html" target="_blank"><i>Distributed Ledger Technologies 2023 (workshop).</i></a> May 2023.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dlt2023.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           Zichichi Mirko
           <br>
           <b>ERC-20 Tokens, NFT and DAO</b>,
