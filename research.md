@@ -10,6 +10,32 @@ title: Research
 <table>
     <tr>
         <td>
+          [J8] Zichichi Mirko, Rodríguez-Doncel Victor
+          <br>
+          <b>	Encoding of Media Value Chain Processes Through Blockchains and MPEG-21 Smart Contracts for Media</b>,
+          <i>IEEE MultiMedia, IEEE.</i> August 2023.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/MMUL.2023.3303393"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/41encoding.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/41encoding.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [J7] Pocher Nadia, Zichichi Mirko, Merizzi Fabio, Shafiq Muhammad Zohaib, Ferretti Stefano
+          <br>
+          <b>	Detecting anomalous cryptocurrency transactions: An AML/CFT application of machine learning-based forensics</b>,
+          <i>Electronic Markets, Springer.</i> July 2023.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1007/s12525-023-00654-3"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/40detecting.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/40detecting.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [J6] Zichichi Mirko, D'Angelo Gabriele, Marzolla Moreno, Ferretti Stefano
           <br>
           <b>	Accountable Clouds through Blockchain</b>,
@@ -17,8 +43,8 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/ACCESS.2023.3276240"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/34accountable.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/34accountable.bib"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/35accountable.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/35accountable.bib"></a>
         </td>
     </tr>
     <tr>
@@ -30,8 +56,8 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1145/3587696"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/33indamul.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/33indamul.bib"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/34indamul.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/34indamul.bib"></a>
         </td>
     </tr>
     <tr>
@@ -134,67 +160,119 @@ title: Research
 <table>
     <tr>
         <td>
-          [C31] Bonini Michele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
+          [C35] Gigli Lorenzo, Montori Federico, Zichichi Mirko, Bedogni Luca, Ferretti Stefano, Di Felice Marco,
+          <br>
+          <b>On the decentralization of Mobile Crowdsensing in Distributed Ledgers: an architectural vision</b>,
+          <i>in Proc. of the 2024 IEEE 21th Annual Consumer Communications \& Networking Conference (CCNC 2024).</i> 6 – 9 January 2024, Las Vegas, Nevada, USA (pp. 1-7).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://ccnc2024.ieee-ccnc.org/program"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/44decentralization.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/44decentralization.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C34] Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio,
+          <br>
+          <b>DLT-Based Personal Data Access Control with Key-Redistribution</b>,
+          <i>in Proc. of the 2023 Fifth International Conference on Blockchain Computing and Applications (BCCA).</i> October 24-26, 2023, Kuwait, Kuwait (pp. 1-8).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/BCCA58897.2023.10338895"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/43dlt.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/43dlt.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C33] Fazzini Emanuele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
+          <br>
+          <b>Keyword-based multimedia data lookup in decentralized systems</b>,
+          <i>in Proc. of the 2023 International Conference on Information and Communication Technologies for Disaster Management (ICT-DM).</i> September 13-15, 2023, Cosenza, Italy (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/ICT-DM58371.2023.10286930"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/42keyword.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/42keyword.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C32] Bonini Michele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>Proof of Location through a Blockchain Agnostic Smart Contract Language</b>,
           <i>in Proc. of the 1st Workshop on Fintech and Decentralized Finance (FiDeFix), co-located with the 43rd IEEE International Conference on Distributed Computing Systems (ICDCS 2023).</i> July 18-21, 2023, Hong Kong, China (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://sites.google.com/uniurb.it/fidefix-2023/home"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/38proof.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/38proof.bib"></a>
+          <a class="get get_doi" target="_blank" href="http://dx.doi.org/10.1109/ICDCSW60045.2023.00016"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/39proof.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/39proof.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C30] Zichichi Mirko, Bomprezzi Chantal, Sorrentino Giovanni, Palmirani Monica 
+          [C31] Zichichi Mirko, Bomprezzi Chantal, Sorrentino Giovanni, Palmirani Monica 
           <br>
           <b>Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland</b>,
           <i>in Proc. of the 5th Distributed Ledger Technology Workshop.</i> May 25-26, 2023, Bologna, Italy (pp. 1-12).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html#prog"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/37protecting.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/37protecting.bib"></a>
+          <a class="get get_external" target="_blank" href="https://ceur-ws.org/Vol-3460/papers/DLT_2023_paper_13.pdf"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/38protecting.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/38protecting.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C29] Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio, 
+          [C30] Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio, 
           <br>
           <b>A Decentralized Data Sharing Framework based on a Key-Redistribution method</b>,
           <i>in Proc. of the 5th Distributed Ledger Technology Workshop.</i> May 25-26, 2023, Bologna, Italy (pp. 1-16).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html#prog"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/36decentralized.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/36decentralized.bib"></a>
+          <a class="get get_external" target="_blank" href="https://ceur-ws.org/Vol-3460/papers/DLT_2023_paper_5.pdf"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/37decentralized.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/37decentralized.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C28] Rossini Martina, Zichichi Mirko, Ferretti Stefano, 
+          [C29] Rossini Martina, Zichichi Mirko, Ferretti Stefano, 
           <br>
           <b>On the Use of Deep Neural Networks for Security Vulnerabilities Detection in Smart Contracts</b>,
           <i>in Proc. of the 4th Workshop on Blockchain theoRy and ApplicatIoNs (BRAIN 2023), co-located with the 21nd International Conference on Pervasive Computing and Communications (PerCom 2023), IEEE.</i> March 13-17, 2023, Atlanta, Georgia (USA) (pp. 1-6).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://sites.google.com/view/brain-2023/"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/35deep.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/35deep.bib"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150302"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/36deep.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/36deep.bib"></a>
         </td>
     </tr>
     <tr>
         <td>
-          [C27] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
+          [C28] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>On the Decentralization of Health Systems for Data Availability: a DLT-based Architecture</b>,
           <i>Proc. of the 2023 IEEE 20th Annual Consumer Communications \& Networking Conference (CCNC 2023).</i> 8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC51644.2023.10059701"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/32decentralization.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/32decentralization.bib"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/33decentralization.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/33decentralization.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C27] Pocher Nadia, Zichichi Mirko, Ferretti Stefano, 
+          <br>
+          <b>AML/CFT/CPF Endeavors in the Crypto-space: From Blockchain Analytics to Machine Learning</b>,
+          <i>in Proc. of Selected Papers of the Workshop on Artificial Intelligence Governance Ethics and Law (AIGEL 2022).</i> November 02 - December 19 2022, Barcelona, Spain (pp. 1-10).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://ceur-ws.org/Vol-3531/SPaper_11.pdf"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/32aml.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/32aml.bib"></a>
         </td>
     </tr>
     <tr>
@@ -283,7 +361,7 @@ title: Research
           <i>in Proc. of the 4th International Congress on Blockchain and Applications (Blockchain 22).</i> 13 - 15 July 2022, L'Aquila, Italy (pp. 1-10).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://www.blockchain-congress.net/programme"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1007/978-3-031-21229-1_1"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/23modelling.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/23modelling.bib"></a>
         </td>

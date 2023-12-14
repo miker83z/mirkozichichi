@@ -74,6 +74,19 @@ My PhD thesis title is: _''Decentralized Systems for the Protection and Portabil
     </tr>
     <tr>
         <td>
+          [J8] Zichichi Mirko, Rodríguez-Doncel Victor
+          <br>
+          <b>	Encoding of Media Value Chain Processes Through Blockchains and MPEG-21 Smart Contracts for Media</b>,
+          <i>IEEE MultiMedia, IEEE.</i> August 2023.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.1109/MMUL.2023.3303393"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/41encoding.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/41encoding.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C24] Casale-Brunet Simone, Zichichi Mirko, Hutchinson Lee, Mattavelli Marco, Ferretti Stefano,
           <br>
           <b>The impact of NFT profile pictures within social network communities</b>,
@@ -83,19 +96,6 @@ My PhD thesis title is: _''Decentralized Systems for the Protection and Portabil
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3524458.3547230"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          [J4] Zichichi Mirko, Ferretti Stefano, Rodríguez-Doncel Victor
-          <br>
-          <b>	Decentralized Personal Data Marketplaces: How Participation in a DAO Can Support the Production of Citizen-Generated Data</b>,
-          <i>Sensors, MDPI.</i> August 2022.
-        </td>
-        <td>
-          <a class="get get_doi" target="_blank" target="_blank" href="https://doi.org/10.3390/s22166260"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/28decentralized2.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/28decentralized2.bib"></a>
         </td>
     </tr>
 </table>
