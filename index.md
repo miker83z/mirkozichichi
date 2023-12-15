@@ -17,13 +17,13 @@ title: Home
   &rarr; <b>Born</b> in <b>Palermo</b>, Sicily (1995).
 </p>
 
-PhD in [_Law, Science, and Technology Joint Doctorate - MSCA grant for the project Rights
+I am currently involved in the research and development of Layer 1 Smart Contract solutions. I am PhD in [_Law, Science, and Technology Joint Doctorate - MSCA grant for the project Rights
 of Internet of Everything_](https://last-jd-rioe.eu/).
 My PhD thesis title is: _''Decentralized Systems for the Protection and Portability of Personal Data.''_
 
 ---
 
-## Labs/Projects/Affiliations
+## Current Affiliation
 
 - [Research Department](https://www.iota.org/foundation/research-department), IOTA Foundation
 
