@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      Perché l'attuale paradigma di protezione e portabilità dei dati personali dovrebbe essere cambiato? &middot; Mirko Zichichi
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <p class="lead"><img class="responsive-image" src="/profilepic.jpg" alt="Photo"></p> 
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Mirko Zichichi        
+      </a>
+    </div>
+    <p class="lead"><b>Engineering Team Lead</b> at <em><a href="https://www.iota.org/foundation/team" target="_blank">IOTA Foundation</a></em></p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+
+  
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/projects.html">Projects</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/research.html">Research</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/talks.html">Talks & Activities</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/tutoring.html">Tutoring</a>
+    
+  
+
+  
+    
+  
+
+  
+  
+    <a class="page-link "
+	href="/blog/">Blog</a>
+  
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+  
+
+  <nav id="sidebar-icon-links">
+         <!-- Optional additional links to insert for icons links -->
+
+<a
+  id="linkedin-link"
+  class="icon"
+  target="_blank"
+  title="LinkedIn"
+  aria-label="LinkedIn"
+  href="https://www.linkedin.com/in/mirko-zichichi-63a803100/"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>linkedin</title><path d='M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z'/></svg>
+</a>
+<a
+  id="github-link"
+  class="icon"
+  target="_blank"
+  title="github"
+  aria-label="github"
+  href="https://www.github.com/miker83z"
+>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+</a>
+<a
+  id="scholar-link"
+  class="icon"
+  target="_blank"
+  title="Google Scholar"
+  aria-label="Google Scholar"
+  href="https://scholar.google.com/citations?user=ikI56qoAAAAJ"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>google scholar</title><path d='M256,368a16,16,0,0,1-7.94-2.11L108,285.84a8,8,0,0,0-12,6.94V368a16,16,0,0,0,8.23,14l144,80a16,16,0,0,0,15.54,0l144-80A16,16,0,0,0,416,368V292.78a8,8,0,0,0-12-6.94L263.94,365.89A16,16,0,0,1,256,368Z'/><path d='M495.92,190.5s0-.08,0-.11a16,16,0,0,0-8-12.28l-224-128a16,16,0,0,0-15.88,0l-224,128a16,16,0,0,0,0,27.78l224,128a16,16,0,0,0,15.88,0L461,221.28a2,2,0,0,1,3,1.74V367.55c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,496,368V192A14.76,14.76,0,0,0,495.92,190.5Z'/></svg>
+</a>
+<a
+  id="researchgate-link"
+  class="icon"
+  target="_blank"
+  title="Researchgate"
+  aria-label="Researchgate"
+  href="https://www.researchgate.net/profile/Mirko_Zichichi"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>researchgate</title><path d='M256,64C150.13,64,64,150.13,64,256s86.13,192,192,192,192-86.13,192-192S361.87,64,256,64Zm91.31,283.31a16,16,0,0,1-22.62,0l-42.84-42.83a88.08,88.08,0,1,1,22.63-22.63l42.83,42.84A16,16,0,0,1,347.31,347.31Z'/><circle cx='232' cy='232' r='56'/></svg>
+</a>
+<a
+  id="orcid-link"
+  class="icon"
+  target="_blank"
+  title="Orcid"
+  aria-label="Orcid"
+  href="https://orcid.org/0000-0002-4159-4269"
+>
+  <?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><link xmlns="" type="text/css" id="dark-mode" rel="stylesheet" href=""/><style xmlns="" type="text/css" id="dark-mode-custom-style"/>
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>orcid</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero" transform="translate(-924.000000, -72.000000)" fill-rule="nonzero">
+            <g id="Group-4">
+                <g id="vector_iD_icon" transform="translate(924.000000, 72.000000)">
+                    <path d="M72,36 C72,55.884375 55.884375,72 36,72 C16.115625,72 0,55.884375 0,36 C0,16.115625 16.115625,0 36,0 C55.884375,0 72,16.115625 72,36 Z" id="Path" fill="#DCDCDC"/>
+                    <g id="Group" transform="translate(18.868966, 12.910345)" fill="#161616">
+                        <polygon id="Path" points="5.03734929 39.1250878 0.695429861 39.1250878 0.695429861 9.14431787 5.03734929 9.14431787 5.03734929 22.6930505 5.03734929 39.1250878"/>
+                        <path d="M11.409257,9.14431787 L23.1380784,9.14431787 C34.303014,9.14431787 39.2088191,17.0664074 39.2088191,24.1486995 C39.2088191,31.846843 33.1470485,39.1530811 23.1944669,39.1530811 L11.409257,39.1530811 L11.409257,9.14431787 Z M15.7511765,35.2620194 L22.6587756,35.2620194 C32.49858,35.2620194 34.7541226,27.8438084 34.7541226,24.1486995 C34.7541226,18.1301509 30.8915059,13.0353795 22.4332213,13.0353795 L15.7511765,13.0353795 L15.7511765,35.2620194 Z" id="Shape"/>
+                        <path d="M5.71401206,2.90182329 C5.71401206,4.441452 4.44526937,5.72914146 2.86638958,5.72914146 C1.28750978,5.72914146 0.0187670918,4.441452 0.0187670918,2.90182329 C0.0187670918,1.33420133 1.28750978,0.0745051096 2.86638958,0.0745051096 C4.44526937,0.0745051096 5.71401206,1.36219458 5.71401206,2.90182329 Z" id="Path"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+<a
+  id="skype-link"
+  class="icon"
+  target="_blank"
+  title="mirko.zichichi"
+  aria-label="mirko.zichichi"
+  href="skype:mirko.zichichi?chat"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>mirko.zichichi</title><path d='M467.16,303.6a205.69,205.69,0,0,0,4.9-45.15c0-116.32-95.69-210.7-213.79-210.7a221.83,221.83,0,0,0-36.52,3A123.58,123.58,0,0,0,155.93,32C87.55,32,32,86.72,32,154.15A119.56,119.56,0,0,0,49,216a211.16,211.16,0,0,0-4.32,42.35c0,116.44,95.69,210.7,213.67,210.7a214,214,0,0,0,39.09-3.5A125.45,125.45,0,0,0,356.07,480C424.57,480,480,425.28,480,357.85A118,118,0,0,0,467.16,303.6ZM368,359c-9.92,13.76-24.51,24.73-43.41,32.43S283.36,403,257.69,403c-30.69,0-56.36-5.37-76.55-15.87a101,101,0,0,1-35.24-30.8c-9.11-12.83-13.66-25.66-13.66-38,0-7.7,3-14.35,8.87-19.95,5.84-5.37,13.42-8.17,22.29-8.17,7.35,0,13.65,2.1,18.79,6.42,4.9,4.08,9.1,10.15,12.48,18.08A108.09,108.09,0,0,0,207,336.15q6.32,8.22,17.86,13.65c7.82,3.62,18.2,5.48,31,5.48,17.62,0,32.09-3.73,42.94-11.08,10.74-7.12,15.88-15.75,15.88-26.25,0-8.28-2.69-14.82-8.29-19.95-5.83-5.37-13.42-9.57-22.87-12.37-9.69-3-22.87-6.18-39.21-9.56-22.17-4.67-41-10.27-56-16.57-15.28-6.42-27.65-15.4-36.76-26.48-9.22-11.32-13.77-25.55-13.77-42.24a67.86,67.86,0,0,1,14.47-42.58c9.57-12.25,23.46-21.82,41.55-28.35,17.74-6.53,38.86-9.8,62.66-9.8,19.14,0,35.83,2.22,49.83,6.42s25.91,10.15,35.36,17.38,16.34,14.93,20.77,23,6.66,16.22,6.66,24c0,7.46-2.92,14.35-8.76,20.3a29.65,29.65,0,0,1-21.94,9.1c-7.93,0-14.12-1.87-18.43-5.6-4-3.5-8.17-8.87-12.72-16.69-5.37-9.91-11.79-17.85-19.14-23.45-7.24-5.36-19.14-8.16-35.71-8.16-15.29,0-27.77,3-37,9-8.87,5.72-13.19,12.37-13.19,20.18a18.26,18.26,0,0,0,4.32,12.25,38.13,38.13,0,0,0,12.72,9.57,90.14,90.14,0,0,0,17.15,6.53c6,1.64,15.87,4.09,29.53,7.12,17.38,3.62,33.25,7.82,47.26,12.13,14.24,4.55,26.49,10,36.52,16.45a72.93,72.93,0,0,1,24.16,25.09c5.72,10,8.64,22.63,8.64,37.1A75.09,75.09,0,0,1,368,359Z'/></svg>
+</a>
+<a
+  id="youtube-link"
+  class="icon"
+  target="_blank"
+  title="Youtube"
+  aria-label="Youtube"
+  href="https://www.youtube.com/user/miker83z"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>youtube</title><path d='M508.64,148.79c0-45-33.1-81.2-74-81.2C379.24,65,322.74,64,265,64H247c-57.6,0-114.2,1-169.6,3.6-40.8,0-73.9,36.4-73.9,81.4C1,184.59-.06,220.19,0,255.79q-.15,53.4,3.4,106.9c0,45,33.1,81.5,73.9,81.5,58.2,2.7,117.9,3.9,178.6,3.8q91.2.3,178.6-3.8c40.9,0,74-36.5,74-81.5,2.4-35.7,3.5-71.3,3.4-107Q512.24,202.29,508.64,148.79ZM207,353.89V157.39l145,98.2Z'/></svg>
+</a>
+
+</nav>
+
+  <span class="site-version"><b>Email:</b> mirko.zichichi AT pm.me<br><br></span> 
+  <p>
+  &copy; 2025 Zichichi
+  <!-- <a href="/LICENSE">MIT License.</a> -->
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">Perché l'attuale paradigma di protezione e portabilità dei dati personali dovrebbe essere cambiato?</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">18 Apr 2023</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        thesis
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <p>Le basi ideologiche e tecnologiche del Web 2.0 sono state sfruttate dai social media e, in generale, dai servizi online per costruire piattaforme che consentono la creazione e lo scambio di contenuti generati dagli utenti (Kaplan e Haenlein, 2010). Sfruttando principalmente i dispositivi mobili personali, i servizi online forniscono agli utenti le basi per la diffusione delle informazioni, la generazione di contenuti e le comunicazioni interattive dell’era moderna. Le tecnologie dell’informazione e della comunicazione (“ICT”) e il loro “ubiquitous computing” (computazione onnipresente) stanno modificando il nostro mondo creando nuove realtà e promuovendo un’interpretazione informativa delle nostre vite (Floridi, 2014). Un esempio è il Web 2.0, che all’inizio del nuovo millennio ha favorito un processo che ha rotto i confini tra consumo di Internet e partecipazione: gli utenti del Web producono i dati che altri utenti consumano. Questa grande innovazione ha portato a una riduzione dell’“attrito” nella diffusione delle informazioni online, con grandi benefici per l’intera popolazione mondiale. Tuttavia, questa significativa influenza sull’attrito informativo porta con sé grandi preoccupazioni sulla privacy degli utenti che abitano il mondo online/offline (onlife) (Floridi, 2014). Gli utenti di Internet non agiscono solo come consumatori di contenuti, ma soprattutto come creatori di contenuti. Ciò implica che i contenuti che condividono sono spesso costituiti da dati altamente personali che appartengono a loro stessi o ai loro familiari, amici e colleghi. La posizione, gli interessi, il comportamento generale sono tutti dati derivati dai dati testuali (commenti, post), dalle azioni (condivisioni, reazioni, like), dalla topologia della rete sociale (amicizie, sistema di following), dai collegamenti ipertestuali o dai metadati.</p>
+
+<p>È un fatto rivoluzionario che le “nuove” ICT, come le piattaforme di Online Social Network (OSN), non producano da sole la maggior parte dei dati che gestiscono, come fanno di solito le “vecchie” ICT, come i media tradizionali e industriali basati sulle reti broadcast. Questo tipo di dati riguarda gli attributi personali statici degli utenti delle ICT e, grazie alla diffusione dei dispositivi mobili, anche le informazioni dinamiche estratte dalle loro attività (Altshuler et al., 2012). Gli smartphone sono la fonte principale di queste informazioni poiché, grazie al loro funzionamento mobile, all’insieme di sensori e alla connettività a Internet, possono misurare diversi aspetti dell’ambiente fisico di un individuo. Da qui la nascita di un mondo digitale, creato sulla base delle azioni, degli interessi e dei desideri delle persone, forniti in input sotto forma di dati alle aziende che gestiscono le ICT su larga scala. Nel settore del marketing digitale esiste un gran numero di fornitori il cui unico scopo è raccogliere i dati degli utenti delle ICT e trasformarli in informazioni fruibili, cioè creare profili dettagliati e segmenti di utenti per la previsione, l’attribuzione e l’approfondimento. I dati grezzi generati dagli utenti sono accessibili e trasformati da aggregatori e broker di dati, elaborati per ottenere forme più sofisticate, consultati da fornitori di analisi e venduti a terzi (ad esempio, rivenditori, ricercatori di mercato, marchi) per previsioni, attribuzioni e approfondimenti (Acquisti et al., 2016; Banerjee, 2019).</p>
+
+<p>Nelle sottosezioni che seguono, entreremo nel dettaglio della protezione e della portabilità dei dati personali e delle minacce alla privacy derivanti dagli attuali usi delle nuove ICT.</p>
+
+<h3 id="come-un-unica-parte-di-informazione-può-influenzare-la-tua-privacy">Come un’ unica parte di informazione può influenzare la tua privacy</h3>
+
+<p>Prima di tutto, chiariamo che in questo articolo il riferimento alla privacy sarà associato principalmente al concetto di privacy informativa.</p>
+
+<blockquote>
+  <p>La privacy informativa è la libertà di un individuo da ingerenze o intromissioni informative ottenuta attraverso una delimitazione di fatti che lo riguardano e che sono ignoti o non conoscibili.</p>
+</blockquote>
+
+<p>Alla base di questa visione di Floridi (2014), troviamo quella di Westin (1967), secondo cui la privacy è la pretesa di individui, gruppi o istituzioni di determinare per sé quando, come e in che misura le informazioni che li riguardano vengono comunicate ad altri. In generale, la minaccia alla privacy associata ai servizi basati sul Web-2.0 è che, sebbene molti utenti abbiano alcune informazioni che mantengono private, non sono consapevoli del fatto che una parte significativa delle informazioni che li riguardano è generata da altre fonti di informazione (Acquisti et al., 2016; Forbrukerrådet, 2020; Kamleitner e Mitchell, 2019). Questo rende ogni individuo meno libero da interferenze informative. Crea una mancanza di controllo nel determinare le informazioni che lo riguardano e che vengono (eventualmente) comunicate agli altri.</p>
+
+<p>La ragione di ciò risiede nelle fondamenta dell’attuale struttura delle ICTs. Lo sfruttamento, ovvero l’“economia”, dei dati personali è favorito dalla natura più pervasiva del mondo digitale odierno. Quando aspetti fondamentali della vita di una persona vengono ricreati online, il suo “gemello digitale” può essere rappresentato non solo utilizzando le sue informazioni, ma anche da altri grazie ai social network (Forbrukerrådet, 2020). In questo modo, diventa più facile comprendere le scelte di attività e i modelli di stile di vita di una persona (Hasan et al., 2016) e quindi formulare raccomandazioni invasive utilizzando queste informazioni (Bothorel et al., 2018; Partridge e Price, 2009). In pratica, le tecniche di interferenza informativa possono indebolire alcuni meccanismi di protezione dei dati fino a renderli quasi inefficaci. Ad esempio, con l’aggiunta di “informazioni collaterali”, anche con una piccola quantità di dati di contesto, la maggior parte dei dataset anonimi o pseudo-anonimi riguardanti l’interazione con le piattaforme online degli utenti può essere de-anonimizzata (Ma et al., 2010). De Montjoye et al. (2013) presentano uno studio che dimostra come quattro soli punti di localizzazione approssimativi siano sufficienti per identificare un individuo nel 95% dei casi. Quando i dati personali sono arricchiti da punti di interesse, è possibile dedurre le attività delle persone (He et al., 2019). Le informazioni sulla posizione di casa e lavoro sono di solito le prime (e le più facili) da dedurre (Pontes et al., 2012). Quindi, semplicemente conoscendo questi due luoghi, è possibile riconoscere i modelli di attività di una persona attraverso i suoi coetanei (Phithakkitnukoon et al., 2010) o i suoi amici (Cho et al., 2011). Nel momento in cui vengono fornite anche le informazioni dei siti dei social media, la situazione non può che migliorare (o peggiorare, a seconda dei punti di vista). Qian et al. (2016) utilizzano i grafi di conoscenza per combinare le informazioni di background e i dati anonimi degli OSN per identificare gli individui e scoprire i loro attributi personali. Le OSN spesso tracciano e raccolgono la posizione dei loro utenti quando forniscono i loro servizi. Questo monitoraggio può continuare anche quando gli utenti non sono connessi o non hanno mai utilizzato tali servizi. Sadilek et al. (2012) mostrano come dedurre i legami di amicizia negli OSN, basandosi sui pattern di formazione dei legami, sul contenuto dei messaggi degli utenti e sulla loro localizzazione. Bonneau et al. (2009) dimostrano che otto collegamenti social pubblici sono sufficienti per dedurre la totalità della propria cerchia social. Jurgens (2013) mostra come, sfruttando solo un piccolo numero di posizioni iniziali, sia possibile dedurre la localizzazione degli utenti in maniera precisa anche quando questi mantengono privati i propri dati di localizzazione, ma i loro amici non lo fanno. Infatti, non è sufficiente che un individuo protegga completamente le sue informazioni sull’attività se è possibile ottenere informazioni di “co-locazione” dai suoi amici (Olteanu et al., 2014). La co-locazione può consistere in dati, ad esempio la foto o il messaggio di un amico pubblicato sugli OSN (Ajao et al., 2015), e metadati, ad esempio due utenti che si connettono agli OSN con lo stesso indirizzo IP o correlazioni spazio-temporali nei flussi OSN (Yamaguchi et al., 2014).</p>
+
+<p>I dati personali sensibili, come i dati sulla localizzazione combinati con altri dati (Keßler e McKenzie, 2018), sono sostanzialmente diversi dal resto dei dati personali. La capacità di tracciare la posizione e gli spostamenti degli individui e di combinare questi dati con altri metadati e conoscenze di base consente alle aziende prime e terze di fare inferenze come, ad esempio, la visita settimanale a una chiesa (cioè l’affinità religiosa) o la partecipazione a scioperi climatici (cioè le opinioni politiche).
+La protezione dei dati diventa quindi cruciale, poiché riguarda la stragrande maggioranza della popolazione, che spesso non è consapevole del funzionamento delle ICT sottostanti e di come la maggior parte delle informazioni sensibili possa essere dedotta semplicemente utilizzando altre informazioni ottenute da esse.</p>
+
+<p>Le tecniche di inferenza sopra descritte dimostrano che l’approccio alla privacy del tipo “non ho nulla da nascondere”, spesso sollevato da alcune persone, è fondamentalmente errato per molte ragioni: la principale è che tutti hanno informazioni che vogliono mantenere private. Tuttavia, molti non sanno che tali informazioni possono essere dedotte da altre fonti di dati generate da qualcun altro (Kamleitner e Mitchell, 2019). Citando Floridi (2014) nel suo lavoro su come le ICT influenzano il nostro senso di sé e l’interazione con il mondo, egli definisce noi stessi come organismi informativi, reciprocamente connessi e inseriti in un ambiente informativo, cioè l’infosfera. L’organismo informazionale, cioè l’inforg, è un insieme di punti ottenuti interagendo con altri organismi che sono agenti naturali, ad esempio familiari, amici, estranei, o agenti artificiali, ad esempio le stesse ICT digitali che raccolgono questi punti dati. Nell’infosfera, gli individui sono de-individualizzati, re-identificati come punti di incrocio di molti “tipi di”, e poi trattati come una merce e venduti o comprati nel mercato pubblicitario (Zuboff, 2019). L’acquisizione di informazioni personali consente alle grandi aziende e organizzazioni che operano nel mondo digitale di fornire servizi personalizzati o di maggior valore negli spazi digitali e fisici. Tuttavia, potrebbe anche avere conseguenze potenzialmente dannose per la privacy e l’autonomia degli utenti e della società in generale. La mancanza di controllo sulla privacy, ad esempio, porta un individuo a essere catapultato in una “ filter bubble ” che può compromettere la sua capacità di scegliere come vivere, semplicemente perché le aziende che costruiscono questa bolla scelgono le opzioni di cui può essere a conoscenza (Pariser, 2011). A livello sociale, questo schema può portare a una più profonda polarizzazione e manipolazione della società (Cadwalladr e Graham-Harrison, 2018; Christl et al., 2017) e alla “geoschiavitù” nel caso delle informazioni sulla posizione (Dobson e Fisher, 2003). Dopo essere stato categorizzato attraverso personalità, predisposizioni e desideri segreti, il gemello digitale di ogni utente viene comprato e venduto su un vasto mercato che opera in gran parte al di fuori della sua sfera, ovvero il marketing digitale e l’industria dell’adtech. Il tutto per convincere gli individui ad acquistare particolari prodotti o ad agire in un certo modo (Forbrukerrådet, 2020).</p>
+
+<h3 id="il-supporto-legale-alla-protezione-e-alla-portabilità-dei-dati-personali">Il supporto legale alla protezione e alla portabilità dei dati personali</h3>
+
+<p>Il Regolamento generale sulla protezione dei dati (GDPR) è stato legiferato nel 2016 (Parlamento europeo, 2016) per proteggere i dati personali dei cittadini dell’Unione europea (UE) e per consentire la libera circolazione di tali dati all’interno dell’UE. Secondo l’articolo 4, paragrafo 1, i dati personali sono “qualsiasi informazione riguardante una persona fisica identificata o identificabile; (…) identificata, direttamente o indirettamente, in particolare mediante riferimento a un identificativo come il nome, un numero di identificazione, dati relativi all’ubicazione, un identificativo online o a uno o più elementi specifici dell’identità di tale persona fisica_”.
+Il GDPR si basa, o meglio “corre in parallelo”, sulla Direttiva sulla privacy e le comunicazioni elettroniche (Direttiva ePrivacy) ( European Parliament, 2002) che si applica alla protezione dei dati e della privacy nelle reti e nei servizi di comunicazione elettronica per i cittadini dell’UE. La Direttiva ePrivacy contiene una formulazione che richiede ai fornitori di proteggere i dati che trasportano adottando “misure tecniche e organizzative adeguate per salvaguardare la sicurezza dei propri servizi”. In generale, regola le modalità con cui le terze parti raccolgono il consenso per accedere alle informazioni memorizzate sui dispositivi degli individui. Dopo la modifica del 2009, si occupa esplicitamente dei cookie web, richiedendo il consenso dell’utente per il trattamento.
+Il GDPR, d’altra parte, trasmette il controllo all’interessato, cioè a qualsiasi persona fisica identificata o identificabile attraverso il tipo di dati sopra definiti, imponendo diverse misure di responsabilità all’attore responsabile del trattamento dei dati e assegnando una serie di diritti ai soggetti, vale a dire che “le persone fisiche dovrebbero avere il controllo dei propri dati personali” (Considerando 7).
+Il titolare del trattamento, ossia la persona fisica o giuridica, l’autorità pubblica, l’agenzia o altro organismo che, da solo o insieme ad altri, determina le finalità e i mezzi del trattamento dei dati personali, svolge un ruolo centrale nelle interazioni tra le varie parti interessate. Infatti, essi sono chiamati in causa dagli interessati per l’esercizio dei loro diritti e sono resi responsabili in caso di violazione delle norme da parte degli incaricati del trattamento, cioè dell’organismo che tratta i dati personali per conto del responsabile del trattamento. Gli incaricati del trattamento hanno i loro obblighi ai sensi del GDPR, anche se in ultima analisi rispondono al titolare del trattamento.
+In questo quadro, a causa dell’aumento della complessità tecnologica e delle molteplici pratiche commerciali che sfruttano i dati, sta diventando più difficile per gli utenti delle ICT ottenere il controllo sui propri dati. Il controllo individuale, in particolare sulla propria persona, è stato descritto come un riflesso di valori fondamentali quali l’autonomia, la privacy e la dignità umana.
+A questo proposito, il GDPR stabilisce innanzitutto alcuni obblighi legali sul trattamento dei dati: (i) i dati devono essere trattati in modo lecito, equo e trasparente; (ii) i dati devono essere raccolti solo per finalità specifiche, esplicite e legittime (limitazione delle finalità); (iii) i dati devono essere limitati a quelli necessari per le finalità definite dall’ente (minimizzazione dei dati); (iv) i dati devono essere accurati e aggiornati.
+L’idea del controllo sui dati personali, quindi, emerge nelle disposizioni relative alle sei basi giuridiche (articolo 6, paragrafo 1, lettera a) per il trattamento dei dati:</p>
+
+<ol>
+  <li>Consenso, l’interessato ha dato il consenso al trattamento dei suoi dati per una o più finalità specifiche.</li>
+  <li>Esecuzione di un contratto, l’attività di trattamento dei dati è necessaria per stipulare o eseguire un contratto con l’interessato.</li>
+  <li>Requisito legale, l’attività di trattamento è necessaria per un obbligo di legge, come ad esempio la sicurezza delle informazioni, l’occupazione o la legge sulle transazioni dei consumatori.</li>
+  <li>Interesse vitale, l’attività di trattamento che potrebbe essere necessaria per salvare la vita di qualcuno.</li>
+  <li>Interesse pubblico, l’attività di trattamento per un compito svolto nell’interesse pubblico o nell’esercizio di pubblici poteri conferiti al responsabile del trattamento.</li>
+  <li>Interesse legittimo, l’attività di trattamento dei dati degli interessati in un modo che essi si aspetterebbero ragionevolmente e che avrebbe un impatto minimo sulla loro privacy.</li>
+</ol>
+
+<h4 id="limpatto-del-gdpr-sulle-imprese">L’impatto del GDPR sulle imprese</h4>
+
+<p>Il GDPR ha avuto (e sta avendo) un impatto a livello mondiale per stabilire come promuovere una visione a favore degli interessi degli individui rispetto alle grandi aziende e società (Li et al., 2019). Ad esempio, è stato seguito da altre normative in tutto il mondo, come il California Consumer Privacy Act (California State Legislature, 2020) negli Stati Uniti. In termini economici, tuttavia, si può affermare che il GDPR influisce sulle opzioni a disposizione delle imprese per raccogliere i dati necessari alle loro attività e sulla conseguente capacità di realizzare economie di scala nell’analisi dei dati (Gal e Aviv, 2020). Garantire la liceità del trattamento dei dati, come ad esempio ottenere il consenso esplicito e informato di ogni interessato per tutti gli usi specifici dei dati che lo riguardano, è costoso e i responsabili del trattamento dei dati grandi e diversificati godono di un vantaggio. Inoltre, il titolare del trattamento è responsabile nei confronti dell’interessato per garantire che i suoi dati siano utilizzati solo in base ai suoi diritti. Pertanto, i costi imposti da questo requisito possono includere il monitoraggio, lo screening e la verifica continui del trattamento effettuato da un destinatario di dati. L’intenzione dichiarata del GDPR non è quella di impedire lo sfruttamento dei dati personali, ma di garantire che tale sfruttamento avvenga nel rispetto dei diritti dell’interessato. Tuttavia, questo approccio ha un impatto diretto sulle attività commerciali per (Ziegler et al, 2019): (i) <em>la gestione del rischio</em>, la necessità di controllare meglio i rischi legati alla protezione dei dati personali e l’esposizione a sanzioni e penalità legate al GDPR; (ii) <em>la titolarità e il controllo dei diritti degli interessati</em>, la progettazione e l’implementazione di sistemi con gli interessati al centro del modello; (iii) <em>coerenza delle finalità</em>, quando il responsabile del trattamento vuole estendere in modo sostanziale l’uso dei dati raccolti, deve raccogliere un consenso complementare; (iv) <em>trasferimento dei dati a terzi</em>, le aziende devono mappare, gestire, monitorare e controllare il modo in cui elaborano e condividono i dati; (v) <em>trasferimento transfrontaliero</em>, l’obbligo di controllare i trasferimenti transfrontalieri di dati verso Paesi non affidabili.</p>
+
+<h3 id="privacy-protezione-dei-dati-e-controllo-dellutente">Privacy, protezione dei dati e controllo dell’utente</h3>
+
+<p>Esiste una distinzione essenziale tra privacy e protezione dei dati che sarebbe limitativa per la discussione di questo articolo, ma che è stata ampiamente discussa in altri studi (Kokott e Sobotta, 2013; Westin, 1967; Zuboff, 2019). L’assegnazione di un valore alla privacy informativa è diversa dalla protezione delle informazioni personali effettive relative all’individuo che effettua l’assegnazione. I controlli sulla privacy sono principalmente nelle mani degli individui e degli utenti del sistema. Tuttavia, la privacy dipende anche dalla protezione dei dati personali che, al contrario, è principalmente responsabilità dell’entità che controlla i dati, ossia le entità che operano nel mondo digitale delle ICT.
+Dal punto di vista dell’utente di un sistema ICT, in quanto soggetto interessato, è possibile distinguere tre tipi di dati personali (Pangrazio e Selwyn, 2019):</p>
+
+<ol>
+  <li>volontari, dati che gli utenti forniscono ai sistemi ICT che utilizzano in cambio di un servizio spesso “gratuito” e che possono essere divulgati inconsapevolmente;</li>
+  <li>osservati, dati che i sistemi ICT estraggono dai loro utenti monitorandoli;</li>
+  <li>dedotti, dati che i sistemi ICT ottengono elaborando gli ultimi due tipi creati spesso all’insaputa degli utenti.</li>
+</ol>
+
+<p>Questi tipi di dati personali si muovono attraverso tre anelli principali della catena del valore dei dati: la raccolta, l’elaborazione e l’utilizzo delle informazioni e della conoscenza generate dai dati (Gal e Aviv, 2020). La raccolta è l’estrazione dei dati e la loro “dataficazione”, ossia la registrazione, l’aggregazione e l’organizzazione delle informazioni. L’elaborazione consiste nell’ottimizzare, pulire, analizzare o combinare diversi insiemi di dati per organizzare i dati per estrazioni future e trovare correlazioni. Può trasformare i dati grezzi in informazioni e creare conoscenza. Infine, l’utilizzo dei dati significa impiegare le informazioni o le conoscenze basate sui dati per la previsione e il processo decisionale nei mercati rilevanti.</p>
+
+<p>In che modo il GDPR migliora il controllo degli utenti dei sistemi ICT sui dati personali in questa catena del valore dei dati? Il GDPR, infatti, in base al principio di responsabilità, impone l’obbligo di adottare e rendere conto delle misure di protezione al titolare del trattamento. Quest’ultimo deve garantire la protezione dei dati e l’applicazione del livello di privacy stabilito dagli utenti.
+Pertanto, la questione centrale è la seguente: anche se il responsabile del trattamento dei dati si assicura di adottare una risposta “adeguata” in proporzione alla valutazione del livello di rischio per i diritti e le libertà dell’interessato, quest’ultimo è in grado di determinare il livello di privacy dei dati personali protetti dal primo? La risposta a questa domanda richiede due livelli di analisi: uno superficiale e uno più profondo.</p>
+
+<h4 id="privacy-a-livello-superficiale">Privacy a livello superficiale</h4>
+
+<p>Il primo livello comprende i metodi di interfaccia con cui gli utenti interagiscono per valutare i livelli di privacy e determinare il livello a cui desiderano impostare la propria privacy. Le interfacce sono costituite dagli strumenti hardware e software che informano e fanno decidere agli utenti le azioni che hanno conseguenze dirette sulla protezione dei dati e indirette sulla privacy. Ci riferiamo in particolare ad applicazioni per smartphone, browser, siti web e simili.
+Nel contesto del GDPR, il consenso è quello che di solito viene sfruttato in questi casi per elaborare i dati raccolti. Tuttavia, il problema generale è che spesso gli utenti non sembrano pensare alle conseguenze del fornire (o rifiutare) il consenso, ma acconsentono ogni volta che si trovano di fronte a una richiesta (Custers et al., 2013).
+In genere gli utenti si interfacciano con il consenso informato tramite avvisi sulla privacy (ad esempio, avvisi sui cookie) e opzioni di controllo dell’utente a livello di sistema operativo. Tuttavia, questi avvisi sono inefficaci per gli utenti perché sono presentati in modi diversi e incoerenti tra i servizi e le piattaforme; inoltre, la maggior parte di essi non è conforme al GDPR (Mehrnezhad, 2020). Molte delle attuali implementazioni degli avvisi non offrono una scelta significativa agli utenti. Ad esempio, nel caso dei cookie di terze parti, un’implementazione più appropriata richiederebbe ai fornitori di servizi di utilizzare avvisi di consenso che di fatto porterebbero a meno dello 0,1% degli utenti che acconsentono al loro utilizzo (Utz et al., 2019). I cookie, in particolare, possono assumere la forma di dati personali e sono di per sé essenziali perché sono diventati la spina dorsale di una vasta infrastruttura di mercato basata sulla loro capacità di trasformare le informazioni sul comportamento online degli utenti in asset di dati (Mellet e Beauvisage, 2020).</p>
+
+<p>Nel loro lavoro, Van Ooijen e Vrabec (2019) identificano tre fasi nel trattamento dei dati basato sul consenso: (i) la fase di ricezione delle informazioni, (ii) la fase di approvazione e utilizzo primario e (iii) la fase di utilizzo secondario dei dati (riutilizzo). Nella prima fase, le minacce al controllo degli utenti sono date dal fatto che, anche se i raccoglitori di dati possono fornire informazioni agli individui impiegando una politica di utilizzo dei dati, questi hanno difficoltà a elaborare cognitivamente tali informazioni. A causa del rapido sviluppo della tecnologia, tali politiche stanno diventando sempre più lunghe e complesse, con conseguente aumento della pressione sul funzionamento cognitivo degli individui. Inoltre, questo approccio non riesce ad affrontare il problema della complessità delle informazioni, in quanto deve spiegare le reali implicazioni del processo decisionale automatizzato per un individuo. Ciò che il GDPR garantisce, con il diritto alla spiegazione, è una motivazione ex-ante che si riferisce semplicemente alla funzionalità del sistema. Le icone possono essere più efficaci nel mitigare la complessità informativa, ma c’è il rischio che possano aggravare il problema dei pregiudizi nel processo decisionale (Rossi e Palmirani, 2020). Le minacce al controllo degli utenti nella seconda fase, ossia quella dell’approvazione e dell’uso primario, sono guidate da sottili cambiamenti nel contesto in cui viene richiesto il consenso, come le architetture di sistema basate su impostazioni predefinite. Queste possono orientare inconsapevolmente il comportamento degli utenti in un fenomeno definito “malleabilità delle preferenze sulla privacy” (Acquisti et al., 2016). I consumatori generalmente preferiscono e scelgono l’opzione contrassegnata come predefinita quando vengono presentate diverse opzioni di scelta. Il GDPR affronta queste minacce convalidando il consenso solo sul presupposto che l’interessato abbia compreso appieno le conseguenze della sua approvazione. Tuttavia, questo deve essere attuato in modo da responsabilizzare effettivamente le persone. Infine, nella terza fase identificata da Van Ooijen e Vrabec (2019), le minacce al controllo degli utenti sono date dalla portata limitata del diritto di accesso e portabilità per gli individui. Gli autori prevedono l’uso di piattaforme elettroniche di dati in cui gli individui possono gestire i propri dati.</p>
+
+<h4 id="la-privacy-al-livello-più-profondo">La privacy al livello più profondo</h4>
+
+<p>Il secondo livello di analisi, più profondo del precedente, interessa il rapporto tra un utente e l’informazione stessa in termini di complessità dell’informazione e di percezione della privacy. Nel percepire la privacy quando divulgano informazioni personali, gli utenti si imbattono in un paradosso della privacy che il più delle volte non è a loro favore: mentre l’atteggiamento degli utenti è quello di professare il loro bisogno di privacy, nel loro comportamento, la maggior parte di loro rimane consumatore delle stesse tecnologie che raccolgono i loro dati personali (Norberg et al., 2007). Due sono le cause di questo fenomeno: in primo luogo, il fatto che gli atteggiamenti (ad esempio, l’attitudine a praticare un’elevata consapevolezza della privacy) sono solitamente espressi in modo generico, mentre i comportamenti (ad esempio, l’atto effettivo di divulgazione dei dati) sono più specifici e contestuali (Fishbein e Ajzen, 1977); in secondo luogo, gli utenti si impegnano in un compromesso mentale tra le preoccupazioni per la privacy e i benefici della divulgazione, eseguendo un “calcolo della privacy” (Laufer e Wolfe, 1977). Quando ai consumatori viene chiesto di fornire informazioni personali alle aziende, essi divulgheranno le loro informazioni in base a una decisione presa dopo un’analisi dei rischi e dei benefici, cioè il calcolo della privacy, analogamente alla stima del valore percepito. Xu et al. (2011) definiscono il valore percepito della divulgazione di informazioni come la valutazione complessiva dell’utilità della divulgazione di informazioni da parte dell’individuo, basata sulla percezione dei rischi per la privacy sostenuti e dei benefici ricevuti. Tuttavia, due sfide principali ostacolano la stima corretta di questo valore. In primo luogo, esiste un problema di sovraccarico di informazioni che ostacola una stima corretta nel calcolo della privacy. Questo perché gli utenti devono considerare tutte le informazioni rese disponibili nelle politiche di utilizzo dei dati del raccoglitore, insieme alla grande quantità di informazioni diffuse su diversi dispositivi, supporti e servizi. Questa ricchezza di informazioni minaccia la capacità e la motivazione degli individui a esaminare i dettagli critici necessari per prendere decisioni informate sulla privacy (Van Ooijen e Vrabec, 2019). In secondo luogo, si pone un problema di complessità informativa (Acquisti et al., 2016).</p>
+
+<blockquote>
+  <p>La maggior parte degli utenti delle ITC ha bisogno di imparare a conoscere il modo in cui possono essere tracciati o di essere a conoscenza di possibili soluzioni alternative ai loro problemi di privacy, ad esempio l’uso di tecnologie di miglioramento della privacy (PET).</p>
+</blockquote>
+
+<p>Prendendo come esempio un tipo specifico di dati personali sensibili, ossia i dati sulla posizione, la percezione della privacy della posizione ricade negli stessi presupposti del calcolo della privacy. In particolare, la determinazione della privacy dell’ubicazione può assumere una quantità numerica, come dimostrato da Shokri et al. (2011), basandosi sull’idea che la privacy degli utenti e il successo di un “avversario” nei suoi attacchi di interferenza sull’ubicazione siano due facce della stessa medaglia. Gli autori quantificano la privacy della posizione come l’errore dell’avversario nello stimare le informazioni sulla posizione effettiva dell’utente (dato un modello di attacco di riferimento). In una definizione più orientata al consumatore, la location privacy consiste nella capacità dell’utente di regolare l’accesso del pubblico esterno alle informazioni sulla sua posizione attuale o passata (Banerjee, 2019). Questa visione è in linea con le definizioni di privacy delle informazioni di Westin e IAPP, ovvero basata sul presupposto che “la privacy non è l’opposto della condivisione - piuttosto, è il controllo sulla condivisione” (Acquisti et al., 2016).</p>
+
+<h4 id="una-soluzione-per-il-lungo-e-forse-anche-per-il-breve-periodo">Una soluzione per il lungo (e forse anche per il breve) periodo</h4>
+
+<p>Le Distributed Ledger Technologies (DLT) non hanno più bisogno di essere introdotte. Il registro, distribuito tra una rete di nodi, e il protocollo decentralizzato eliminano la necessità di un’autorità fidata e la sostituiscono con un sistema di prove pubblicamente verificabili. Questa tecnologia fornisce i mezzi per la disintermediazione, in quanto aumenta la fiducia nel funzionamento del sistema specifico e riduce indirettamente la necessità di fiducia nel sistema (De Filippi et al., 2020). Il “Web3” o Web 3.0 nasce cercando di sfruttare i vantaggi che il sistema decentralizzato potrebbe fornire per costruire sul Web 2.0, una versione di Internet in cui gli utenti sono veramente sovrani sui loro dati e sulle loro azioni, ad esempio, possedendo il pezzo unico di informazione che potrebbe attuare un’operazione come una chiave privata. Dal punto di vista degli individui, queste tecnologie contribuiscono a spostare le applicazioni, i dati e i servizi informatici verso i margini dell’“Internet delle persone”, cioè più vicino a loro, poiché i dispositivi personali costituiscono le frontiere di tale rete di dispositivi. Per molti studiosi, le DLT, combinate con meccanismi di identità decentralizzati, potrebbero diventare gli elementi costitutivi necessari per l’Internet decentralizzato del futuro, che può giovare alla privacy degli utenti (Kondova e Erbguth, 2020; Lopez e Farooq, 2020; Lopez et al., 2019).</p>
+
+<p>Maggiori dettagli in merito si trovano nella mia <a href="https://mirkozichichi.me/assets/papers/phddesp3d.pdf">tesi di dottorato</a>…</p>
+
+<h3 id="references">References</h3>
+
+<p>Acquisti, A., Taylor, C., and Wagman, L. (2016). The economics of privacy. Journal of economic Literature, 54(2):442–92.</p>
+
+<p>Ajao, O., Hong, J., and Liu, W. (2015). A survey of location inference techniques on twitter. Journal of Information Science, 41(6):855–864.</p>
+
+<p>Altshuler, Y., Aharony, N., Fire, M., Elovici, Y., and Pentland, A. (2012). Incremental learning with accuracy prediction of social and individual properties from mobilephone data. In 2012 International Conference on Privacy, Security, Risk and Trust and 2012 International Confernece on Social Computing, pages 969–974. IEEE.</p>
+
+<p>Article 29 Working Party (2014). Opinion 06/2014 on the notion of legitimate interests of the data controller under article 7 of directive 95/46/ec.</p>
+
+<p>Banerjee, S. (2019). Geosurveillance, location privacy, and personalization. Journal of Public Policy &amp; Marketing, 38(4):484–499.</p>
+
+<p>Bonneau, J., Anderson, J., Anderson, R., and Stajano, F. (2009). Eight friends are enough: social graph approximation via public listings. In Proceedings of the Second ACM EuroSys Workshop on Social Network Systems, pages 13–18.</p>
+
+<p>Bothorel, C., Lathia, N., Picot-Clemente, R., and Noulas, A. (2018). Location recommen- dation with social media data. In Social Information Access, pages 624–653. Springer.</p>
+
+<p>Cadwalladr, C. and Graham-Harrison, E. (2018). Revealed: 50 million facebook profiles harvested for cambridge analytica in major data breach. The guardian, 17:22.</p>
+
+<p>California State Legislature (2020). California consumer privacy act.</p>
+
+<p>Cho, E., Myers, S. A., and Leskovec, J. (2011). Friendship and mobility: user movement in location-based social networks. In Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining, pages 1082–1090.</p>
+
+<p>Christl, W., Kopp, K., and Riechert, P. U. (2017). How companies use personal data against people. Automated Disadvantage, Personalized Persuasion, and the Societal Ramifications of the Commercial Use of Personal Information. Wien: Cracked Labs.</p>
+
+<p>Custers, B., van Der Hof, S., Schermer, B., Appleby-Arnold, S., and Brockdorff, N. (2013). Informed consent in social media use-the gap between user expectations and eu personal data protection law. SCRIPTed, 10:435.</p>
+
+<p>De Filippi, P., Mannan, M., and Reijers, W. (2020). Blockchain as a confidence machine: The problem of trust &amp; challenges of governance. Technology in Society, 62:101284.</p>
+
+<p>De Montjoye, Y.-A., Hidalgo, C. A., Verleysen, M., and Blondel, V. D. (2013). Unique in the crowd: The privacy bounds of human mobility. Scientific reports, 3:1376.</p>
+
+<p>Dobson, J. E. and Fisher, P. F. (2003). Geoslavery. IEEE Technology and Society Magazine, 22(1):47–52.</p>
+
+<p>European Parliament (2002). Privacy and electronic communications directive 2002/58/ec.</p>
+
+<p>European Parliament (2016). Regulation (eu) 2016/679.</p>
+
+<p>Fishbein, M. and Ajzen, I. (1977). Belief, attitude, intention, and behavior: An introduc- tion to theory and research. Philosophy and Rhetoric, 10(2).</p>
+
+<p>Floridi, L. (2014). The fourth revolution: How the infosphere is reshaping human reality. OUP Oxford.</p>
+
+<p>Forbrukerrådet (2020). Out of control – how consumers are exploited by the online advertising industry.</p>
+
+<p>Gal, M. S. and Aviv, O. (2020). The competitive effects of the gdpr. Journal of Competition Law &amp; Economics, 16(3):349–39
+Hasan, S., Ukkusuri, S. V., and Zhan, X. (2016). Understanding social influence in activity location choice and lifestyle patterns using geolocation data from social media. Frontiers in ICT, 3:10.</p>
+
+<p>He, R., Cao, J., Zhang, L., and Lee, D. (2019). Statistical enrichment models for activity inference from imprecise location data. In IEEE INFOCOM 2019-IEEE Conference on Computer Communications, pages 946–954. IEEE.</p>
+
+<p>Jurgens, D. (2013). That’s what friends are for: Inferring location in online social media platforms based on social relationships. In Seventh International AAAI Conference on Weblogs and Social Media.</p>
+
+<p>Kamleitner, B. and Mitchell, V. (2019). Your data is my data: A framework for addressing interdependent privacy infringements. Journal of Public Policy &amp; Marketing, 38(4):433– 450.</p>
+
+<p>Kaplan, A. M. and Haenlein, M. (2010). Users of the world, unite! the challenges and opportunities of social media. Business horizons, 53(1):59–68.</p>
+
+<p>Keßler, C. and McKenzie, G. (2018). A geoprivacy manifesto. Transactions in GIS, 22(1):3–19.</p>
+
+<p>Kokott, J. and Sobotta, C. (2013). The distinction between privacy and data protection in the jurisprudence of the cjeu and the ecthr. International Data Privacy Law, 3(4):222–228.</p>
+
+<p>Kondova, G. and Erbguth, J. (2020). Self-sovereign identity on public blockchains and the gdpr. In Proceedings of the 35th Annual ACM Symposium on Applied Computing, pages 342–345.</p>
+
+<p>Laufer, R. S. and Wolfe, M. (1977). Privacy as a concept and a social issue: A multidi- mensional developmental theory. Journal of social Issues, 33(3):22–42.</p>
+
+<p>Li, H., Yu, L., and He, W. (2019). The impact of gdpr on global technology development.</p>
+
+<p>Lopez, D. and Farooq, B. (2020). A multi-layered blockchain framework for smart mobility data-markets. Transportation Research Part C: Emerging Technologies, 111:588– 615.</p>
+
+<p>Lopez, P. G., Montresor, A., and Datta, A. (2019). Please, do not decentralize the internet with (permissionless) blockchains! In 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), pages 1901–191
+IEEE.</p>
+
+<p>Ma, C. Y., Yau, D. K., Yip, N. K., and Rao, N. S. (2010). Privacy vulnerability of published anonymous mobility traces. In Proceedings of the sixteenth annual international conference on Mobile computing and networking, pages 185–196.</p>
+
+<p>Mehrnezhad, M. (2020). A cross-platform evaluation of privacy notices and track- ing practices. In 2020 IEEE European Symposium on Security and Privacy Workshops (EuroS&amp;PW), pages 97–106. IEEE.</p>
+
+<p>Mellet, K. and Beauvisage, T. (2020). Cookie monsters. anatomy of a digital market infrastructure. Consumption Markets &amp; Culture, 23(2):110–129.</p>
+
+<p>Norberg, P. A., Horne, D. R., and Horne, D. A. (2007). The privacy paradox: Per- sonal information disclosure intentions versus behaviors. Journal of consumer affairs, 41(1):100–126.</p>
+
+<p>Olteanu, A.-M., Huguenin, K., Shokri, R., and Hubaux, J.-P. (2014). Quantifying the effect of co-location information on location privacy. In International Symposium on Privacy Enhancing Technologies Symposium, pages 184–203. Springer.</p>
+
+<p>Pangrazio, L. and Selwyn, N. (2019). ‘personal data literacies’: A critical literacies approach to enhancing understandings of personal digital data. New Media &amp; Society, 21(2):419–437.</p>
+
+<p>Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin UK.</p>
+
+<p>Partridge, K. and Price, B. (2009). Enhancing mobile recommender systems with activity inference. In International Conference on User Modeling, Adaptation, and Personalization, pages 307–318. Springer.</p>
+
+<p>Phithakkitnukoon, S., Horanont, T., Di Lorenzo, G., Shibasaki, R., and Ratti, C. (2010). Activity-aware map: Identifying human daily activity pattern using mobile phone data. In International Workshop on Human Behavior Understanding, pages 14–25. Springer.</p>
+
+<p>Pontes, T., Magno, G., Vasconcelos, M., Gupta, A., Almeida, J., Kumaraguru, P., and Almeida, V. (2012). Beware of what you share: Inferring home location in social networks. In 2012 IEEE 12th International Conference on Data Mining Workshops, pages 571–578. IEEE.</p>
+
+<p>Qian, J., Li, X.-Y., Zhang, C., and Chen, L. (2016). De-anonymizing social networks and inferring private attributes using knowledge graphs. In IEEE INFOCOM 2016-The 35th Annual IEEE International Conference on Computer Communications, pages 1–9. IEEE.</p>
+
+<p>Rossi, A. and Palmirani, M. (2020). What’s in an icon? promises and pitfalls of data protection iconography. Data Protection and Privacy: Data Protection and Democracy, pages 59–92.</p>
+
+<p>Sadilek, A., Kautz, H., and Bigham, J. P. (2012). Finding your friends and following them to where you are. In Proceedings of the fifth ACM international conference on Web search and data mining, pages 723–732.</p>
+
+<p>Shokri, R., Theodorakopoulos, G., Le Boudec, J.-Y., and Hubaux, J.-P. (2011). Quantify- ing location privacy. In 2011 IEEE symposium on security and privacy, pages 247–262. IEEE.</p>
+
+<p>Utz, C., Degeling, M., Fahl, S., Schaub, F., and Holz, T. (2019). (un) informed consent: Studying gdpr consent notices in the field. In Proceedings of the 2019 acm sigsac conference on computer and communications security, pages 973–990.</p>
+
+<p>Van Ooijen, I. and Vrabec, H. U. (2019). Does the gdpr enhance consumers’ control over personal data? an analysis from a behavioural perspective. Journal of consumer policy, 42(1):91–107.</p>
+
+<p>Westin, A. F. (1967). Privacy and freedom. Atheneum. ii, vii Xu, H., Luo, X. R., Carroll, J. M., and Rosson, M. B. (2011). The personalization privacy paradox: An exploratory study of decision making process for location- aware marketing. Decision support systems, 51(1):42–52.</p>
+
+<p>Yamaguchi, Y., Amagasa, T., Kitagawa, H., and Ikawa, Y. (2014). Online user location inference exploiting spatiotemporal correlations in social streams. In Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management, pages 1139–1148.</p>
+
+<p>Ziegler, S., Evequoz, E., and Huamani, A. M. P. (2019). The impact of the european general data protection regulation (gdpr) on future data business models: Toward a new paradigm and business opportunities. In Digital business models, pages 201–226. Springer.</p>
+
+<p>Zuboff, S. (2019). The age of surveillance capitalism: The fight for a human future at the new frontier of power. Profile books</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/thesis/2023/04/18/Data-protection-ita.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/thesis/2023/04/18/Data-protection-ita.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//mirkozichichi.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Decentralization.html">
+            The problem with (permissionless) decentralization
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Data-protection.html">
+            Why should the current personal data protection and portability paradigm be changed?
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/projects/2022/10/01/DecentDIS.html">
+            A Decent DIS? Building a Decentralized Data Intermediation Service
+            <small>01 Oct 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>

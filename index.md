@@ -3,12 +3,14 @@ layout: index
 title: Home
 ---
 
-# Biography
+# Hello! I'm Mirko
 
 <p class="message">
-  &rarr;  <b>Reserach Scientist</b> at <b>IOTA Foundation</b> (since Dec 2022).
+  &rarr;  <b>Engineering Team Lead</b> at <b>IOTA Foundation</b> (since Jun 2024).
   <br />
-  &rarr;  <b>PhD</b> in <b>Law, Science and Technology (MSCA Grant)</b> (Apr 2023).
+  &rarr;  <b>Applied Research Engineer</b> at <b>IOTA Foundation</b> (Dec 2022 - May 2024).
+  <br />
+  &rarr;  <b>PhD</b> in <b>Law, Science and Technology (MSCA Grant)</b>, Universities of Madrid, Bologna, Turin (Apr 2023).
   <br />
   &rarr; <b>MSc</b> in <b>Information Science for Management</b>, University of Bologna (2019).
   <br />
@@ -17,34 +19,52 @@ title: Home
   &rarr; <b>Born</b> in <b>Palermo</b>, Sicily (1995).
 </p>
 
-I am currently involved in the research and development of Layer 1 Smart Contract solutions. I am PhD in [_Law, Science, and Technology Joint Doctorate - MSCA grant for the project Rights
-of Internet of Everything_](https://last-jd-rioe.eu/).
-My PhD thesis title is: _''Decentralized Systems for the Protection and Portability of Personal Data.''_
+Passionate about Distributed Ledger Technologies, with expertise in designing and developing protocols for smart contract implementation and optimization. I hold a PhD in _Law, Science, and Technology_ with a thesis title: _''Decentralized Systems for the Protection and Portability of Personal Data.''_
 
 ---
 
-## Current Affiliation
+## Current Projects
 
-- [Research Department](https://www.iota.org/foundation/research-department), IOTA Foundation
+I currently lead the VM&Language within the IOTA Foundation's R&D Department &rarr; [GitHub repo](https://github.com/iotaledger/iota).
 
-### Past Affiliations
-
-- [Ontology Engineering Group (OEG)](https://oeg.fi.upm.es/), Universidad Politécnica de Madrid
-- [MPEG Ad-hoc Group on Smart Contracts for Media](https://www.iso.org/standard/82527.html), ISO/IEC JTC 1/SC 29
-- [Analysis of Networks and Simulation Research Group (AnaNSi)](https://site.unibo.it/anansi/en), University of Bologna
-- [Legal Blockchain Lab](http://lbl.cirsfid.unibo.it/), University of Bologna
+- This team is currently focused on all aspects related to the Move smart contract language. We maintain the Rust-based source code responsible for the compilation and execution of Move code, as well as the integration of these components into the IOTA DLT protocol.
+- Additionally, we collaborate with other teams to develop Move smart contracts for implementing core DLT functionalities and building decentralized applications on top of the blockchain.
+- Looking ahead, we aim to explore the expansion of Move language features and potentially work with new smart contract languages.
 
 ---
 
-## Posts
+## Blog Posts
 
-<p class="message">
-  - A <b>DecentDIS</b>? Find out more about <i>Decentralized Data Intermediation Services</i> in my blog &rarr; <a href="/projects/2022/10/01/DecentDIS.html">post</a>
-</p>
+<table>
+    <tr>
+        <td>
+          The <b>problem</b> with (permissionless) <b>decentralization</b>
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="/thesis/2023/04/18/Decentralization.html"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Why should the current <b>personal data protection</b> and portability paradigm be changed?
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="/thesis/2023/04/18/Data-protection.html"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          A <b>DecentDIS</b>? Find out more about <i>Decentralized Data Intermediation Services</i>
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="/projects/2022/10/01/DecentDIS.html"></a>
+        </td>
+    </tr>
+</table>
 
 ---
 
-# Selected Publications
+## Main Research Outputs
 
 <table>
     <tr>
@@ -85,20 +105,14 @@ My PhD thesis title is: _''Decentralized Systems for the Protection and Portabil
           <a class="get get_cite" href="/assets/papers/bibtexts/41encoding.bib"></a>
         </td>
     </tr>
-    <tr>
-        <td>
-          [C24] Casale-Brunet Simone, Zichichi Mirko, Hutchinson Lee, Mattavelli Marco, Ferretti Stefano,
-          <br>
-          <b>The impact of NFT profile pictures within social network communities</b>,
-          <i>in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022).</i> 7-9 September 2022, Limassol, Cyprus (pp. 1-11).
-        </td>
-        <td>
-          <a class="get get_doi" target="_blank" href="https://doi.org/10.1145/3524458.3547230"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/29impact.pdf"></a>
-          <a class="get get_cite" href="/assets/papers/bibtexts/29impact.bib"></a>
-        </td>
-    </tr>
 </table>
+
+## Past Affiliations
+
+- [Ontology Engineering Group (OEG)](https://oeg.fi.upm.es/), Universidad Politécnica de Madrid
+- [MPEG Ad-hoc Group on Smart Contracts for Media](https://www.iso.org/standard/82527.html), ISO/IEC JTC 1/SC 29
+- [Analysis of Networks and Simulation Research Group (AnaNSi)](https://site.unibo.it/anansi/en), University of Bologna
+- [Legal Blockchain Lab](http://lbl.cirsfid.unibo.it/), University of Bologna
 
 ---
 

@@ -50,7 +50,7 @@
         Mirko Zichichi        
       </a>
     </div>
-    <p class="lead"><b>MSCA ITN Early Stage Researcher</b> in <br> <em><a href="https://last-jd-rioe.eu/mirko-zichichi.html" target="_blank">Law, Science and Technology</a></em></p>
+    <p class="lead"><b>Engineering Team Lead</b> at <em><a href="https://www.iota.org/foundation/team" target="_blank">IOTA Foundation</a></em></p>
   </header>
   <nav id="sidebar-nav-links">
   
@@ -64,8 +64,6 @@
 
 
   
-    
-  
 
   
     
@@ -86,16 +84,6 @@
   
 
   
-
-  
-    
-  
-
-
-  
-
-
-  
     
   
 
@@ -107,6 +95,27 @@
     
   
 
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/projects.html">Projects</a>
+    
   
 
   
@@ -119,16 +128,18 @@
   
     
       <a class="category-link "
-          href="/tutoring.html">Tutoring</a>
+          href="/talks.html">Talks & Activities</a>
     
-  
-
   
 
   
     
       <a class="category-link "
-          href="/activities.html">Activities</a>
+          href="/tutoring.html">Tutoring</a>
+    
+  
+
+  
     
   
 
@@ -239,9 +250,9 @@
 
 </nav>
 
-  <span class="site-version"><b>Email:</b> mirko.zichichi AT upm.es<br><br></span> 
+  <span class="site-version"><b>Email:</b> mirko.zichichi AT pm.me<br><br></span> 
   <p>
-  &copy; 2022 Zichichi
+  &copy; 2025 Zichichi
   <!-- <a href="/LICENSE">MIT License.</a> -->
 </p>
 
@@ -271,7 +282,9 @@
 
 
   <div class="post-body">
-    <blockquote>
+    <p>(<a href="https://mirkozichichi.medium.com/un-decentdis-costruendo-un-servizio-di-intermediazione-dei-dati-decent-ralizzato-3197ff58030e">versione in italiano</a>)</p>
+
+<blockquote>
   <p><strong>Single point of failure</strong>: part of a system that, if it fails, will stop the entire system from working [1].</p>
 </blockquote>
 
@@ -308,7 +321,7 @@ Moreover, in such a permissionless environment, it may be infeasible to incentiv
 <h3 id="solving-one-threat-at-a-time-de-centralize-personal-data-management">Solving one threat at a time: de-centralize personal data management</h3>
 
 <blockquote>
-  <p>Blockchains can provide individuals with impossible functionalities in traditional cloud services. In particular, they favor the creation of decentralized Personal Information Management Systems (PIMS), guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.</p>
+  <p>Blockchains can provide individuals with functionalities that are impossible in traditional cloud services. In particular, they favor the creation of <strong>decentralized Personal Information Management Systems (PIMS)</strong>, guaranteeing, by design, data sovereignty and enabling users to control what personal data they want to share.</p>
 </blockquote>
 
 <p>Permissioned decentralized systems, including blockchains, can be pivotal in placing individuals at the center of personal data management and in relieving the absence of technical instruments and standards that make the exercise of one’s rights simple and not excessively burdensome (as envisioned in the European strategy for data [10]).
@@ -337,8 +350,8 @@ These decentralized systems would also allow data collectors to prove their comp
 <p>This project aims to create an infrastructure for the joint management of data intermediary services. A permissioned network of intermediaries provides:</p>
 
 <ol>
-  <li>an IPFS-protocol-based Personal Data Space (PDS) to store data,</li>
-  <li>an Ethereum-based private blockchain to provide a distributed authorization mechanism, and</li>
+  <li>an IPFS-protocol-based [13] Personal Data Space (PDS) to store data,</li>
+  <li>an Ethereum-based [14] private blockchain to provide a distributed authorization mechanism, and</li>
   <li>a distributed execution of codified policies based on standard ontologies to reply to data requests.</li>
 </ol>
 
@@ -356,13 +369,13 @@ For the encryption, decryption, and keys distribution phase, a Threshold Proxy R
 <h5 id="decentralized-intelligible-identity-and-certification-based-on-did-and-vc-and-ipfs-storage">Decentralized intelligible identity and certification based on DID and VC and IPFS storage</h5>
 
 <p>DOI: <a href="https://doi.org/10.5281/zenodo.7132777">10.5281/zenodo.7132777</a>
-The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID), i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
-The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain. Intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.</p>
+The Intelligible Identity set of technologies enables any subject to share information with third parties by proving to those the ownership of certain attestations or attributes that are self-asserted or issued by a trusted entity. Such a model is a specialization of a Decentralized Identifier (DID) [15], i.e., a type of identifier for verifiable self-sovereign digital identity. The intelligible identity allows it to bring with it the relevant operational and legal context of this identity and to trace the processes that involve it easily.
+The Intelligible Identity model is a combination of: (i) asymmetric cryptography key pairs, i.e., a public key and a private key; (ii) a Non Fungible Token stored on a blockchain; (iii) a metadata document. In this document, intelligibility is conveyed by linking (i) the resources that make up the document or define their legal contexts, (ii) the agents that are involved in the document life cycle, and (iii) the digital resources that describe how to perform operations with the identities. Information is stored on the InterPlanetary File System (IPFS) in the form of IPFS objects. These are identified by a CID (Content IDentifier), i.e., the result of applying a hash function to a file representing the object.</p>
 
 <h5 id="handling-policies-in-smart-contracts-based-on-access-control-and-dpv-ontology">Handling policies in smart contracts based on access control and DPV ontology</h5>
 
 <p>DOI: <a href="https://doi.org/10.5281/zenodo.7132775">10.5281/zenodo.7132775</a>
-The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL or the MPEG-21 framework. Those are integrated with the Data Privacy Vocabulary (DPV), i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:</p>
+The general idea is to enforce policies and enable access control mechanisms and maintain an untamperable log of data accesses. Policies can be expressed using standard ontologies for access control, such as ODRL [16] or the MPEG-21 framework [17]. Those are integrated with the Data Privacy Vocabulary (DPV) [18], i.e., a specification containing taxonomies related to the privacy and data protection domain and specifying terms such as processing purposes or legal basis. For instance:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ipfs://someCID/Pippo&gt;
         a           dpv:DataProcessor ;
@@ -400,7 +413,7 @@ The general idea is to enforce policies and enable access control mechanisms and
         a               dpv:Consult .
 </code></pre></div></div>
 
-<h2 id="references">References</h2>
+<h3 id="references">References</h3>
 
 <ol>
   <li>Wikipedia community. <em>Single point of failure.</em> (2022).
@@ -418,6 +431,13 @@ system</a></li>
   <li>European Commission. <em>A European Strategy for data.</em> (2020). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020DC0066</a></li>
   <li>Janssen, Heleen and Jatinder Singh. <em>“Data intermediary”.</em> Internet Policy Review 11.1 (2022). <a href="https://policyreview.info/glossary/data-intermediary">https://policyreview.info/glossary/data-intermediary</a></li>
   <li>Hardjono, Thomas, David L. Shrier, and Alex Pentland. <em>Trusted Data, revised and expanded edition: A New Framework for Identity and Data Sharing.</em> MIT Press, 2019.</li>
+  <li>InterPlanetary File System (IPFS), <a href="https://ipfs.io/">https://ipfs.io/</a></li>
+  <li>Ethereum, <a href="https://ethereum.org/">https://ethereum.org/</a></li>
+  <li>Decentralized Identifier (DID), <a href="https://www.w3.org/TR/did-core/">https://www.w3.org/TR/did-core/</a></li>
+  <li>Open Digital Rights Language (ODRL), <a href="https://www.w3.org/TR/odrl-model/">https://www.w3.org/TR/odrl-model/</a></li>
+  <li>Wikipedia community. <em>MPEG-21.</em> (2022).
+<a href="https://ipfs.io/ipfs/zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/MPEG-21">ipfs:///zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/MPEG-21</a></li>
+  <li>Data Privacy Vocabulary (DPV), <a href="https://w3c.github.io/dpv/dpv/">https://w3c.github.io/dpv/dpv/</a></li>
 </ol>
 
     
@@ -470,6 +490,33 @@ system</a></li>
   <section class="related">
   <h2>Related Posts</h2>
   <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Decentralization.html">
+            The problem with (permissionless) decentralization
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Data-protection.html">
+            Why should the current personal data protection and portability paradigm be changed?
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Data-protection-ita.html">
+            Perché l'attuale paradigma di protezione e portabilità dei dati personali dovrebbe essere cambiato?
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
     
   </ul>
 </section>

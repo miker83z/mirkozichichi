@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      The problem with (permissionless) decentralization &middot; Mirko Zichichi
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <p class="lead"><img class="responsive-image" src="/profilepic.jpg" alt="Photo"></p> 
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Mirko Zichichi        
+      </a>
+    </div>
+    <p class="lead"><b>Engineering Team Lead</b> at <em><a href="https://www.iota.org/foundation/team" target="_blank">IOTA Foundation</a></em></p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+
+  
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/projects.html">Projects</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/research.html">Research</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/talks.html">Talks & Activities</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/tutoring.html">Tutoring</a>
+    
+  
+
+  
+    
+  
+
+  
+  
+    <a class="page-link "
+	href="/blog/">Blog</a>
+  
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+  
+
+  <nav id="sidebar-icon-links">
+         <!-- Optional additional links to insert for icons links -->
+
+<a
+  id="linkedin-link"
+  class="icon"
+  target="_blank"
+  title="LinkedIn"
+  aria-label="LinkedIn"
+  href="https://www.linkedin.com/in/mirko-zichichi-63a803100/"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>linkedin</title><path d='M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z'/></svg>
+</a>
+<a
+  id="github-link"
+  class="icon"
+  target="_blank"
+  title="github"
+  aria-label="github"
+  href="https://www.github.com/miker83z"
+>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" height="24" width="28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+</a>
+<a
+  id="scholar-link"
+  class="icon"
+  target="_blank"
+  title="Google Scholar"
+  aria-label="Google Scholar"
+  href="https://scholar.google.com/citations?user=ikI56qoAAAAJ"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>google scholar</title><path d='M256,368a16,16,0,0,1-7.94-2.11L108,285.84a8,8,0,0,0-12,6.94V368a16,16,0,0,0,8.23,14l144,80a16,16,0,0,0,15.54,0l144-80A16,16,0,0,0,416,368V292.78a8,8,0,0,0-12-6.94L263.94,365.89A16,16,0,0,1,256,368Z'/><path d='M495.92,190.5s0-.08,0-.11a16,16,0,0,0-8-12.28l-224-128a16,16,0,0,0-15.88,0l-224,128a16,16,0,0,0,0,27.78l224,128a16,16,0,0,0,15.88,0L461,221.28a2,2,0,0,1,3,1.74V367.55c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,496,368V192A14.76,14.76,0,0,0,495.92,190.5Z'/></svg>
+</a>
+<a
+  id="researchgate-link"
+  class="icon"
+  target="_blank"
+  title="Researchgate"
+  aria-label="Researchgate"
+  href="https://www.researchgate.net/profile/Mirko_Zichichi"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>researchgate</title><path d='M256,64C150.13,64,64,150.13,64,256s86.13,192,192,192,192-86.13,192-192S361.87,64,256,64Zm91.31,283.31a16,16,0,0,1-22.62,0l-42.84-42.83a88.08,88.08,0,1,1,22.63-22.63l42.83,42.84A16,16,0,0,1,347.31,347.31Z'/><circle cx='232' cy='232' r='56'/></svg>
+</a>
+<a
+  id="orcid-link"
+  class="icon"
+  target="_blank"
+  title="Orcid"
+  aria-label="Orcid"
+  href="https://orcid.org/0000-0002-4159-4269"
+>
+  <?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><link xmlns="" type="text/css" id="dark-mode" rel="stylesheet" href=""/><style xmlns="" type="text/css" id="dark-mode-custom-style"/>
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>orcid</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hero" transform="translate(-924.000000, -72.000000)" fill-rule="nonzero">
+            <g id="Group-4">
+                <g id="vector_iD_icon" transform="translate(924.000000, 72.000000)">
+                    <path d="M72,36 C72,55.884375 55.884375,72 36,72 C16.115625,72 0,55.884375 0,36 C0,16.115625 16.115625,0 36,0 C55.884375,0 72,16.115625 72,36 Z" id="Path" fill="#DCDCDC"/>
+                    <g id="Group" transform="translate(18.868966, 12.910345)" fill="#161616">
+                        <polygon id="Path" points="5.03734929 39.1250878 0.695429861 39.1250878 0.695429861 9.14431787 5.03734929 9.14431787 5.03734929 22.6930505 5.03734929 39.1250878"/>
+                        <path d="M11.409257,9.14431787 L23.1380784,9.14431787 C34.303014,9.14431787 39.2088191,17.0664074 39.2088191,24.1486995 C39.2088191,31.846843 33.1470485,39.1530811 23.1944669,39.1530811 L11.409257,39.1530811 L11.409257,9.14431787 Z M15.7511765,35.2620194 L22.6587756,35.2620194 C32.49858,35.2620194 34.7541226,27.8438084 34.7541226,24.1486995 C34.7541226,18.1301509 30.8915059,13.0353795 22.4332213,13.0353795 L15.7511765,13.0353795 L15.7511765,35.2620194 Z" id="Shape"/>
+                        <path d="M5.71401206,2.90182329 C5.71401206,4.441452 4.44526937,5.72914146 2.86638958,5.72914146 C1.28750978,5.72914146 0.0187670918,4.441452 0.0187670918,2.90182329 C0.0187670918,1.33420133 1.28750978,0.0745051096 2.86638958,0.0745051096 C4.44526937,0.0745051096 5.71401206,1.36219458 5.71401206,2.90182329 Z" id="Path"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+</a>
+<a
+  id="skype-link"
+  class="icon"
+  target="_blank"
+  title="mirko.zichichi"
+  aria-label="mirko.zichichi"
+  href="skype:mirko.zichichi?chat"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>mirko.zichichi</title><path d='M467.16,303.6a205.69,205.69,0,0,0,4.9-45.15c0-116.32-95.69-210.7-213.79-210.7a221.83,221.83,0,0,0-36.52,3A123.58,123.58,0,0,0,155.93,32C87.55,32,32,86.72,32,154.15A119.56,119.56,0,0,0,49,216a211.16,211.16,0,0,0-4.32,42.35c0,116.44,95.69,210.7,213.67,210.7a214,214,0,0,0,39.09-3.5A125.45,125.45,0,0,0,356.07,480C424.57,480,480,425.28,480,357.85A118,118,0,0,0,467.16,303.6ZM368,359c-9.92,13.76-24.51,24.73-43.41,32.43S283.36,403,257.69,403c-30.69,0-56.36-5.37-76.55-15.87a101,101,0,0,1-35.24-30.8c-9.11-12.83-13.66-25.66-13.66-38,0-7.7,3-14.35,8.87-19.95,5.84-5.37,13.42-8.17,22.29-8.17,7.35,0,13.65,2.1,18.79,6.42,4.9,4.08,9.1,10.15,12.48,18.08A108.09,108.09,0,0,0,207,336.15q6.32,8.22,17.86,13.65c7.82,3.62,18.2,5.48,31,5.48,17.62,0,32.09-3.73,42.94-11.08,10.74-7.12,15.88-15.75,15.88-26.25,0-8.28-2.69-14.82-8.29-19.95-5.83-5.37-13.42-9.57-22.87-12.37-9.69-3-22.87-6.18-39.21-9.56-22.17-4.67-41-10.27-56-16.57-15.28-6.42-27.65-15.4-36.76-26.48-9.22-11.32-13.77-25.55-13.77-42.24a67.86,67.86,0,0,1,14.47-42.58c9.57-12.25,23.46-21.82,41.55-28.35,17.74-6.53,38.86-9.8,62.66-9.8,19.14,0,35.83,2.22,49.83,6.42s25.91,10.15,35.36,17.38,16.34,14.93,20.77,23,6.66,16.22,6.66,24c0,7.46-2.92,14.35-8.76,20.3a29.65,29.65,0,0,1-21.94,9.1c-7.93,0-14.12-1.87-18.43-5.6-4-3.5-8.17-8.87-12.72-16.69-5.37-9.91-11.79-17.85-19.14-23.45-7.24-5.36-19.14-8.16-35.71-8.16-15.29,0-27.77,3-37,9-8.87,5.72-13.19,12.37-13.19,20.18a18.26,18.26,0,0,0,4.32,12.25,38.13,38.13,0,0,0,12.72,9.57,90.14,90.14,0,0,0,17.15,6.53c6,1.64,15.87,4.09,29.53,7.12,17.38,3.62,33.25,7.82,47.26,12.13,14.24,4.55,26.49,10,36.52,16.45a72.93,72.93,0,0,1,24.16,25.09c5.72,10,8.64,22.63,8.64,37.1A75.09,75.09,0,0,1,368,359Z'/></svg>
+</a>
+<a
+  id="youtube-link"
+  class="icon"
+  target="_blank"
+  title="Youtube"
+  aria-label="Youtube"
+  href="https://www.youtube.com/user/miker83z"
+>
+  <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 512 512'><title>youtube</title><path d='M508.64,148.79c0-45-33.1-81.2-74-81.2C379.24,65,322.74,64,265,64H247c-57.6,0-114.2,1-169.6,3.6-40.8,0-73.9,36.4-73.9,81.4C1,184.59-.06,220.19,0,255.79q-.15,53.4,3.4,106.9c0,45,33.1,81.5,73.9,81.5,58.2,2.7,117.9,3.9,178.6,3.8q91.2.3,178.6-3.8c40.9,0,74-36.5,74-81.5,2.4-35.7,3.5-71.3,3.4-107Q512.24,202.29,508.64,148.79ZM207,353.89V157.39l145,98.2Z'/></svg>
+</a>
+
+</nav>
+
+  <span class="site-version"><b>Email:</b> mirko.zichichi AT pm.me<br><br></span> 
+  <p>
+  &copy; 2025 Zichichi
+  <!-- <a href="/LICENSE">MIT License.</a> -->
+</p>
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">The problem with (permissionless) decentralization</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">18 Apr 2023</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        thesis
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <p>As we have seen in this <a href="/thesis/2023/04/18/Data-protection.html">blog post</a>, one of the key flaws associated with the current approach to personal data protection and privacy management is the concentration of power within a few organizations. However, this flaw regards many more reasons, such as censorship and anti-competition issues. The concentration of power referenced here can be due to many factors, such as the spontaneous emergence of hierarchies in natural systems (Bakos et al., 2021) or market dynamics’ effect, such as preferential attachment and manifestation power law manifestation (Lopez et al., 2019). In general, the main risk that leads to this flaw is the existence of a single point of failure.</p>
+
+<p>In systems theory, a system is decentralized when lower-level components operate on local information to accomplish global goals. Such a system operates through the emergent behavior of its component parts rather than as a result of the influence of a centralized part (Wikipedia community, 2022).</p>
+
+<blockquote>
+  <p>In a more technical definition, such systems are decentralized, meaning that their architecture is such that it tries to avoid single points of failure.</p>
+</blockquote>
+
+<p>With the advent of Bitcoin (Nakamoto, 2009) as the first system providing a Peer-to-Peer (P2P) cryptocurrency, there has been a new wave of development of decentralized systems to combat the single point of failure issue. The first widely used systems of this type date back to the start of the new millennium, making it possible to share and exchange resources such as text files, music, and video, e.g., BitTorrent, Emule, Gnutella, and Napster. Generally speaking, P2P systems usually run on top of an already existing network, like the Internet. The underlying overlay network can be represented as a graph where the nodes are the “peers,” and the edges connect peers directly communicating. Two prominent aspects related to the functioning of a P2P system are (i) how the overlay network is built and maintained and (ii) how messages are exchanged among peers (Serena et al., 2020). Hybrid P2P systems might employ some servers for coordination, while pure P2P architectures do not rely on any centralized entity (Backx et al., 2002). Bitcoin is a DLT built on top of a pure P2P system, with the primary objective of storing transactions of assets in the form of so-called cryptocurrency. To achieve decentralized verification of each block, the entire DLT is replicated among all nodes forming the P2P system. Each peer is randomly connected to others, and transactions are disseminated across the entire network. Each node then independently verifies the transactions received to ensure their consistency and avoid attacks, e.g., double spending of Bitcoins. Different types of DLTs provide different implementations of the ledger that store transactions; however, in blockchains, transactions are collected in blocks, and each block contains the hash of the previous one. Nakamoto revolutionized the decentralized systems’ world (and even finance) by introducing a consensus mechanism to ensure all the copies of the ledger are the same for all peers (Nakamoto, 2009). All the other peers accept a block only if it “solves a puzzle”. To make it solving this “crypto-puzzle,” it is required intensive computation work that consumes time, i.e., at each cycle try and attach a different nonce (i.e., a random number) to the block until the execution of a hash function on the block together with the nonce returns a string prefixed with X zeros. This is a general description of Bitcoin’s Proof-of-Work (PoW) consensus mechanisms (also called mining). Moreover, the X is changed dynamically to make this crypto-puzzle more difficult.</p>
+
+<p>Nakamoto’s is, in fact, a revolution since many industries and financial sectors have been influenced by it. In addition, it has also brought optimism for incentivizing participation models, resource contribution, and consensus that could provide a substrate for a decentralized Internet, i.e., the Web3. While there are many different types of DLT, each built with fundamentally different design decisions, the overarching value proposition of DLT and blockchains is that they can operate securely without any centralized control. However, this permissionless way of operating a sizeable decentralized system has also brought many criticisms. Several authors argue that the central problematic aspect of DLTs is their core notion of being trustless (De Filippi et al., 2020; Finocchiaro and Bomprezzi, 2020; Waldo, 2019). In many ways, their attempt to replace trust with code, i.e., the source code that implements the consensus algorithm, makes these DLTs less trustworthy than non-blockchain systems. Indeed, it can be argued that many permissionless DLTs are not truly decentralized, and their inevitable centralization is detrimental because it is essentially emergent and ill-defined (Schneier, 2019, 2022). In such systems, the need for trusted intermediaries is still present, and they often have more power and less oversight than non-blockchain systems: governance and regulations are needed.</p>
+
+<h3 id="where-does-trust-lie-in-permissionless-decentralized-systems">Where does trust lie in permissionless decentralized systems?</h3>
+
+<p>A critical part of permissionless DLTs is that anyone can participate in the consensus mechanism. Thus, due to its distributed nature, there are no reference points for placing trust. Schneier (2019) argues that non-DLT systems are based on other general mechanisms that humans use to incentivize trustworthy behavior and that make consensus mechanisms unnecessary: morals, reputation, institutions, and security mechanisms. Morals make a person act in a trustworthy way based on decisions taken individually, while reputation is based on the influence of one’s social group. Institutions have rules and laws that induce people to behave according to the group norm, while security mechanisms such as door locks are employed to fulfill the gaps of the previous three mechanisms. What DLTs’ consensus mechanism does, is to shift some of the trust in people and institutions to trust in the technology (Schneier, 2019). When that trust turns out to be misplaced, there is no recourse. For example, if an individual is the sole holder of a private key used to unlock Bitcoin funds and this one is lost, then there is no remedy. In this case, Scheiner wonders whether it is better to trust a technology or a (or a group of) person(s).</p>
+
+<p>By being open access and fully distributed, a permissionless environment may not be able to incentivize participants to adequately provide functions like quality control or coordination of system development and evolution (Bakos et al., 2021). Centralization emerges de facto because of the investment of expertise, reputation, time, or money of the hierarchy of developers or organizations required to enable open access and decentralized control. The higher the costs, the fewer the people that want to participate (Bakos et al., 2021). Permissionless consensus mechanisms require trust in the various members who execute it, i.e., miners or validators (depending on the consensus algorithm) or in their governance. Verifying that these members are not cheating on the hashing of a block is easy. The more extensive and diverse the group of validators or governance, the less likely anyone is to collude. However, even assuming that the group that computes the blocks is trusted, as is its governance, it is necessary to trust the developers of the software used to manage the blocks, ledgers, and all.</p>
+
+<p>For this regard, Trail of Bits (2022) investigates these matters intending to show how a subset of participants can gain centralized control over the entire DLT. Their work is based on 6 measures of centrality:</p>
+
+<ul>
+  <li><strong>Authoritative centrality</strong> - What is the minimum number of entities necessary to disrupt the system? The Nakamoto coefficient represents the reply to such a question, and the closer this value is to one, the more centralized the system. It has been shown that for the most used permissionless DLTs, such as Bitcoin and Ethereum, the Nakamoto coefficient is relatively low. While it might be prohibitively expensive attacks such DLTs for individuals, competing technologies and nation-states might have the requisite resources.</li>
+  <li><strong>Consensus centrality</strong> - To what extent is the source of consensus centralized? The Bitcoin PoW consensus mechanism is currently not executed by single computers or machines owned by an individual but rather by so-called mining pools that aggregate several individual computing powers into one for the same objective, i.e., solving the crypto-puzzle. Only the four most popular mining pools consti- tute over 51% of Bitcoin’s computing power. This paves the way for the most impactful attacks possible to the DLT (Ye et al., 2018). Moreover, each mining pool operates its proprietary centralized protocol and interacts with the public Bitcoin network only through a gateway node, making them an easy target for single point of failure attacks.</li>
+  <li><strong>Motivational centrality</strong> - How are participants disincentivized from acting maliciously? The possibility of attacks, such as the 51% attack, shows how most Bitcoin nodes are incentivized to behave dishonestly. Kwon et al. (2019) have shown that there is no known way to create a permissionless DLT that is immune to malicious nodes without having a trusted centralized third party.</li>
+  <li><strong>Topological centrality</strong> - How resistant is the consensus network to disruption? Through empirical estimates of the degree distribution, the authors show that a dense subnetwork of public nodes in the P2P DLT permissionless network is largely responsible for reaching consensus and communicating with nodes executing the consensus mechanism.</li>
+  <li><strong>Network centrality</strong> - Are the nodes sufficiently geographically dispersed such that they are uniformly distributed across the Internet? Permissionless DLTs such as Bitcoin can suffer arbitrarily degradation or denial of services to any node because, in the past 5 years, 60% of all Bitcoin traffic has traversed just three Internet Service Providers. Moreover, these or any third party on the network route between nodes can observe and choose to drop any messages they wish, also when the Tor protocol is employed (Biryukov and Pustogarov, 2015).</li>
+  <li><strong>Software centrality</strong>: To what extent is the safety of the DLT dependent on the security of the software on which it runs? Each DLT has a privileged set of entities that can potentially modify past transactions: software developers and maintainers. They represent a centralized point of trust in the system, susceptible to targeted attacks; for example, there are currently four active contributors who have access to modify the Bitcoin Core code base. Software bugs can lead to consensus errors and change the state of the blockchain. In this case, trust in software development is to accept the immutability of the ledger and believe that the programmers have not introduced a bug. A not-so-popular alternative is to update the code off-chain, which shares the same trust issues as a centralized approach.</li>
+</ul>
+
+<p>Some other problems are inherent to the P2P nature of decentralized, permissionless systems. Lopez et al. (2019) argue that decentralized, permissionless blockchains remain ill-suited. The first problem they analyze is the free-riding and incentives for peers. The issue is that, generally, peers do not donate their computing, storage, and bandwidth resources for altruistic reasons, i.e., without incentives. This led to the creation of mining pools and large mining industries, making it impossible for an average user to mine with an ordinary desktop computer to receive compensation. The second problem depicted by the authors regards the security and fragility of open permissionless networks, as attackers, in this case, have economic incentives to break the system. The third problem is a performance issue due to instability, heterogeneity, and churn in the P2P network. The “fatal” issue of P2P networks is that they show high heterogeneity and high degrees of churn, i.e., nodes that dynamically come and go in the system. In DLTs, this translates into the scalability trilemma: a DLT can only address two of the three scalability, decentralization, and security challenges. The solution to this is the employment of so-called layer-two or off-chain solutions that increase the system’s complexity. In fact, the fourth problem taken into consideration is system complexity and maintenance. Programming distributed systems that must be fault-tolerant, self-adjusting, and scalable is challenging.</p>
+
+<h3 id="permissioned-decentralized-systems-come-to-the-rescue">Permissioned decentralized systems come to the rescue</h3>
+
+<p>If trust can be a pivotal element in making the promises of (permissionless) decentralized systems vain, at the same time, it can be that element that, if reinterpreted, can tell us why these systems could bring significant benefits in different contexts. Becker and Bodó (2021) define trust as a complex social phenomenon with interrelated individual and systemic aspects, a relational attribute between a social actor and other actors (interpersonal) and/or actors and institutions (institutional) and institutions and actors (shared expectations). The discussion on trust in DLT spans from the technological to the legal-social to the economic context. If we first need to clarify what trust means academically, its relationship with DLTs can be delineated: “does blockchain increase trust, decrease trust, make trust obsolete, or represent a shift in the nature of trust?” (Becker and Bodó, 2021). A DLT can be considered trustless or trust-free, i.e., that takes care of trust issues and frees individuals from the necessity of implementing mechanisms to signal or convey trust (Beck et al., 2016), or not wholly trustless, i.e., replacing interpersonal trust with trust in the DLT itself (miners, consensus mechanisms, nodes), software developers or new intermediaries (cryptocurrency exchanges). De Filippi et al. (2020) define this not wholly trustlessness as confidence, and thus the DLT becomes a “confidence machine” in the sense that it increases the confidence in the operation of a particular system. The authors argue that creating solid expectations about the correct behavior of operations performed by DLTs increases user confidence, thus eliminating the need for a centralized “trusted” authority. Therefore, confidence in DLTs ultimately depends on the proper governance of the system. This means increased confidence is intrinsically related to the degree to which the various actors involved in governance act as expected.</p>
+
+<p>Both trustless and confidence visions mainly apply to the permissionless case, while permissioned DLTs are usually not considered trustless, as they afford one or more organizations in a maintaining role that need to be trusted. Nevertheless, the members of the latter kind of DLT do not necessarily trust each other, as problems such as authorization and auditing are intrinsic to permissioned DLTs. Although not fully decentralized by design, the governance structure of permissioned systems can also ensure some level of decentralization.
+As discussed above, in the absence of formal checks for the underlying centralization forces of permissionless systems, centralization emerges in practice. On the other hand, permissioned decentralized systems often operate thanks to contractual agreements between the entities that implement the governance aspect for the system’s operations. Permissioned refers mainly to access to information and governance aspects. In this regard, decentralized systems can be characterized on three key dimensions (Bakos et al., 2021):</p>
+
+<ol>
+  <li>architecture, which can be concentrated or distributed;</li>
+  <li>access, which can be permissionless or permissioned; and</li>
+  <li>control, which can be centralized or decentralized.</li>
+</ol>
+
+<p>Even if permissioned DLTs are often compared to “not so interesting” distributed databases, when these systems are designed to streamline and convey business relations (that already require trust), they can be more effective than a non-DLT system in the transfer, clearing, and traceability of exogenous assets or rights (Bakos et al., 2021). Permissioned blockchains and the execution of smart contracts on top of them may enable trust, or, better say, confidence, between many players for the validation of contractual obligations (Lopez et al., 2019). Business relationships require trust in the operational and institutional setting, action accountability, and reputation. What permissioned DLT can bring is to achieve higher security at lower levels of trust that any single participant can be induced not to deviate from the protocol (Bakos and Halaburda, 2021). Permissioned DLT entities are identifiable outside the DLT, i.e., off-chain, and are thus subject to penalties imposed by the institutional setting.</p>
+
+<blockquote>
+  <p>The permissioned DLT is then a unique framework for collaboration in competition scenarios.</p>
+</blockquote>
+
+<p>Entities competing at a business level can cooperate for other purposes through permissioned DLTs (Bakarich and Castonguay, 2021). Unlike a traditional distributed database, no central entity manages and protects the data. Instead, all “business-competing” permissioned DLT nodes control, maintain, and guard the information posted to it, providing an additional layer of control if one of the parties attempts to alter or change previously agreed-upon information. In this way, the ledger can securely and efficiently create a tamper-proof log of sensitive activity. The trust placed in off-chain negotiations between two or more entities, whether institutional or shared expectations, can allow for the design of consensus mechanisms where a large number of validator nodes have a say in the validation process (Bakos et al., 2021). Thus, the primary ability that (permissioned) decentralized systems can provide to their users when reinterpreted as a confidence machine is “gaining truth through the ability to share data safely” (Hardjono et al., 2019).</p>
+
+<p>For Lopez et al. (2019), permissioned systems are of great value when used in environments composed by a collection of players or stakeholders that do not fully trust each other: supply chain &amp; logistics, to trace products while different actors and companies handle them, without having to trust every node in the chain explicitly; healthcare, for the secure sharing of health data across hospitals and platforms; education, for validating of academic credentials and certifications, utilities, such as smart power grids with distributed power generation from both residential and businesses. Even if a centralized system for each case were feasible, such an approach would lack the flexibility of the evolution and portability of members and services and interoperability with other external DLTs and/or services. As an example, the European Blockchain Services Infrastructure (EBSI) (European Blockchain Partnership EBP, 2022) could become a superhub for a myriad of lesser national/local networks: DLT islands will emerge around the world in different sectors (Lopez et al., 2019). The EBSI leverages a permissioned DLT where each EU member state maintains nodes to accelerate the creation of cross-border services for public administrations. The DLT enables the EBSI ecosystem to verify the information and to make services more trustworthy, changing the traditional pattern of data sharing due to its distributed nature. In there, the ledger acts as a point of truth that supports the verification of the entities involved in the transaction and the authenticity of information without requiring real-time access to the source of information.</p>
+
+<p>In conclusion, six key aspects can be guaranteed in for the data management in a permissioned decentralized setting:</p>
+
+<ul>
+  <li>DLTs can provide a single source of verifiable truth among organizations and some level of appropriate automation of data processing.</li>
+  <li>Organizations can arrange a form of governance to decide the distributed sources of trust and to moderate such permissioned systems.</li>
+  <li>The authority can be distributed among many trusted actors so that compromise of one or even a few authorities does not destroy the consensus.</li>
+  <li>Intrinsic cryptographical properties of DLTs can enable distributed safe computation and data minimization.</li>
+  <li>The networked collaboration environment can be easily exploited for the audit and accountability of operations.</li>
+  <li>P2P networks offer a valuable solution for data resiliency and scalability.</li>
+</ul>
+
+<p>More on this in my <a href="https://mirkozichichi.me/assets/papers/phddesp3d.pdf">Ph.D. Thesis</a>…</p>
+
+<h3 id="references">References</h3>
+
+<p>Backx, P., Wauters, T., Dhoedt, B., and Demeester, P. (2002). A comparison of peer-to-peer architectures. In Eurescom Summit, volume 2. Citeseer.</p>
+
+<p>Bakarich, K. and Castonguay, J. J. (2021). Using a permissioned blockchain? The CPA Journal, 91(6/7):48–51.</p>
+
+<p>Bakos, Y. and Halaburda, H. (2021). Tradeoffs in permissioned vs permissionless blockchains: Trust and performance. NYU Stern School of Business working paper.</p>
+
+<p>Bakos, Y., Halaburda, H., and Mueller-Bloch, C. (2021). When permissioned blockchains deliver more decentralization than permissionless. Communications of the ACM, 64(2):20–22. i, ii, iii, v, vi</p>
+
+<p>Beck, R., Czepluch, J. S., Lollike, N., and Malone, S. (2016). Blockchain–the gateway to trust-free cryptographic transactions. In Twenty-Fourth European Conference on Information Systems (ECIS), ˙Istanbul, Turkey, 2016, pages 1–14. Springer Publishing Company.</p>
+
+<p>Becker, M. and Bodó, B. (2021). Trust in blockchain-based systems. Internet Policy Review, 10(2):1–10.</p>
+
+<p>Biryukov, A. and Pustogarov, I. (2015). Bitcoin over tor isn’t a good idea. In 2015 IEEE Symposium on Security and Privacy, pages 122–134. IEEE.</p>
+
+<p>De Filippi, P., Mannan, M., and Reijers, W. (2020). Blockchain as a confidence machine: The problem of trust &amp; challenges of governance. Technology in Society, 62:101284.</p>
+
+<p>European Blockchain Partnership EBP (2022). European blockchain services infrastructure. https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Home.</p>
+
+<p>Finocchiaro, G. and Bomprezzi, C. (2020). Legal analysis of the use of blockchain technology for the formation of smart legal contracts. Media Laws Rivista di Diritto dei Media.</p>
+
+<p>Hardjono, T., Shrier, D. L., and Pentland, A. (2019). 2 TOWARDS AN INTERNET OF TRUSTED DATA, pages 15–40. MIT Press.</p>
+
+<p>Kwon, Y., Liu, J., Kim, M., Song, D., and Kim, Y. (2019). Impossibility of full decentralization in permissionless blockchains. In Proceedings of the 1st ACM Conference on Advances in Financial Technologies, pages 110–123. iii</p>
+
+<p>Lopez, P. G., Montresor, A., and Datta, A. (2019). Please, do not decentralize the internet with (permissionless) blockchains! In 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), pages 1901–1911. IEEE.</p>
+
+<p>Nakamoto, S. (2009). Bitcoin: A peer-to-peer electronic cash system.</p>
+
+<p>Schneier, B. (2019). Blockchain and trust. https://www.schneier.com/blog/archives/2019/02/blockchain_and_.html. ii</p>
+
+<p>Schneier, B. (2022). On the dangers of cryptocurrencies and the uselessness of blockchain. https://www.schneier.com/blog/archives/2022/06/on-the-dangers-of-cryptocurrencies-and-the-uselessness-of-blockchain.html. ii</p>
+
+<p>Serena, L., D’Angelo, G., and Ferretti, S. (2020). Implications of dissemination strategies on the security of distributed ledgers. In Proceedings of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems, pages 65–70.</p>
+
+<p>Trail of Bits (2022). Are blockchains decentralized? Technical report, Trail of Bits.</p>
+
+<p>Waldo, J. (2019). A hitchhiker’s guide to the blockchain universe. Communications of the ACM, 62(3):38–42.</p>
+
+<p>Wikipedia community (2022). Decentralised system. ipfs://zdj7WX5pBeuj18FDbNqxv55msheeEwFnmcRExintmC2men7ZS/wiki/Decentralised_system.</p>
+
+<p>Ye, C., Li, G., Cai, H., Gu, Y., and Fukuda, A. (2018). Analysis of security in blockchain: Case study in 51%-attack detecting. In 2018 5th International conference on dependable systems and their applications (DSA), pages 15–24. IEEE</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/thesis/2023/04/18/Decentralization.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/thesis/2023/04/18/Decentralization.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//mirkozichichi.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Data-protection.html">
+            Why should the current personal data protection and portability paradigm be changed?
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/thesis/2023/04/18/Data-protection-ita.html">
+            Perché l'attuale paradigma di protezione e portabilità dei dati personali dovrebbe essere cambiato?
+            <small>18 Apr 2023</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/projects/2022/10/01/DecentDIS.html">
+            A Decent DIS? Building a Decentralized Data Intermediation Service
+            <small>01 Oct 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>

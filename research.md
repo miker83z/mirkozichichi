@@ -155,6 +155,50 @@ title: Research
 
 ---
 
+## Theses
+
+<table>
+    <tr>
+        <td>
+          [PhD] Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano,
+          <br>
+          <b>Decentralized Systems for the Protection and Portability of Personal Data</b>,
+          <i>University of Madrid - University of Bologna.</i> April 2023, Madrid, Spain.
+        </td>
+        <td>
+          <a class="get get_download" target="_blank" href="/assets/papers/phddesp3d.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/phdslides.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [MSc] Zichichi Mirko, Ferretti Stefano,
+          <br>
+          <b>A Distributed Ledger based infrastructure for Intelligent Transportation Systems</b>,
+          <i>University of Bologna.</i> July 2019, Bologna, Italy.
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/18440/"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/mscdistributed.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/mscslides.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [BSc] Zichichi Mirko, Cossentino Massimo, Sabatucci Luca, De Simone Giada,
+          <br>
+          <b>Tecniche di Monitoring di Servizi per la Soddisfazione Parziale dei Requisiti</b>,
+          <i>Università degli Studi di Palermo.</i> October 2017, Palermo, Italy.
+        </td>
+        <td>
+          <a class="get get_download" target="_blank" href="/assets/papers/bsctecniche.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/papers/bscslides.pdf"></a>
+        </td>
+    </tr>
+</table>
+
+---
+
 ## Conference and Workshops Papers
 
 <table>
@@ -611,270 +655,6 @@ title: Research
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/INFCOMW.2019.8845133"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/1likestarter.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/1likestarter.bib"></a>
-        </td>
-    </tr>
-</table>
-
----
-
-## Theses
-
-<table>
-    <tr>
-        <td>
-          [PhD] Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano,
-          <br>
-          <b>Decentralized Systems for the Protection and Portability of Personal Data</b>,
-          <i>University of Madrid - University of Bologna.</i> April 2023, Madrid, Spain.
-        </td>
-        <td>
-          <a class="get get_download" target="_blank" href="/assets/papers/phddesp3d.pdf"></a>
-          <a class="get get_ppt" target="_blank" href="/assets/papers/phdslides.pdf"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          [MSc] Zichichi Mirko, Ferretti Stefano,
-          <br>
-          <b>A Distributed Ledger based infrastructure for Intelligent Transportation Systems</b>,
-          <i>University of Bologna.</i> July 2019, Bologna, Italy.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://amslaurea.unibo.it/18440/"></a>
-          <a class="get get_download" target="_blank" href="/assets/papers/mscdistributed.pdf"></a>
-          <a class="get get_ppt" target="_blank" href="/assets/papers/mscslides.pdf"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          [BSc] Zichichi Mirko, Cossentino Massimo, Sabatucci Luca, De Simone Giada,
-          <br>
-          <b>Tecniche di Monitoring di Servizi per la Soddisfazione Parziale dei Requisiti</b>,
-          <i>Università degli Studi di Palermo.</i> October 2017, Palermo, Italy.
-        </td>
-        <td>
-          <a class="get get_download" target="_blank" href="/assets/papers/bsctecniche.pdf"></a>
-          <a class="get get_ppt" target="_blank" href="/assets/papers/bscslides.pdf"></a>
-        </td>
-    </tr>
-</table>
-
----
-
-## Projects
-
-<table>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b> NFTicket for the Metaverse</b>,
-          <i> Proof-of-concept implementation of a NFT that performs an Anonymous Credentials Verification before minting a Ticket.</i> March 2023.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/nfticket"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>[desp3d] The PhD Thesis Software Repository</b>,
-          <i> A set of software modules that support the work behind the PhD thesis.</i> May 2022.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/stars/miker83z/lists/phd-thesis"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>k-DaO</b>,
-          <i> Implementation of a k-DAO in Ethereum that governs the exchange of data with an aggregator.</i> May 2022.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/k-DaO"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>TruDaMul Smart Contracts</b>,
-          <i> TruDaMul is a decentralized application that combines the use of Distributed Ledger Technologies and Decentralized File Storages, mostly for verifying the correct behavior of all the participants and to incentivize them in Data Mule-based communications.</i> August 2021.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/TruDaMul"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Reference Software for ISO/IEC 21000-23 Smart Contracts for Media</b>,
-          <i> Implementation of the standard specification composed of conversion modules, smart contracts, demo and APIs.</i> July 2021.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://scm.linkeddata.es/"></a>
-          <a class="get get_external" target="_blank" href="https://scm.linkeddata.es/docs/"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Hypercube DAO Contracts</b>,
-          <i> Implementation of a DAO in Ethereum that governs a P2P network of nodes maintaining a Distributed Hash Table.</i> May 2021.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/HypercubeDAOContracts"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Intelligible Identity and Certificate</b>,
-          <i> Implementation of the <a href="http://lbl.cirsfid.unibo.it/index.php/publications/" target="_blank">Intelligible</a> models for verifying the authenticity of digital certificates and online identity assertions, namely Intelligible Identity and Intelligible Certificate, based on the use of DLTs, smart contracts and standards for mark-up and identification of legal documents.</i> April 2021.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/BitNomos/Intelligible-Identity-SDK/tree/suite"></a>
-          <a class="get get_external" target="_blank" href="https://demo.intelligible.io"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Umbral-rs</b>,
-          <i> Implementation of the <a href="https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf" target="_blank">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href="https://github.com/nucypher/pyUmbral" target="_blank">Python</a> version createdby the Umbral authors.</i> September 2020.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/umbral-rs"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>MPEG-21 Media Contract Ontology to Smart Contracts</b>,
-          <i> Demo for the <a href="http://cosasbuenas.es/mpeg/" target="_blank">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non Fungible Tokens.</i> September 2020.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/mpeg21mco2sc"></a>
-          <a class="get get_external" target="_blank" href="https://mpeg21mco2sc.herokuapp.com/"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Personal Data Decentralized Access Control tests</b>,
-          <i>Assessing the feasibility of lesser-used cryptographic methods in the field of access control, with particular attention to personal information.</i> July 2020.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/decentralizedAuthTests"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko, Contu Michele, Rak Richard
-          <br>
-          <b>Capitalism 2.0</b>,
-          <i>A Multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments.</i> May 2020.
-        </td>
-        <td>
-          <a class="get get_external" target="_blank" href="https://capitalism20.tk/"></a>
-          <a class="get get_external" target="_blank" href="https://capitalism20.tk/ftapplication/"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>IPFS-Sia Rio Buses</b>,
-          <i>Collection of data and scripts regarding the evaluation of IPFS and Sia performances in a vehicular scenario.</i> May 2020.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/testingIPFS"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko, Biagio Distefano
-          <br>
-          <b>MOATCoin</b>,
-          <i>A smart contract that combines a variation of a standard ERC20 token with a voting contract.</i> January 2020.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://gitlab.com/CIRSFID/moatcoin"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>IOTA Rio Buses</b>,
-          <i>Collection of data and scripts regarding the evaluation of IOTA network performances in a vehicular scenario.</i> October 2019.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/testingIOTA"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Movo</b>,
-          <i>An android app prototype that allows to share vehicle data using IOTA and Ethereum Smart Contracts.</i> July 2019.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/movoApp"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>Mycropayments</b>,
-          <i>A POC to use IOTA Masked Authenticated Messaging for Ethereum State Channels.</i> June 2019.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/Mycropayments"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>middleMAM</b>,
-          <i>WebRTC channel supported by IOTA Masked Authentication Messaging.</i> April 2019.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/middleMAM"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko, Contu Michele
-          <br>
-          <b>LikeStarter</b>,
-          <i>Blockchain-based decentralized platform that combines social interactions with crowdfunding mechanisms, allowing any user to raise funds while becoming popular in the social network.</i> November 2018.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/flamel13/eth-crowdsale"></a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          Zichichi Mirko,
-          <br>
-          <b>i4canti</b>,
-          <i>Agents model to study ideas influence between individuals.</i> September 2018.
-        </td>
-        <td>
-          <a class="get get_github" target="_blank" href="https://github.com/miker83z/i4canti"></a>
         </td>
     </tr>
 </table>
