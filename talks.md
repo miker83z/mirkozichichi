@@ -5,6 +5,54 @@ title: Talks & Activities
 
 ---
 
+#### 2025
+
+<table>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko, Luigi Vigneri
+          <br>
+          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <a href="https://events.dimes.unical.it/dlt2025/" target="_blank"><i>6th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> June 2025.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dltschool-2025.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>IOTA Move Smart Contracts</b>,
+          <a href="https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2025/461739" target="_blank"><i>Blockchain and Cryptocurrencies, Master's Degree in Computer Science and Master's Degree in Artificial Intelligence, University of Bologna.</i></a> November 2025.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/movelecture2024.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Blockchain & Smart Contract</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2025/472765" target="_blank"><i>Juridical and Technological Aspects (seminar).</i></a>  November 2025.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2024.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/smartcontractgiur2024.pdf"></a>
+        </td>
+    </tr>
+</table>
+
 #### 2024
 
 <table>
@@ -34,6 +82,21 @@ title: Talks & Activities
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/movelecture2024.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Blockchain & Smart Contract</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2024/472765" target="_blank"><i>Juridical and Technological Aspects (seminar).</i></a>  November 2024.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2024.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/smartcontractgiur2024.pdf"></a>
         </td>
     </tr>
     <tr>
@@ -81,6 +144,21 @@ title: Talks & Activities
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dltschool-2023.pdf"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko
+          <br>
+          <b>Blockchain e Smart Contract</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2023/472765" target="_blank"><i>Aspetti Giuridici e Tecnologici (seminario).</i></a>  November 2023.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2021.pdf"></a>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/smartcontractgiur2022.pdf"></a>
         </td>
     </tr>
     <tr>
