@@ -5,6 +5,25 @@ title: Talks & Activities
 
 ---
 
+#### 2026
+
+<table>
+    <tr>
+        <td>
+          Invited Lecturer
+        </td>
+        <td>
+          Zichichi Mirko, Luigi Vigneri
+          <br>
+          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <a href="https://events.dimes.unical.it/dlt2025/" target="_blank"><i>7th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> June 2026.
+        </td>
+        <td>
+          <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/dltschool-2026.pdf"></a>
+        </td>
+    </tr>
+</table>
+
 #### 2025
 
 <table>
