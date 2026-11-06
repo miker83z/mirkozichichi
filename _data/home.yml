@@ -1,4 +1,5 @@
-# Lists on the home page: "about" (career and education, newest first) and "current" (current projects).
+# Lists on the home page: "about" (career and education, newest first), "current" (current projects),
+# "affiliations" (past affiliations) and "contacts" (emails are written as patterns to keep spam bots away).
 # Same fields as the other entry lists (see _includes/entry-row.html); types in home_types.yml.
 
 about:
@@ -42,3 +43,34 @@ current:
     description: "This team is currently focused on all aspects related to the Move smart contract language. We maintain the Rust-based source code responsible for the compilation and execution of Move code, as well as the integration of these components into the IOTA DLT protocol. Additionally, we collaborate with other teams to develop Move smart contracts for implementing core DLT functionalities and building decentralized applications on top of the blockchain. Looking ahead, we aim to explore the expansion of Move language features and potentially work with new smart contract languages."
     links:
       - { kind: "github", url: "https://github.com/iotaledger/iota" }
+affiliations:
+  - type: "group"
+    title: "Ontology Engineering Group (OEG)"
+    venue: "Universidad Politécnica de Madrid"
+    links:
+      - { kind: "external", url: "https://oeg.fi.upm.es/" }
+  - type: "standardization"
+    title: "MPEG Ad-hoc Group on Smart Contracts for Media"
+    venue: "ISO/IEC JTC 1/SC 29"
+    links:
+      - { kind: "external", url: "https://www.iso.org/standard/82527.html" }
+  - type: "group"
+    title: "Analysis of Networks and Simulation Research Group (AnaNSi)"
+    venue: "University of Bologna"
+    links:
+      - { kind: "external", url: "https://site.unibo.it/anansi/en" }
+  - type: "group"
+    title: "Legal Blockchain Lab"
+    venue: "University of Bologna"
+    links:
+      - { kind: "external", url: "http://lbl.cirsfid.unibo.it/" }
+contacts:
+  - type: "office"
+    title: "IOTA Foundation"
+    details: "Pappelallee 78/79, 10437 Berlin, Germany"
+  - type: "email"
+    title: "Work"
+    details: "<code>{name.surname}@iota.org</code>"
+  - type: "email"
+    title: "Personal"
+    details: "<code>{name.surname}@pm.me</code> <code>{username}@proton.me</code> <code>{username}@gmail.com</code>"

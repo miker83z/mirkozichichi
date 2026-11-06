@@ -4,7 +4,7 @@
 ---
 
 $large-font-size: 1.1rem;
-$sidebar-width: 25rem;
+$sidebar-width: 16rem;
 $sidebar-sticky: true;
 
 @import 'hydeout';
@@ -51,30 +51,54 @@ $sidebar-sticky: true;
 }
 
 .responsive-image {
-  width: 100px;
+  width: 96px;
   max-width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
-#sidebar {
-  .site-title {
-    font-family: $root-font-family;
-  }
+#sidebar .site-title {
+  font-family: $root-font-family;
 }
 
+// The theme's back link above page titles has an empty href (it only reloads the page)
+.back-link:has(> a[href=""]) {
+  display: none;
+}
+
+// Large screens: a narrow sidebar and a wider content column
 @media (min-width: $large-breakpoint) {
-  .responsive-image {
-    width: 80px;
-    margin-left: 0;
+  #sidebar {
+    padding: 2rem 1.5rem;
   }
-}
 
-@media (min-width: 85rem) {
-  .responsive-image {
-    width: 200px;
-    margin-left: 0;
+  // .home #sidebar .site-title is set by the theme, so it is listed to override it
+  #sidebar .site-title,
+  .home #sidebar .site-title {
+    font-size: 1.9rem;
+    line-height: 1.15;
+  }
+
+  #sidebar .lead {
+    font-size: 1rem;
+  }
+
+  // Keep the profile icons on one row and the email on one line in the narrow sidebar
+  #sidebar #sidebar-icon-links > .icon {
+    margin: 0 0.15rem;
+
+    svg {
+      width: 1.35rem;
+      height: 1.35rem;
+    }
+  }
+
+  #sidebar .sidebar-contact {
+    font-size: 0.8rem;
+  }
+
+  .container > * {
+    max-width: 50rem;
   }
 }
 
@@ -99,25 +123,79 @@ $sidebar-sticky: true;
 }
 
 @media (max-width: $large-breakpoint - 0.01rem) {
-  // Home page sidebar: smaller photo and title, menu in one wrapping row
+  // The sidebar becomes a compact header on every page: photo, name and subtitle on one row,
+  // the menu underneath (wrapping, so every link stays visible). The theme shows and hides parts of the
+  // sidebar per page (.home #sidebar header ~ *, #sidebar p.lead), hence the specific selectors.
+  #sidebar,
   .home #sidebar {
-    .responsive-image {
-      width: 72px;
-    }
-    .site-title {
-      font-size: 2rem;
-    }
-    #sidebar-nav-links {
-      flex-flow: row wrap;
-      justify-content: center;
-      a {
-        margin: 0 0.5rem;
-      }
+    padding: 1rem 1.25rem 0.25rem;
+    text-align: left;
+  }
+
+  #sidebar header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.85rem;
+    align-items: center;
+  }
+
+  #sidebar header p.lead {
+    display: block;
+    margin: 0;
+  }
+
+  #sidebar header p.lead:first-child {
+    grid-row: span 2;
+  }
+
+  #sidebar .responsive-image {
+    width: 3.25rem;
+    border-radius: 50%;
+  }
+
+  #sidebar .site-title,
+  .home #sidebar .site-title {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.2;
+
+    .back-arrow {
+      display: none;
     }
   }
 
-  // The theme shows everything below the header on the home page (.home #sidebar header ~ *),
-  // so this needs a selector at least as specific; other pages already hide it on small screens
+  #sidebar header p.lead:last-child {
+    color: $sidebar-text-color;
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  #sidebar #sidebar-nav-links {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0 1.1rem;
+    margin: 0.6rem 0 0;
+    padding-bottom: 0.4rem;
+
+    a {
+      white-space: nowrap;
+      line-height: 2;
+    }
+
+    a.active {
+      box-shadow: inset 0 -2px 0 $sidebar-link-color;
+    }
+  }
+
+  // Without the back link (hidden above), the theme's negative top margin would pull the page title
+  // into the header
+  .container > header {
+    margin-top: 0;
+  }
+
+  // Icons, email and copyright move to the footer (see _includes/custom-foot.html)
+  #sidebar #sidebar-icon-links,
+  #sidebar .sidebar-contact,
   .home #sidebar .sidebar-contact {
     display: none;
   }
@@ -129,6 +207,24 @@ $sidebar-sticky: true;
     color: $sidebar-text-color;
     p {
       margin: 0.5rem 0 0;
+    }
+  }
+
+  .footer-icon-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    a {
+      display: inline-block;
+      margin: 0 0.3rem;
+    }
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+      fill: $sidebar-icon-color;
     }
   }
 
@@ -274,6 +370,23 @@ table.entries {
   white-space: nowrap;
 }
 
+// entries without an ID or date (e.g. affiliations) drop the column
+table.entries td.entry-meta:empty {
+  min-width: 0;
+  padding: 0;
+}
+
+.entry-note {
+  color: $gray-4;
+  font-size: 0.85em;
+}
+
+// Code in entries (e.g. the email patterns) in the list's greys instead of the theme's red
+.entry-venue code {
+  background: $gray-1;
+  color: $gray-6;
+}
+
 .entry-id {
   display: block;
   color: $gray-4;
@@ -411,5 +524,26 @@ table.entries td.entry-links {
 
   .entry-flags {
     width: auto;
+  }
+
+  // Entries without an ID or date: the marker sits next to the text instead of on its own line
+  table.entries tr.entry:has(> td.entry-meta:empty) {
+    grid-template-columns: auto 1fr;
+
+    td.entry-meta {
+      display: none;
+    }
+
+    td.entry-flags {
+      padding-top: 0.2em;
+    }
+
+    td.entry-text {
+      grid-column: auto;
+    }
+
+    td.entry-links {
+      grid-column: span 2;
+    }
   }
 }

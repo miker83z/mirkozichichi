@@ -43,28 +43,12 @@ Passionate about Distributed Ledger Technologies, with expertise in designing an
 
 ## Past Affiliations
 
-- [Ontology Engineering Group (OEG)](https://oeg.fi.upm.es/), Universidad Politécnica de Madrid
-- [MPEG Ad-hoc Group on Smart Contracts for Media](https://www.iso.org/standard/82527.html), ISO/IEC JTC 1/SC 29
-- [Analysis of Networks and Simulation Research Group (AnaNSi)](https://site.unibo.it/anansi/en), University of Bologna
-- [Legal Blockchain Lab](http://lbl.cirsfid.unibo.it/), University of Bologna
+{% include entry-list.html entries=site.data.home.affiliations types=site.data.home_types id="affiliations" filters=false compact=true %}
 
 ---
 
-# Contacts
+## Contacts
 
-IOTA Foundation
-<br>
-Pappelallee 78/79
-<br>
-10437 Berlin, Germany
+{% include entry-list.html entries=site.data.home.contacts types=site.data.home_types id="contacts" filters=false compact=true %}
 
-**Emails**:
-<br>
-name = mirko <br>
-surname = zichichi <br>
-email_0 = {name.surname}@iota.org <br>
-email_1 = {name.surname}@pm.me <br>
-
-username = miker83z <br>
-email_2 = {username}@proton.me <br>
-email_3 = {username}@gmail.com
+<p class="entry-note">In the email addresses, name = mirko, surname = zichichi and username = miker83z.</p>

@@ -1,5 +1,8 @@
-<!-- Contact line shown below the content on small screens, where the sidebar hides it -->
+<!-- Icons, email and copyright below the content on small screens, where the sidebar hides them -->
 <footer class="mobile-footer">
+  {%- comment -%} The sidebar's icon links, with their ids renamed so the page keeps unique ids {%- endcomment -%}
+  {%- capture footer_icons %}{% include sidebar-icon-links.html %}{% endcapture %}
+  {{ footer_icons | replace: ' id="', ' data-id="' | replace: '<nav data-id="sidebar-icon-links">', '<nav class="footer-icon-links" aria-label="Profiles">' }}
   <span class="site-version"><b>Email:</b> mirko.zichichi AT pm.me</span>
   {% include copyright.html %}
 </footer>

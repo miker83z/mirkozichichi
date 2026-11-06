@@ -11,3 +11,15 @@
 - key: current
   label: Current project
   color: blue
+- key: group
+  label: Research group
+  color: blue
+- key: standardization
+  label: Standardization group
+  color: teal
+- key: office
+  label: Office
+  color: violet
+- key: email
+  label: Email
+  color: green
