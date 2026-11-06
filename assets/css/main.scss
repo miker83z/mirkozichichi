@@ -87,3 +87,72 @@ $sidebar-sticky: true;
   border-radius: 0;
   vertical-align: -0.2em;
 }
+
+// Keep each language label on the same line as its icon
+.lang {
+  white-space: nowrap;
+}
+
+// Contact line below the content, only on small screens (see _includes/custom-foot.html)
+.mobile-footer {
+  display: none;
+}
+
+@media (max-width: $large-breakpoint - 0.01rem) {
+  // Home page sidebar: smaller photo and title, menu in one wrapping row
+  .home #sidebar {
+    .responsive-image {
+      width: 72px;
+    }
+    .site-title {
+      font-size: 2rem;
+    }
+    #sidebar-nav-links {
+      flex-flow: row wrap;
+      justify-content: center;
+      a {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
+  // The theme shows everything below the header on the home page (.home #sidebar header ~ *),
+  // so this needs a selector at least as specific; other pages already hide it on small screens
+  .home #sidebar .sidebar-contact {
+    display: none;
+  }
+
+  .mobile-footer {
+    display: block;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: $sidebar-text-color;
+    p {
+      margin: 0.5rem 0 0;
+    }
+  }
+
+  // Entry tables: stack the cells so the text uses the full width, with the link icons in a row underneath
+  table:has(a.get) {
+    &, tbody, tr, td {
+      display: block;
+    }
+    tr {
+      border-bottom: 1px solid $border-color;
+    }
+    tr:last-child {
+      border-bottom: 0;
+    }
+    td {
+      border: 0;
+    }
+    td:last-child {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0;
+      .get {
+        margin: 0.25rem 1rem 0.5rem 0;
+      }
+    }
+  }
+}
