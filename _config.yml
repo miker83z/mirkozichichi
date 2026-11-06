@@ -27,9 +27,31 @@ email: mirko.zichichi@iota.org
 description: >- # this means to ignore newlines until "baseurl:"
   <b>Engineering Team Lead</b> at <em><a href="https://www.iota.org/foundation/team" target="_blank">IOTA Foundation</a></em>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mirkozichichi.me/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mirkozichichi.me" # the base hostname & protocol for your site, e.g. http://example.com (no trailing slash)
 twitter_username: miker83z
 github_username: miker83z
+tagline: Engineering Team Lead at IOTA Foundation
+lang: en
+author: Mirko Zichichi
+
+# Search engines and link previews (jekyll-seo-tag): profiles and the default preview image
+twitter:
+  username: miker83z
+  card: summary # the photo is square, so the small card fits best
+social:
+  name: Mirko Zichichi
+  links:
+    - https://www.linkedin.com/in/mirko-zichichi-63a803100/
+    - https://github.com/miker83z
+    - https://scholar.google.com/citations?user=ikI56qoAAAAJ
+    - https://orcid.org/0000-0002-4159-4269
+    - https://www.researchgate.net/profile/Mirko_Zichichi
+    - https://www.youtube.com/user/miker83z
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /profilepic.jpg
 
 # Build settings
 #theme: jekyll-theme-hydeout
@@ -37,13 +59,13 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 paginate: 5
 sidebar_home_link: true
 sidebar_blog_link: "/blog/"
 paginate_path: "/blog/page:5/"
-disqus:
-  shortname: mirkozichichi
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

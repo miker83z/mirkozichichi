@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Research
+description: "Publications by Mirko Zichichi: journal papers, conference and workshop papers, an ISO/IEC standard, book chapters, reports and theses."
 ---
 
 ---
@@ -13,16 +14,9 @@ title: Research
 
 ## Resources
 
-<table>
-    <tr>
-        <td>
-          Complete BibTeX list of works
-        </td>
-        <td>
-          <a class="get get_cite" href="/assets/papers/bibtexts/complete.bib"></a>
-        </td>
-    </tr>
-</table>
+<p class="entry-filters">
+  <a class="entry-chip resource-link" href="{{ '/assets/papers/bibtexts/complete.bib' | relative_url }}"><span class="get get_cite" aria-hidden="true"></span>Complete BibTeX list of works</a>
+</p>
 
 ---
 

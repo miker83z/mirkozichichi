@@ -52,7 +52,7 @@
   description: "The implementation of authorization through smart contracts and secret sharing using OpenEthereum (+ mobile game development)."
   details: "January 2021."
   links:
-    - { kind: "github", url: "https://play.google.com/store/apps/details?id=com.puccworks.coolpizza" }
+    - { kind: "github", url: "https://web.archive.org/web/20220814165838/https://play.google.com/store/apps/details?id=com.puccworks.coolpizza" }
     - { kind: "ppt", url: "/assets/tutor/slides/pptrambaldi.pdf" }
 - id: "MSc"
   type: "msc"
@@ -74,7 +74,6 @@
   description: "Holochain application that implements (the basic features of) a decentralized social network."
   details: "January 2021."
   links:
-    - { kind: "github", url: "https://github.com/Krystian95/Holobook" }
     - { kind: "ppt", url: "/assets/tutor/slides/pptlanzarone.pdf" }
 - id: "MSc"
   type: "msc"
@@ -84,7 +83,6 @@
   title: "Holosensor"
   description: "A dApp for IoT data acquisition and sharing in Holochain (+ device simulation)."
   details: "December 2020."
-  links:
 - id: "MSc"
   type: "msc"
   year: "2020"
@@ -95,7 +93,6 @@
   details: "December 2020."
   links:
     - { kind: "github", url: "https://github.com/froggyflex/D-Votes" }
-    - { kind: "decentr", url: "https://bafybeib7jqf35bnts7azeocmm4vior3jeat4666zqkylygpox3da3zsxyu.ipfs.infura-ipfs.io/" }
 - id: "MSc"
   type: "msc"
   year: "2020"
@@ -167,8 +164,6 @@
   title: "IOTA-IPFS Latency Measurements"
   description: "Testing IOTA MAM channels and IPFS libraries."
   details: "February 2020."
-  links:
-    - { kind: "github", url: "https://github.com/miker83z/Test-IPFS-JS" }
 - id: "BSc"
   type: "bsc"
   year: "2020"
@@ -178,7 +173,7 @@
   description: "System in which artists can get revenue from videos of their live performances through Radix."
   details: "February 2020."
   links:
-    - { kind: "github", url: "https://github.com/enricomors/radix-bootleg" }
+    - { kind: "github", url: "https://web.archive.org/web/20201216052720/https://github.com/enricomors/radix-bootleg" }
 - id: "BSc"
   type: "bsc"
   year: "2020"
@@ -188,7 +183,7 @@
   description: "DHT Simulation for keyword search (in IOTA MAM channels)."
   details: "January 2020."
   links:
-    - { kind: "github", url: "https://github.com/fedemazz/keyword_search" }
+    - { kind: "github", url: "https://web.archive.org/web/20201122034441/https://github.com/fedemazz/keyword_search" }
 - id: "MSc"
   type: "msc"
   year: "2019"

@@ -1,4 +1,14 @@
 ---
-layout: index
-title: Posts
+layout: page
+title: Blog
+description: "Posts on decentralization, personal data protection and data intermediation."
 ---
+
+{% comment %} English posts, newest first, in the same style as the other lists; the Italian version is linked when it exists. {% endcomment %}
+<table class="entries" id="list-blog">
+{%- for post in site.posts %}
+{%- unless post.url contains "-ita." %}
+{% include post-row.html post=post excerpt=true %}
+{%- endunless %}
+{%- endfor %}
+</table>

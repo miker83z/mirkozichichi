@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Tutoring
+description: "Teaching, supervised theses and supervised student projects by Mirko Zichichi."
 ---
 
 ---

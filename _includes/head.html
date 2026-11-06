@@ -14,6 +14,21 @@
     {% endif %}
   </title>
 
+  <!-- Description, canonical URL, link previews and structured data (jekyll-seo-tag) -->
+  {% seo title=false %}
+  <meta name="theme-color" content="#202020" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#16202b" media="(prefers-color-scheme: dark)" />
+
+  <!-- The page follows the system light/dark setting; a choice made with the toggle
+       (assets/js/theme-toggle.js) lasts for the current visit and is applied before the page is drawn -->
+  <script>
+    try {
+      localStorage.removeItem('theme'); // older version of the toggle kept the choice forever
+      var visitTheme = sessionStorage.getItem('theme');
+      if (visitTheme === 'light' || visitTheme === 'dark') document.documentElement.setAttribute('data-theme', visitTheme);
+    } catch (e) {}
+  </script>
+
   {% include google-analytics.html %}
 
   <!-- CSS -->

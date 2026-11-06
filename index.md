@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Home
+description: "Mirko Zichichi, Engineering Team Lead at the IOTA Foundation, working on the Move smart contract language, distributed ledger technologies and personal data protection."
 ---
 
 # Hello! I'm Mirko

@@ -102,7 +102,6 @@
   tags: ["solidity", "js", "python"]
   links:
     - { kind: "external", url: "https://scm.linkeddata.es/" }
-    - { kind: "external", url: "https://scm.linkeddata.es/docs/" }
 - type: "phd"
   year: "2021"
   date: "2021-06"
@@ -133,7 +132,6 @@
   tags: ["solidity", "js"]
   links:
     - { kind: "github", url: "https://github.com/BitNomos/Intelligible-Identity-SDK/tree/suite" }
-    - { kind: "external", url: "https://demo.intelligible.io" }
 - type: "phd"
   year: "2020"
   date: "2020-09"
@@ -149,12 +147,12 @@
   date: "2020-09"
   people: "Zichichi Mirko"
   title: "MPEG-21 Media Contract Ontology to Smart Contracts"
-  description: "Demo for the <a href=\"http://cosasbuenas.es/mpeg/\" target=\"_blank\">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non-Fungible Tokens."
+  description: "Demo for the MPEG21 MCO to Smart Contract UPM Response to N19504, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non-Fungible Tokens."
   details: "September 2020."
   tags: ["solidity", "js"]
   links:
     - { kind: "github", url: "https://github.com/miker83z/mpeg21mco2sc" }
-    - { kind: "external", url: "https://mpeg21mco2sc.herokuapp.com/" }
+    - { kind: "external", url: "https://web.archive.org/web/20210619191518/https://mpeg21mco2sc.herokuapp.com/" }
 - type: "phd"
   year: "2020"
   date: "2020-07"
@@ -173,9 +171,6 @@
   description: "A multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments."
   details: "May 2020."
   tags: ["js"]
-  links:
-    - { kind: "external", url: "https://capitalism20.tk/" }
-    - { kind: "external", url: "https://capitalism20.tk/ftapplication/" }
 - type: "phd"
   year: "2020"
   date: "2020-05"

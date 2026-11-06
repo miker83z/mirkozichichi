@@ -146,7 +146,7 @@
   people: "Zichichi Mirko, Sorrentino Giovanni"
   title: "Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland"
   venue: "Distributed Ledger Technologies 2023 (workshop)."
-  venue_url: "https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html"
+  venue_url: "https://web.archive.org/web/20231206235726/https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html"
   details: "May 2023."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/dlt2023.pdf" }
@@ -327,7 +327,6 @@
   year: "2021"
   title: "First Digital Media and Human Well-Being (Digeing) Workshop, Madrid"
   links:
-    - { kind: "external", url: "https://digeing2021-madrid.herokuapp.com/" }
     - { kind: "external", url: "https://iscpif.fr/digeing/" }
 - type: "lecture"
   role: "Invited Lecturer"
@@ -358,7 +357,7 @@
   people: "Pocher Nadia, Zichichi Mirko"
   title: "Towards CBDC-based Machine-to-Machine Payments in Consumer IoT"
   venue: "Peer-to-Peer Financial Systems (P2PFSY)."
-  venue_url: "https://www.p2pfisy.com/full-programme/"
+  venue_url: "https://web.archive.org/web/20220427061444/https://www.p2pfisy.com/full-programme/"
   details: "December 2021."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/cbdcm2m2021.pdf" }
@@ -369,7 +368,7 @@
   people: "Zichichi Mirko"
   title: "Argumentation in Trust Services within a Blockchain Environment"
   venue: "BNAIC/BENELEARN 2021."
-  venue_url: "https://bnaic2021.uni.lu/programme/"
+  venue_url: "https://web.archive.org/web/20260207194234/https://bnaic2021.uni.lu/programme/"
   details: "November 2021."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/bnaic21.pdf" }
@@ -519,7 +518,7 @@
   people: "Zichichi Mirko"
   title: "Personal Data Access Control Through Distributed Authorization"
   venue: "IEEE NCA 2020."
-  venue_url: "https://www.ieee-nca.org/2020/"
+  venue_url: "https://web.archive.org/web/20221206193157/http://ieee-nca.org/2020/"
   details: "November 2020."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/nca2020.pdf" }
@@ -572,7 +571,7 @@
   people: "Zichichi Mirko"
   title: "Ensuring Personal Data Anonymity in Data Marketplaces through Sensing-as-a-Service and DLTs"
   venue: "Distributed Ledger Technologies 2020 (workshop)."
-  venue_url: "http://www.dmi.unipg.it/DLTWorkshop/dlt2020.html"
+  venue_url: "https://web.archive.org/web/20231003040655/https://www.dmi.unipg.it/DLTWorkshop/dlt2020.html"
   details: "February 2020."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/dlt2020.pdf" }
@@ -643,7 +642,7 @@
   people: "Zichichi Mirko"
   title: "The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability"
   venue: "GDPR Compliance - Theories, Techniques, Tools, JURIX2019 (workshop)."
-  venue_url: "http://gdprjurix.cs.bath.ac.uk/"
+  venue_url: "https://web.archive.org/web/20220331181250/https://gdprjurix.cs.bath.ac.uk/"
   details: "December 2019."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/jurix2019.pdf" }

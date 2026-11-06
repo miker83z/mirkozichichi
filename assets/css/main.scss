@@ -6,6 +6,7 @@
 $large-font-size: 1.1rem;
 $sidebar-width: 16rem;
 $sidebar-sticky: true;
+$link-color: #1a6fb0; // 5.3:1 on white; the theme's blue (#268bd2) is 3.7:1
 
 @import 'hydeout';
 
@@ -207,6 +208,12 @@ $sidebar-sticky: true;
     color: $sidebar-text-color;
     p {
       margin: 0.5rem 0 0;
+    }
+    // links on the dark footer, like in the sidebar
+    p a,
+    p a:visited {
+      color: $sidebar-link-color;
+      text-decoration: underline;
     }
   }
 
@@ -546,4 +553,238 @@ table.entries td.entry-links {
       grid-column: span 2;
     }
   }
+}
+
+// Print: the full lists, without the interactive bits (the theme already hides the sidebar)
+@media print {
+  .entry-filters,
+  .entry-more,
+  .mobile-footer,
+  .back-link {
+    display: none !important;
+  }
+
+  table.entries tr[hidden] {
+    display: table-row !important;
+  }
+
+  table.entries tr.entry {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+// Dark mode: follows the system setting; the toggle (_includes/sidebar.html, assets/js/theme-toggle.js)
+// can override it for the current visit with <html data-theme="light|dark">
+@mixin dark-theme {
+  $dark-bg: #242424;
+  $dark-surface: #2e2e2e;
+  $dark-border: #3c3c3c;
+  $dark-text: #d4d4d4;
+  $dark-heading: #f0f0f0;
+  $dark-muted: #a6a6a6;
+  $dark-link: #7cbcf0;
+  $dark-year: #d9a273;
+  $dark-sidebar: #111922; // deep blue-slate, set apart from the neutral grey content
+
+  // the sidebar (and the phone header and footer) is the body background
+  body {
+    background-color: $dark-sidebar;
+    background-image: linear-gradient(to bottom, lighten($dark-sidebar, 7%), darken($dark-sidebar, 3%));
+  }
+
+  .content {
+    background: $dark-bg;
+    color: $dark-text;
+  }
+
+  @media (min-width: $large-breakpoint) {
+    .container {
+      background: $dark-bg;
+      color: $dark-text;
+    }
+  }
+
+  // page titles: the theme colours the title area itself
+  .container > header,
+  h1, h2, h3, h4, h5, h6,
+  strong,
+  .entry-title {
+    color: $dark-heading;
+  }
+
+  a {
+    color: $dark-link;
+  }
+
+  hr {
+    border-top-color: $dark-border;
+    border-bottom-color: transparent;
+  }
+
+  blockquote {
+    border-left-color: $dark-border;
+    color: $dark-muted;
+  }
+
+  code,
+  pre,
+  .entry-venue code {
+    background: $dark-surface;
+    color: $dark-heading;
+  }
+
+  table,
+  td,
+  th {
+    border-color: $dark-border;
+  }
+
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: $dark-surface;
+  }
+
+  table.entries {
+    tr.entry {
+      border-bottom-color: $dark-border;
+    }
+
+    tbody tr:nth-child(odd) td {
+      background: transparent;
+    }
+
+    tr.entry:hover td {
+      background: $dark-surface;
+    }
+  }
+
+  .entry-people,
+  .entry-venue,
+  .entry-desc,
+  .entry-id,
+  .entry-role,
+  .entry-note,
+  .post-meta {
+    color: $dark-muted;
+  }
+
+  .entry-when {
+    color: $dark-year;
+  }
+
+  // the darkest markers, lightened to keep >= 3:1 on the dark background
+  .entry-type--violet {
+    background: #9d84cc;
+  }
+
+  .entry-type--red {
+    background: #d06263;
+  }
+
+  .entry-chip,
+  .entry-more {
+    background: $dark-surface;
+    border-color: $dark-border;
+    color: $dark-text;
+
+    &:hover {
+      border-color: $dark-muted;
+    }
+  }
+
+  .entry-chip[aria-pressed="true"] {
+    background: $dark-heading;
+    border-color: $dark-heading;
+    color: $dark-bg;
+  }
+
+  // The link icons and the Solidity logo are black drawings
+  .get,
+  .lang-icon[alt="solidity"] {
+    filter: invert(1);
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    @include dark-theme;
+  }
+}
+
+html[data-theme="dark"] {
+  @include dark-theme;
+}
+
+// Light/dark toggle in the sidebar; the label names the mode it switches to
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid rgba($sidebar-fg-color, 0.3);
+  border-radius: 1rem;
+  background: transparent;
+  color: $sidebar-link-color;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    border-color: rgba($sidebar-fg-color, 0.7);
+  }
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+  }
+}
+
+// the theme shows or hides everything below the sidebar header per page (.home #sidebar header ~ *)
+.home #sidebar .theme-toggle,
+#sidebar .theme-toggle {
+  display: inline-flex;
+}
+
+@media (max-width: $large-breakpoint - 0.01rem) {
+  #sidebar {
+    position: relative;
+  }
+
+  // icon only, in the top-right corner of the phone header
+  .home #sidebar .theme-toggle,
+  #sidebar .theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    margin: 0;
+    padding: 0.4rem;
+  }
+
+  .theme-toggle-label {
+    display: none;
+  }
+}
+
+// "Complete BibTeX list of works" on the Research page
+.resource-link {
+  text-decoration: none;
+
+  .get {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+  }
+}
+
+// shown by assets/js/theme-toggle.js; without JavaScript the toggle cannot work, so it stays hidden
+.theme-toggle[hidden] {
+  display: none !important;
 }
