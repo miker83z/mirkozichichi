@@ -1,0 +1,694 @@
+# Talks & Activities, in page order (newest first). type: lecture | talk | organization | committee | review
+# (colours and filter labels in talk_types.yml). links: kind is the icon (ppt, external, decentr).
+# date: "YYYY-MM" when the month is known (shown next to the year).
+# star: true also lists the entry in the Highlights on the home page.
+
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2026"
+  date: "2026-06"
+  people: "Zichichi Mirko, Vigneri Luigi"
+  title: "Move: the Language for Secure Next-Gen Smart Contracts"
+  venue: "7th Scientific School on Blockchain & Distributed Ledger Technologies."
+  venue_url: "https://events.dimes.unical.it/dlt2025/"
+  details: "June 2026."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dltschool-2026.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2025"
+  date: "2025-06"
+  people: "Zichichi Mirko, Vigneri Luigi"
+  title: "Move: the Language for Secure Next-Gen Smart Contracts"
+  venue: "6th Scientific School on Blockchain & Distributed Ledger Technologies."
+  venue_url: "https://events.dimes.unical.it/dlt2025/"
+  details: "June 2025."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dltschool-2025.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2025"
+  date: "2025-11"
+  people: "Zichichi Mirko"
+  title: "IOTA Move Smart Contracts"
+  venue: "Blockchain and Cryptocurrencies, Master's Degree in Computer Science and Master's Degree in Artificial Intelligence, University of Bologna."
+  venue_url: "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2025/461739"
+  details: "November 2025."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/movelecture2024.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2025"
+  date: "2025-11"
+  people: "Zichichi Mirko"
+  title: "Blockchain & Smart Contracts"
+  venue: "Legal and Technological Aspects (seminar)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2025/472765"
+  details: "November 2025."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2024.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2024.pdf" }
+- type: "organization"
+  role: "Hackathon Organizer"
+  year: "2024"
+  date: "2024-09"
+  people: "Zichichi Mirko, Rufinatscha Samuel"
+  title: "IOTA Smart Contracts and Move Hackathon"
+  venue: "5th Scientific School on Blockchain & Distributed Ledger Technologies."
+  venue_url: "https://dlt-school.github.io/"
+  details: "September 2024."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dltschool-2024.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2024"
+  date: "2024-11"
+  people: "Zichichi Mirko"
+  title: "IOTA Move Smart Contracts"
+  venue: "Blockchain and Cryptocurrencies, Master's Degree in Computer Science and Master's Degree in Artificial Intelligence, University of Bologna."
+  venue_url: "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2024/461739"
+  details: "November 2024."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/movelecture2024.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2024"
+  date: "2024-11"
+  people: "Zichichi Mirko"
+  title: "Blockchain & Smart Contracts"
+  venue: "Legal and Technological Aspects (seminar)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2024/472765"
+  details: "November 2024."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2024.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2024.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2024"
+  date: "2024-07"
+  people: "Zichichi Mirko"
+  title: "Move: the Language for Secure Next-Gen Smart Contracts"
+  venue: "LAST-JD Annual Conference 2024."
+  venue_url: "https://phd.unibo.it/last-jd"
+  details: "July 2024."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/lastjd24.pdf" }
+- type: "talk"
+  star: true
+  role: "Speaker"
+  year: "2024"
+  date: "2024-05"
+  people: "Zichichi Mirko"
+  title: "Move: the Language for Secure Next-Gen Smart Contracts"
+  venue: "Ethna 2024."
+  venue_url: "https://ethna.rocks/"
+  details: "May 2024."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/ethna24.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2023"
+  date: "2023-09"
+  people: "Zichichi Mirko, Ileri Can Umut"
+  title: "IOTA Smart Contracts and Move Tutorial"
+  venue: "4th Scientific School on Blockchain & Distributed Ledger Technologies."
+  venue_url: "https://dlt-school.github.io/2023/"
+  details: "September 2023."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dltschool-2023.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2023"
+  date: "2023-11"
+  people: "Zichichi Mirko"
+  title: "Blockchain e Smart Contract"
+  venue: "Aspetti Giuridici e Tecnologici (seminario)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2023/472765"
+  details: "November 2023."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2021.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2022.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2023"
+  date: "2023-07"
+  people: "Zichichi Mirko"
+  title: "IOTA Foundation & the Tangle"
+  venue: "LAST-JD-RIoE MSCA-ITN project Annual Conference 2023."
+  venue_url: "https://phd.unibo.it/last-jd/en/agenda/annual-conference-2023"
+  details: "July 2023."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/lastjd23.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2023"
+  date: "2023-05"
+  people: "Zichichi Mirko, Sorrentino Giovanni"
+  title: "Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland"
+  venue: "Distributed Ledger Technologies 2023 (workshop)."
+  venue_url: "https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html"
+  details: "May 2023."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dlt2023.pdf" }
+- type: "committee"
+  role: "TPC member"
+  year: "2023"
+  title: "GoodIT 2023"
+  details: "Special track on Blockchain and Decentralized Technologies for Social Good (BANDIT)"
+  links:
+    - { kind: "external", url: "https://sites.google.com/unipi.it/bandit2023/home" }
+- type: "committee"
+  role: "TPC member"
+  year: "2023"
+  title: "FiDeFix 2023"
+  details: "ICDCS Workshop - 1st Workshop on Fintech and Decentralized Finance"
+  links:
+    - { kind: "external", url: "https://sites.google.com/uniurb.it/fidefix-2023/home" }
+- type: "committee"
+  role: "TPC member"
+  year: "2023"
+  title: "Blockchain 2023"
+  details: "International Congress on Blockchain and Applications"
+  links:
+    - { kind: "external", url: "https://www.blockchain-congress.net/" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2022"
+  title: "Community Innovation Lecture Series"
+  venue: "MOBI"
+  details: ", Mobility Open Blockchain Initiative."
+  links:
+    - { kind: "external", url: "https://dlt.mobi/complex-queries-over-decentralized-systems-for-smart-mobility-geodata-retrieval-6-april-2022/" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2022"
+  date: "2022-11"
+  people: "Zichichi Mirko"
+  title: "ERC-20 Tokens, NFTs and DAOs"
+  venue: "Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/472765"
+  details: "November 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2022.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2022"
+  date: "2022-05"
+  people: "Zichichi Mirko"
+  title: "Blockchain and Smart Contracts"
+  venue: "Legal Tech and Blockchain."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/467332"
+  details: "May 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/ravenna1.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/ravenna2.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/ravenna3.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2022"
+  date: "2022-03"
+  people: "Zichichi Mirko"
+  title: "Authentication, Non-repudiation and Data Integrity: Technical and Legal Perspectives"
+  venue: "Social/Legal/Ethical Aspects in Data Science."
+  venue_url: "https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf"
+  details: "March 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/ethics22upm.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2022"
+  date: "2022-11"
+  people: "Zichichi Mirko"
+  title: "Decentralized Systems for the Protection and Portability of Personal Data (Short Thesis Presentation)"
+  venue: "LAST-JD-RIoE November 2022 Board in Bologna."
+  venue_url: "https://last-jd-rioe.eu/"
+  details: "November 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/shortthesis.pdf" }
+- type: "talk"
+  star: true
+  role: "Speaker"
+  year: "2022"
+  date: "2022-06"
+  people: "Zichichi Mirko"
+  title: "Smart Legal Contracts"
+  venue: "PROTECT Workshop in Cercedilla."
+  venue_url: "https://protect.oeg.fi.upm.es/cercedilla/"
+  details: "June 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/cercedilla.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2022"
+  date: "2022-05"
+  people: "Zichichi Mirko"
+  title: "Incentivized Data Mules Based on State-Channels"
+  venue: "2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)."
+  venue_url: "https://icbc2022.ieee-icbc.org/program"
+  details: "May 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/icbc22.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2022"
+  date: "2022-02"
+  people: "Zichichi Mirko"
+  title: "Intelligent Human-input-based Blockchain Oracle (IHiBO)"
+  venue: "14th International Conference on Agents and Artificial Intelligence (ICAART)."
+  venue_url: "https://www.insticc.org/node/technicalprogram/icaart/2022"
+  details: "February 2022."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/ihibo22icaart.pdf" }
+- type: "committee"
+  role: "TPC member"
+  year: "2022"
+  title: "NETWORKING 2022"
+  details: "IFIP Networking Conference"
+  links:
+    - { kind: "external", url: "https://networking.ifip.org/2022/" }
+- type: "committee"
+  role: "TPC member"
+  year: "2022"
+  title: "HICSS 56"
+  details: "Hawaii International Conference on System Sciences"
+  links:
+    - { kind: "external", url: "https://hicss.hawaii.edu" }
+- type: "committee"
+  role: "TPC member"
+  year: "2022"
+  title: "Blockchain 2022"
+  details: "International Congress on Blockchain and Applications"
+  links:
+    - { kind: "external", url: "https://www.blockchain-congress.net/" }
+- type: "committee"
+  role: "TPC member"
+  year: "2022"
+  title: "GoodIT 2022"
+  details: "ACM International Conference on Information Technology for Social Good"
+  links:
+    - { kind: "external", url: "https://cyprusconferences.org/goodit2022/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2022"
+  title: "SREP"
+  details: "Scientific Reports - Nature"
+  links:
+    - { kind: "external", url: "https://www.nature.com/srep/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2022"
+  title: "DLT"
+  details: "Distributed Ledger Technologies - ACM"
+  links:
+    - { kind: "external", url: "https://www.springer.com/journal/42979" }
+- type: "review"
+  role: "Reviewer"
+  year: "2022"
+  title: "SNCS"
+  details: "SN Computer Science - Springer Nature"
+  links:
+    - { kind: "external", url: "https://www.springer.com/journal/42979" }
+- type: "review"
+  role: "Reviewer"
+  year: "2022"
+  title: "BCRA"
+  details: "Blockchain: Research and Applications - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/blockchain-research-and-applications" }
+- type: "review"
+  role: "Reviewer"
+  year: "2022"
+  title: "BLOCKCHAIN"
+  details: "Frontiers in Blockchain - Frontiers"
+  links:
+    - { kind: "external", url: "https://www.frontiersin.org/journals/blockchain" }
+- type: "organization"
+  role: "Organizer"
+  year: "2021"
+  title: "First Digital Media and Human Well-Being (Digeing) Workshop, Madrid"
+  links:
+    - { kind: "external", url: "https://digeing2021-madrid.herokuapp.com/" }
+    - { kind: "external", url: "https://iscpif.fr/digeing/" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2021"
+  date: "2021-10"
+  people: "Zichichi Mirko"
+  title: "Smart contracts: Law plus technology"
+  venue: "Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765"
+  details: "October 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2021.pdf" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2021"
+  date: "2021-10"
+  people: "Zichichi Mirko, Ferretti Stefano"
+  title: "Introduzione alla Crittografia (sulla sicurezza ed altre amenità informatiche)"
+  venue: "Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario)."
+  venue_url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765"
+  details: "October 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2021.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-12"
+  people: "Pocher Nadia, Zichichi Mirko"
+  title: "Towards CBDC-based Machine-to-Machine Payments in Consumer IoT"
+  venue: "Peer-to-Peer Financial Systems (P2PFSY)."
+  venue_url: "https://www.p2pfisy.com/full-programme/"
+  details: "December 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/cbdcm2m2021.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-11"
+  people: "Zichichi Mirko"
+  title: "Argumentation in Trust Services within a Blockchain Environment"
+  venue: "BNAIC/BENELEARN 2021."
+  venue_url: "https://bnaic2021.uni.lu/programme/"
+  details: "November 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/bnaic21.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-09"
+  people: "Zichichi Mirko"
+  title: "Governing Decentralized Complex Queries Through a DAO"
+  venue: "GoodIT 2021."
+  venue_url: "http://www.grc.upv.es/goodit2021/"
+  details: "September 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/goodit2021.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-07"
+  people: "Zichichi Mirko"
+  title: "(Location) Privacy by Design through Disintermediation: from Data Silos to Decentralized Technologies"
+  venue: "First Annual LAST-JD-RIoE Conference."
+  venue_url: "https://rioe.oeg.fi.upm.es/conference/"
+  details: "July 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/lastjd2021.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-07"
+  people: "Zichichi Mirko"
+  title: "Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case"
+  venue: "IEEE ICCCN 2021."
+  venue_url: "http://icccn.org/icccn21/"
+  details: "July 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/icccn20212.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-07"
+  people: "Zichichi Mirko"
+  title: "MOVO: a dApp for DLT-based Smart Mobility"
+  venue: "IEEE ICCCN 2021."
+  venue_url: "http://icccn.org/icccn21/"
+  details: "July 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/icccn20211.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-06"
+  people: "Zichichi Mirko"
+  title: "Distributed Ledger Technologies and Personal Data Protection"
+  venue: "Ontology Engineering Group Talks."
+  venue_url: "https://oeg.fi.upm.es/"
+  details: "June 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/oeg2021.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2021"
+  date: "2021-04"
+  people: "Zichichi Mirko"
+  title: "Intelligible Identity and Certificate"
+  venue: "LAST-JD-RIoE Assessment."
+  details: "April 2021."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/intelligible2021.pdf" }
+- type: "committee"
+  role: "TPC member"
+  year: "2021"
+  title: "HICSS 55"
+  details: "Hawaii International Conference on System Sciences"
+  links:
+    - { kind: "external", url: "https://hicss.hawaii.edu" }
+- type: "committee"
+  role: "TPC member"
+  year: "2021"
+  title: "Blockchain 2021"
+  details: "International Congress on Blockchain and Applications"
+  links:
+    - { kind: "external", url: "https://www.blockchain-congress.net/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "JNCA"
+  details: "Journal of Network and Computer Applications - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/journal-of-network-and-computer-applications" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "TELE"
+  details: "Telematics and Informatics - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/telematics-and-informatics" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "PMC"
+  details: "Pervasive and Mobile Computing - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/pervasive-and-mobile-computing" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "IPM"
+  details: "Information Processing & Management - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/information-processing-and-management/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "BCRA"
+  details: "Blockchain: Research and Applications - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/blockchain-research-and-applications" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "CCPE"
+  details: "Concurrency and Computation: Practice and Experience - Wiley"
+  links:
+    - { kind: "external", url: "https://onlinelibrary.wiley.com/journal/15320634" }
+- type: "review"
+  role: "Reviewer"
+  year: "2021"
+  title: "OJ-CS"
+  details: "IEEE Open Journal of the Computer Society"
+  links:
+    - { kind: "external", url: "https://www.computer.org/csdl/journal/oj" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2020"
+  date: "2020-10"
+  people: "Zichichi Mirko, Ferretti Stefano"
+  title: "Non ripudio nella Sicurezza Digitale e Marcatura Temporale Fidata"
+  venue: "Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario)."
+  venue_url: "https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/460830"
+  details: "October 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2020.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-11"
+  people: "Zichichi Mirko"
+  title: "Personal Data Access Control Through Distributed Authorization"
+  venue: "IEEE NCA 2020."
+  venue_url: "https://www.ieee-nca.org/2020/"
+  details: "November 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/nca2020.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-09"
+  people: "Zichichi Mirko"
+  title: "Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?"
+  venue: "CryBlock 2020 (workshop)."
+  venue_url: "http://www.cryblock.org/index.html"
+  details: "September 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/cryblock2020.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-07"
+  people: "Zichichi Mirko"
+  title: "On the Efficiency of Decentralized File Storage for Personal Information Management Systems"
+  venue: "Social Media Sensing 2020 (workshop)."
+  venue_url: "https://www.cs.unibo.it/~mirri/sms20/"
+  details: "July 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sms2020.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-04"
+  people: "Zichichi Mirko"
+  title: "Smart contracts and Proof of Location in Smart Cities"
+  venue: "Blockchain and Smart Contract: legal, technical and governance aspects (workshop)."
+  details: "April 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractcities.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-04"
+  people: "Zichichi Mirko"
+  title: "Location privacy and inference in online social networks"
+  venue: "LAST-JD-RIoE Assessment."
+  details: "April 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/locationassessm.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2020"
+  date: "2020-02"
+  people: "Zichichi Mirko"
+  title: "Ensuring Personal Data Anonymity in Data Marketplaces through Sensing-as-a-Service and DLTs"
+  venue: "Distributed Ledger Technologies 2020 (workshop)."
+  venue_url: "http://www.dmi.unipg.it/DLTWorkshop/dlt2020.html"
+  details: "February 2020."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dlt2020.pdf" }
+- type: "committee"
+  role: "TPC member"
+  year: "2020"
+  title: "CryBlock 2020"
+  details: "3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (part of MobiCom 2020)"
+  links:
+    - { kind: "external", url: "http://www.cryblock.org/" }
+- type: "committee"
+  role: "TPC member"
+  year: "2020"
+  title: "Blockchain 2020"
+  details: "International Congress on Blockchain and Applications"
+  links:
+    - { kind: "external", url: "https://www.blockchain-congress.net/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2020"
+  title: "IEEE Access"
+  details: "the Multidisciplinary Open Access Journal"
+  links:
+    - { kind: "external", url: "https://ieeeaccess.ieee.org/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2020"
+  title: "COMP"
+  details: "Computing - Springer"
+  links:
+    - { kind: "external", url: "https://www.springer.com/journal/607" }
+- type: "review"
+  role: "Reviewer"
+  year: "2020"
+  title: "IPM"
+  details: "Information Processing & Management - Elsevier"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/information-processing-and-management/" }
+- type: "review"
+  role: "Reviewer"
+  year: "2020"
+  title: "CCPE"
+  details: "Concurrency and Computation: Practice and Experience - Wiley"
+  links:
+    - { kind: "external", url: "https://onlinelibrary.wiley.com/journal/15320634" }
+- type: "review"
+  role: "Reviewer"
+  year: "2020"
+  title: "OJ-CS"
+  details: "IEEE Open Journal of the Computer Society"
+  links:
+    - { kind: "external", url: "https://www.computer.org/csdl/journal/oj" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2019"
+  date: "2019-11"
+  people: "Zichichi Mirko"
+  title: "Distributed Ledger Technologies Applications"
+  venue: "Sistemi Peer-to-Peer 19/20."
+  venue_url: "https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2019/400431"
+  details: "November 2019."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dltapp.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2019"
+  date: "2019-12"
+  people: "Zichichi Mirko"
+  title: "The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability"
+  venue: "GDPR Compliance - Theories, Techniques, Tools, JURIX2019 (workshop)."
+  venue_url: "http://gdprjurix.cs.bath.ac.uk/"
+  details: "December 2019."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/jurix2019.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2019"
+  date: "2019-11"
+  people: "Zichichi Mirko"
+  title: "Location privacy and inference in online social networks"
+  venue: "LAST-JD-RIoE Welcome Camp."
+  details: "November 2019."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/locationwelcome.pdf" }
+- type: "talk"
+  role: "Speaker"
+  year: "2019"
+  date: "2019-04"
+  people: "Zichichi Mirko"
+  title: "LikeStarter: a Smart-contract based Social DAO for Crowdfunding"
+  venue: "CryBlock 2019 (workshop)."
+  venue_url: "http://cryblock.org/cryblock-2019/index.html"
+  details: "April 2019."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/likestarter.pdf" }
+- type: "review"
+  role: "Reviewer"
+  year: "2019"
+  title: "COMCOM"
+  details: "Computer Communications - Elsevier, Special Issue on Cryptocurrencies and Blockchains for Distributed Systems"
+  links:
+    - { kind: "external", url: "https://www.journals.elsevier.com/computer-communications" }
+- type: "talk"
+  role: "Speaker"
+  year: "2018"
+  date: "2018-11"
+  people: "Zichichi Mirko, Contu Michele"
+  title: "dApp development"
+  venue: "Sistemi Peer-to-Peer 18/19."
+  details: "November 2018."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/dappdev.pdf" }
+- type: "organization"
+  role: "Co-chair"
+  year: "2016"
+  title: "Ordine, Caos, Complessità e Sistemica: la prospettiva di informatici, fisici e matematici"
+  links:
+    - { kind: "external", url: "https://scienzeenonsolo.wordpress.com/ordine-caos-complessita-e-sistemica/" }
+    - { kind: "decentr", url: "https://arweave.net/bBIgfTl6ZxWbhGvPxXN2tpogRCxutKp7i0c3aO2FDEo" }

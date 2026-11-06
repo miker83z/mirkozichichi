@@ -1,0 +1,202 @@
+# Supervised student projects, in page order (newest first). type: msc | bsc (see degree_types.yml).
+# date: "YYYY-MM" when the month is known (shown next to the year).
+
+- id: "MSc"
+  type: "msc"
+  year: "2022"
+  date: "2022-03"
+  people: "Pruscini Davide, Cotugno Giosuè"
+  title: "cloud-chain-simulation"
+  description: "This project aims to test different kinds of blockchains and consensus mechanisms with the same CloudSLA smart contract."
+  details: "March 2022."
+  links:
+    - { kind: "external", url: "https://github.com/cotus997/cloud-chain-simulation" }
+- id: "MSc"
+  type: "msc"
+  year: "2022"
+  date: "2022-03"
+  people: "Brenne Håvard"
+  title: "DataMuleIoT"
+  description: "Proof of Concept of Data Mules using IoT devices over a State Channel Network."
+  details: "March 2022."
+  links:
+    - { kind: "external", url: "https://github.com/h-brenne/DataMuleIoT" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-04"
+  people: "Tropea Davide, Leurini Alessio"
+  title: "HYPFS"
+  description: "Implementation of a decentralized keyword search engine based on a hypercube-structured DHT that integrates IPFS."
+  details: "April 2021."
+  links:
+    - { kind: "external", url: "https://github.com/daduz11/hypfs" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-02"
+  people: "Tsiotas Giorgio, Lorello Luca"
+  title: "Filecoin"
+  description: "Technical analysis and testing of Filecoin."
+  details: "February 2021."
+  links:
+    - { kind: "external", url: "http://www.tsiotas.com/AI/blockchain/filecoin_project.zip" }
+    - { kind: "ppt", url: "/assets/tutor/slides/ppttsiotas1.pdf" }
+    - { kind: "ppt", url: "/assets/tutor/slides/ppttsiotas2.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-01"
+  people: "Rambaldi Francesco"
+  title: "Secret Sharing Authorization (COOL Pizza!)"
+  description: "The implementation of authorization through smart contracts and secret sharing using OpenEthereum (+ mobile game development)."
+  details: "January 2021."
+  links:
+    - { kind: "github", url: "https://play.google.com/store/apps/details?id=com.puccworks.coolpizza" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptrambaldi.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-01"
+  people: "Mazzieri Diego, Giuliani Luca, Lombardi Alessandro"
+  title: "IoTrace"
+  description: "A contact tracing app built using the IOTA Tangle and based on geo-spatial information about the agents."
+  details: "January 2021."
+  links:
+    - { kind: "github", url: "https://github.com/mazzio97/IoTrace" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptmazzieri.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-01"
+  people: "Lanzarone Lorenzo Biagio, Romanello Cristian"
+  title: "Holobook"
+  description: "Holochain application that implements (the basic features of) a decentralized social network."
+  details: "January 2021."
+  links:
+    - { kind: "github", url: "https://github.com/Krystian95/Holobook" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptlanzarone.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-12"
+  people: "Amoriello Nicola, Massaro Valerio Giuseppe"
+  title: "Holosensor"
+  description: "A dApp for IoT data acquisition and sharing in Holochain (+ device simulation)."
+  details: "December 2020."
+  links:
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-12"
+  people: "Tallaros Andrea Elia"
+  title: "D-Votes"
+  description: "A dApp that uses Ethereum smart contracts and IPFS to completely decentralize voting."
+  details: "December 2020."
+  links:
+    - { kind: "github", url: "https://github.com/froggyflex/D-Votes" }
+    - { kind: "decentr", url: "https://bafybeib7jqf35bnts7azeocmm4vior3jeat4666zqkylygpox3da3zsxyu.ipfs.infura-ipfs.io/" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-12"
+  people: "Giansante Cesare"
+  title: "Hypeercube"
+  description: "DHT with the aim of facilitating the search for large amounts of data in DLTs using specific keywords."
+  details: "December 2020."
+  links:
+    - { kind: "github", url: "https://github.com/Sisar1/Hypeercube" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-09"
+  people: "Cavallin Riccardo"
+  title: "Testing Google Drive"
+  description: "Testing the Google Drive storage solution."
+  details: "September 2020."
+  links:
+    - { kind: "github", url: "https://github.com/riccardocavallin/testingGDrive" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-06"
+  people: "Sparber Julian"
+  title: "E2E SecretStore"
+  description: "End-to-end encryption system for the real-time communication network Matrix."
+  details: "June 2020."
+  links:
+    - { kind: "github", url: "https://github.com/jsparber/e2e-secretstore" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-05"
+  people: "Cantamaglia Carlo"
+  title: "Lightning Network Analysis"
+  description: "Analysis of the network generated by the Lightning protocol using network science."
+  details: "May 2020."
+  links:
+    - { kind: "external", url: "https://drive.google.com/drive/folders/1FJpneqGqpff-r7UJi8iskkePicXMCYBZ" }
+    - { kind: "download", url: "/assets/tutor/slides/repcantamaglia.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-03"
+  people: "D’Ambrosio Luca, Silvestri Marco"
+  title: "LibraFaceWallet"
+  description: "Web platform that hosts a wallet for the Libra cryptocurrency based on Facebook profiles."
+  details: "March 2020."
+  links:
+    - { kind: "github", url: "https://github.com/marcosilve1/LibraFaceWallet" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptdambrosio.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-03"
+  people: "Serra Alessandro, Longo Andrea"
+  title: "IPFS and Sia Buses Simulation"
+  description: "Simulation of an IoT smart city bus network over IPFS and Sia."
+  details: "March 2020."
+  links:
+    - { kind: "github", url: "https://github.com/AleSerra/IPFS-Buses2020" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptserra.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-02"
+  people: "Mongardi Michele"
+  title: "IOTA-IPFS Latency Measurements"
+  description: "Testing IOTA MAM channels and IPFS libraries."
+  details: "February 2020."
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/Test-IPFS-JS" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-02"
+  people: "Morselli Enrico"
+  title: "Radix Bootleg"
+  description: "System in which artists can get revenue from videos of their live performances through Radix."
+  details: "February 2020."
+  links:
+    - { kind: "github", url: "https://github.com/enricomors/radix-bootleg" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-01"
+  people: "Mazzini Federico"
+  title: "Keyword Search"
+  description: "DHT Simulation for keyword search (in IOTA MAM channels)."
+  details: "January 2020."
+  links:
+    - { kind: "github", url: "https://github.com/fedemazz/keyword_search" }
+- id: "MSc"
+  type: "msc"
+  year: "2019"
+  date: "2019-11"
+  people: "Berti Matteo"
+  title: "Radix DLT IoT Simulation"
+  description: "Simulation of an IoT smart city bus network over Radix DLT."
+  details: "November 2019."
+  links:
+    - { kind: "github", url: "https://github.com/methk/RadixDLT-IoTSimulation" }
+    - { kind: "ppt", url: "/assets/tutor/slides/pptberti.pdf" }

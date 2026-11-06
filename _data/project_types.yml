@@ -1,0 +1,13 @@
+# Project types (used in projects.yml); color is one of the names in $entry-colors.
+- key: current
+  label: Current project
+  chip: Current
+  color: blue
+- key: phd
+  label: PhD project
+  chip: PhD
+  color: red
+- key: master
+  label: Master's project
+  chip: Master's
+  color: orange

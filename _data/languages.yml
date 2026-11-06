@@ -1,0 +1,41 @@
+# Language tags used by _data/projects.yml: label, icon (in /figs) and its pixel size.
+rust:
+  label: "Rust"
+  icon: "/figs/rust.png"
+  width: 86
+  height: 64
+move:
+  label: "Move"
+  icon: "/figs/move.png"
+  width: 120
+  height: 64
+go:
+  label: "Go"
+  icon: "/figs/go.png"
+  width: 171
+  height: 64
+solidity:
+  label: "Solidity"
+  icon: "/figs/solidity.png"
+  width: 41
+  height: 64
+js:
+  label: "JavaScript"
+  icon: "/figs/js.png"
+  width: 64
+  height: 64
+python:
+  label: "Python"
+  icon: "/figs/python.png"
+  width: 64
+  height: 64
+java:
+  label: "Java"
+  icon: "/figs/java.png"
+  width: 34
+  height: 64
+cpp:
+  label: "C++"
+  icon: "/figs/cpp.png"
+  width: 58
+  height: 64

@@ -1,0 +1,27 @@
+{%- comment -%}
+  A list of entries with optional type-filter chips.
+  Usage: {% include entry-list.html entries=site.data.talks types=site.data.talk_types id="talks" %}
+  The table gets id "list-<id>" (prefixed so it never clashes with heading ids). Add filters=false to omit the chips. The chips are shown by assets/js/entry-filter.js;
+  without JavaScript they stay hidden and every entry is listed.
+  Add collapse=N to show only the first N entries, with a button to expand the list,
+  and compact=true for tighter rows with the venue on the same line as the title.
+{%- endcomment -%}
+{%- unless include.filters == false %}
+<div class="entry-filters" data-target="list-{{ include.id }}" hidden>
+<button type="button" class="entry-chip" data-filter="" aria-pressed="true">All <span class="entry-count">{{ include.entries | size }}</span></button>
+{%- for kind in include.types -%}
+{%- assign count = include.entries | where: "type", kind.key | size -%}
+{%- if count > 0 %}
+<button type="button" class="entry-chip" data-filter="{{ kind.key }}" aria-pressed="false"><span class="entry-type entry-type--{{ kind.color }}"></span>{{ kind.chip }} <span class="entry-count">{{ count }}</span></button>
+{%- endif -%}
+{%- endfor %}
+</div>
+{%- endunless %}
+<table class="entries{% if include.compact %} entries--compact{% endif %}" id="list-{{ include.id }}"{% if include.collapse %} data-collapse="{{ include.collapse }}"{% endif %}>
+{%- for entry in include.entries %}
+{% include entry-row.html entry=entry types=include.types %}
+{%- endfor %}
+</table>
+{%- if include.collapse %}
+<button type="button" class="entry-more" data-target="list-{{ include.id }}" aria-controls="list-{{ include.id }}" aria-expanded="false" hidden>Show all</button>
+{%- endif %}

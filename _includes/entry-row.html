@@ -1,0 +1,40 @@
+{%- comment -%}
+  One row of an entry list (see entry-list.html). Usage: {% include entry-row.html entry=e types=list_of_types %}
+  Entry fields (all optional except title): id, year, date ("YYYY-MM", adds the month), star, type, role, title, authors or people,
+  venue (shown in italics, linked when venue_url is set), details, description (shown on its own line;
+  without a venue it takes the venue's place, in italics), tags, links.
+{%- endcomment -%}
+{%- assign e = include.entry -%}
+{%- assign kind = include.types | where: "key", e.type | first -%}
+{%- assign people = e.authors | default: e.people -%}
+{%- assign venue_text = e.venue | default: e.description -%}
+{%- assign venue_html = "" -%}
+{%- if venue_text and venue_text != "" -%}
+  {%- if e.venue_url -%}
+    {%- capture venue_html %}<a href="{{ e.venue_url }}" target="_blank"><i>{{ venue_text }}</i></a>{% endcapture -%}
+  {%- else -%}
+    {%- capture venue_html %}<i>{{ venue_text }}</i>{% endcapture -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign month_name = "" -%}
+{%- assign month_num = e.date | slice: 5, 2 | plus: 0 -%}
+{%- if month_num > 0 -%}
+  {%- assign month_index = month_num | minus: 1 -%}
+  {%- assign month_name = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," | slice: month_index -%}
+{%- endif -%}
+{%- assign sep = " " -%}
+{%- assign first = e.details | slice: 0 -%}
+{%- if first == "," or first == "." or first == ":" or venue_html == "" -%}{%- assign sep = "" -%}{%- endif -%}
+<tr class="entry" data-type="{{ e.type }}">
+<td class="entry-meta">{% if e.id %}<span class="entry-id">{{ e.id }}</span> {% endif %}<span class="entry-when">{% if month_name != "" %}<span class="entry-month">{{ month_name }}</span> {% endif %}<span class="entry-year">{{ e.year }}</span></span></td>
+<td class="entry-flags">{% if e.star %}<span class="entry-star" role="img" aria-label="Highlighted" title="Highlighted">★</span>{% endif %}{% if kind %}<span class="entry-type entry-type--{{ kind.color }}" role="img" aria-label="{{ kind.label }}" title="{{ kind.label }}"></span>{% endif %}</td>
+<td class="entry-text">
+{%- if e.role %}<span class="entry-role">{{ e.role }}</span> {% endif -%}
+<span class="entry-title">{{ e.title }}</span>
+{%- if people %} <span class="entry-people">{{ people }}</span>{% endif -%}
+{%- if venue_html != "" or e.details %} <span class="entry-venue">{{ venue_html }}{{ sep }}{{ e.details }}</span>{% endif -%}
+{%- if e.venue and e.venue != "" and e.description %} <span class="entry-desc">{{ e.description }}</span>{% endif -%}
+{%- if e.tags %} <span class="entry-tags">{% for tag in e.tags %}{% assign lang = site.data.languages[tag] %}<span class="lang"><b>{{ lang.label }}</b> <img class="lang-icon" src="{{ lang.icon }}" alt="{{ tag }}" width="{{ lang.width }}" height="{{ lang.height }}" loading="lazy"></span> {% endfor %}</span>{% endif -%}
+</td>
+<td class="entry-links">{% for link in e.links %}<a class="get get_{{ link.kind }}"{% unless link.kind == "cite" %} target="_blank"{% endunless %} href="{{ link.url }}"></a>{% endfor %}</td>
+</tr>

@@ -1,0 +1,9 @@
+# Degree levels for supervised theses and projects; color is one of the names in $entry-colors.
+- key: msc
+  label: Master's (MSc)
+  chip: MSc
+  color: blue
+- key: bsc
+  label: Bachelor's (BSc)
+  chip: BSc
+  color: orange

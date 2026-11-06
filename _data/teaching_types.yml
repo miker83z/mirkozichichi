@@ -1,0 +1,13 @@
+# Teaching types (used in teaching.yml); color is one of the names in $entry-colors.
+- key: lecturer
+  label: Lecturer
+  chip: Lecturer
+  color: blue
+- key: assistant
+  label: Teaching assistant
+  chip: Teaching assistant
+  color: orange
+- key: tutor
+  label: Tutor
+  chip: Tutor
+  color: violet

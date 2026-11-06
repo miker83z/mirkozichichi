@@ -1,0 +1,22 @@
+# Talks & Activities types: key (used in talks.yml), label (tooltip), chip (filter button),
+# color (one of the names in $entry-colors in assets/css/main.scss).
+- key: lecture
+  label: Invited lecture
+  chip: Lectures
+  color: blue
+- key: talk
+  label: Talk
+  chip: Talks
+  color: orange
+- key: organization
+  label: Organization
+  chip: Organization
+  color: violet
+- key: committee
+  label: Program committee
+  chip: Program committees
+  color: teal
+- key: review
+  label: Reviewer
+  chip: Reviews
+  color: green

@@ -1,0 +1,138 @@
+# Teaching, in page order (newest first). type: lecturer | assistant | tutor (see teaching_types.yml).
+
+- type: "lecturer"
+  role: "Lecturer (6h)"
+  year: "2024/25"
+  title: "Blockchain and Cryptocurrencies"
+  venue: "Master's Degree in Computer Science and Master's Degree in Artificial Intelligence"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2024/461739" }
+- type: "lecturer"
+  role: "Lecturer (6h)"
+  year: "2024/25"
+  title: "Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici"
+  venue: "Single Cycle Degree in Law"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2024/472765" }
+- type: "lecturer"
+  role: "Lecturer (3h)"
+  year: "2023/24"
+  title: "Digital Law. Data, Algorithms, and Artificial Intelligence"
+  venue: "Professional Master's Programme 1st Level"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://master.unibo.it/ict-law/en" }
+- type: "lecturer"
+  role: "Lecturer (6h)"
+  year: "2023/24"
+  title: "Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici"
+  venue: "Single Cycle Degree in Law"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2023/472765" }
+- type: "lecturer"
+  role: "Lecturer (4h)"
+  year: "2022/23"
+  title: "IT Law and Legal Informatics"
+  venue: "Professional Master's Programme 1st Level"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://master.unibo.it/ict-law/en" }
+- type: "lecturer"
+  role: "Lecturer (3h)"
+  year: "2022/23"
+  title: "Legal Tech & Blockchain"
+  venue: "Single cycle degree programme (LMCU) in Law and Bachelor's Degree in Legal Consultant in Business and Public Administration"
+  details: ", University of Bologna (Ravenna Campus)."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467332" }
+- type: "lecturer"
+  role: "Lecturer (9h)"
+  year: "2022/23"
+  title: "Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici"
+  venue: "Single Cycle Degree in Law"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/472765" }
+- type: "tutor"
+  role: "Tutor (40h)"
+  year: "2021/22"
+  title: "Legal Computer Science IUS/20"
+  venue: "Bachelor's Degree in Legal Consultant in Business and Public Administration"
+  details: ", University of Bologna (Ravenna Campus)."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/432904" }
+- type: "lecturer"
+  role: "Lecturer (9h)"
+  year: "2021/22"
+  title: "Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici"
+  venue: "Single Cycle Degree in Law"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765" }
+- type: "lecturer"
+  role: "Lecturer (3h)"
+  year: "2021/22"
+  title: "Trattamento dei dati personali e Data Protection Officer"
+  venue: "Professional Master's Programme 1st Level"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/472765" }
+- type: "lecturer"
+  role: "Lecturer (2h)"
+  year: "2021/22"
+  title: "IT Law and Legal Informatics"
+  venue: "Professional Master's Programme 1st Level"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://master.unibo.it/ict-law/en" }
+- type: "assistant"
+  role: "Teaching assistant (6h)"
+  year: "2021/22"
+  title: "Social/Legal/Ethical Aspects in Data Science"
+  venue: "Master's Degree in Data Science"
+  details: ", Universidad Politécnica de Madrid."
+  links:
+    - { kind: "external", url: "https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf" }
+- type: "assistant"
+  role: "Teaching assistant (6h)"
+  year: "2021/22"
+  title: "Aspectos Sociales, Éticos y Legales de los Datos y la Inteligencia Artificial"
+  venue: "Bachelor's Degree in Artificial Intelligence and Data Science"
+  details: ", Universidad Politécnica de Madrid."
+  links:
+    - { kind: "external", url: "https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10CD_105001022_2S_2021-22.pdf" }
+- type: "assistant"
+  role: "Teaching assistant"
+  year: "2021/22"
+  title: "Blockchain and Cryptocurrencies"
+  venue: "Master's Degree in Computer Science and Master's Degree in Artificial Intelligence"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/448362" }
+- type: "lecturer"
+  role: "Lecturer (9h)"
+  year: "2020/21"
+  title: "Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici"
+  venue: "Single Cycle Degree in Law"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/460830" }
+- type: "assistant"
+  role: "Teaching assistant"
+  year: "2020/21"
+  title: "Blockchain and Cryptocurrencies"
+  venue: "Master's Degree in Computer Science and Master's Degree in Artificial Intelligence"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2020/448362" }
+- type: "assistant"
+  role: "Teaching assistant"
+  year: "2019/20"
+  title: "Peer-to-Peer Systems"
+  venue: "Master's Degree in Computer Science"
+  details: ", University of Bologna."
+  links:
+    - { kind: "external", url: "https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/400431" }

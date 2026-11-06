@@ -1,0 +1,26 @@
+# Publication types: key (used in publications.yml), label (tooltip), chip (filter button),
+# color (one of the names in $entry-colors in assets/css/main.scss).
+- key: journal
+  label: Journal paper
+  chip: Journal
+  color: blue
+- key: conference
+  label: Conference or workshop paper
+  chip: Conference & workshop
+  color: orange
+- key: chapter
+  label: Book chapter
+  chip: Book chapter
+  color: violet
+- key: standard
+  label: International standard
+  chip: Standard
+  color: teal
+- key: report
+  label: Report
+  chip: Report
+  color: green
+- key: thesis
+  label: Thesis
+  chip: Theses
+  color: red

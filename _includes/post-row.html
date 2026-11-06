@@ -1,0 +1,17 @@
+{%- comment -%}
+  One blog post as a row of an entry list (same markup as entry-row.html). Usage: {% include post-row.html post=post %}
+  The Italian translation, if any, is the post with the same URL plus "-ita".
+{%- endcomment -%}
+{%- assign post = include.post -%}
+{%- assign category = post.categories | first -%}
+{%- assign kind = site.data.post_types | where: "key", category | first -%}
+{%- assign ita_url = post.url | replace: ".html", "-ita.html" -%}
+{%- assign ita = site.posts | where: "url", ita_url | first -%}
+<tr class="entry" data-type="{{ category }}">
+<td class="entry-meta"><span class="entry-when"><span class="entry-month">{{ post.date | date: "%b" }}</span> <span class="entry-year">{{ post.date | date: "%Y" }}</span></span></td>
+<td class="entry-flags">{% if kind %}<span class="entry-type entry-type--{{ kind.color }}" role="img" aria-label="{{ kind.label }}" title="{{ kind.label }}"></span>{% endif %}</td>
+<td class="entry-text"><span class="entry-title">{{ post.title }}</span>
+{%- if ita %} <span class="entry-venue"><a href="{{ ita.url | relative_url }}"><i>Versione italiana</i></a></span>{% endif -%}
+</td>
+<td class="entry-links"><a class="get get_external" href="{{ post.url | relative_url }}"></a></td>
+</tr>

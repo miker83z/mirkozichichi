@@ -1,0 +1,705 @@
+# Publications shown on the Research page (newest first); star: true also lists them in the Highlights on the home page.
+# Entries are rendered in this order. type: journal | conference | chapter | standard | report | thesis
+# links: kind is the icon (doi, download, cite, external, ppt); they appear in the order listed.
+
+- id: "C39"
+  type: "conference"
+  star: false
+  authors: "Arruzzoli Arianna, Ferretti Stefano, Zichichi Mirko, Papalia Ludovico, Bomprezzi Chantal, Palmirani Monica"
+  title: "Implementing Role-Based Access Control through Multi-Layered Blockchain Solutions"
+  venue: "in Proc. of the 2026 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops), IEEE."
+  details: "March 16-20, 2026, Pisa, Italy (pp. 1-6)."
+  date: "2026-03"
+  year: 2026
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/PerComWorkshops68308.2026.11585484" }
+    - { kind: "download", url: "/assets/papers/49role.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/49implementing.bib" }
+- id: "C38"
+  type: "conference"
+  star: false
+  authors: "Arruzzoli Arianna, Zichichi Mirko, Palmirani Monica, Papalia Ludovico, Bomprezzi Chantal, Ferretti Stefano"
+  title: "A Multi-Chain Approach to Transparent and Accountable Legislative Processes"
+  venue: "in Proc. of the 59th Hawaii International Conference on System Sciences (HICSS-59)."
+  details: "January 6-9, 2026, Maui, Hawaii, USA."
+  date: "2026-01"
+  year: 2026
+  links:
+    - { kind: "doi", url: "https://doi.org/10.24251/HICSS.2026.267" }
+    - { kind: "download", url: "/assets/papers/48multichain.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/48multichain.bib" }
+- id: "C37"
+  type: "conference"
+  star: false
+  authors: "Iaria Antonino, Zichichi Mirko, Ghini Vittorio, Ferretti Stefano"
+  title: "Towards Next Generation Domain Services: A Committee based Privacy Scheme leveraging Move on IOTA"
+  venue: "in Proc. of the 2025 7th Conference on Blockchain Research &amp; Applications for Innovative Networks and Services (BRAINS), IEEE."
+  details: "November 18-21, 2025, Zurich, Switzerland (pp. 1-4)."
+  date: "2025-11"
+  year: 2025
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/BRAINS67003.2025.11302929" }
+    - { kind: "download", url: "/assets/papers/47next.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/47towards.bib" }
+- id: "J9"
+  type: "journal"
+  star: false
+  authors: "Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio"
+  title: "DLT-based personal data access control with key-redistribution"
+  venue: "Cluster Computing, Springer."
+  details: "June 2025. Vol. 28, Article 404."
+  date: "2025-06"
+  year: 2025
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/s10586-024-05016-y" }
+    - { kind: "download", url: "/assets/papers/45dlt.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/45dlt.bib" }
+- id: "C36"
+  type: "conference"
+  star: false
+  authors: "Palmirani Monica, Papalia Ludovico, Bomprezzi Chantal, Arruzzoli Arianna, Zichichi Mirko, Ferretti Stefano"
+  title: "Multi-level Architecture for Separation of Powers in Legislative Process"
+  venue: "in Proc. of the 7th Distributed Ledger Technology Workshop (DLT 2025)."
+  details: "June 12-14, 2025, Pizzo, Italy (pp. 1-13)."
+  date: "2025-06"
+  year: 2025
+  links:
+    - { kind: "external", url: "https://ceur-ws.org/Vol-4105/paper12.pdf" }
+    - { kind: "download", url: "/assets/papers/46multilevel.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/46multilevel.bib" }
+- id: "C35"
+  type: "conference"
+  star: false
+  authors: "Gigli Lorenzo, Montori Federico, Zichichi Mirko, Bedogni Luca, Ferretti Stefano, Di Felice Marco"
+  title: "On the decentralization of Mobile Crowdsensing in Distributed Ledgers: an architectural vision"
+  venue: "in Proc. of the 2024 IEEE 21st Annual Consumer Communications &amp; Networking Conference (CCNC 2024)."
+  details: "6 – 9 January 2024, Las Vegas, Nevada, USA (pp. 1-7)."
+  date: "2024-01"
+  year: 2024
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/CCNC51664.2024.10454822" }
+    - { kind: "download", url: "/assets/papers/44decentralization.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/44decentralization.bib" }
+- id: "C34"
+  type: "conference"
+  star: false
+  authors: "Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio"
+  title: "DLT-Based Personal Data Access Control with Key-Redistribution"
+  venue: "in Proc. of the 2023 Fifth International Conference on Blockchain Computing and Applications (BCCA)."
+  details: "October 24-26, 2023, Kuwait, Kuwait (pp. 1-8)."
+  date: "2023-10"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/BCCA58897.2023.10338895" }
+    - { kind: "download", url: "/assets/papers/43dlt.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/43dlt.bib" }
+- id: "C33"
+  type: "conference"
+  star: false
+  authors: "Fazzini Emanuele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Keyword-based multimedia data lookup in decentralized systems"
+  venue: "in Proc. of the 2023 International Conference on Information and Communication Technologies for Disaster Management (ICT-DM)."
+  details: "September 13-15, 2023, Cosenza, Italy (pp. 1-6)."
+  date: "2023-09"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ICT-DM58371.2023.10286930" }
+    - { kind: "download", url: "/assets/papers/42keyword.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/42keyword.bib" }
+- id: "J8"
+  type: "journal"
+  star: true
+  authors: "Zichichi Mirko, Rodríguez-Doncel Victor"
+  title: "Encoding of Media Value Chain Processes Through Blockchains and MPEG-21 Smart Contracts for Media"
+  venue: "IEEE MultiMedia, IEEE."
+  details: "August 2023."
+  date: "2023-08"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/MMUL.2023.3303393" }
+    - { kind: "download", url: "/assets/papers/41encoding.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/41encoding.bib" }
+- id: "J7"
+  type: "journal"
+  star: true
+  authors: "Pocher Nadia, Zichichi Mirko, Merizzi Fabio, Shafiq Muhammad Zohaib, Ferretti Stefano"
+  title: "Detecting anomalous cryptocurrency transactions: An AML/CFT application of machine learning-based forensics"
+  venue: "Electronic Markets, Springer."
+  details: "July 2023."
+  date: "2023-07"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/s12525-023-00654-3" }
+    - { kind: "download", url: "/assets/papers/40detecting.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/40detecting.bib" }
+- id: "C32"
+  type: "conference"
+  star: false
+  authors: "Bonini Michele, Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Proof of Location through a Blockchain Agnostic Smart Contract Language"
+  venue: "in Proc. of the 1st Workshop on Fintech and Decentralized Finance (FiDeFix), co-located with the 43rd IEEE International Conference on Distributed Computing Systems (ICDCS 2023)."
+  details: "July 18-21, 2023, Hong Kong, China (pp. 1-6)."
+  date: "2023-07"
+  year: 2023
+  links:
+    - { kind: "doi", url: "http://dx.doi.org/10.1109/ICDCSW60045.2023.00016" }
+    - { kind: "download", url: "/assets/papers/39proof.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/39proof.bib" }
+- id: "J6"
+  type: "journal"
+  star: false
+  authors: "Zichichi Mirko, D'Angelo Gabriele, Marzolla Moreno, Ferretti Stefano"
+  title: "Accountable Clouds through Blockchain"
+  venue: "IEEE Access, IEEE."
+  details: "May 2023."
+  date: "2023-05"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ACCESS.2023.3276240" }
+    - { kind: "download", url: "/assets/papers/35accountable.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/35accountable.bib" }
+- id: "R1"
+  type: "report"
+  star: false
+  authors: "Chavalarias David, De Gelder Beatrice, Caldarelli Guido, et al. (43 authors, including Zichichi Mirko)"
+  title: "Toward a Research Agenda on Digital Media and Humanity Well-Being"
+  venue: "Publications Office of the European Union."
+  details: "May 2023. (130 pp.)."
+  date: "2023-05"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.2759/182241" }
+    - { kind: "external", url: "https://hal.science/hal-04091733" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/51toward.bib" }
+- id: "C31"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Bomprezzi Chantal, Sorrentino Giovanni, Palmirani Monica"
+  title: "Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland"
+  venue: "in Proc. of the 5th Distributed Ledger Technology Workshop."
+  details: "May 25-26, 2023, Bologna, Italy (pp. 1-12)."
+  date: "2023-05"
+  year: 2023
+  links:
+    - { kind: "external", url: "https://ceur-ws.org/Vol-3460/papers/DLT_2023_paper_13.pdf" }
+    - { kind: "download", url: "/assets/papers/38protecting.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/38protecting.bib" }
+- id: "C30"
+  type: "conference"
+  star: false
+  authors: "Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio"
+  title: "A Decentralized Data Sharing Framework based on a Key-Redistribution method"
+  venue: "in Proc. of the 5th Distributed Ledger Technology Workshop."
+  details: "May 25-26, 2023, Bologna, Italy (pp. 1-16)."
+  date: "2023-05"
+  year: 2023
+  links:
+    - { kind: "external", url: "https://ceur-ws.org/Vol-3460/papers/DLT_2023_paper_5.pdf" }
+    - { kind: "download", url: "/assets/papers/37decentralized.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/37decentralized.bib" }
+- id: "PhD"
+  type: "thesis"
+  star: true
+  authors: "Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano"
+  title: "Decentralized Systems for the Protection and Portability of Personal Data"
+  venue: "University of Madrid - University of Bologna."
+  details: "April 2023, Madrid, Spain."
+  date: "2023-04"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.20868/UPM.thesis.73994" }
+    - { kind: "doi", url: "https://doi.org/10.48676/unibo/amsdottorato/10662" }
+    - { kind: "download", url: "/assets/papers/phddesp3d.pdf" }
+    - { kind: "ppt", url: "/assets/papers/phdslides.pdf" }
+- id: "J5"
+  type: "journal"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "InDaMul: Incentivized Data Mules for Opportunistic Networking Through Smart Contracts and Decentralized Systems"
+  venue: "Distributed Ledger Technologies: Research and Practice, ACM."
+  details: "March 2023."
+  date: "2023-03"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3587696" }
+    - { kind: "download", url: "/assets/papers/34indamul.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/34indamul.bib" }
+- id: "C29"
+  type: "conference"
+  star: false
+  authors: "Rossini Martina, Zichichi Mirko, Ferretti Stefano"
+  title: "On the Use of Deep Neural Networks for Security Vulnerabilities Detection in Smart Contracts"
+  venue: "in Proc. of the 4th Workshop on Blockchain theoRy and ApplicatIoNs (BRAIN 2023), co-located with the 21st International Conference on Pervasive Computing and Communications (PerCom 2023), IEEE."
+  details: "March 13-17, 2023, Atlanta, Georgia (USA) (pp. 1-6)."
+  date: "2023-03"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/PerComWorkshops56833.2023.10150302" }
+    - { kind: "download", url: "/assets/papers/36deep.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/36deep.bib" }
+- id: "C28"
+  type: "conference"
+  star: false
+  authors: "Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele"
+  title: "On the Decentralization of Health Systems for Data Availability: a DLT-based Architecture"
+  venue: "in Proc. of the 2023 IEEE 20th Annual Consumer Communications &amp; Networking Conference (CCNC 2023)."
+  details: "8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6)."
+  date: "2023-01"
+  year: 2023
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/CCNC51644.2023.10059701" }
+    - { kind: "download", url: "/assets/papers/33decentralization.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/33decentralization.bib" }
+- id: "C27"
+  type: "conference"
+  star: false
+  authors: "Pocher Nadia, Zichichi Mirko, Ferretti Stefano"
+  title: "AML/CFT/CPF Endeavors in the Crypto-space: From Blockchain Analytics to Machine Learning"
+  venue: "in Proc. of Selected Papers of the Workshop on Artificial Intelligence Governance Ethics and Law (AIGEL 2022)."
+  details: "November 02 - December 19 2022, Barcelona, Spain (pp. 1-10)."
+  date: "2022-11"
+  year: 2022
+  links:
+    - { kind: "external", url: "https://ceur-ws.org/Vol-3531/SPaper_11.pdf" }
+    - { kind: "download", url: "/assets/papers/32aml.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/32aml.bib" }
+- id: "C26"
+  type: "conference"
+  star: false
+  authors: "Rossini Martina, Zichichi Mirko, Ferretti Stefano"
+  title: "Smart Contracts Vulnerability Classification Through Deep Learning"
+  venue: "in Proc. of the 20th ACM Conference on Embedded Networked Sensor Systems (SenSys 2022)."
+  details: "6-9 November 2022, Boston, United States (pp. 1-2)."
+  date: "2022-11"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3560905.3568175" }
+    - { kind: "download", url: "/assets/papers/31smart.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/31smart.bib" }
+- id: "C25"
+  type: "conference"
+  star: false
+  authors: "Serena Luca, Li AoXuan, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano, Tang Su-Kit"
+  title: "Simulation of the Internet Computer Protocol: the Next Generation Multi-Blockchain Architecture"
+  venue: "in Proc. of the 2022 IEEE/ACM 26th International Symposium on Distributed Simulation and Real Time Applications (DS-RT 2022)."
+  details: "26-28 September 2022, Alès, France (pp. 1-8)."
+  date: "2022-09"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/DS-RT55542.2022.9932122" }
+    - { kind: "download", url: "/assets/papers/30simulation3.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/30simulation3.bib" }
+- id: "C24"
+  type: "conference"
+  star: true
+  authors: "Casale-Brunet Simone, Zichichi Mirko, Hutchinson Lee, Mattavelli Marco, Ferretti Stefano"
+  title: "The impact of NFT profile pictures within social network communities"
+  venue: "in Proc. of the ACM International Conference on Information Technology for Social Good (GoodIT 2022)."
+  details: "7-9 September 2022, Limassol, Cyprus (pp. 1-11)."
+  date: "2022-09"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3524458.3547230" }
+    - { kind: "download", url: "/assets/papers/29impact.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/29impact.bib" }
+- id: "J4"
+  type: "journal"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, Rodríguez-Doncel Victor"
+  title: "Decentralized Personal Data Marketplaces: How Participation in a DAO Can Support the Production of Citizen-Generated Data"
+  venue: "Sensors, MDPI."
+  details: "August 2022."
+  date: "2022-08"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.3390/s22166260" }
+    - { kind: "download", url: "/assets/papers/28decentralized2.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/28decentralized2.bib" }
+- id: "C23"
+  type: "conference"
+  star: false
+  authors: "Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Decentralized Health Data Distribution: a DLT-based Architecture for Data Protection"
+  venue: "in Proc. of the 5th IEEE International Conference on Blockchain (IEEE Blockchain 2022)."
+  details: "22 - 25 August 2022, Espoo, Finland (pp. 1-7)."
+  date: "2022-08"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/Blockchain55522.2022.00023" }
+    - { kind: "download", url: "/assets/papers/26decentralized.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/26decentralized.bib" }
+- id: "J3"
+  type: "journal"
+  star: true
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Rodríguez-Doncel Victor"
+  title: "Data governance through a multi-DLT architecture in view of the GDPR"
+  venue: "Cluster Computing, Springer."
+  details: "July 2022."
+  date: "2022-07"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/s10586-022-03691-3" }
+    - { kind: "download", url: "/assets/papers/27data.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/27data.bib" }
+- id: "C22"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "DLT-based Data Mules for Smart Territories"
+  venue: "in Proc. of the 31st International Conference on Computer Communications and Networks (ICCCN 2022)."
+  details: "25 - 27 July 2022, Honolulu, Hawaii (pp. 1-7)."
+  date: "2022-07"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ICCCN54977.2022.9868916" }
+    - { kind: "download", url: "/assets/papers/25dlt.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/25dlt.bib" }
+- id: "C21"
+  type: "conference"
+  star: false
+  authors: "Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano"
+  title: "On the modeling of P2P systems as temporal networks: a case study with data streaming"
+  venue: "in Proc. of the 2022 Annual Modeling and Simulation Conference (ANNSIM)."
+  details: "18-20 July 2022, San Diego, CA, USA (pp. 1-12)."
+  date: "2022-07"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.23919/ANNSIM55834.2022.9859513" }
+    - { kind: "download", url: "/assets/papers/24modeling.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/24modeling.bib" }
+- id: "C20"
+  type: "conference"
+  star: false
+  authors: "Li AoXuan, Serena Luca, Zichichi Mirko, Tang Su-Kit, D'Angelo Gabriele, Ferretti Stefano"
+  title: "Modelling of the Internet Computer Protocol Architecture: the Next Generation Blockchain"
+  venue: "in Proc. of the 4th International Congress on Blockchain and Applications (Blockchain 22)."
+  details: "13 - 15 July 2022, L'Aquila, Italy (pp. 1-10)."
+  date: "2022-07"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/978-3-031-21229-1_1" }
+    - { kind: "download", url: "/assets/papers/23modelling.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/23modelling.bib" }
+- id: "C19"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Incentivized Data Mules Based on State-Channels"
+  venue: "in Proc. of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)."
+  details: "2 - 5 May 2022, Virtual (pp. 1-2)."
+  date: "2022-05"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ICBC54727.2022.9805515" }
+    - { kind: "download", url: "/assets/papers/22incentivized.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/22incentivized.bib" }
+- id: "C18"
+  type: "conference"
+  star: true
+  authors: "Pocher Nadia, Zichichi Mirko"
+  title: "Towards CBDC-based Machine-to-Machine Payments in Consumer IoT"
+  venue: "in Proc. of the 37th ACM/SIGAPP Symposium on Applied Computing (SAC)."
+  details: "25 - 29 April 2022, Brno, Czech Republic (pp. 1-8)."
+  date: "2022-04"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3477314.3507078" }
+    - { kind: "download", url: "/assets/papers/19towardscbdc.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/19towardscbdc.bib" }
+- id: "J2"
+  type: "journal"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Complex queries over decentralised systems for geodata retrieval"
+  venue: "IET Networks, Wiley."
+  details: "March 2022."
+  date: "2022-03"
+  year: 2022
+  links:
+    - { kind: "doi", url: "http://dx.doi.org/10.1049/ntw2.12037" }
+    - { kind: "download", url: "/assets/papers/20complex.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/20complex.bib" }
+- id: "C17"
+  type: "conference"
+  star: false
+  authors: "Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro"
+  title: "Intelligent Human-input-based Blockchain Oracle (IHiBO)"
+  venue: "in Proc. of the 14th International Conference on Agents and Artificial Intelligence (ICAART)."
+  details: "Special Session on Super Distributed and Multi-agent Intelligent Systems (SDMIS). 3-5 February 2022, Virtual Event (pp. 1-12)."
+  date: "2022-02"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.5220/0010945300003116" }
+    - { kind: "download", url: "/assets/papers/18intelligent.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/18intelligent.bib" }
+- id: "C16"
+  type: "conference"
+  star: true
+  authors: "Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro"
+  title: "Enhancing Trust in Trust Services: Towards an Intelligent Human-input-based Blockchain Oracle (IHiBO)"
+  venue: "in Proc. of the 55th Hawaii International Conference on System Sciences (HICSS)."
+  details: "3-6 January 2022, Hawaii, USA (pp. 1-10)."
+  date: "2022-01"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.24251/HICSS.2022.712" }
+    - { kind: "download", url: "/assets/papers/17enhancing.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/17enhancing.bib" }
+- id: "S1"
+  type: "standard"
+  star: true
+  authors: "ISO/IEC JTC 1/SC 29 Technical Committee"
+  title: "ISO/IEC 21000-23 Information technology — Multimedia framework (MPEG-21) — Part 23: Smart Contracts for Media"
+  venue: ""
+  details: "2022."
+  date: "2022-00"
+  year: 2022
+  links:
+    - { kind: "external", url: "https://www.iso.org/standard/82527.html" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/smartcontractformedia.bib" }
+- id: "B1"
+  type: "chapter"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Blockchain-based Data Management for Smart Transportation"
+  venue: "Handbook on Blockchain, Springer Nature."
+  details: "Duc A. Tran, My T. Thai, Bhaskar Krishnamachari (Editors). 2022."
+  date: "2022-00"
+  year: 2022
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/978-3-031-07535-3_20" }
+    - { kind: "download", url: "/assets/papers/21blockchain.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/21blockchain.bib" }
+- id: "C15"
+  type: "conference"
+  star: false
+  authors: "Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro"
+  title: "Argumentation in Trust Services within a Blockchain Environment"
+  venue: "in Proc. of the 33rd Benelux Conference on Artificial Intelligence (BNAIC) and the 30th Belgian-Dutch Conference on Machine Learning (BENELEARN)."
+  details: "10-12 November 2021, Esch-sur-Alzette, Luxembourg (pp. 1-21)."
+  date: "2021-11"
+  year: 2021
+  links:
+    - { kind: "external", url: "https://orbilu.uni.lu/bitstream/10993/48924/1/bnaic2021_preproceedings.pdf" }
+    - { kind: "download", url: "/assets/papers/16argumentation.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/16argumentation.bib" }
+- id: "C14"
+  type: "conference"
+  star: false
+  authors: "Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano"
+  title: "Simulation of Hybrid Edge Computing Architectures"
+  venue: "in Proc. of the 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT)."
+  details: "27-29 September 2021, Valencia, Spain (pp. 1-8)."
+  date: "2021-09"
+  year: 2021
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/DS-RT52167.2021.9576121" }
+    - { kind: "download", url: "/assets/papers/15simulation2.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/15simulation2.bib" }
+- id: "C13"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Governing Decentralized Complex Queries Through a DAO"
+  venue: "in Proc. of the Conference on Information Technology for Social Good (GoodIT)."
+  details: "9-11 September 2021, Rome, Italy (pp. 1-6)."
+  date: "2021-09"
+  year: 2021
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3462203.3475910" }
+    - { kind: "download", url: "/assets/papers/14governing.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/14governing.bib" }
+- id: "C12"
+  type: "conference"
+  star: false
+  authors: "Serena Luca, Zichichi Mirko, D'Angelo Gabriele, Ferretti Stefano"
+  title: "Simulation of Dissemination Strategies on Temporal Networks"
+  venue: "in Proc. of the 2021 Annual Modeling and Simulation Conference (ANNSIM), Society for Modeling and Simulation International (SCS)."
+  details: "19-22 July 2021, Fairfax, VA, USA (pp. 1-12)."
+  date: "2021-07"
+  year: 2021
+  links:
+    - { kind: "doi", url: "https://doi.org/10.23919/ANNSIM52504.2021.9552126" }
+    - { kind: "download", url: "/assets/papers/13simulation.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/13simulation.bib" }
+- id: "C11"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Serena Luca, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Towards Decentralized Complex Queries over Distributed Ledgers: a Data Marketplace Use-case"
+  venue: "in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN)."
+  details: "3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6)."
+  date: "2021-07"
+  year: 2021
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ICCCN52240.2021.9522165" }
+    - { kind: "download", url: "/assets/papers/12towards.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/12towards.bib" }
+- id: "C10"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "MOVO: a dApp for DLT-based Smart Mobility"
+  venue: "in Proc. of the 30th IEEE International Conference on Computer Communications and Networks (ICCCN)."
+  details: "3rd International Workshop on Social (Media) Sensing. 19-22 July 2021, Athens, Greece (pp. 1-6)."
+  date: "2021-07"
+  year: 2021
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ICCCN52240.2021.9522257" }
+    - { kind: "download", url: "/assets/papers/11movo.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/11movo.bib" }
+- id: "C9"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele, Rodríguez-Doncel Victor"
+  title: "Personal Data Access Control Through Distributed Authorization"
+  venue: "in Proc. of the 2020 IEEE 19th International Symposium on Network Computing and Applications (NCA)."
+  details: "November 2020, Boston, MA, USA (pp. 1-4)."
+  date: "2020-11"
+  year: 2020
+  links:
+    - { kind: "doi", url: "http://dx.doi.org/10.1109/NCA51143.2020.9306721" }
+    - { kind: "download", url: "/assets/papers/10personal.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/10personal.bib" }
+- id: "C8"
+  type: "conference"
+  star: false
+  authors: "Distefano Biagio, Pocher Nadia, Zichichi Mirko"
+  title: "MOATcoin: Exploring Challenges and Legal Implications of Smart Contracts Through a Gamelike DApp Experiment"
+  venue: "in Proc. of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom)."
+  details: "September 25th, 2020, London, United Kingdom (pp. 1-6)."
+  date: "2020-09"
+  year: 2020
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3410699.3413798" }
+    - { kind: "download", url: "/assets/papers/9moatcoin.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/9moatcoin.bib" }
+- id: "C7"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?"
+  venue: "in Proc. of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock), co-located with the 26th Annual International Conference on Mobile Computing and Networking (MobiCom)."
+  details: "September 25th, 2020, London, United Kingdom (pp. 1-6)."
+  date: "2020-09"
+  year: 2020
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1145/3410699.3413789" }
+    - { kind: "download", url: "/assets/papers/8aredistributed.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/8aredistributed.bib" }
+- id: "C6"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "On the Efficiency of Decentralized File Storage for Personal Information Management Systems"
+  venue: "in Proc. of the 25th IEEE Symposium on Computers and Communications (ISCC)."
+  details: "2nd International Workshop on Social (Media) Sensing. July 2020, Rennes, France (pp. 1-6)."
+  date: "2020-07"
+  year: 2020
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ISCC50000.2020.9219623" }
+    - { kind: "download", url: "/assets/papers/7efficiency.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/7efficiency.bib" }
+- id: "J1"
+  type: "journal"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "A Framework based on Distributed Ledger Technologies for Data Management and Services in Intelligent Transportation Systems"
+  venue: "IEEE Access, IEEE."
+  details: "May 2020. (pp. 100384 - 100402)."
+  date: "2020-05"
+  year: 2020
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/ACCESS.2020.2998012" }
+    - { kind: "download", url: "/assets/papers/6framework.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/6framework.bib" }
+- id: "C5"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Contu Michele, Ferretti Stefano, Rodríguez-Doncel Victor"
+  title: "Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger"
+  venue: "in Proc. of the 3rd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020."
+  details: "February 2020, Ancona, Italy (pp. 1-16)."
+  date: "2020-02"
+  year: 2020
+  links:
+    - { kind: "external", url: "http://ceur-ws.org/Vol-2580/" }
+    - { kind: "download", url: "/assets/papers/5ensuring.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/5ensuring.bib" }
+- id: "C4"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano, D'Angelo Gabriele"
+  title: "A Distributed Ledger Based Infrastructure for Smart Transportation System and Social Good"
+  venue: "in Proc. of the 2020 IEEE 17th Annual Consumer Communications &amp; Networking Conference (CCNC)."
+  details: "January 2020, Las Vegas, USA (pp. 1-6)."
+  date: "2020-01"
+  year: 2020
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/CCNC46108.2020.9045640" }
+    - { kind: "download", url: "/assets/papers/4distributed.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/4distributed.bib" }
+- id: "C3"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko"
+  title: "Location Privacy and Inference in Online Social Networks"
+  venue: "in Proc. of the Seventh JURIX 2019 Doctoral Consortium, co-located with the 32nd International Conference on Legal Knowledge and Information Systems (JURIX)."
+  details: "December 2019, Madrid, Spain (pp. 1-10)."
+  date: "2019-12"
+  year: 2019
+  links:
+    - { kind: "external", url: "http://ceur-ws.org/Vol-2598/" }
+    - { kind: "download", url: "/assets/papers/3location.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/3location.bib" }
+- id: "C2"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Rodríguez-Doncel Victor, Ferretti Stefano"
+  title: "The use of Decentralized and Semantic Web Technologies for Personal Data Protection and Interoperability"
+  venue: "in AI Approaches to the Complexity of Legal Systems XI-XII."
+  details: "JURIX 2019 Workshop. December 2019, Madrid, Spain (pp. 328-355)."
+  date: "2019-12"
+  year: 2019
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1007/978-3-030-89811-3_23" }
+    - { kind: "download", url: "/assets/papers/2theuse.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/2theuse.bib" }
+- id: "MSc"
+  type: "thesis"
+  star: false
+  authors: "Zichichi Mirko, Ferretti Stefano"
+  title: "A Distributed Ledger based infrastructure for Intelligent Transportation Systems"
+  venue: "University of Bologna."
+  details: "July 2019, Bologna, Italy."
+  date: "2019-07"
+  year: 2019
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/18440/" }
+    - { kind: "download", url: "/assets/papers/mscdistributed.pdf" }
+    - { kind: "ppt", url: "/assets/papers/mscslides.pdf" }
+- id: "C1"
+  type: "conference"
+  star: false
+  authors: "Zichichi Mirko, Contu Michele, Ferretti Stefano, D'Angelo Gabriele"
+  title: "LikeStarter: a Smart-contract based Social DAO for Crowdfunding"
+  venue: "in Proc. of the IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)."
+  details: "2nd Workshop on Cryptocurrencies and Blockchains for Distributed Systems (CryBlock 2019). April 2019, Paris, France (pp. 313-318)."
+  date: "2019-04"
+  year: 2019
+  links:
+    - { kind: "doi", url: "https://doi.org/10.1109/INFCOMW.2019.8845133" }
+    - { kind: "download", url: "/assets/papers/1likestarter.pdf" }
+    - { kind: "cite", url: "/assets/papers/bibtexts/1likestarter.bib" }
+- id: "BSc"
+  type: "thesis"
+  star: false
+  authors: "Zichichi Mirko, Cossentino Massimo, Sabatucci Luca, De Simone Giada"
+  title: "Tecniche di Monitoring di Servizi per la Soddisfazione Parziale dei Requisiti"
+  venue: "Università degli Studi di Palermo."
+  details: "October 2017, Palermo, Italy."
+  date: "2017-10"
+  year: 2017
+  links:
+    - { kind: "download", url: "/assets/papers/bsctecniche.pdf" }
+    - { kind: "ppt", url: "/assets/papers/bscslides.pdf" }

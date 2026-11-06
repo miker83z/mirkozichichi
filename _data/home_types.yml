@@ -1,0 +1,13 @@
+# Types for the lists on the home page (_data/home.yml); color is one of the names in $entry-colors.
+- key: work
+  label: Work
+  color: blue
+- key: education
+  label: Education
+  color: red
+- key: life
+  label: Personal
+  color: teal
+- key: current
+  label: Current project
+  color: blue

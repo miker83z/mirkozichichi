@@ -133,7 +133,7 @@ $sidebar-sticky: true;
   }
 
   // Entry tables: stack the cells so the text uses the full width, with the link icons in a row underneath
-  table:has(a.get) {
+  table:has(a.get):not(.entries) {
     &, tbody, tr, td {
       display: block;
     }
@@ -154,5 +154,262 @@ $sidebar-sticky: true;
         margin: 0.25rem 1rem 0.5rem 0;
       }
     }
+  }
+}
+
+// Entry lists (Research, Talks, Tutoring, Projects and the home page highlights), see _includes/entry-list.html.
+// Marker colours: Hydeout hues, darkened where needed for >= 3:1 contrast on white. Each page's
+// _data/*_types.yml picks one of these names.
+$entry-colors: (
+  "blue": #1f77b4,
+  "orange": #c2621a,
+  "violet": #7a5ea8,
+  "teal": #2a8c7f,
+  "green": #5f8a2e,
+  "red": #ac4142
+);
+$entry-year-color: #8f5536;
+$entry-star-color: #b8860b;
+
+.entry-type {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 3px;
+  vertical-align: -0.05rem;
+}
+
+@each $name, $color in $entry-colors {
+  .entry-type--#{$name} {
+    background: $color;
+  }
+}
+
+.entry-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+}
+
+.entry-filters[hidden],
+.entry-more[hidden],
+table.entries tr[hidden] {
+  display: none !important;
+}
+
+.entry-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.65rem;
+  border: 1px solid $border-color;
+  border-radius: 1rem;
+  background: #fff;
+  color: $gray-5;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $gray-4;
+  }
+
+  &[aria-pressed="true"] {
+    background: $gray-6;
+    border-color: $gray-6;
+    color: #fff;
+  }
+}
+
+.entry-count {
+  opacity: 0.7;
+}
+
+// "Show all N" / "Show fewer" below a collapsed list
+.entry-more {
+  display: block;
+  margin: 0.75rem auto 1.5rem;
+  padding: 0.3rem 1rem;
+  border: 1px solid $border-color;
+  border-radius: 1rem;
+  background: #fff;
+  color: $gray-5;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $gray-4;
+  }
+}
+
+table.entries {
+  border: 0;
+  font-size: 90%;
+
+  td {
+    border: 0;
+    padding: 0.6rem 0.4rem;
+    vertical-align: top;
+  }
+
+  tr.entry {
+    border-bottom: 1px solid $border-color;
+  }
+
+  tbody tr:nth-child(odd) td {
+    background: transparent;
+  }
+
+  tr.entry:hover td {
+    background: $gray-1;
+  }
+}
+
+.entry-meta {
+  width: 1%;
+  min-width: 3.2rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.entry-id {
+  display: block;
+  color: $gray-4;
+  font-size: 0.8em;
+}
+
+.entry-when {
+  display: block;
+  color: $entry-year-color;
+}
+
+.entry-year {
+  font-weight: bold;
+}
+
+.entry-flags {
+  width: 2rem;
+  white-space: nowrap;
+}
+
+.entry-star {
+  color: $entry-star-color;
+  margin-right: 0.15rem;
+}
+
+.entry-role {
+  display: block;
+  color: $gray-4;
+  font-size: 0.75em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.entry-title {
+  display: block;
+  color: $gray-6;
+  font-weight: 600;
+}
+
+.entry-people,
+.entry-venue,
+.entry-desc {
+  display: block;
+  color: $gray-4;
+  font-size: 0.92em;
+}
+
+.entry-tags {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.92em;
+}
+
+// Compact lists: tighter rows, venue on the same line as the title
+table.entries--compact {
+  td {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .entry-title,
+  .entry-venue {
+    display: inline;
+  }
+
+  .entry-venue::before {
+    content: "·";
+    margin: 0 0.4em;
+  }
+}
+
+table.entries td.entry-links {
+  width: 5.4rem;
+  text-align: right;
+
+  // entries without links give the space back to the text
+  &:empty {
+    width: 0;
+    padding: 0;
+  }
+
+  .get {
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0.15rem 0.2rem;
+  }
+}
+
+// Small screens: ID, year and markers on one line, then the text, then the links
+@media (max-width: $large-breakpoint - 0.01rem) {
+  table.entries {
+    &, tbody {
+      display: block;
+    }
+
+    tr.entry {
+      display: grid;
+      grid-template-columns: auto auto 1fr;
+      column-gap: 0.5rem;
+      padding: 0.6rem 0;
+    }
+
+    td {
+      display: block;
+      padding: 0;
+    }
+
+    td.entry-text,
+    td.entry-links {
+      grid-column: span 3;
+    }
+
+    td.entry-links {
+      width: auto;
+      text-align: left;
+      margin-top: 0.3rem;
+
+      .get {
+        margin: 0 0.9rem 0 0;
+      }
+    }
+  }
+
+  .entry-meta {
+    width: auto;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .entry-id,
+  .entry-when {
+    display: inline;
+  }
+
+  .entry-flags {
+    width: auto;
   }
 }

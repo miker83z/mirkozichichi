@@ -1,0 +1,157 @@
+# Supervised theses, in page order (newest first). type: msc | bsc (see degree_types.yml).
+# date: "YYYY-MM" when the month is known (shown next to the year).
+
+- id: "MSc"
+  type: "msc"
+  year: "2022"
+  date: "2022-12"
+  people: "Bonini Michele, Ferretti Stefano, Zichichi Mirko"
+  title: "Proof of Location through a Blockchain Agnostic Smart Contract Language: Design and Evaluation over Algorand and Ethereum"
+  venue: "University of Bologna."
+  details: "December 2022, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/27599/" }
+    - { kind: "download", url: "/assets/tutor/theses/mscbonini.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2022"
+  date: "2022-12"
+  people: "Fazzini Emanuele, Ferretti Stefano, Zichichi Mirko"
+  title: "Keyword-based multimedia data lookup in decentralized systems"
+  venue: "University of Bologna."
+  details: "December 2022, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/27598/" }
+    - { kind: "download", url: "/assets/tutor/theses/mscfazzini.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2022"
+  date: "2022-07"
+  people: "Mioli Riccardo, Ferretti Stefano, Zichichi Mirko"
+  title: "Trasferimento di Token Inter-Blockchain: attacchi e soluzioni in uno scenario di Blockchain locali"
+  venue: "University of Bologna."
+  details: "July 2022, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/26222/" }
+    - { kind: "download", url: "/assets/tutor/theses/mscmioli.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2022"
+  date: "2022-02"
+  people: "Serafini Matteo, Ferretti Stefano, Zichichi Mirko"
+  title: "Implementation of a Smart Contract based System for Traceability in Agrifood"
+  venue: "University of Urbino."
+  details: "February 2022, Urbino, Italy."
+  links:
+    - { kind: "external", url: "https://github.com/inifares23lab/Agri_EVM_IOTA" }
+    - { kind: "download", url: "/assets/tutor/theses/bscserafini.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-12"
+  people: "Tallaros Andrea Elia, Ferretti Stefano, Zichichi Mirko"
+  title: "B-Mule: A Blockchain based Secure Data Delivery Service"
+  venue: "University of Bologna."
+  details: "December 2021, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/24899/" }
+    - { kind: "download", url: "/assets/tutor/theses/msctallaros.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-10"
+  people: "La Piana Federica, Ferretti Stefano, Zichichi Mirko"
+  title: "Gestione e Indicizzazione di Dati in Contesti di Smart Transportation: un Approccio basato su Registri Distribuiti"
+  venue: "University of Bologna."
+  details: "October 2021, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/24250/" }
+    - { kind: "download", url: "/assets/tutor/theses/msclapiana.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2021"
+  date: "2021-03"
+  people: "Giansante Cesare, Ferretti Stefano, Zichichi Mirko"
+  title: "Ricerca su Registri Distribuiti: un Approccio Basato su Distributed Hash Tables"
+  venue: "University of Bologna."
+  details: "March 2021, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/22887/" }
+    - { kind: "download", url: "/assets/tutor/theses/mscgiansante.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-10"
+  people: "Cavallin Riccardo, Ferretti Stefano, Zichichi Mirko"
+  title: "Approccio blockchain per la gestione dei dati personali"
+  venue: "University of Bologna."
+  details: "October 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/21604/" }
+    - { kind: "download", url: "/assets/tutor/theses/bsccavallin.pdf" }
+- id: "MSc"
+  type: "msc"
+  year: "2020"
+  date: "2020-07"
+  people: "Sparber Julian, Ferretti Stefano, Zichichi Mirko"
+  title: "Blockchain-based end-to-end encryption for Matrix instant messaging"
+  venue: "University of Bologna."
+  details: "July 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20836/" }
+    - { kind: "download", url: "/assets/tutor/theses/mscsparber.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-03"
+  people: "Gurioli Andrea, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko"
+  title: "Ethereum alla prova dei fatti: Analisi sull'utilizzo degli smart contracts per l'implementazione di opzioni nei mercati finanziari"
+  venue: "University of Bologna."
+  details: "March 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20602/" }
+    - { kind: "download", url: "/assets/tutor/theses/bscgurioli.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-03"
+  people: "Mazzini Federico, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko"
+  title: "Query sull’infrastruttura IOTA: un approccio keyword-based"
+  venue: "University of Bologna."
+  details: "March 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20603/" }
+    - { kind: "download", url: "/assets/tutor/theses/bscmazzini.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-03"
+  people: "Morselli Enrico, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko"
+  title: "Radix DLT: un'alternativa scalabile alle Blockchain"
+  venue: "University of Bologna."
+  details: "March 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20606/" }
+    - { kind: "download", url: "/assets/tutor/theses/bscmorselli.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-03"
+  people: "Mongardi Michele, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko"
+  title: "Progettazione di un sistema DLT per l'interoperabilità e lo scambio di dati sanitari utilizzando le tecnologie IOTA e IPFS"
+  venue: "University of Bologna."
+  details: "March 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20605/" }
+    - { kind: "download", url: "/assets/tutor/theses/bscmongardi.pdf" }
+- id: "BSc"
+  type: "bsc"
+  year: "2020"
+  date: "2020-03"
+  people: "Pietrucci Giovanni, D'Angelo Gabriele, Ferretti Stefano, Zichichi Mirko"
+  title: "Un sistema di micropagamenti su piattaforma Ethereum per il wireless roaming"
+  venue: "University of Bologna."
+  details: "March 2020, Bologna, Italy."
+  links:
+    - { kind: "external", url: "https://amslaurea.unibo.it/20608/" }
+    - { kind: "download", url: "/assets/tutor/theses/bscpietrucci.pdf" }

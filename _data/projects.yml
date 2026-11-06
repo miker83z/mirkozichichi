@@ -1,0 +1,258 @@
+# Projects, in page order (newest first). type: current | phd | master (see project_types.yml).
+# tags: languages, see languages.yml.
+# date: "YYYY-MM" when the month is known (shown next to the year).
+# star: true also lists the entry in the Highlights on the home page.
+
+- type: "current"
+  year: "2024–26"
+  people: "Zichichi Mirko, IOTA Foundation"
+  title: "IOTA"
+  description: "The monorepo for the software that allows you to run the IOTA DLT and related tools. I contributed to the development of the core software of the DLT node, with particular focus on the whole process of executing transactions and system operations implemented in Move, including the genesis and migration tooling for the transition from IOTA Stardust to IOTA Rebased, the Move framework, the execution layer and account abstraction."
+  details: "2024-2026."
+  tags: ["rust", "move"]
+  links:
+    - { kind: "github", url: "https://github.com/iotaledger/iota" }
+- type: "current"
+  star: true
+  year: "2026"
+  people: "Zichichi Mirko, Reutov Valerii, Pap Levente, Botnar Pavlo"
+  title: "Abstract IOTA Accounts"
+  description: "Account abstraction for IOTA: smart-contract-based authentication of addresses, where Move authenticator functions decide whether a transaction sent from an abstract account is authorized. Specified in IIP-0009 and implemented in the IOTA node and Move framework, together with example accounts, such as a group account authenticated through Groth16 zero-knowledge proofs of membership in a Lean Incremental Merkle Tree."
+  details: "2026."
+  tags: ["move", "rust"]
+  links:
+    - { kind: "external", url: "https://github.com/iotaledger/IIPs/blob/main/iips/IIP-0009/IIP-0009.md" }
+    - { kind: "github", url: "https://github.com/miker83z/iota-lean-imt-account" }
+    - { kind: "github", url: "https://github.com/miker83z/iota-move-aa-authcontext-examples" }
+- type: "current"
+  year: "2025–26"
+  people: "Zichichi Mirko, Reutov Valerii, Pap Levente"
+  title: "IOTA Improvement Proposals"
+  description: "Standards for the IOTA technology stack: IIP-0005 Move View Functions, a standardized interface for application-specific queries to on-chain state; IIP-0009 Abstract IOTA Accounts; and IIP-0010 Package Metadata, an immutable on-chain object that provides trusted metadata about Move packages during execution."
+  details: "2025-2026."
+  tags: ["move"]
+  links:
+    - { kind: "github", url: "https://github.com/iotaledger/IIPs" }
+- type: "current"
+  year: "2026"
+  date: "2026-06"
+  people: "Zichichi Mirko"
+  title: "Move CTF Workshop"
+  description: "A hands-on, capture-the-flag style workshop to learn Move on IOTA in five challenges, from writing a first Move package to building and exploiting an account-abstraction authenticator."
+  details: "June 2026."
+  tags: ["move"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/move-ctf-2026" }
+- type: "current"
+  year: "2023"
+  people: "Zichichi Mirko"
+  title: "Hornet Move"
+  description: "Proof-of-Concept Move Smart Contract Platform for IOTA Stardust, a modification of the original IOTA Hornet Node software."
+  details: "2023."
+  tags: ["rust", "go", "move"]
+  links:
+    - { kind: "github", url: "https://github.com/iotaledger/" }
+- type: "phd"
+  year: "2023"
+  date: "2023-03"
+  people: "Zichichi Mirko"
+  title: "NFTicket for the Metaverse"
+  description: "Proof-of-concept implementation of an NFT that performs an Anonymous Credentials Verification before minting a Ticket."
+  details: "March 2023."
+  tags: ["solidity", "js"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/nfticket" }
+- type: "phd"
+  year: "2022"
+  date: "2022-05"
+  people: "Zichichi Mirko"
+  title: "[desp3d] The PhD Thesis Software Repository"
+  description: "A set of software modules that support the work behind the PhD thesis."
+  details: "May 2022."
+  tags: ["solidity", "js", "rust"]
+  links:
+    - { kind: "github", url: "https://github.com/stars/miker83z/lists/phd-thesis" }
+- type: "phd"
+  year: "2022"
+  date: "2022-05"
+  people: "Zichichi Mirko"
+  title: "k-DaO"
+  description: "Implementation of a k-DAO in Ethereum that governs the exchange of data with an aggregator."
+  details: "May 2022."
+  tags: ["solidity", "js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/k-DaO" }
+- type: "phd"
+  year: "2021"
+  date: "2021-08"
+  people: "Zichichi Mirko"
+  title: "TruDaMul Smart Contracts"
+  description: "TruDaMul is a decentralized application that combines the use of Distributed Ledger Technologies and Decentralized File Storage, mostly for verifying the correct behavior of all the participants and incentivizing them in Data Mule-based communications."
+  details: "August 2021."
+  tags: ["solidity", "js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/TruDaMul" }
+- type: "phd"
+  year: "2021"
+  date: "2021-07"
+  people: "Zichichi Mirko"
+  title: "Reference Software for ISO/IEC 21000-23 Smart Contracts for Media"
+  description: "Implementation of the standard specification composed of conversion modules, smart contracts, a demo and APIs."
+  details: "July 2021."
+  tags: ["solidity", "js", "python"]
+  links:
+    - { kind: "external", url: "https://scm.linkeddata.es/" }
+    - { kind: "external", url: "https://scm.linkeddata.es/docs/" }
+- type: "phd"
+  year: "2021"
+  date: "2021-06"
+  people: "Zichichi Mirko"
+  title: "IHiBO"
+  description: "Intelligent Human-input-based Blockchain Oracle: a cross-chain oracle that enables the execution and traceability of formal argumentation and negotiation processes involving human experts."
+  details: "June 2021."
+  tags: ["solidity", "js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/IHiBO" }
+- type: "phd"
+  year: "2021"
+  date: "2021-05"
+  people: "Zichichi Mirko"
+  title: "Hypercube DAO Contracts"
+  description: "Implementation of a DAO in Ethereum that governs a P2P network of nodes maintaining a Distributed Hash Table."
+  details: "May 2021."
+  tags: ["solidity", "js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/HypercubeDAOContracts" }
+- type: "phd"
+  year: "2021"
+  date: "2021-04"
+  people: "Zichichi Mirko"
+  title: "Intelligible Identity and Certificate"
+  description: "Implementation of the <a href=\"http://lbl.cirsfid.unibo.it/index.php/publications/\" target=\"_blank\">Intelligible</a> models for verifying the authenticity of digital certificates and online identity assertions, namely Intelligible Identity and Intelligible Certificate, based on the use of DLTs, smart contracts and standards for mark-up and identification of legal documents."
+  details: "April 2021."
+  tags: ["solidity", "js"]
+  links:
+    - { kind: "github", url: "https://github.com/BitNomos/Intelligible-Identity-SDK/tree/suite" }
+    - { kind: "external", url: "https://demo.intelligible.io" }
+- type: "phd"
+  year: "2020"
+  date: "2020-09"
+  people: "Zichichi Mirko"
+  title: "Umbral-rs"
+  description: "Implementation of the <a href=\"https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf\" target=\"_blank\">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href=\"https://github.com/nucypher/pyUmbral\" target=\"_blank\">Python</a> version created by the Umbral authors."
+  details: "September 2020."
+  tags: ["rust"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/umbral-rs" }
+- type: "phd"
+  year: "2020"
+  date: "2020-09"
+  people: "Zichichi Mirko"
+  title: "MPEG-21 Media Contract Ontology to Smart Contracts"
+  description: "Demo for the <a href=\"http://cosasbuenas.es/mpeg/\" target=\"_blank\">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non-Fungible Tokens."
+  details: "September 2020."
+  tags: ["solidity", "js"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/mpeg21mco2sc" }
+    - { kind: "external", url: "https://mpeg21mco2sc.herokuapp.com/" }
+- type: "phd"
+  year: "2020"
+  date: "2020-07"
+  people: "Zichichi Mirko"
+  title: "Personal Data Decentralized Access Control tests"
+  description: "Assessing the feasibility of lesser-used cryptographic methods in the field of access control, with particular attention to personal information."
+  details: "July 2020."
+  tags: ["solidity", "rust"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/decentralizedAuthTests" }
+- type: "phd"
+  year: "2020"
+  date: "2020-05"
+  people: "Zichichi Mirko, Contu Michele, Rak Richard"
+  title: "Capitalism 2.0"
+  description: "A multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments."
+  details: "May 2020."
+  tags: ["js"]
+  links:
+    - { kind: "external", url: "https://capitalism20.tk/" }
+    - { kind: "external", url: "https://capitalism20.tk/ftapplication/" }
+- type: "phd"
+  year: "2020"
+  date: "2020-05"
+  people: "Zichichi Mirko"
+  title: "IPFS-Sia Rio Buses"
+  description: "Collection of data and scripts regarding the evaluation of IPFS and Sia performance in a vehicular scenario."
+  details: "May 2020."
+  tags: ["js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/testingIPFS" }
+- type: "phd"
+  year: "2020"
+  date: "2020-01"
+  people: "Zichichi Mirko, Distefano Biagio"
+  title: "MOATCoin"
+  description: "A smart contract that combines a variation of a standard ERC20 token with a voting contract."
+  details: "January 2020."
+  tags: ["solidity", "js"]
+  links:
+    - { kind: "github", url: "https://gitlab.com/CIRSFID/moatcoin" }
+- type: "phd"
+  year: "2019"
+  date: "2019-10"
+  people: "Zichichi Mirko"
+  title: "IOTA Rio Buses"
+  description: "Collection of data and scripts regarding the evaluation of IOTA network performance in a vehicular scenario."
+  details: "October 2019."
+  tags: ["js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/testingIOTA" }
+- type: "master"
+  year: "2019"
+  date: "2019-07"
+  people: "Zichichi Mirko"
+  title: "Movo"
+  description: "An Android app prototype that allows users to share vehicle data using IOTA and Ethereum Smart Contracts."
+  details: "July 2019."
+  tags: ["java", "solidity", "js", "python"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/movoApp" }
+- type: "master"
+  year: "2019"
+  date: "2019-06"
+  people: "Zichichi Mirko"
+  title: "Mycropayments"
+  description: "A POC to use IOTA Masked Authenticated Messaging for Ethereum State Channels."
+  details: "June 2019."
+  tags: ["js"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/Mycropayments" }
+- type: "master"
+  year: "2019"
+  date: "2019-04"
+  people: "Zichichi Mirko"
+  title: "middleMAM"
+  description: "WebRTC channel supported by IOTA Masked Authenticated Messaging."
+  details: "April 2019."
+  tags: ["js"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/middleMAM" }
+- type: "master"
+  year: "2018"
+  date: "2018-11"
+  people: "Zichichi Mirko, Contu Michele"
+  title: "LikeStarter"
+  description: "Blockchain-based decentralized platform that combines social interactions with crowdfunding mechanisms, allowing any user to raise funds while becoming popular in the social network."
+  details: "November 2018."
+  tags: ["solidity", "js"]
+  links:
+    - { kind: "github", url: "https://github.com/flamel13/eth-crowdsale" }
+- type: "master"
+  year: "2018"
+  date: "2018-09"
+  people: "Zichichi Mirko"
+  title: "i4canti"
+  description: "Agent-based model to study the influence of ideas between individuals."
+  details: "September 2018."
+  tags: ["cpp"]
+  links:
+    - { kind: "github", url: "https://github.com/miker83z/i4canti" }

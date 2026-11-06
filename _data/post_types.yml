@@ -1,0 +1,7 @@
+# Blog post categories (the first category in a post's front matter); color is one of the names in $entry-colors.
+- key: thesis
+  label: PhD thesis series
+  color: red
+- key: projects
+  label: Projects
+  color: blue
