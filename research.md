@@ -10,6 +10,19 @@ title: Research
 <table>
     <tr>
         <td>
+          [J9] Barbàra Fadi, Zichichi Mirko, Ferretti Stefano, Schifanella Claudio
+          <br>
+          <b>DLT-based personal data access control with key-redistribution</b>,
+          <i>Cluster Computing, Springer.</i> June 2025. Vol. 28, Article 404.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1007/s10586-024-05016-y"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/45dlt.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/45dlt.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [J8] Zichichi Mirko, Rodríguez-Doncel Victor
           <br>
           <b>	Encoding of Media Value Chain Processes Through Blockchains and MPEG-21 Smart Contracts for Media</b>,
@@ -154,6 +167,26 @@ title: Research
 
 ---
 
+## Reports
+
+<table>
+    <tr>
+        <td>
+          [R1] Chavalarias David, De Gelder Beatrice, Caldarelli Guido, et al. (43 authors, including Zichichi Mirko),
+          <br>
+          <b>Toward a Research Agenda on Digital Media and Humanity Well-Being</b>,
+          <i>Publications Office of the European Union.</i> May 2023. (130 pp.).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.2759/182241"></a>
+          <a class="get get_external" target="_blank" href="https://hal.science/hal-04091733"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/51toward.bib"></a>
+        </td>
+    </tr>
+</table>
+
+---
+
 ## Theses
 
 <table>
@@ -165,6 +198,8 @@ title: Research
           <i>University of Madrid - University of Bologna.</i> April 2023, Madrid, Spain.
         </td>
         <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.20868/UPM.thesis.73994"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.48676/unibo/amsdottorato/10662"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/phddesp3d.pdf"></a>
           <a class="get get_ppt" target="_blank" href="/assets/papers/phdslides.pdf"></a>
         </td>
@@ -203,13 +238,64 @@ title: Research
 <table>
     <tr>
         <td>
+          [C39] Arruzzoli Arianna, Ferretti Stefano, Zichichi Mirko, Papalia Ludovico, Bomprezzi Chantal, Palmirani Monica,
+          <br>
+          <b>Implementing Role-Based Access Control through Multi-Layered Blockchain Solutions</b>,
+          <i>in Proc. of the 2026 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops), IEEE.</i> March 16-20, 2026, Pisa, Italy (pp. 1-6).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/PerComWorkshops68308.2026.11585484"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/49implementing.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C38] Arruzzoli Arianna, Zichichi Mirko, Palmirani Monica, Papalia Ludovico, Bomprezzi Chantal, Ferretti Stefano,
+          <br>
+          <b>A Multi-Chain Approach to Transparent and Accountable Legislative Processes</b>,
+          <i>in Proc. of the 59th Hawaii International Conference on System Sciences (HICSS-59).</i> January 6-9, 2026, Maui, Hawaii, USA.
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.24251/HICSS.2026.267"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/48multichain.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/48multichain.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C37] Iaria Antonino, Zichichi Mirko, Ghini Vittorio, Ferretti Stefano,
+          <br>
+          <b>Towards Next Generation Domain Services: A Committee based Privacy Scheme leveraging Move on IOTA</b>,
+          <i>in Proc. of the 2025 7th Conference on Blockchain Research \& Applications for Innovative Networks and Services (BRAINS), IEEE.</i> November 18-21, 2025, Zurich, Switzerland (pp. 1-4).
+        </td>
+        <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/BRAINS67003.2025.11302929"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/47next.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/47towards.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          [C36] Palmirani Monica, Papalia Ludovico, Bomprezzi Chantal, Arruzzoli Arianna, Zichichi Mirko, Ferretti Stefano,
+          <br>
+          <b>Multi-level Architecture for Separation of Powers in Legislative Process</b>,
+          <i>in Proc. of the 7th Distributed Ledger Technology Workshop (DLT 2025).</i> June 12-14, 2025, Pizzo, Italy (pp. 1-13).
+        </td>
+        <td>
+          <a class="get get_external" target="_blank" href="https://ceur-ws.org/Vol-4105/paper12.pdf"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/46multilevel.pdf"></a>
+          <a class="get get_cite" href="/assets/papers/bibtexts/46multilevel.bib"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>
           [C35] Gigli Lorenzo, Montori Federico, Zichichi Mirko, Bedogni Luca, Ferretti Stefano, Di Felice Marco,
           <br>
           <b>On the decentralization of Mobile Crowdsensing in Distributed Ledgers: an architectural vision</b>,
           <i>in Proc. of the 2024 IEEE 21st Annual Consumer Communications \& Networking Conference (CCNC 2024).</i> 6 – 9 January 2024, Las Vegas, Nevada, USA (pp. 1-7).
         </td>
         <td>
-          <a class="get get_external" target="_blank" href="https://ccnc2024.ieee-ccnc.org/program"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC51664.2024.10454822"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/44decentralization.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/44decentralization.bib"></a>
         </td>

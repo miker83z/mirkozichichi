@@ -75,6 +75,8 @@ I currently lead the VM & Language team within the IOTA Foundation's R&D Departm
           <i>University of Madrid - University of Bologna.</i> April 2023, Madrid, Spain.
         </td>
         <td>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.20868/UPM.thesis.73994"></a>
+          <a class="get get_doi" target="_blank" href="https://doi.org/10.48676/unibo/amsdottorato/10662"></a>
           <a class="get get_download" target="_blank" href="/assets/papers/phddesp3d.pdf"></a>
           <a class="get get_ppt" target="_blank" href="/assets/papers/phdslides.pdf"></a>
         </td>
