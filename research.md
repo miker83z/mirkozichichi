@@ -245,6 +245,7 @@ title: Research
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/PerComWorkshops68308.2026.11585484"></a>
+          <a class="get get_download" target="_blank" href="/assets/papers/49role.pdf"></a>
           <a class="get get_cite" href="/assets/papers/bibtexts/49implementing.bib"></a>
         </td>
     </tr>
