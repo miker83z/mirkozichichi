@@ -19,13 +19,13 @@ title: Home
   &rarr; <b>Born</b> in <b>Palermo</b>, Sicily (1995).
 </p>
 
-Passionate about Distributed Ledger Technologies, with expertise in designing and developing protocols for smart contract implementation and optimization. I hold a PhD in _Law, Science, and Technology_ with a thesis title: _''Decentralized Systems for the Protection and Portability of Personal Data.''_
+Passionate about Distributed Ledger Technologies, with expertise in designing and developing protocols for smart contract implementation and optimization. I hold a PhD in _Law, Science, and Technology_ with the thesis titled _“Decentralized Systems for the Protection and Portability of Personal Data.”_
 
 ---
 
 ## Current Projects
 
-I currently lead the VM&Language within the IOTA Foundation's R&D Department &rarr; [GitHub repo](https://github.com/iotaledger/iota).
+I currently lead the VM & Language team within the IOTA Foundation's R&D Department &rarr; [GitHub repo](https://github.com/iotaledger/iota).
 
 - This team is currently focused on all aspects related to the Move smart contract language. We maintain the Rust-based source code responsible for the compilation and execution of Move code, as well as the integration of these components into the IOTA DLT protocol.
 - Additionally, we collaborate with other teams to develop Move smart contracts for implementing core DLT functionalities and building decentralized applications on top of the blockchain.

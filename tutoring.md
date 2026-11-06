@@ -27,7 +27,7 @@ title: Tutoring
           Lecturer (6h)
         </td>
         <td>
-          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <b>Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
         <td>
@@ -56,7 +56,7 @@ title: Tutoring
           Lecturer (6h)
         </td>
         <td>
-          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <b>Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
         <td>
@@ -97,7 +97,7 @@ title: Tutoring
           Lecturer (9h)
         </td>
         <td>
-          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <b>Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
         <td>
@@ -126,7 +126,7 @@ title: Tutoring
           Lecturer (9h)
         </td>
         <td>
-          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <b>Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
         <td>
@@ -203,7 +203,7 @@ title: Tutoring
           Lecturer (9h)
         </td>
         <td>
-          <b>Sem. Blockchain E Smart Contract: Aspetti Giuridici E Tecnologici</b>,
+          <b>Sem. Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici</b>,
           <i>Single Cycle Degree in Law</i>, University of Bologna.
         </td>
         <td>
@@ -282,7 +282,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [BSc] Matteo Serafini, Ferretti Stefano, Zichichi Mirko,
+          [BSc] Serafini Matteo, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Implementation of a Smart Contract based System for Traceability in Agrifood</b>,
           <i>University of Urbino.</i> February 2022, Urbino, Italy.
@@ -294,7 +294,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Andrea Elia Tallaros, Ferretti Stefano, Zichichi Mirko,
+          [MSc] Tallaros Andrea Elia, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>B-Mule: A Blockchain based Secure Data Delivery Service</b>,
           <i>University of Bologna.</i> December 2021, Bologna, Italy.
@@ -306,7 +306,7 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] La Piana Fedrica, Ferretti Stefano, Zichichi Mirko,
+          [MSc] La Piana Federica, Ferretti Stefano, Zichichi Mirko,
           <br>
           <b>Gestione e Indicizzazione di Dati in Contesti di Smart Transportation: un Approccio basato su Registri Distribuiti</b>,
           <i>University of Bologna.</i> October 2021, Bologna, Italy.
@@ -421,10 +421,10 @@ title: Tutoring
 <table>
     <tr>
         <td>
-          [MSc] Davide Pruscini, Giosuè Cotugno,
+          [MSc] Pruscini Davide, Cotugno Giosuè,
           <br>
           <b>cloud-chain-simulation</b>,
-          <i>This project aims to test different kinds of blockchains and consensus mechanism with the same CloudSLA smart contract</i> March 2022.
+          <i>This project aims to test different kinds of blockchains and consensus mechanisms with the same CloudSLA smart contract.</i> March 2022.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://github.com/cotus997/cloud-chain-simulation"></a>
@@ -432,10 +432,10 @@ title: Tutoring
     </tr>
     <tr>
         <td>
-          [MSc] Håvard Brenne,
+          [MSc] Brenne Håvard,
           <br>
           <b>DataMuleIoT</b>,
-          <i>Proof of Concept of Data Mules using IoT devices over a State Channel Network</i> March 2022.
+          <i>Proof of Concept of Data Mules using IoT devices over a State Channel Network.</i> March 2022.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://github.com/h-brenne/DataMuleIoT"></a>
@@ -446,7 +446,7 @@ title: Tutoring
           [MSc] Tropea Davide, Leurini Alessio,
           <br>
           <b>HYPFS</b>,
-          <i>Implementation of a Decentralized keywords Search Engine based on a hypercube-structured DHT, that integrates IPFS</i> April 2021.
+          <i>Implementation of a decentralized keyword search engine based on a hypercube-structured DHT that integrates IPFS.</i> April 2021.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://github.com/daduz11/hypfs"></a>
@@ -506,7 +506,7 @@ title: Tutoring
           [MSc] Amoriello Nicola, Massaro Valerio Giuseppe,
           <br>
           <b>Holosensor</b>,
-          <i>A dApp for IoT data acquisition and sharing in Holochain (+ devices simulation).</i> December 2020.
+          <i>A dApp for IoT data acquisition and sharing in Holochain (+ device simulation).</i> December 2020.
         </td>
         <td>
         </td>
@@ -528,7 +528,7 @@ title: Tutoring
           [MSc] Giansante Cesare,
           <br>
           <b>Hypeercube</b>,
-          <i>DHT with the aim of facilitating the search of large amounts of data in DLTs using specific keywords.</i> December 2020.
+          <i>DHT with the aim of facilitating the search for large amounts of data in DLTs using specific keywords.</i> December 2020.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/Sisar1/Hypeercube"></a>
@@ -539,7 +539,7 @@ title: Tutoring
           [BSc] Cavallin Riccardo,
           <br>
           <b>Testing Google Drive</b>,
-          <i>Testing Google Drive storage solution.</i> September 2020.
+          <i>Testing the Google Drive storage solution.</i> September 2020.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/riccardocavallin/testingGDrive"></a>
@@ -550,7 +550,7 @@ title: Tutoring
           [MSc] Sparber Julian,
           <br>
           <b>E2E SecretStore</b>,
-          <i>End-to-end encryption system for the realtime communication network Matrix.</i> June 2020.
+          <i>End-to-end encryption system for the real-time communication network Matrix.</i> June 2020.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/jsparber/e2e-secretstore"></a>
@@ -573,7 +573,7 @@ title: Tutoring
           [MSc] D’Ambrosio Luca, Silvestri Marco,
           <br>
           <b>LibraFaceWallet</b>,
-          <i>Web platform that hosts a Wallet for Libra cryptocurrency based on Facebook profiles.</i> March 2020.
+          <i>Web platform that hosts a wallet for the Libra cryptocurrency based on Facebook profiles.</i> March 2020.
         </td>
         <td>
           <a class="get get_github" target="_blank" href="https://github.com/marcosilve1/LibraFaceWallet"></a>

@@ -13,7 +13,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b> IOTA</b>,
-          <i> The monorepo for the software that allows to run the IOTA DLT and related tools. I contributed to the development of the core software of the DLT node, with particular focus on the whole process of executing transactions and system operations implemented in Move. </i> 2024-2025.
+          <i> The monorepo for the software that allows you to run the IOTA DLT and related tools. I contributed to the development of the core software of the DLT node, with particular focus on the whole process of executing transactions and system operations implemented in Move. </i> 2024-2025.
           <br>
           <b>Rust</b> <span style="vertical-align: text-top;"><img src="/figs/rust.png" alt="rust" style="width: 25px; display: inline;"></span>
           <b>Move</b><span style="vertical-align: text-top;"><img src="/figs/move.png" alt="move" style="width: 25px; display: inline;"></span>
@@ -48,7 +48,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b> NFTicket for the Metaverse</b>,
-          <i> Proof-of-concept implementation of a NFT that performs an Anonymous Credentials Verification before minting a Ticket.</i> March 2023.
+          <i> Proof-of-concept implementation of an NFT that performs an Anonymous Credentials Verification before minting a Ticket.</i> March 2023.
           <br>
           <b>Solidity</b><span style="vertical-align: text-top;"><img src="/figs/solidity.png" alt="solidity" style="width: 25px; display: inline;"></span>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
@@ -92,7 +92,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>TruDaMul Smart Contracts</b>,
-          <i> TruDaMul is a decentralized application that combines the use of Distributed Ledger Technologies and Decentralized File Storages, mostly for verifying the correct behavior of all the participants and to incentivize them in Data Mule-based communications.</i> August 2021.
+          <i> TruDaMul is a decentralized application that combines the use of Distributed Ledger Technologies and Decentralized File Storage, mostly for verifying the correct behavior of all the participants and incentivizing them in Data Mule-based communications.</i> August 2021.
           <br>
           <b>Solidity</b><span style="vertical-align: text-top;"><img src="/figs/solidity.png" alt="solidity" style="width: 25px; display: inline;"></span>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
@@ -107,7 +107,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>Reference Software for ISO/IEC 21000-23 Smart Contracts for Media</b>,
-          <i> Implementation of the standard specification composed of conversion modules, smart contracts, demo and APIs.</i> July 2021.
+          <i> Implementation of the standard specification composed of conversion modules, smart contracts, a demo and APIs.</i> July 2021.
           <br>
           <b>Solidity</b><span style="vertical-align: text-top;"><img src="/figs/solidity.png" alt="solidity" style="width: 25px; display: inline;"></span>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
@@ -153,7 +153,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>Umbral-rs</b>,
-          <i> Implementation of the <a href="https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf" target="_blank">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href="https://github.com/nucypher/pyUmbral" target="_blank">Python</a> version createdby the Umbral authors.</i> September 2020.
+          <i> Implementation of the <a href="https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf" target="_blank">Umbral</a> threshold proxy re-encryption scheme, built with Rust taking as reference the <a href="https://github.com/nucypher/pyUmbral" target="_blank">Python</a> version created by the Umbral authors.</i> September 2020.
           <br>
           <b>Rust</b> <span style="vertical-align: text-top;"><img src="/figs/rust.png" alt="rust" style="width: 25px; display: inline;"></span>
         </td>
@@ -166,7 +166,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>MPEG-21 Media Contract Ontology to Smart Contracts</b>,
-          <i> Demo for the <a href="http://cosasbuenas.es/mpeg/" target="_blank">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non Fungible Tokens.</i> September 2020.
+          <i> Demo for the <a href="http://cosasbuenas.es/mpeg/" target="_blank">MPEG21 MCO to Smart Contract UPM Response to N19504</a>, based on Ethereum Smart contracts. The transformation from an MCO contract into a smart contract is performed by considering payments as transactions and actions to be performed on IP entities in the form of assets, i.e. Non-Fungible Tokens.</i> September 2020.
           <br>
           <b>Solidity</b><span style="vertical-align: text-top;"><img src="/figs/solidity.png" alt="solidity" style="width: 25px; display: inline;"></span>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
@@ -195,7 +195,7 @@ title: Projects
           Zichichi Mirko, Contu Michele, Rak Richard
           <br>
           <b>Capitalism 2.0</b>,
-          <i>A Multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments.</i> May 2020.
+          <i>A multichain application for reporting, verifying and monitoring environmental, social and governance (ESG) impact assessments.</i> May 2020.
           <br>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
         </td>
@@ -209,7 +209,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>IPFS-Sia Rio Buses</b>,
-          <i>Collection of data and scripts regarding the evaluation of IPFS and Sia performances in a vehicular scenario.</i> May 2020.
+          <i>Collection of data and scripts regarding the evaluation of IPFS and Sia performance in a vehicular scenario.</i> May 2020.
           <br>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
           <b>Python</b> <span style="vertical-align: text-top;"><img src="/figs/python.png" alt="python" style="width: 22px; display: inline;"></span>
@@ -220,7 +220,7 @@ title: Projects
     </tr>
     <tr>
         <td>
-          Zichichi Mirko, Biagio Distefano
+          Zichichi Mirko, Distefano Biagio
           <br>
           <b>MOATCoin</b>,
           <i>A smart contract that combines a variation of a standard ERC20 token with a voting contract.</i> January 2020.
@@ -237,7 +237,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>IOTA Rio Buses</b>,
-          <i>Collection of data and scripts regarding the evaluation of IOTA network performances in a vehicular scenario.</i> October 2019.
+          <i>Collection of data and scripts regarding the evaluation of IOTA network performance in a vehicular scenario.</i> October 2019.
           <br>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
           <b>Python</b> <span style="vertical-align: text-top;"><img src="/figs/python.png" alt="python" style="width: 22px; display: inline;"></span>
@@ -248,7 +248,7 @@ title: Projects
     </tr>
 </table>
 
-## Master's projects
+## Master's Projects
 
 <table>
     <tr>
@@ -256,7 +256,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>Movo</b>,
-          <i>An android app prototype that allows to share vehicle data using IOTA and Ethereum Smart Contracts.</i> July 2019.
+          <i>An Android app prototype that allows users to share vehicle data using IOTA and Ethereum Smart Contracts.</i> July 2019.
           <br>
           <b>Java</b><span style="vertical-align: text-top;"><img src="/figs/java.png" alt="java" style="width: 25px; display: inline;"></span>
           <b>Solidity</b><span style="vertical-align: text-top;"><img src="/figs/solidity.png" alt="solidity" style="width: 25px; display: inline;"></span>
@@ -285,7 +285,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>middleMAM</b>,
-          <i>WebRTC channel supported by IOTA Masked Authentication Messaging.</i> April 2019.
+          <i>WebRTC channel supported by IOTA Masked Authenticated Messaging.</i> April 2019.
           <br>
           <b>JavaScript</b><span style="vertical-align: text-top;"><img src="/figs/js.png" alt="js" style="width: 25px; display: inline;"></span>
         </td>
@@ -312,7 +312,7 @@ title: Projects
           Zichichi Mirko,
           <br>
           <b>i4canti</b>,
-          <i>Agents model to study ideas influence between individuals.</i> September 2018.
+          <i>Agent-based model to study the influence of ideas between individuals.</i> September 2018.
           <br>
           <b>C++</b><span style="vertical-align: text-top;"><img src="/figs/cpp.png" alt="cpp" style="width: 25px; display: inline;"></span>
         </td>

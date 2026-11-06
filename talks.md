@@ -13,9 +13,9 @@ title: Talks & Activities
           Invited Lecturer
         </td>
         <td>
-          Zichichi Mirko, Luigi Vigneri
+          Zichichi Mirko, Vigneri Luigi
           <br>
-          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <b>Move: the Language for Secure Next-Gen Smart Contracts</b>,
           <a href="https://events.dimes.unical.it/dlt2025/" target="_blank"><i>7th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> June 2026.
         </td>
         <td>
@@ -32,9 +32,9 @@ title: Talks & Activities
           Invited Lecturer
         </td>
         <td>
-          Zichichi Mirko, Luigi Vigneri
+          Zichichi Mirko, Vigneri Luigi
           <br>
-          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <b>Move: the Language for Secure Next-Gen Smart Contracts</b>,
           <a href="https://events.dimes.unical.it/dlt2025/" target="_blank"><i>6th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> June 2025.
         </td>
         <td>
@@ -62,8 +62,8 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Blockchain & Smart Contract</b>,
-          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2025/472765" target="_blank"><i>Juridical and Technological Aspects (seminar).</i></a>  November 2025.
+          <b>Blockchain & Smart Contracts</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2025/472765" target="_blank"><i>Legal and Technological Aspects (seminar).</i></a>  November 2025.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2024.pdf"></a>
@@ -80,7 +80,7 @@ title: Talks & Activities
           Hackathon Organizer
         </td>
         <td>
-          Zichichi Mirko, Samuel Rufinatscha
+          Zichichi Mirko, Rufinatscha Samuel
           <br>
           <b>IOTA Smart Contracts and Move Hackathon</b>,
           <a href="https://dlt-school.github.io/" target="_blank"><i>5th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> September 2024.
@@ -110,8 +110,8 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Blockchain & Smart Contract</b>,
-          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2024/472765" target="_blank"><i>Juridical and Technological Aspects (seminar).</i></a>  November 2024.
+          <b>Blockchain & Smart Contracts</b>,
+          <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2024/472765" target="_blank"><i>Legal and Technological Aspects (seminar).</i></a>  November 2024.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/sicurezzagiur2024.pdf"></a>
@@ -125,7 +125,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <b>Move: the Language for Secure Next-Gen Smart Contracts</b>,
           <a href="https://phd.unibo.it/last-jd" target="_blank"><i>LAST-JD Annual Conference 2024.</i></a> July 2024.
         </td>
         <td>
@@ -139,7 +139,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Move: the Language for Secure Next Gen Smart Contracts</b>,
+          <b>Move: the Language for Secure Next-Gen Smart Contracts</b>,
           <a href="https://ethna.rocks/" target="_blank"><i>Ethna 2024.</i></a> May 2024.
         </td>
         <td>
@@ -156,7 +156,7 @@ title: Talks & Activities
           Invited Lecturer
         </td>
         <td>
-          Zichichi Mirko, Can Umut Ileri
+          Zichichi Mirko, Ileri Can Umut
           <br>
           <b>IOTA Smart Contracts and Move Tutorial</b>,
           <a href="https://dlt-school.github.io/2023/" target="_blank"><i>4th Scientific School on Blockchain & Distributed Ledger Technologies.</i></a> September 2023.
@@ -199,7 +199,7 @@ title: Talks & Activities
           Speaker
         </td>
         <td>
-          Zichichi Mirko, Giovanni Sorrentino
+          Zichichi Mirko, Sorrentino Giovanni
           <br>
           <b>Protecting digital identity in the Metaverse: the case of access to a cinema in Decentraland</b>,
           <a href="https://dltgroup.dmi.unipg.it/DLTWorkshop/dlt2023.html" target="_blank"><i>Distributed Ledger Technologies 2023 (workshop).</i></a> May 2023.
@@ -214,7 +214,7 @@ title: Talks & Activities
         </td>
         <td>
           <b>GoodIT 2023</b>,
-           Special track Blockchain and Decentralized technologies for social good (BANDIT)
+           Special track on Blockchain and Decentralized Technologies for Social Good (BANDIT)
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://sites.google.com/unipi.it/bandit2023/home"></a>
@@ -268,7 +268,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>ERC-20 Tokens, NFT and DAO</b>,
+          <b>ERC-20 Tokens, NFTs and DAOs</b>,
           <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/472765" target="_blank"><i>Blockchain e Smart Contract: Aspetti Giuridici e Tecnologici (seminario).</i></a>  November 2022.
         </td>
         <td>
@@ -282,7 +282,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Blockchain and Smart Contracts​</b>,
+          <b>Blockchain and Smart Contracts</b>,
           <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2021/467332" target="_blank"><i>Legal Tech and Blockchain.</i></a>  May 2022.
         </td>
         <td>
@@ -298,7 +298,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Authentication, Non-repudiation and Data Integrity: Technical and Law Perspective​</b>,
+          <b>Authentication, Non-repudiation and Data Integrity: Technical and Legal Perspectives</b>,
           <a href="https://www.upm.es/comun_gauss/publico/guias/2021-22/2S/GA_10BA_103000900_2S_2021-22.pdf" target="_blank"><i>Social/Legal/Ethical Aspects in Data Science.</i></a>  March 2022.
         </td>
         <td>
@@ -312,8 +312,8 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Decentralized Systems for the Protection and Portability of Personal Data​ (Short Thesis Presentation)</b>,
-          <a href="https://last-jd-rioe.eu/" target="_blank"><i>LAST-JD-RIoE November 2022 Board in Bologna.</i></a>  October 2022.
+          <b>Decentralized Systems for the Protection and Portability of Personal Data (Short Thesis Presentation)</b>,
+          <a href="https://last-jd-rioe.eu/" target="_blank"><i>LAST-JD-RIoE November 2022 Board in Bologna.</i></a>  November 2022.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/shortthesis.pdf"></a>
@@ -326,7 +326,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Smart Legal Contracts​</b>,
+          <b>Smart Legal Contracts</b>,
           <a href="https://protect.oeg.fi.upm.es/cercedilla/" target="_blank"><i>PROTECT Workshop in Cercedilla.</i></a>  June 2022.
         </td>
         <td>
@@ -340,7 +340,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Incentivized Data Mules Based on State-Channels​</b>,
+          <b>Incentivized Data Mules Based on State-Channels</b>,
           <a href="https://icbc2022.ieee-icbc.org/program" target="_blank"><i>2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC).</i></a>  May 2022.
         </td>
         <td>
@@ -354,7 +354,7 @@ title: Talks & Activities
         <td>
           Zichichi Mirko
           <br>
-          <b>Intelligent Human-input-based Blockchain Oracle (IHiBO)​</b>,
+          <b>Intelligent Human-input-based Blockchain Oracle (IHiBO)</b>,
           <a href="https://www.insticc.org/node/technicalprogram/icaart/2022" target="_blank"><i>14th International Conference on Agents and Artificial Intelligence (ICAART).</i></a>  February 2022.
         </td>
         <td>
@@ -521,7 +521,7 @@ title: Talks & Activities
         <td>
           Pocher Nadia, Zichichi Mirko
           <br>
-          <b>Towards CBDC-based Machine-to-Machine Payments in Consumer IoT​</b>,
+          <b>Towards CBDC-based Machine-to-Machine Payments in Consumer IoT</b>,
           <a href="https://www.p2pfisy.com/full-programme/" target="_blank"><i>Peer-to-Peer Financial Systems (P2PFSY).</i></a>  December 2021.
         </td>
         <td>
@@ -564,7 +564,7 @@ title: Talks & Activities
           Zichichi Mirko
           <br>
           <b>(Location) Privacy by Design through Disintermediation: from Data Silos to Decentralized Technologies</b>,
-          <a href="https://rioe.oeg.fi.upm.es/conference/" target="_blank"><i>First Annual LAST-JD-RIOE Conference.</i></a> July 2021.
+          <a href="https://rioe.oeg.fi.upm.es/conference/" target="_blank"><i>First Annual LAST-JD-RIoE Conference.</i></a> July 2021.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/lastjd2021.pdf"></a>
@@ -620,7 +620,7 @@ title: Talks & Activities
           Zichichi Mirko
           <br>
           <b>Intelligible Identity and Certificate</b>,
-          <i>Last-JD-RIoE Assessment.</i> April 2021.
+          <i>LAST-JD-RIoE Assessment.</i> April 2021.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/intelligible2021.pdf"></a>
@@ -775,7 +775,7 @@ title: Talks & Activities
           Zichichi Mirko
           <br>
           <b>Are Distributed Ledger Technologies Ready for Intelligent Transportation Systems?</b>,
-          <a href="http://www.cryblock.org/index.html" target="_blank"><i>Cryblock 2020 (workshop).</i></a> September 2020.
+          <a href="http://www.cryblock.org/index.html" target="_blank"><i>CryBlock 2020 (workshop).</i></a> September 2020.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/cryblock2020.pdf"></a>
@@ -817,7 +817,7 @@ title: Talks & Activities
           Zichichi Mirko
           <br>
           <b>Location privacy and inference in online social networks</b>,
-          <i>Last-JD-RIoE Assessment.</i> April 2020.
+          <i>LAST-JD-RIoE Assessment.</i> April 2020.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/locationassessm.pdf"></a>
@@ -962,7 +962,7 @@ title: Talks & Activities
           Zichichi Mirko
           <br>
           <b>Location privacy and inference in online social networks</b>,
-          <i>Last-JD-RIoE Welcome Camp.</i> November 2019.
+          <i>LAST-JD-RIoE Welcome Camp.</i> November 2019.
         </td>
         <td>
           <a class="get get_ppt" target="_blank" href="/assets/tutor/slides/locationwelcome.pdf"></a>

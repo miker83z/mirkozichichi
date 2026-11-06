@@ -123,8 +123,7 @@ title: Research
         <td>
           [S1] ISO/IEC JTC 1/SC 29 Technical Committee,
           <br>
-          <b> ISO/IEC 21000-23 Information technology — Multimedia framework (MPEG-21) — Part 23: Smart Contracts for Media</b>
-          , 2022.
+          <b>ISO/IEC 21000-23 Information technology — Multimedia framework (MPEG-21) — Part 23: Smart Contracts for Media</b>, 2022.
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://www.iso.org/standard/82527.html"></a>
@@ -199,7 +198,7 @@ title: Research
 
 ---
 
-## Conference and Workshops Papers
+## Conference and Workshop Papers
 
 <table>
     <tr>
@@ -207,7 +206,7 @@ title: Research
           [C35] Gigli Lorenzo, Montori Federico, Zichichi Mirko, Bedogni Luca, Ferretti Stefano, Di Felice Marco,
           <br>
           <b>On the decentralization of Mobile Crowdsensing in Distributed Ledgers: an architectural vision</b>,
-          <i>in Proc. of the 2024 IEEE 21th Annual Consumer Communications \& Networking Conference (CCNC 2024).</i> 6 – 9 January 2024, Las Vegas, Nevada, USA (pp. 1-7).
+          <i>in Proc. of the 2024 IEEE 21st Annual Consumer Communications \& Networking Conference (CCNC 2024).</i> 6 – 9 January 2024, Las Vegas, Nevada, USA (pp. 1-7).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://ccnc2024.ieee-ccnc.org/program"></a>
@@ -285,7 +284,7 @@ title: Research
           [C29] Rossini Martina, Zichichi Mirko, Ferretti Stefano, 
           <br>
           <b>On the Use of Deep Neural Networks for Security Vulnerabilities Detection in Smart Contracts</b>,
-          <i>in Proc. of the 4th Workshop on Blockchain theoRy and ApplicatIoNs (BRAIN 2023), co-located with the 21nd International Conference on Pervasive Computing and Communications (PerCom 2023), IEEE.</i> March 13-17, 2023, Atlanta, Georgia (USA) (pp. 1-6).
+          <i>in Proc. of the 4th Workshop on Blockchain theoRy and ApplicatIoNs (BRAIN 2023), co-located with the 21st International Conference on Pervasive Computing and Communications (PerCom 2023), IEEE.</i> March 13-17, 2023, Atlanta, Georgia (USA) (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150302"></a>
@@ -298,7 +297,7 @@ title: Research
           [C28] Bigini Gioele, Zichichi Mirko, Lattanzi Emanuele, Ferretti Stefano, D'Angelo Gabriele,
           <br>
           <b>On the Decentralization of Health Systems for Data Availability: a DLT-based Architecture</b>,
-          <i>Proc. of the 2023 IEEE 20th Annual Consumer Communications \& Networking Conference (CCNC 2023).</i> 8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6).
+          <i>in Proc. of the 2023 IEEE 20th Annual Consumer Communications \& Networking Conference (CCNC 2023).</i> 8 – 11 January 2023, Las Vegas, Nevada, USA (pp. 1-6).
         </td>
         <td>
           <a class="get get_doi" target="_blank" href="https://doi.org/10.1109/CCNC51644.2023.10059701"></a>
@@ -438,7 +437,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C17] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          [C17] Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro
           <br>
           <b>Intelligent Human-input-based Blockchain Oracle (IHiBO)</b>,
           <i>in Proc. of the 14th International Conference on Agents and Artificial Intelligence (ICAART).</i> Special Session on Super Distributed and Multi-agent Intelligent Systems (SDMIS). 3-5 February 2022, Virtual Event (pp. 1-12).
@@ -451,7 +450,7 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C16] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          [C16] Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro
           <br>
           <b>Enhancing Trust in Trust Services: Towards an Intelligent Human-input-based Blockchain Oracle (IHiBO)</b>,
           <i>in Proc. of the 55th Hawaii International Conference on System Sciences (HICSS).</i>  3-6 January 2022, Hawaii, USA (pp. 1-10).
@@ -464,10 +463,10 @@ title: Research
     </tr>
     <tr>
         <td>
-          [C15] Liuwen Yu, Zichichi Mirko, Réka Markovich, Amro Najjar
+          [C15] Yu Liuwen, Zichichi Mirko, Markovich Réka, Najjar Amro
           <br>
           <b>Argumentation in Trust Services within a Blockchain Environment</b>,
-          <i>in Proc. of the 33rd Benelux Conference on Artificial Intelligence (BNAIC) and the 30th Belgian Dutch Conference on Machine Learning (BENELEARN).</i>  10-12 November 2021, Esch-sur-Alzette, Luxembourg (pp. 1-21).
+          <i>in Proc. of the 33rd Benelux Conference on Artificial Intelligence (BNAIC) and the 30th Belgian-Dutch Conference on Machine Learning (BENELEARN).</i>  10-12 November 2021, Esch-sur-Alzette, Luxembourg (pp. 1-21).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="https://orbilu.uni.lu/bitstream/10993/48924/1/bnaic2021_preproceedings.pdf"></a>
@@ -597,7 +596,7 @@ title: Research
           [C5] Zichichi Mirko, Contu Michele, Ferretti Stefano, Rodríguez-Doncel Victor,
           <br>
           <b>Ensuring personal data anonymity in data marketplaces through sensing-as-a-service and distributed ledger</b>,
-          <i>in Proc. of the 3nd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020.</i> February 2020, Ancona, Italy (pp. 1-16).
+          <i>in Proc. of the 3rd Distributed Ledger Technologies Workshop (DLT2020), co-located with ITASEC 2020.</i> February 2020, Ancona, Italy (pp. 1-16).
         </td>
         <td>
           <a class="get get_external" target="_blank" href="http://ceur-ws.org/Vol-2580/"></a>
