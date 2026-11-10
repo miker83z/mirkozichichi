@@ -1,4 +1,4 @@
-# Talks & Activities types: key (used in talks.yml), label (tooltip), chip (filter button),
+# Activities types: key (used in talks.yml), label (tooltip), chip (filter button),
 # color (one of the names in $entry-colors in assets/css/main.scss).
 - key: lecture
   label: Invited lecture

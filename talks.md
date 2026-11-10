@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Talks & Activities
+title: Activities
 description: "Talks, invited lectures, organized events, program committees and reviewing by Mirko Zichichi."
 ---
 

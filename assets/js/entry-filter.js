@@ -1,4 +1,4 @@
-// Type filters and collapsible lists for the entry lists (Research, Talks, Tutoring, Projects), and the
+// Type filters and collapsible lists for the entry lists (Research, Activities, Tutoring, Projects), and the
 // posts that unfold on the Blog page.
 // A chip bar (.entry-filters) and a "Show all" button (.entry-more) act on the table named in their
 // data-target. Without JavaScript the chips and the button stay hidden and every entry is shown.
