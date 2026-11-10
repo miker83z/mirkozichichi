@@ -302,6 +302,9 @@ $entry-star-color: #b8860b;
 
 .entry-filters[hidden],
 .entry-more[hidden],
+.entry-expand[hidden],
+.entry-desc[hidden],
+.entry-full[hidden],
 table.entries tr[hidden] {
   display: none !important;
 }
@@ -334,8 +337,9 @@ table.entries tr[hidden] {
   opacity: 0.7;
 }
 
-// "Show all N" / "Show fewer" below a collapsed list
-.entry-more {
+// "Show all N" / "Show fewer" below a collapsed list, and "Show more" / "Show less" under a blog post's text
+.entry-more,
+.entry-expand {
   display: block;
   margin: 0.75rem auto 1.5rem;
   padding: 0.3rem 1rem;
@@ -350,6 +354,17 @@ table.entries tr[hidden] {
   &:hover {
     border-color: $gray-4;
   }
+}
+
+.entry-expand {
+  margin: 0.5rem 0 0;
+  padding: 0.15rem 0.8rem;
+}
+
+// A blog post unfolded in the list, in the colour of body text
+.entry-full {
+  margin-top: 0.75rem;
+  color: $body-color;
 }
 
 table.entries {
@@ -370,7 +385,8 @@ table.entries {
     background: transparent;
   }
 
-  tr.entry:hover td {
+  // not on an unfolded post, too long to highlight
+  tr.entry:not(.entry--expanded):hover td {
     background: $gray-1;
   }
 }
@@ -567,6 +583,7 @@ table.entries td.entry-links {
 @media print {
   .entry-filters,
   .entry-more,
+  .entry-expand,
   .mobile-footer,
   .back-link {
     display: none !important;
@@ -667,9 +684,13 @@ table.entries td.entry-links {
       background: transparent;
     }
 
-    tr.entry:hover td {
+    tr.entry:not(.entry--expanded):hover td {
       background: $dark-surface;
     }
+  }
+
+  .entry-full {
+    color: $dark-text;
   }
 
   .entry-people,
@@ -696,7 +717,8 @@ table.entries td.entry-links {
   }
 
   .entry-chip,
-  .entry-more {
+  .entry-more,
+  .entry-expand {
     background: $dark-surface;
     border-color: $dark-border;
     color: $dark-text;

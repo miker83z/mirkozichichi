@@ -1,6 +1,8 @@
 {%- comment -%}
   One blog post as a row of an entry list (same markup as entry-row.html). Usage: {% include post-row.html post=post %}
-  Add excerpt=true for the first words of the post under the title.
+  Add excerpt=true for the first words of the post under the title, with a "Show more" button that unfolds the
+  whole post in place (assets/js/entry-filter.js; without JavaScript the button stays hidden). The unfolded copy
+  drops the heading ids, which belong to the post's own page.
   The Italian translation, if any, is the post with the same URL plus "-ita".
 {%- endcomment -%}
 {%- assign post = include.post -%}
@@ -13,7 +15,11 @@
 <td class="entry-flags">{% if kind %}<span class="entry-type entry-type--{{ kind.color }}" role="img" aria-label="{{ kind.label }}" title="{{ kind.label }}"></span>{% endif %}</td>
 <td class="entry-text"><span class="entry-title">{{ post.title }}</span>
 {%- if ita %} <span class="entry-venue"><a href="{{ ita.url | relative_url }}"><i>Versione italiana</i></a></span>{% endif -%}
-{%- if include.excerpt %} <span class="entry-desc">{{ post.content | strip_html | replace: "versione in italiano", "" | remove: "()" | strip | truncatewords: 30 }}</span>{% endif -%}
+{%- if include.excerpt %}
+{%- assign full_id = post.id | slugify | prepend: "post-" %} <span class="entry-desc">{{ post.content | strip_html | replace: "versione in italiano", "" | remove: "()" | strip | truncatewords: 30 }}</span>
+<div class="entry-full" id="{{ full_id }}" hidden>{{ post.content | replace: ' id="', ' data-id="' }}</div>
+<button type="button" class="entry-expand" aria-controls="{{ full_id }}" aria-expanded="false" hidden>Show more</button>
+{%- endif -%}
 </td>
 <td class="entry-links"><a class="get get_external" href="{{ post.url | relative_url }}"></a></td>
 </tr>

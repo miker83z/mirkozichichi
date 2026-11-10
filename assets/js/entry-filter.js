@@ -1,4 +1,5 @@
-// Type filters and collapsible lists for the entry lists (Research, Talks, Tutoring, Projects).
+// Type filters and collapsible lists for the entry lists (Research, Talks, Tutoring, Projects), and the
+// posts that unfold on the Blog page.
 // A chip bar (.entry-filters) and a "Show all" button (.entry-more) act on the table named in their
 // data-target. Without JavaScript the chips and the button stay hidden and every entry is shown.
 document.querySelectorAll('table.entries').forEach(function (table) {
@@ -45,4 +46,24 @@ document.querySelectorAll('table.entries').forEach(function (table) {
   }
 
   update();
+});
+
+// Blog posts (_includes/post-row.html): "Show more" swaps the excerpt for the whole post, "Show less" back
+document.querySelectorAll('.entry-expand').forEach(function (button) {
+  var row = button.closest('tr.entry');
+  var excerpt = row.querySelector('.entry-desc');
+  var full = document.getElementById(button.getAttribute('aria-controls'));
+  var expanded = false;
+
+  button.addEventListener('click', function () {
+    expanded = !expanded;
+    excerpt.hidden = expanded;
+    full.hidden = !expanded;
+    row.classList.toggle('entry--expanded', expanded);
+    button.textContent = expanded ? 'Show less' : 'Show more';
+    button.setAttribute('aria-expanded', String(expanded));
+    if (!expanded) row.scrollIntoView({ block: 'nearest' });
+  });
+
+  button.hidden = false;
 });
