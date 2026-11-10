@@ -25,7 +25,9 @@ While presenting: arrow keys or space to move, `o` for the overview, `g` to go t
 - `pages/99-appendice.md`: reading lists, glossary, credits (PDF only).
 - `components/`: the interactive demos (Vue). Each file starts with a comment that lists its props. In the PDF every demo shows a finished, explained state.
 - `data/notizie.ts`: the news cards of the opening slide; `data/password-comuni.ts`: the list used by the password demos.
-- `layouts/`: `glossa` (text plus the "Per il giurista" margin note: `::glossa::` starts the margin), `capo` (section dividers), `copertina` (title slide).
+- `layouts/`: `capo` (section dividers) and `copertina` (title slide).
+- Diagrams: `components/Schema*.vue`, built from the `Sv*` blocks (box, arrow, person, document, key, padlock); each step appears with a click (`v-click` on SVG groups). Every paragraph and list on the slides also appears with a click; the PDF shows each slide complete.
+- Legal references for the lecturer (formerly the "Per il giurista" notes) are in the speaker notes, visible in the presenter view.
 - `style.css`: colours, fonts (bundled, no Google Fonts), shared classes.
 - `VERIFICA.md` and `verifica/`: the fact-check of every claim, with sources, and what to recheck before the lecture.
 

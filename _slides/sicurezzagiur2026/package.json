@@ -5,7 +5,7 @@
   "description": "Introduzione alla Crittografia (sulla sicurezza ed altre amenità informatiche): slide interattive, edizione novembre 2026",
   "scripts": {
     "dev": "slidev slides.md --open",
-    "build": "slidev build slides.md --base /slides/sicurezzagiur2026/ --out ../../slides/sicurezzagiur2026",
+    "build": "rm -rf ../../slides/sicurezzagiur2026 && slidev build slides.md --base /slides/sicurezzagiur2026/ --out ../../slides/sicurezzagiur2026",
     "pdf": "slidev export dispensa.md --output ../../assets/tutor/slides/sicurezzagiur2026.pdf --timeout 120000 --wait 300",
     "pdf:slides": "slidev export slides.md --output ../../assets/tutor/slides/sicurezzagiur2026-slides.pdf --timeout 120000 --wait 300",
     "check-links": "node scripts/check-links.mjs"

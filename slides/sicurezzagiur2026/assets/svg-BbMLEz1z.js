@@ -1,0 +1,1 @@
+function e(e){let t=[],n=0;for(let r of e.matchAll(/_([A-Za-z0-9]+)/g))r.index>n&&t.push({t:e.slice(n,r.index),pedice:!1}),t.push({t:r[1],pedice:!0}),n=r.index+r[0].length;return n<e.length&&t.push({t:e.slice(n),pedice:!1}),t}export{e as t};

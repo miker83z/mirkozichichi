@@ -7,8 +7,7 @@
 
 /*
  * Visual idea: a Bologna legal manuscript, kept modern.
- * Titles are "rubriche" in Alma Mater red; the legal remarks sit in a "glossa" column
- * in the margin, as the Glossators did around the text of the law.
+ * Titles are "rubriche" in Alma Mater red; section dividers are numbered like the parts of a legal code.
  */
 :root {
   --carta: #ffffff;
@@ -296,4 +295,72 @@
 .glossario td:nth-child(2) {
   font-style: italic;
   color: var(--grigio);
+}
+
+/* Diagrams (components/Schema*.vue, built from the Sv* blocks). Each step appears with a click. */
+.schema {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.schema text {
+  font-family: var(--sans);
+  fill: var(--inchiostro);
+}
+.schema text.mono,
+.schema .mono {
+  font-family: var(--mono);
+}
+.schema .nota {
+  fill: var(--grigio);
+  font-size: 13px;
+}
+.schema .titoletto {
+  font-weight: 700;
+  font-size: 15px;
+}
+.sv-riquadro rect { fill: var(--campo); stroke: var(--linea); stroke-width: 1.5; }
+.sv-riquadro.sv-rubrica rect { fill: #fbeeee; stroke: var(--rubrica); }
+.sv-riquadro.sv-ok rect { fill: #e8f3ed; stroke: var(--ok); }
+.sv-riquadro.sv-ko rect { fill: #fdf0e8; stroke: var(--ko); }
+.sv-riquadro.sv-vuoto rect { fill: var(--carta); stroke: var(--inchiostro); }
+.sv-riquadro.sv-scuro rect { fill: var(--inchiostro); stroke: var(--inchiostro); }
+.sv-riquadro.sv-scuro text { fill: var(--carta); }
+.sv-freccia path { stroke: var(--inchiostro); stroke-width: 2; }
+.sv-freccia polygon { fill: var(--inchiostro); }
+.sv-freccia.sv-rubrica path { stroke: var(--rubrica); }
+.sv-freccia.sv-rubrica polygon, .sv-freccia.sv-rubrica text { fill: var(--rubrica); }
+.sv-freccia.sv-ok path { stroke: var(--ok); }
+.sv-freccia.sv-ok polygon, .sv-freccia.sv-ok text { fill: var(--ok); }
+.sv-freccia.sv-ko path { stroke: var(--ko); }
+.sv-freccia.sv-ko polygon, .sv-freccia.sv-ko text { fill: var(--ko); }
+.sv-freccia.sv-grigio path { stroke: var(--grigio); }
+.sv-freccia.sv-grigio polygon, .sv-freccia.sv-grigio text { fill: var(--grigio); }
+.sv-persona circle, .sv-persona path { fill: var(--inchiostro); }
+.sv-persona.sv-rubrica circle, .sv-persona.sv-rubrica path { fill: var(--rubrica); }
+.sv-persona.sv-ok circle, .sv-persona.sv-ok path { fill: var(--ok); }
+.sv-persona.sv-ko circle, .sv-persona.sv-ko path { fill: var(--ko); }
+.sv-persona .nome { font-weight: 700; }
+.sv-documento .foglio { fill: var(--carta); stroke: var(--inchiostro); stroke-width: 1.5; }
+.sv-documento.sv-ok .foglio { stroke: var(--ok); stroke-width: 2.5; }
+.sv-documento.sv-ko .foglio { stroke: var(--ko); stroke-width: 2.5; }
+.sv-documento .piega { stroke: var(--inchiostro); stroke-width: 1.5; }
+.sv-documento .riga { stroke: var(--linea); stroke-width: 2; }
+.sv-documento .segno-alterato { stroke: var(--ko); stroke-width: 3; }
+.sv-chiave circle, .sv-chiave path { stroke-width: 1.2; }
+.sv-chiave-segreta circle, .sv-chiave-segreta path { fill: #b08a2e; stroke: #6b4e16; }
+.sv-chiave-pubblica circle, .sv-chiave-pubblica path { fill: #3f9e6b; stroke: var(--ok); }
+.sv-chiave-privata circle, .sv-chiave-privata path { fill: #c94a3f; stroke: var(--rubrica); }
+.sv-chiave .foro { fill: var(--carta); }
+.sv-chiave .etichetta { font-weight: 700; }
+.sv-chiave-pubblica .etichetta { fill: var(--ok); }
+.sv-chiave-privata .etichetta { fill: var(--rubrica); }
+.sv-chiave-segreta .etichetta { fill: #6b4e16; }
+.sv-lucchetto rect { fill: var(--inchiostro); }
+.sv-lucchetto .arco { stroke: var(--inchiostro); stroke-width: 3.5; }
+.sv-lucchetto .foro { fill: var(--carta); }
+.schema .pedice {
+  font-size: 0.72em;
+  baseline-shift: sub;
 }
