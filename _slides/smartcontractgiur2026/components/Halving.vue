@@ -37,7 +37,7 @@ const quota = computed(() => Number((emessi(era.value) * 1_000_000n) / TOTALE) /
 
 <template>
   <div class="demo halving">
-    <label for="hv-era">Epoca: <strong>{{ era }}</strong> ({{ era === 0 ? 'nessun dimezzamento' : `dopo ${era} ${era === 1 ? 'dimezzamento' : 'dimezzamenti'}` }}), dal blocco {{ (era * BLOCCHI).toLocaleString('it-IT') }}, {{ inizio }}</label>
+    <label for="hv-era">Era: <strong>{{ era }}</strong> ({{ era === 0 ? 'nessun dimezzamento' : `dopo ${era} ${era === 1 ? 'dimezzamento' : 'dimezzamenti'}` }}), dal blocco {{ (era * BLOCCHI).toLocaleString('it-IT') }}, {{ inizio }}</label>
     <input id="hv-era" v-model.number="era" type="range" min="0" max="33" step="1">
     <div class="cifre">
       <div>
@@ -45,7 +45,7 @@ const quota = computed(() => Number((emessi(era.value) * 1_000_000n) / TOTALE) /
         <span class="valore">{{ premio(era) > 0n ? `${btc(premio(era))} BTC` : '0' }}</span>
       </div>
       <div>
-        <span class="etichetta">Bitcoin emessi a fine epoca</span>
+        <span class="etichetta">Bitcoin emessi a fine era</span>
         <span class="valore">{{ btc(emessi(era), 4) }}</span>
       </div>
       <div>

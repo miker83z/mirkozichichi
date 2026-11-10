@@ -37,7 +37,7 @@ piattaforma: 7
 <!--
 Bitcoin Core, src/validation.cpp (licenza MIT), funzione GetBlockSubsidy. Al blocco 975.328 (10/11/2026) halvings = 4, premio 3,125 BTC. Nella validazione: "coinbase pays too much" se il miner incassa più di commissioni + premio.
 Curiosità da sviluppatore: MAX_MONEY (21 milioni) nel codice "is *not* the total money supply", è solo un controllo di plausibilità.
-Per il giurista: la "politica monetaria" di Bitcoin non la decide nessuno; per cambiarla servirebbe che la maggioranza dei nodi installasse un software diverso.
+Per il giurista: la "politica monetaria" di Bitcoin non la decide nessuno; per cambiarla servirebbe che nodi e utenti adottassero un software diverso: chi non aggiorna rifiuterebbe i nuovi blocchi e la catena si dividerebbe (hard fork).
 -->
 
 ---
@@ -61,7 +61,7 @@ piattaforma: 7
 <v-clicks>
 
 - **73.150 dollari** il 10 novembre 2026: −42% dal massimo di 126.080 (6 ottobre 2025)
-- Dal gennaio 2024 negli USA si compra anche in Borsa, con un ETF: quello di BlackRock ne custodisce per 59,5 miliardi di dollari
+- Dal gennaio 2024 negli USA si compra anche in Borsa, con un ETF: quello di BlackRock ne detiene per 59,5 miliardi di dollari
 - In Italia: Intesa Sanpaolo ha comprato 11 bitcoin nel gennaio 2025, «un test»
 - **El Salvador** ha fatto marcia indietro: dal 2025 accettarli è facoltativo
 
@@ -88,7 +88,7 @@ piattaforma: 7
 </div>
 
 <!--
-EIP-1559 (aggiornamento London, 5 agosto 2021, blocco 12.965.000): la base fee viene bruciata, al validatore va solo la mancia. Il primo blocco con base fee aveva esattamente 1 gwei (un miliardesimo di ETH).
+EIP-1559 (aggiornamento London, 5 agosto 2021, blocco 12.965.000): la base fee viene bruciata, al miner (dal Merge, al validatore) va solo la mancia. Il primo blocco con base fee aveva esattamente 1 gwei (un miliardesimo di ETH).
 The Merge (15 settembre 2022): il blocco 15.537.394 è il primo con difficulty = 0, la fine del mining su Ethereum.
 ETH bruciati dal 2021: circa 4,64 milioni al 10/11/2026 (ultrasound.money ed Etherscan, fonti non ufficiali ma concordi). Offerta: circa 122,2 milioni di ETH (CoinGecko), contro circa 120,5 milioni al Merge: oggi se ne crea più di quanti se ne brucino.
 -->
@@ -97,7 +97,7 @@ ETH bruciati dal 2021: circa 4,64 milioni al 10/11/2026 (ultrasound.money ed Eth
 piattaforma: 7
 ---
 
-# IOTA: le commissioni si bruciano, i validatori si pagano a ogni epoca
+# IOTA: le commissioni si bruciano, i validatori sono pagati a ogni epoca
 
 <SchemaTokenomics />
 
@@ -140,7 +140,7 @@ piattaforma: 7
 <p class="lead" v-click>La sera del furto a Binance: Tether ha bloccato più di 1,5 miliardi, Circle più di 800 milioni. I bitcoin rubati, nessuno ha potuto fermarli.</p>
 
 <!--
-Fonti: circlefin/stablecoin-evm, contracts/v1/Blacklistable.sol (licenza Apache-2.0); codice verificato su Etherscan del contratto USDT 0xdAC17F958D2ee523a2206206994597C13D831ec7 (estratto, senza l'evento finale). CNBC 29–30/10/2026 per i blocchi; circa 2,85 miliardi congelati in tutto secondo Binance (3/11).
+Fonti: circlefin/stablecoin-evm, contracts/v1/Blacklistable.sol (licenza Apache-2.0); codice verificato su Etherscan del contratto USDT 0xdAC17F958D2ee523a2206206994597C13D831ec7. CNBC 29–30/10/2026 per i blocchi; circa 2,85 miliardi congelati in tutto secondo Binance (3/11).
 Dettagli da sviluppatore: USDT blocca solo chi invia, USDC anche chi riceve; in USDC il blocco è un solo bit nel saldo (| 1 << 255). Il contratto di Circle non ha una funzione per azzerare i saldi altrui, ma è aggiornabile (proxy): l'emittente può sostituirne il codice.
 In IOTA lo stesso potere si chiama DenyCap: chi la possiede può impedire a un indirizzo di usare la moneta.
 -->
@@ -154,8 +154,8 @@ piattaforma: 7
 <v-clicks>
 
 - **UE, MiCA**: rimborso «in qualsiasi momento e al valore nominale» (art. 49), niente interessi (art. 50), almeno il 30% dei fondi su conti bancari separati (art. 54)
-- Circle è istituto di moneta elettronica autorizzato in Francia dal 1° luglio 2024: USDC ed EURC sono conformi; USDT no, e per l'ESMA gli intermediari UE non devono più offrirlo
-- **USA, GENIUS Act**: può emettere solo chi ha «the technological capability to comply… with the terms of any lawful order» (Sec. 4(a)(6)(B))
+- Circle è istituto di moneta elettronica autorizzato in Francia dal 1° luglio 2024: USDC ed EURC sono conformi; USDT no: per l'ESMA gli intermediari UE non dovrebbero più prestare servizi sui token non conformi
+- **USA, GENIUS Act** (dal 18 gennaio 2027): può emettere solo chi ha «the technological capability to comply… with the terms of any lawful order» (Sec. 4(a)(6)(B))
 - Cioè ordini di «seize, freeze, burn, or prevent the transfer» (Sec. 2(16)): la funzione di blocco diventa un obbligo di legge
 
 </v-clicks>
@@ -166,10 +166,10 @@ piattaforma: 7
 </div>
 
 <!--
-MiCA: Reg. (UE) 2023/1114, testo italiano della GUUE. Token di moneta elettronica (EMT, ancorati a una valuta) e token collegati ad attività (ART). Per i token significativi i depositi salgono ad almeno il 60% (art. 45, par. 7, lett. b, richiamato dall'art. 58). Regole per le stablecoin dal 30/6/2024, per il resto dal 30/12/2024.
+MiCA: Reg. (UE) 2023/1114, testo italiano della GUUE. Token di moneta elettronica (EMT, ancorati a una valuta) e token collegati ad attività (ART). Per i token significativi i depositi salgono ad almeno il 60% (art. 45, par. 7, lett. b: norme tecniche dell'ABE sulla liquidità del par. 3, che l'art. 58, par. 1, lett. a, estende agli EMT significativi). Regole per le stablecoin dal 30/6/2024, per il resto dal 30/12/2024.
 Parere ESMA75-113276571-1742 dell'8/10/2026: niente servizi su token non conformi, nemmeno custodia e trasferimento; tre mesi per adeguarsi.
 GENIUS Act: riserve "on an at least 1 to 1 basis" (Sec. 4(a)(1)(A)), divieto di interessi (Sec. 4(a)(11)), capacità di "block, freeze, and reject" (Sec. 4(a)(5)(A)(iv)); si applica dal 18 gennaio 2027.
-Per il giurista: in Italia le plusvalenze in cripto-attività sono tassate al 33% dal 2026; al 26% le stablecoin in euro (L. 199/2025). Vigilano Consob e Banca d'Italia (d.lgs. 129/2024).
+Per il giurista: in Italia le plusvalenze in cripto-attività sono tassate al 33% dal 2026; al 26% i token di moneta elettronica in euro (L. 199/2025, art. 1, c. 28). Vigilano Consob e Banca d'Italia (d.lgs. 129/2024).
 -->
 
 ---

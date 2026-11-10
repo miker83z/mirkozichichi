@@ -3,7 +3,8 @@
   makes no request. Left: block 0, the genesis block (3 Jan 2009), with the newspaper headline Satoshi
   Nakamoto wrote into its first transaction. Right: blocks 840,000–840,001 (20 Apr 2024, the fourth halving):
   each one stores the hash of the previous block ("prec."), so they form a chain; their hashes start with
-  19 zeros, the proof of work. 3 clicks: the genesis block, the three chained blocks, the arrows and the note.
+  19 zeros, the proof of work. 4 clicks, numbered explicitly (Vue mounts the arrow before its section, so plain v-click would show it first):
+  the genesis block, the two chained blocks, the arrow, the note.
 
   <BlocchiVeri />
 -->
@@ -18,13 +19,13 @@ const corto = (h: string) => `${h.slice(0, zeri(h))}|${h.slice(zeri(h), zeri(h) 
 
 <template>
   <div class="veri">
-    <section v-click class="genesi">
+    <section v-click="1" class="genesi">
       <p class="titolo">Blocco 0 · 3 gennaio 2009</p>
       <p class="mono hash"><span class="zeri">0000000000</span>19d6689c…e26f</p>
       <p class="messaggio">«The Times 03/Jan/2009 Chancellor on brink of second bailout for banks»</p>
-      <p class="nota">Il titolo del giornale scritto da Satoshi Nakamoto dentro il primo blocco: una data certa, e un messaggio.</p>
+      <p class="nota">Il titolo del giornale scritto da Satoshi Nakamoto dentro il primo blocco: la prova che non è stato creato prima di quel giorno, e un messaggio.</p>
     </section>
-    <section v-click class="catena">
+    <section v-click="2" class="catena">
       <template v-for="(b, i) in blocchi" :key="b.n">
         <div class="blocco">
           <p class="titolo">Blocco {{ b.n }}</p>
@@ -33,10 +34,10 @@ const corto = (h: string) => `${h.slice(0, zeri(h))}|${h.slice(zeri(h), zeri(h) 
           <p class="riga"><span class="et">ora</span> {{ b.ora }}</p>
           <p class="riga"><span class="et">transazioni</span> {{ b.tx }}</p>
         </div>
-        <span v-if="i < blocchi.length - 1" v-click class="freccia" aria-hidden="true">→</span>
+        <span v-if="i < blocchi.length - 1" v-click="3" class="freccia" aria-hidden="true">→</span>
       </template>
     </section>
-    <p v-click class="nota piena">Ogni blocco scrive l'impronta del precedente: cambiare il blocco 840.000 cambierebbe la sua impronta e romperebbe il legame con il 840.001. Le impronte iniziano con 19 zeri: è la prova del lavoro fatto per trovarle.</p>
+    <p v-click="4" class="nota piena">Ogni blocco scrive l'impronta del precedente: cambiare il blocco 840.000 cambierebbe la sua impronta e romperebbe il legame con l'840.001. Le impronte iniziano con 19 zeri: è la prova del lavoro fatto per trovarle.</p>
   </div>
 </template>
 

@@ -35,7 +35,7 @@ function decentralizzato(cx: number): Pannello {
       archi.push([h, nodi.length - 1])
     }
   })
-  return { titolo: 'Decentralizzato', righe: ['il carico è distribuito', 'su più sotto-nodi'], nodi, archi }
+  return { titolo: 'Decentralizzato', righe: ['più centri, ognuno', 'con i suoi nodi'], nodi, archi }
 }
 
 function distribuito(cx: number): Pannello {

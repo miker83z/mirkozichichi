@@ -129,7 +129,9 @@ Oggi si usa TLS 1.3 (RFC 9846, 2026); il vecchio SSL è obsoleto.
 <p class="grigio" v-click>Nel browser: clic sul lucchetto accanto all'indirizzo per vedere questi campi su un sito vero.</p>
 
 <div class="sigle">
-  <p v-click="1"><strong>CN</strong>, <strong>O</strong>, <strong>C</strong>: nome (Common Name), organizzazione (Organization), Paese (Country); <strong>EC</strong> P-256: chiave su curva ellittica (Elliptic Curve) di 256 bit</p>
+  <p v-click="1"><strong>CN</strong>, <strong>C</strong>: nome (Common Name), Paese (Country)</p>
+  <p v-click="3"><strong>O</strong>: organizzazione (Organization)</p>
+  <p v-click="4"><strong>EC</strong> P-256: chiave su curva ellittica (Elliptic Curve) di 256 bit</p>
 </div>
 
 ---
@@ -268,7 +270,7 @@ Per il giurista: la FEA "italiana" del d.P.C.M. 22 febbraio 2013 (firma grafomet
   <div v-click><strong>PAdES</strong><br><span class="grigio">PDF</span></div>
 </div>
 
-<p class="fonte mt-4" v-click>Reg. es. (UE) 2026/248, dal 23 febbraio 2027 (aggiunge JAdES e ASiC); abroga la Decisione 2015/1506 citata nel 2024.</p>
+<p class="fonte mt-4" v-click>Reg. es. (UE) 2026/248, dal 23 febbraio 2027 (aggiunge JAdES; restano i contenitori ASiC); abroga la Decisione 2015/1506 citata nel 2024.</p>
 
 <style>
 .formati { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; text-align: center; }
@@ -391,7 +393,7 @@ Riferimenti: art. 20, c. 1-bis e 1-ter, CAD; art. 21, c. 2-bis, CAD; art. 24, c.
 </div>
 
 <div class="sigle">
-  <p v-click="1"><strong>OTP</strong>: One-Time Password, password monouso (tra poche slide)</p>
+  <p v-click="1"><strong>OTP</strong>: One-Time Password, password monouso (nella prossima slide)</p>
 </div>
 
 ---

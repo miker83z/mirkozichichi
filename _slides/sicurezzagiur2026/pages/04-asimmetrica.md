@@ -56,13 +56,16 @@ Attenzione: la chiave pubblica deve essere autentica, altrimenti un intermediari
 - **Riservatezza**: solo lui può leggere
 
 </div>
+<div>
 <div v-click>
 
 ## Firmo con la mia privata
 
+</div>
+
 <v-clicks>
 
-- **Autenticità**: si sa chi ha scritto
+- **Autenticazione**: si sa chi ha scritto
 - **Integrità**: ogni modifica si vede
 - **Non ripudio**: non posso negare
 
@@ -106,16 +109,16 @@ Non si conosce un algoritmo classico (non quantistico) efficiente per fattorizza
 
 <SchemaPostQuantum />
 
-<p v-click><strong>"Raccogli ora, decifra dopo"</strong>: ciò che oggi viene intercettato cifrato potrà essere letto tra 10–15 anni.</p>
+<p v-click><strong>"Raccogli ora, decifra dopo"</strong>: ciò che oggi viene intercettato cifrato potrà essere letto in futuro.</p>
 
 <div class="sigle">
   <p v-click="6"><strong>ECC</strong>: Elliptic Curve Cryptography, la crittografia su curve ellittiche (tra due slide)</p>
 </div>
 
 <!--
-Per atti coperti da segreto professionale, dati sanitari o giudiziari, la riservatezza deve durare più a lungo della crittografia che la protegge. Le firme, invece, non corrono questo rischio.
+Non serve una data: basta che il computer quantistico arrivi prima che il segreto scada. Per atti coperti da segreto professionale, dati sanitari o giudiziari, la riservatezza deve durare più a lungo della crittografia che la protegge. Le firme, invece, non corrono questo rischio.
 Standard NIST del 13/8/2024: FIPS 203, 204, 205 (ML-KEM, ML-DSA, SLH-DSA); a marzo 2025 HQC come riserva. NIST IR 8547 (finale 27/10/2026): RSA ed ECC deprecati dopo il 2030, non più ammessi dopo il 2035.
-Per il giurista: la tabella di marcia UE (giugno 2025) è soft law (Racc. (UE) 2024/1101): diventa vincolante attraverso lo "stato dell'arte" (art. 32 GDPR; art. 21 NIS2).
+Per il giurista: la tabella di marcia UE (giugno 2025), adottata in attuazione della Racc. (UE) 2024/1101, è soft law: non vincola, ma può pesare sugli obblighi vincolanti attraverso lo «stato dell'arte» (art. 32 GDPR) e le «conoscenze più aggiornate» (art. 21 NIS2).
 -->
 
 ---

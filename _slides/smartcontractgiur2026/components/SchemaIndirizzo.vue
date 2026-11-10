@@ -1,7 +1,7 @@
 <!--
   Diagram (2025 deck, pp. 26–27): from the private key to the address, with real values for the textbook
   private key 0x00…01 (never use it: everybody knows it).
-  Ethereum: private key (256 random bits) → ECDSA on secp256k1 → public key, the point (x, y), two 256-bit
+  Ethereum: private key (256 random bits) → point multiplication on the curve secp256k1 → public key, the point (x, y), two 256-bit
   numbers = 64 bytes (for the key 1 it is the generator G of the curve) → Keccak-256 → the address is the
   LAST 20 bytes of the digest (the 2025 slide said "first 40 bytes": wrong), written with the EIP-55
   upper/lower-case checksum.
@@ -51,7 +51,7 @@ const IOTA_ADDR = `0x${corto(IOTA.indirizzo.slice(2))}`
     <!-- 2. chiave pubblica -->
     <g v-click>
       <SvFreccia :x1="330" :y1="60" :x2="330" :y2="87" />
-      <text x="342" y="78" class="t14">ECDSA su secp256k1</text>
+      <text x="342" y="78" class="t14">curva ellittica secp256k1</text>
       <text x="8" y="119" class="t14">chiave pubblica</text>
       <rect x="120" y="88" width="420" height="52" rx="6" class="campo" />
       <SvChiave :x="142" :y="114" tipo="pubblica" />

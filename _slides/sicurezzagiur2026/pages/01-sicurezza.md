@@ -77,7 +77,7 @@ Per il giurista: il diritto non chiede sicurezza assoluta ma misure adeguate al 
 <div class="grid grid-cols-[1fr_9rem] gap-8">
 <div>
 
-<blockquote v-click>"Un sistema crittografico deve essere sicuro anche se tutto, tranne la chiave, è di pubblico dominio."</blockquote>
+<blockquote v-click>"Un sistema crittografico deve essere sicuro anche se tutto, tranne la chiave, è di pubblico dominio." <span class="piccolo">principio di Kerckhoffs (1883), formulazione moderna</span></blockquote>
 
 <SchemaKerckhoffs />
 
@@ -89,7 +89,7 @@ Per il giurista: il diritto non chiede sicurezza assoluta ma misure adeguate al 
 </div>
 
 <!--
-È il contrario della "sicurezza tramite segretezza" (security by obscurity). Lo ribadisce il NIST: "System security should not depend on the secrecy of the implementation or its components" (SP 800-123, 2008). Fonte: A. Kerckhoffs, La cryptographie militaire, 1883.
+È il contrario della "sicurezza tramite segretezza" (security by obscurity). Lo ribadisce il NIST: "System security should not depend on the secrecy of the implementation or its components" (SP 800-123, 2008). Fonte: A. Kerckhoffs, La cryptographie militaire, 1883. La frase sulla slide è la formulazione moderna; l'originale (secondo principio) dice: «Il faut qu'il n'exige pas le secret, et qu'il puisse sans inconvénient tomber entre les mains de l'ennemi».
 -->
 
 <style>
@@ -216,7 +216,7 @@ Per il giurista: entrare in un account con la password altrui è accesso abusivo
 
 <!--
 NIST SP 800-63B-4 (2025), § 3.1.1.2: niente obbligo di simboli né di cambio periodico.
-Per il giurista: la NIS2 chiede ai soggetti essenziali e importanti l'autenticazione a più fattori (art. 21, par. 2, lett. j, dir. (UE) 2022/2555; art. 24 d.lgs. 138/2024).
+Per il giurista: la NIS2 chiede ai soggetti essenziali e importanti l'autenticazione a più fattori, se del caso (art. 21, par. 2, lett. j, dir. (UE) 2022/2555; art. 24 d.lgs. 138/2024).
 -->
 
 ---

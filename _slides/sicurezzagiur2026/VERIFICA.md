@@ -17,7 +17,7 @@ Controllo eseguito il 9 novembre 2026 (furto a Binance: 10 novembre) su fonti pr
 | 15 | "Facile recuperare password da informazioni su Facebook" | Studio citato con precisione: Wang et al., ACM CCS 2016 (73% in 100 tentativi con PII + password trapelata) | eprints.lancs.ac.uk/85017 |
 | 18 | Citazione di Schneier sull'anello debole | Non verificabile sul libro; sostituita da una frase verificata della prefazione | schneier.com |
 | 19 | Link erikhollnagel.com | Dominio perso; testo invariato, citata la copia archiviata | Wayback Machine |
-| 21 | Crittografia = solo segretezza | Anche integrità, autenticazione dell'origine e non ripudio | NIST Glossary |
+| 21 | Crittografia = solo segretezza | Anche integrità, autenticazione dell'origine e non ripudio (nelle note della slide) | NIST Glossary |
 | 22 | Cilindro di Jefferson "1800, comunicazioni diplomatiche" | Descritto nel 1790–93, forse mai costruito né usato; M-94 dal 1922 | Monticello (Thomas Jefferson Foundation) |
 | 31 | "Cifrario polimorfico" | Termine corretto: polialfabetico (Vigenère, già descritto da Bellaso nel 1553) | Handbook of Applied Cryptography |
 | 32 | DES: "un computer in poche ore"; Triplo DES "accettabile" | Deep Crack 56 h (1998), 22 h (1999), crack.sh ~26 h; Triplo DES non ammesso per cifrare dal 1/1/2024 | EFF; crack.sh; NIST SP 800-131A Rev. 2 |
@@ -44,6 +44,22 @@ Controllo eseguito il 9 novembre 2026 (furto a Binance: 10 novembre) su fonti pr
 | 115–116 | Marcatura su blockchain | Aggiunti art. 8-ter d.l. 135/2018 e registri elettronici qualificati (artt. 45 duodecies e terdecies eIDAS); regola esatta dell'orario dei blocchi Bitcoin (dalla v27.0 orologio del nodo) | Normattiva; EUR-Lex; Bitcoin Core |
 | 122 | DID "basati sul paradigma SSI" | La specifica non usa il termine; l'EUDI Wallet non usa i DID | W3C; ARF v3.0.0 |
 | 123 | Elementi del documento DID con "timestamp" e "signature" | Non fanno parte del documento DID v1.0 | W3C DID v1.0 |
+
+## Seconda revisione (10/11/2026)
+
+Una rilettura completa delle slide contro le fonti ha portato a queste correzioni:
+
+- **Frigoriferi**: supermercati in Sicilia (Palermo, Catania, Ragusa, Trapani); in Europa «decine» (oltre 100 solo per alcune stime); la rivendicazione è contestata da esperti, per l'ACN «è presto per capire».
+- **Paragon**: le procure «rendono noto» il ritrovamento (5/3/2026); che sia Graphite lo dice la stampa; violate riservatezza e integrità, anche nella mappa delle notizie.
+- **Milano-Cortina**: NoName057(16) come rivendicazione, non come fatto. **Farnesina**: «un attacco, per la stampa un DDoS», mitigato.
+- **Binance**: la maggior parte dei fondi esce in circa 20 minuti, non in quattro ore (il contenimento arriva alle 00:10 UTC); la storia comincia mesi prima (giugno e settembre); TraderTraitor è il nome usato dall'FBI.
+- **DIA**: annuncio dell'8/11, dati già pubblici «secondo fonti investigative». **NIS2**: pre-notifica entro 24 ore e notifica entro 72 (art. 25 d.lgs. 138/2024); MFA «se del caso» (art. 21, par. 2, lett. j).
+- **Kerckhoffs**: la frase sulla slide è la formulazione moderna; nelle note il testo originale del 1883. Enigma non «anticipa» Kerckhoffs: lo applica.
+- **Hash**: MD5, una collisione in pochi secondi su un PC; 2^256 «non lontano» dagli atomi dell'universo (circa 10^80); SHA-3 standard dal 2015, derivata da Keccak.
+- **Post-quantum**: tolta la previsione «tra 10–15 anni»; la tabella di marcia UE è soft law e pesa sugli obblighi vincolanti tramite lo stato dell'arte.
+- **Formati di firma**: il Reg. es. (UE) 2026/248 aggiunge JAdES; i contenitori ASiC c'erano già. **Glossario**: definizione di firma digitale corretta.
+- **Proprietà**: un solo nome, «autenticazione», come nella slide della terminologia.
+- **Clic**: il codice del documento DID ora compare al primo clic e le righe si evidenziano una alla volta (prima l'evidenziazione scorreva a codice ancora nascosto).
 
 ## Da ricontrollare poco prima della lezione
 

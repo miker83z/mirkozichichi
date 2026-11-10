@@ -129,7 +129,7 @@ Per approfondire: norme, standard, strumenti e un glossario
 <tr><td>Impegno</td><td>commitment</td><td>vincolarsi a un valore senza rivelarlo subito</td></tr>
 <tr><td>Puntatore hash</td><td>hash pointer</td><td>riferimento a un dato insieme alla sua impronta</td></tr>
 <tr><td>Albero di Merkle</td><td>Merkle tree</td><td>albero di impronte riassunto da un'unica radice</td></tr>
-<tr><td>Firma digitale</td><td>digital signature</td><td>impronta cifrata con la chiave privata del firmatario</td></tr>
+<tr><td>Firma digitale</td><td>digital signature</td><td>valore calcolato dall'impronta con la chiave privata del firmatario, verificabile da chiunque con la chiave pubblica (in diritto italiano: un tipo di firma qualificata)</td></tr>
 </tbody>
 </table>
 

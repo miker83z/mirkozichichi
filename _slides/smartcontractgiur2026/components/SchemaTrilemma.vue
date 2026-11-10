@@ -19,7 +19,7 @@
     <g v-click>
       <polygon points="270,60 80,232 460,232" class="triangolo" />
       <text x="600" y="64" class="titolo">Due su tre</text>
-      <text x="600" y="90" class="testo">un progetto ottiene bene</text>
+      <text x="600" y="90" class="testo">con tecniche semplici si ottengono</text>
       <text x="600" y="110" class="testo">al massimo <tspan class="forte">due proprietà su tre</tspan></text>
       <text x="600" y="130" class="nota">(V. Buterin)</text>
     </g>

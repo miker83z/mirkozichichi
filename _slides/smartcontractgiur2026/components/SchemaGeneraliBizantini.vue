@@ -73,7 +73,7 @@
     <!-- 5. Nella blockchain -->
     <g v-click>
       <rect x="545" y="178" width="330" height="98" rx="8" class="riquadro blockchain" />
-      <text x="563" y="201" class="titoletto">Nella blockchain</text>
+      <text x="563" y="201" class="titoletto">Nelle blockchain a validatori</text>
       <text x="563" y="225" class="testo"><tspan class="forte">validatori</tspan> = generali</text>
       <text x="563" y="247" class="testo"><tspan class="forte">blocchi e voti</tspan> = messaggi</text>
       <text x="563" y="269" class="testo"><tspan class="forte">nodi guasti o disonesti</tspan> = traditori</text>

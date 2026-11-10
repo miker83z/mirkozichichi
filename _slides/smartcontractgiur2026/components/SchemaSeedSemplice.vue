@@ -33,7 +33,7 @@ const RAMI = [44, 92, 140] // rows of the key tree
 </script>
 
 <template>
-  <svg viewBox="0 0 880 280" class="schema" role="img" aria-label="Schema: un dado da 2048 facce lanciato 12 volte dà 12 parole; l'ultima contiene un controllo; dalle 12 parole qualsiasi wallet ricalcola chiavi e indirizzi; chi ha le parole ha i fondi, ma indovinarle è impossibile">
+  <svg viewBox="0 0 880 280" class="schema" role="img" aria-label="Schema: un dado da 2048 facce lanciato 12 volte dà 12 parole; l'ultima contiene un controllo; dalle 12 parole qualsiasi wallet compatibile ricalcola chiavi e indirizzi; chi ha le parole ha i fondi, ma indovinarle è impossibile">
     <!-- 1. Un dado da 2048 facce, 12 lanci, 12 parole -->
     <g v-click>
       <text x="10" y="18" class="titoletto">un dado con 2048 facce, lanciato 12 volte</text>
@@ -71,15 +71,15 @@ const RAMI = [44, 92, 140] // rows of the key tree
         <SvRiquadro :x="686" :y="y - 14" :w="110" :h="28" :testo="`indirizzo ${i + 1}`" variante="vuoto" piccolo />
       </g>
       <text x="741" y="172" text-anchor="middle" class="t15 b">…</text>
-      <text x="580" y="196" class="t14">su qualsiasi wallet, le 12 parole</text>
+      <text x="580" y="196" class="t14">su qualsiasi wallet compatibile, le 12 parole</text>
       <text x="580" y="214" class="t14">ridanno tutte le chiavi e gli indirizzi</text>
     </g>
 
     <!-- 4. Chi ha le parole ha i fondi; indovinarle è impossibile -->
     <g v-click>
       <text x="580" y="240" class="t16 b rosso">chi ha le 12 parole ha i fondi</text>
-      <text x="580" y="260" class="t14">2048¹² ≈ 5,4 × 10³⁹ combinazioni:</text>
-      <text x="580" y="278" class="t14">indovinarle è impossibile</text>
+      <text x="580" y="260" class="t14">2¹²⁸ ≈ 3,4 × 10³⁸ frasi valide:</text>
+      <text x="580" y="278" class="t14">indovinarle è impossibile in pratica</text>
     </g>
   </svg>
 </template>

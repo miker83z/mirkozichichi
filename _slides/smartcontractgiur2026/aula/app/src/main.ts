@@ -1,6 +1,6 @@
 // The class app: a throwaway wallet in the phone's browser that talks to the class smart contract
 // (aula/move) on an IOTA test network. Steps: wallet → faucet → join (10 AULA) → send AULA → vote (shown only
-// while the latest poll is open, so the lecturer opens it when the lecture reaches the vote).
+// while the latest poll is open; the class poll is opened before the lecture, so students may see it early).
 import { IotaClient } from '@iota/iota-sdk/client'
 import { Ed25519Keypair } from '@iota/iota-sdk/keypairs/ed25519'
 import { Transaction } from '@iota/iota-sdk/transactions'
@@ -57,7 +57,7 @@ const ERRORI: Record<string, Record<number, string>> = {
   aula: {
     0: 'Questo indirizzo è già iscritto.',
     1: 'Soprannome già preso: scegline un altro.',
-    2: 'Il soprannome deve avere da 2 a 20 caratteri.',
+    2: 'Il soprannome deve avere da 2 a 20 caratteri; le lettere accentate valgono 2.',
     3: 'Nessun compagno con questo soprannome.',
   },
   voto: {
@@ -243,7 +243,7 @@ async function iscriviti(ev: SubmitEvent) {
   ev.preventDefault()
   const nome = ($('soprannome') as HTMLInputElement).value.trim()
   if (new TextEncoder().encode(nome).length < 2 || new TextEncoder().encode(nome).length > 20) {
-    stato('stato-iscrizione', 'Il soprannome deve avere da 2 a 20 caratteri.', 'ko')
+    stato('stato-iscrizione', 'Il soprannome deve avere da 2 a 20 caratteri; le lettere accentate valgono 2.', 'ko')
     return
   }
   stato('stato-iscrizione', 'Firmo la transazione e la invio alla rete…', 'attesa')
@@ -280,7 +280,7 @@ async function invia(ev: SubmitEvent) {
   const quanti = Math.floor(Number(($('importo') as HTMLInputElement).value))
   if (!a) return stato('stato-invio', 'Scegli un compagno.', 'ko')
   if (!s.soprannome) return stato('stato-invio', 'Prima iscriviti alla classe (punto 3).', 'ko')
-  if (!(quanti >= 1) || quanti > s.aula) return stato('stato-invio', `Puoi inviare da 1 a ${s.aula} AULA.`, 'ko')
+  if (!(quanti >= 1) || quanti > s.aula) return stato('stato-invio', s.aula ? `Puoi inviare da 1 a ${s.aula} AULA.` : 'Non hai AULA da inviare.', 'ko')
   stato('stato-invio', 'Firmo il pagamento e lo invio alla rete…', 'attesa')
   try {
     const monete = await client.getCoins({ owner: io, coinType: TIPO_AULA })

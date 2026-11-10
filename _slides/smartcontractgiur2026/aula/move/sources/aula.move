@@ -1,7 +1,7 @@
 /// The class coin AULA, for the lecture "Blockchain & Smart Contracts" (UniBo, 2026).
 /// A shared `Rubinetto` (faucet) holds the TreasuryCap: every address can join the class once, with a
 /// nickname, and receives 10 AULA. Nicknames are unique and public, so classmates can send AULA to each
-/// other by name. Testnet only: AULA has no value.
+/// other by name. Test network (devnet) only: AULA has no value.
 module aula::aula;
 
 use iota::coin::{Self, Coin, TreasuryCap};

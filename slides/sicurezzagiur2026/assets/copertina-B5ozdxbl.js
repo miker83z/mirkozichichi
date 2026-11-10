@@ -1,0 +1,1 @@
+import{G as e,H as t,S as n}from"./modules/shiki-BtLiqx_k.js";import{Q as r}from"./index-Cs9ZzvOC.js";var i={class:`slidev-layout copertina-layout`},a={__name:`copertina`,setup(a){let{$slidev:o,$nav:s,$clicksContext:c,$clicks:l,$page:u,$renderContext:d,$frontmatter:f}=r();return(r,a)=>(t(),n(`div`,i,[e(r.$slots,`default`)]))}};export{a as t};

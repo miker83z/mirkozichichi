@@ -62,7 +62,7 @@ Le tre figure vengono da Paul Baran (RAND, 1964), che studiava reti capaci di so
 
 <SchemaTransazioni />
 
-<p class="lead" v-click>Il registro conserva lo stato; una transazione è l'operazione firmata che lo cambia.</p>
+<p class="lead" v-click>Il registro è l'elenco delle transazioni: ognuna è un'operazione firmata che cambia lo stato.</p>
 
 <div class="sigle">
   <p v-click="1"><strong>TX</strong>: abbreviazione di «transazione»</p>
@@ -78,6 +78,10 @@ Correzione rispetto al 2025: "la transazione è firmata dall'account a cui fa ri
 
 <SchemaEsempioTx />
 
+<div class="sigle">
+  <p v-click="1"><strong>BTC</strong>: bitcoin, l'unità della moneta</p>
+</div>
+
 ---
 
 # Transazioni vere
@@ -91,17 +95,13 @@ Correzione rispetto al 2025: "la transazione è firmata dall'account a cui fa ri
 <div v-click class="tx">
   <p class="quando">22 maggio 2010 · blocco 57.043</p>
   <p class="cosa">Laszlo Hanyecz paga <strong>10.000 BTC</strong> per due pizze</p>
-  <p class="nota">Per pagare unisce 131 «monete» ricevute prima: in Bitcoin i fondi sono come banconote, si spendono intere e si riceve il resto.</p>
+  <p class="nota">Per pagare unisce 131 «monete» ricevute prima (10.000,99 BTC): in Bitcoin i fondi sono come banconote, si spendono intere; qui ciò che avanza, 0,99 BTC, va al miner come commissione.</p>
 </div>
 </div>
 
 <p class="lead" v-click>Sono ancora lì, leggibili da chiunque: il registro non dimentica e non si corregge.</p>
 
 <p class="fonte" v-click>Dati da mempool.space: transazioni f4184fc5… e a1075db5….</p>
-
-<div class="sigle">
-  <p v-click="1"><strong>BTC</strong>: bitcoin, l'unità della moneta</p>
-</div>
 
 <style>
 .tx-vere { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
@@ -125,7 +125,7 @@ La pizza: transazione a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fb
 <BlocchiVeri />
 
 <div class="sigle">
-  <p v-click="3"><strong>UTC</strong>: tempo coordinato universale, l'ora di riferimento mondiale</p>
+  <p v-click="2"><strong>UTC</strong>: tempo coordinato universale, l'ora di riferimento mondiale</p>
 </div>
 
 <!--
@@ -201,8 +201,8 @@ Con il contante il problema non esiste: la banconota passa di mano. Con il denar
 <p class="lead mt-4" v-click>Come aspettare che un assegno sia incassato: gli exchange accreditano i bitcoin solo dopo alcune conferme.</p>
 
 <!--
-Bitcoin whitepaper, §4–5 e §11: un attaccante con il 10% della potenza di calcolo ha meno dello 0,1% di probabilità di riscrivere un pagamento con 5 conferme. La convenzione delle 6 conferme (circa un'ora) viene da qui.
-Chi controlla più di metà della potenza di calcolo può riscrivere la storia recente (attacco del 51%): è successo a reti piccole, per esempio Ethereum Classic nell'agosto 2020.
+Bitcoin whitepaper, §4–5 e §11: con il 10% della potenza di calcolo, la probabilità di riscrivere un pagamento scende sotto lo 0,1% quando dopo il suo blocco ne sono arrivati altri 5 (z = 5, cioè 6 conferme). La convenzione delle 6 conferme (circa un'ora) non è nel whitepaper: è la raccomandazione di bitcoin.org per importi elevati.
+Chi controlla più di metà della potenza di calcolo può riscrivere la storia recente (attacco del 51%): è successo a reti piccole, per esempio Ethereum Classic tra fine luglio e agosto 2020.
 -->
 
 ---
@@ -218,10 +218,10 @@ Chi controlla più di metà della potenza di calcolo può riscrivere la storia r
 
 </v-clicks>
 
-<p class="lead mt-4" v-click>La <em>Proof of Stake</em> cambia il biglietto: non elettricità, ma una cauzione in moneta che si perde se si imbroglia (Ethereum dal 2022, IOTA).</p>
+<p class="lead mt-4" v-click>La <em>Proof of Stake</em> cambia il biglietto: non elettricità, ma moneta messa in gioco (stake). In Ethereum (dal 2022) chi imbroglia ne perde una parte; in IOTA perde le ricompense.</p>
 
 <!--
-Whitepaper di Bitcoin, §4: "Proof-of-work is essentially one-CPU-one-vote". Ethereum è passato alla Proof of Stake con "The Merge", il 15 settembre 2022; ethereum.org stima un consumo di energia ridotto di circa il 99,95%. In Proof of Stake chi imbroglia perde una parte della cauzione (slashing).
+Whitepaper di Bitcoin, §4: "Proof-of-work is essentially one-CPU-one-vote". Ethereum è passato alla Proof of Stake con "The Merge", il 15 settembre 2022; ethereum.org stima un consumo di energia ridotto di circa il 99,95%. In Ethereum chi imbroglia perde parte della cauzione (slashing); in IOTA lo stake resta, ma le ricompense di chi si comporta male vengono ridotte.
 -->
 
 ---
@@ -257,5 +257,5 @@ Dal lato di chi sviluppa un protocollo: con il modello a oggetti, IOTA (come Sui
 <SchemaLayer2 />
 
 <!--
-Lightning Network (Bitcoin): canali di pagamento tra due parti, chiusi sulla catena una volta sola. Rollup (Ethereum): migliaia di transazioni eseguite fuori e pubblicate sulla catena in un unico pacchetto, con una prova.
+Lightning Network (Bitcoin): canali di pagamento tra due parti, chiusi sulla catena una volta sola. Rollup (Ethereum): migliaia di transazioni eseguite fuori e pubblicate sulla catena in un unico pacchetto: con una prova di validità (zk-rollup) o con un periodo in cui chiunque può contestarlo (optimistic rollup).
 -->

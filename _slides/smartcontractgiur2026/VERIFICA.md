@@ -28,9 +28,27 @@ Controllo eseguito il 10 novembre 2026 su fonti primarie (whitepaper di Bitcoin,
 | — | (nuovo) "Una nuova versione del protocollo si attiva con abbastanza quota" | Soglia esatta: 83,34% del potere di voto (quorum 6.667 + metà del resto), v39 attivata il 5/11/2026 | codice iotaledger/iota; RPC mainnet |
 | — | (nuovo) Limite di detenzione dell'euro digitale "3.000 €" | La proposta non fissa cifre (art. 16); 500–3.000 € è una simulazione BCE "illustrative" | COM(2023) 369; BCE, 6/10/2026 |
 
+## Seconda revisione (10/11/2026)
+
+Una rilettura completa delle slide, dei componenti, dell'app e dei documenti contro le fonti ha portato a queste correzioni (oltre a quelle dell'apertura, comuni con `../sicurezzagiur2026`):
+
+- **Proof of Stake in IOTA**: niente slashing; chi si comporta male perde le ricompense (docs.iota.org, *tallying rule*). In Ethereum perde parte dello stake.
+- **Soglie**: «più di ⅔ del potere di voto», non dei validatori; aggiornamenti del protocollo con almeno l'83,34% (anche in `verifica/B`).
+- **Conferme**: nel whitepaper z conta i blocchi dopo quello del pagamento (z = 5 è 6 conferme); le 6 conferme sono una raccomandazione di bitcoin.org, non del whitepaper.
+- **Transazione della classe**: costo esatto 0,006358 IOTA (la somma arrotondata non tornava).
+- **Seed phrase**: 2¹²⁸ frasi valide (come nella demo), «wallet compatibile»; la frase italiana di prova non è un vettore ufficiale.
+- **GDPR**: un indirizzo è un dato personale se la persona è identificabile con mezzi ragionevoli (art. 4, n. 5, cons. 26; EDPB, linee guida 02/2025), non solo dopo il collegamento.
+- **Bitcoin**: la transazione della pizza non ha resto (0,99 BTC di commissione); la chiave pubblica nasce da una moltiplicazione sulla curva secp256k1, ECDSA è la firma; il registro è l'elenco delle transazioni, lo stato è il risultato.
+- **DeFi e stablecoin**: Aave, 11,8 miliardi prestati e 16,1 ancora nei contratti; il divieto di interessi di MiCA precede Terra (proposta del 2020); GENIUS Act in vigore dal 18/1/2027; il parere ESMA non è vincolante; Ethereum: l'emissione non dipende dal traffico, cambia quanto si brucia.
+- **Date**: «oggi» sostituito dalla data (10/11/2026) dove resta nella dispensa.
+- **App**: il voto è pubblico (avviso nella scheda), i soprannomi contano i byte (accenti = 2), messaggio corretto con 0 AULA, «explorer».
+- **`privacy.md`**: la lavagna è su due slide e legge soltanto; voti e invii sono pubblici e legati al soprannome.
+- **Clic**: «Blocchi veri» e il codice del voto avevano clic a vuoto (Vue registra prima i clic interni); ora ogni clic mostra qualcosa.
+
 ## Da ricontrollare poco prima della lezione
 
-- **Contratto della classe sulla devnet**: la devnet può essere azzerata; verificare che il pacchetto in `aula/config.json` esista e creare il sondaggio (README).
+- **Contratto della classe sulla devnet**: la devnet può essere azzerata; verificare che il pacchetto in `aula/config.json` esista; il sondaggio della lezione è già aperto (README). Se la rete è stata azzerata, ripubblicare e ricreare il sondaggio.
+- **Riserve di Tether** (7,95 miliardi, attestazione BDO): solo fonte secondaria (verifica/C 1.5); aprire il PDF dell'attestazione.
 - **Faucet**: oggi chiede un captcha (Cloudflare Turnstile); provarlo da un telefono sulla rete dell'università.
 - **Validatori IOTA** (61 il 10/11/2026) e dati di mercato (Bitcoin, stablecoin, DeFi, RWA): aggiornarli il giorno della lezione.
 - **Euro digitale**: i triloghi erano in corso al 10/11/2026; il Consiglio europeo chiede un accordo entro fine 2026.

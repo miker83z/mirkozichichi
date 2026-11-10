@@ -5,7 +5,7 @@
   validators install it: on IOTA it activates at an epoch change when validators with at least 83.34% of the
   voting power support it, otherwise the network stays as it is (iotaledger/iota code; version 39 activated on
   5/11/2026; 61 validators on 10/11/2026). The foundation writes the software but does not run the network.
-  5 clicks: foundation → code; anyone ↔ code; new version → validators; ≥ 83% → network; the caption.
+  5 clicks: foundation → code; anyone ↔ code; new version → validators; ≥ 83.34% → network; the caption.
   <SchemaOpenSource />
 -->
 <template>
@@ -32,7 +32,7 @@
       <SvFreccia :x1="710" :y1="52" :x2="760" :y2="52" />
       <SvRiquadro :x="762" :y="20" :w="108" :h="64" testo="rete\nIOTA" variante="ok" />
       <text x="816" y="104" text-anchor="middle" class="nota t-ok">si aggiorna solo con</text>
-      <text x="816" y="120" text-anchor="middle" class="nota t-ok b">≥ 83% del voto</text>
+      <text x="816" y="120" text-anchor="middle" class="nota t-ok b">≥ 83,34% del voto</text>
       <text x="816" y="136" text-anchor="middle" class="nota">altrimenti resta com'è</text>
     </g>
     <g v-click>

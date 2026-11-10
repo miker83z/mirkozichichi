@@ -118,11 +118,9 @@ Correzione rispetto al 2024: data e firma non fanno parte del documento DID nell
 
 # Il documento DID, com'è scritto
 
-<div v-click>
-
-```json {3|4-9|10|11-15|all}
+```json {hide|3|4-9|10|11-15|all}
 {
-  "@context": "https://www.w3.org/ns/did/v1",
+  "@context": ["https://www.w3.org/ns/did/v1", "https://w3id.org/security/multikey/v1"],
   "id": "did:example:123456789abcdefghi",
   "verificationMethod": [{
     "id": "did:example:123456789abcdefghi#chiave-1",
@@ -138,8 +136,6 @@ Correzione rispetto al 2024: data e firma non fanno parte del documento DID nell
   }]
 }
 ```
-
-</div>
 
 <p class="fonte" v-click="1">Schema: <a href="https://www.w3.org/TR/did-core/">w3.org/TR/did-core</a></p>
 

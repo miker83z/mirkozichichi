@@ -19,7 +19,7 @@ const ALTEZZE = [
   { h: 420_000, nome: 'blocco 420.000 (2016)' },
   { h: 630_000, nome: 'blocco 630.000 (2020)' },
   { h: 840_000, nome: 'blocco 840.000 (2024)' },
-  { h: 975_328, nome: 'blocco 975.328 (oggi)' },
+  { h: 975_328, nome: 'blocco 975.328 (10/11/2026)' },
 ]
 const COMMISSIONI = 2_000_000n // 0.02 BTC in satoshi, illustrative
 const SAT = 100_000_000n

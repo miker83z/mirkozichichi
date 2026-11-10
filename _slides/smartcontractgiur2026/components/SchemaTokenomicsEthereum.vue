@@ -73,8 +73,8 @@
       <text x="750" y="182" text-anchor="middle" class="t13 tenue">(settembre 2022: ≈ 120,5 milioni)</text>
       <SvFreccia :x1="810" :y1="198" :x2="810" :y2="230" variante="rubrica" />
       <text x="800" y="224" text-anchor="end" class="t14 b rosso">− bruciati (burn)</text>
-      <text x="870" y="254" text-anchor="end" class="t14">rete affollata: si brucia di più → calano</text>
-      <text x="870" y="272" text-anchor="end" class="t14">rete tranquilla: si crea di più → salgono</text>
+      <text x="870" y="254" text-anchor="end" class="t14">rete affollata: bruciati &gt; creati → calano</text>
+      <text x="870" y="272" text-anchor="end" class="t14">rete tranquilla: bruciati &lt; creati → salgono</text>
     </g>
   </svg>
 </template>

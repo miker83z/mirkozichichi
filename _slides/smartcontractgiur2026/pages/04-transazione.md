@@ -27,7 +27,7 @@ dApp: l'interfaccia per gli utenti (il wallet). APP: il programma che fa girare 
 <p class="lead" v-click>Nessuno vi assegna un conto: il wallet se lo calcola da solo, offline, in un millisecondo.</p>
 
 <div class="sigle">
-  <p v-click="2"><strong>ECDSA</strong>: Elliptic Curve Digital Signature Algorithm, la firma su curve ellittiche; <strong>Keccak-256</strong> e <strong>BLAKE2b-256</strong> sono funzioni hash</p>
+  <p v-click="2"><strong>secp256k1</strong>: la curva ellittica di Bitcoin ed Ethereum; <strong>Keccak-256</strong> e <strong>BLAKE2b-256</strong> sono funzioni hash</p>
 </div>
 
 <!--
@@ -63,7 +63,7 @@ Bitcoin ed Ethereum usano la curva secp256k1; dal 14 novembre 2021 (Taproot, blo
 
 <!--
 L'uscita del blocco di genesi non entra nell'insieme delle monete spendibili del software di riferimento (Bitcoin Core): i 50 BTC sono di fatto bloccati. Le altre somme sull'indirizzo sono "tributi" mandati negli anni.
-Per il giurista: un indirizzo è un dato pseudonimo; diventa un dato personale quando lo si collega a una persona (per esempio tramite un exchange che conosce il cliente).
+Per il giurista: un indirizzo è un dato pseudonimo, non anonimo. Per il GDPR (art. 4, n. 5, e cons. 26) e per l'EDPB è un dato personale se la persona è identificabile con mezzi ragionevoli, per esempio tramite un exchange che conosce il cliente.
 -->
 
 ---
@@ -98,7 +98,7 @@ Per il giurista: chi conosce le parole ha i fondi. In una successione, o in un s
 sender: "0x6677605b…8f734a97b7e3"     # chi firma (un telefono in prova)
 transaction:
   MoveCall: aula::iscriviti            # la funzione dello smart contract
-  arguments: [Rubinetto, "bruno-p6z4"]
+  arguments: [Rubinetto, "bruno-p6z4"] # l'oggetto che distribuisce gli AULA
 gasData:
   price: 1000                          # NANOS per unità di gas
   budget: 8338400                      # massimo che si accetta di pagare
@@ -107,7 +107,7 @@ txSignatures: ["ANGLNreIjnwYIS/kkZ2k…"]  # firma Ed25519 + chiave pubblica
 
 </div>
 
-<p v-click><strong>Costo</strong>: calcolo 0,001 IOTA (bruciati) + spazio 0,0085 IOTA − rimborso 0,0032 IOTA = <strong>0,0064 IOTA</strong>.</p>
+<p v-click><strong>Costo</strong>: calcolo 0,001000 IOTA (bruciati) + spazio 0,008535 IOTA − rimborso 0,003177 IOTA = <strong>0,006358 IOTA</strong>.</p>
 
 <p class="lead" v-click>Lo spazio sul registro si paga come una cauzione: chi cancella i dati se la riprende.</p>
 
@@ -165,7 +165,7 @@ Nel 2025 qui c'era una transazione Ethereum "legacy": Ethereum firma l'impronta 
 
 <!--
 Prima della lezione: controllare che la devnet non sia stata azzerata (il contratto deve esistere) e provare il faucet dal telefono. Il sondaggio è già aperto: nell'app «Vota» è il passo 5, dopo l'invio; lo usiamo nel Capo V. Sulla lavagna di questa slide si vedono solo iscrizioni e invii.
-Il faucet pubblico chiede un captcha: è la protezione contro chi lo svuoterebbe con programmi automatici. Se la rete dell'università viene limitata, l'app accetta un altro faucet: aggiungere ?faucet=<indirizzo> al link.
+Il faucet pubblico chiede un captcha: è la protezione contro chi lo svuoterebbe con programmi automatici. Se la rete dell'università viene limitata, l'app accetta un altro faucet: aggiungere ?faucet=<URL del faucet> al link.
 -->
 
 ---

@@ -1,5 +1,5 @@
 <!--
-  Diagram (new): the double-spending problem. Alice owns one coin (the 5 btc she received with TX3, as in
+  Diagram (new): the double-spending problem. Alice owns one coin (the 5 BTC she received with TX3, as in
   SchemaEsempioTx) and signs two transactions that spend it: TX4 to Bob and TX4′ to Carol, sent at the same
   time to different parts of the network. Both signatures are valid, so the signature alone cannot settle
   the conflict. The network puts transactions in order inside blocks: the block that includes TX4 first
@@ -35,7 +35,7 @@ const carte = [
     <g v-click>
       <SvPersona :x="62" :y="40" nome="Alice" />
       <circle cx="62" cy="180" r="27" class="moneta" />
-      <text x="62" y="185" text-anchor="middle" class="valore">5 btc</text>
+      <text x="62" y="185" text-anchor="middle" class="valore">5 BTC</text>
       <text x="62" y="228" text-anchor="middle" class="nota">una sola moneta</text>
       <text x="62" y="245" text-anchor="middle" class="nota">(ricevuta con TX3)</text>
     </g>

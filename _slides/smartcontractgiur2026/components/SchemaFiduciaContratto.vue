@@ -65,11 +65,11 @@ const ARCHI: [number, number][] = [
       <text x="688" y="92" text-anchor="middle" class="croce">✗</text>
       <text x="876" y="22" text-anchor="end" class="t15 b arancio">modifica rifiutata</text>
       <text x="876" y="39" text-anchor="end" class="nota">da solo non può cambiarlo</text>
-      <text x="876" y="54" text-anchor="end" class="nota">né rimuoverlo</text>
+      <text x="876" y="54" text-anchor="end" class="nota">(salvo poteri scritti nel codice)</text>
     </g>
     <!-- 5. didascalia -->
     <g v-click>
-      <text x="440" y="250" text-anchor="middle" class="t15">codice aperto (open source) + accordo di più di ⅔ dei validatori</text>
+      <text x="440" y="250" text-anchor="middle" class="t15">codice aperto (open source) + accordo di più di ⅔ del potere di voto</text>
       <text x="440" y="274" text-anchor="middle" class="didascalia">→ nessuna deviazione tecnica dall'accordo iniziale</text>
     </g>
   </svg>

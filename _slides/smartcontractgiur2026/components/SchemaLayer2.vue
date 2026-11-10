@@ -69,7 +69,7 @@
       <SvRiquadro :x="620" :y="90" :w="240" :h="44" testo="rollup\nle esegue fuori catena" />
       <SvFreccia :x1="740" :y1="134" :x2="740" :y2="198" variante="rubrica" />
       <text x="750" y="160" class="nota">un solo invio</text>
-      <SvRiquadro :x="600" :y="200" :w="260" :h="48" testo="1 lotto + prova" variante="rubrica" />
+      <SvRiquadro :x="600" :y="200" :w="260" :h="48" testo="1 lotto sulla catena" variante="rubrica" />
       <text x="876" y="270" text-anchor="end" class="nota">zk: prova di validità; optimistic: contestabile</text>
     </g>
   </svg>

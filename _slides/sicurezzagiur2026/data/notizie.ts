@@ -1,7 +1,7 @@
 // News for <NewsWall />. Facts checked on 9–10 November 2026 (see VERIFICA.md); recheck the latest ones before the lecture.
 // At most 6 cards fit on a slide (3 columns × 2 rows); <NewsWall :ids="[…]" /> picks and orders them.
 
-export type Proprieta = 'riservatezza' | 'integrità' | 'disponibilità' | 'autenticità'
+export type Proprieta = 'riservatezza' | 'integrità' | 'disponibilità' | 'autenticazione'
 
 /** "rivendicato": the attackers say so, nobody has confirmed it yet. A claim is not proof. */
 export type StatoNotizia = 'confermato' | 'rivendicato' | 'in verifica'
@@ -27,7 +27,7 @@ export const notizie: Notizia[] = [
   {
     id: 'frigoriferi',
     data: '2 nov 2026',
-    titolo: 'Frigoriferi manomessi nei supermercati, da Palermo a Trapani',
+    titolo: 'Frigoriferi manomessi nei supermercati siciliani',
     sintesi: 'Temperature alzate da remoto in oltre 20 punti vendita in Sicilia e in altre regioni, probabilmente attraverso software di telegestione esposti e non aggiornati.',
     proprieta: ['integrità', 'disponibilità'],
     stato: 'confermato',
@@ -60,7 +60,7 @@ export const notizie: Notizia[] = [
   {
     id: 'paragon',
     data: '5 mar 2026',
-    titolo: 'Spyware Paragon: le procure confermano',
+    titolo: 'Spyware sui telefoni: le procure confermano',
     sintesi: 'Le procure di Roma e Napoli trovano tracce di malware sui telefoni di due attivisti e del direttore di Fanpage. Chi ha spiato il giornalista resta ignoto.',
     proprieta: ['riservatezza', 'integrità'],
     stato: 'confermato',
@@ -73,7 +73,7 @@ export const notizie: Notizia[] = [
     data: 'feb 2025',
     titolo: 'La voce clonata del ministro Crosetto',
     sintesi: 'Con una voce ricreata al computer, truffatori ottengono da un imprenditore circa 980.000 €, poi bloccati su un conto olandese.',
-    proprieta: ['autenticità'],
+    proprieta: ['autenticazione'],
     stato: 'confermato',
     gancio: 'artt. 640 e 494 c.p.',
     fonte: 'Il Post, 11/2/2025',
@@ -83,7 +83,7 @@ export const notizie: Notizia[] = [
     id: 'binance',
     data: '29 ott 2026',
     titolo: 'Binance: rubati 6,3 miliardi di dollari in criptovalute',
-    sintesi: 'Tutto parte da un falso colloquio di lavoro: un malware, le credenziali degli ingegneri, poi i portafogli online. L’FBI accusa la Corea del Nord.',
+    sintesi: 'Un falso colloquio di lavoro, un malware, le credenziali degli ingegneri, poi i portafogli online. L’FBI accusa la Corea del Nord.',
     proprieta: ['riservatezza', 'integrità'],
     stato: 'confermato',
     gancio: 'Reg. (UE) 2023/1114, art. 75',

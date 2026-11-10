@@ -24,7 +24,7 @@ L'arte di scrivere in modo che solo il destinatario possa leggere
 <blockquote v-click>Difficile non vuol dire impossibile: vuol dire che costa più di quanto valga il segreto.</blockquote>
 
 <!--
-Oggi la crittografia protegge anche integrità, autenticità e non ripudio (definizione NIST).
+Oggi la crittografia protegge anche integrità, autenticazione e non ripudio (definizione NIST).
 Per il giurista: il GDPR cita la cifratura tra le misure di sicurezza adeguate (art. 32, par. 1, lett. a); la NIS2 chiede politiche sull'uso della crittografia (art. 21, par. 2, lett. h, dir. (UE) 2022/2555).
 -->
 
@@ -57,7 +57,7 @@ img { border-radius: 4px; }
 
 <!--
 Jefferson descrisse il cilindro quando era Segretario di Stato (1790–93); forse mai costruito, non risulta che l'abbia usato (Monticello). Reinventato da Bazeries (1891). La slide del 2024 diceva "1800, comunicazioni diplomatiche": corretto.
-Enigma: forzata prima dai crittoanalisti polacchi (Rejewski, 1932), poi a Bletchley Park (Turing e altri). Il segreto non era la macchina ma le impostazioni giornaliere: anticipa Kerckhoffs.
+Enigma: forzata prima dai crittoanalisti polacchi (Rejewski, 1932), poi a Bletchley Park (Turing e altri). Il segreto non era la macchina ma le impostazioni giornaliere: è il principio di Kerckhoffs (Capo I).
 -->
 
 ---

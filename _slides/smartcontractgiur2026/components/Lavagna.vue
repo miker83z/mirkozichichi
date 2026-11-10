@@ -56,7 +56,7 @@ async function leggi() {
     const opz = sondaggio.value?.opzioni ?? []
     const conVoti = props.solo !== 'monete'
     eventi.value = [
-      ...ev1.data.map((e: any) => ({ tipo: 'iscritto' as const, testo: `«${e.parsedJson.nome}» si è iscritto: +10 AULA`, quando: Number(e.timestampMs) })),
+      ...ev1.data.map((e: any) => ({ tipo: 'iscritto' as const, testo: `«${e.parsedJson.nome}» entra in classe: +10 AULA`, quando: Number(e.timestampMs) })),
       ...(conVoti ? ev2.data : []).map((e: any) => ({ tipo: 'votato' as const, testo: `un voto per «${opz[Number(e.parsedJson.scelta)] ?? e.parsedJson.scelta}»`, quando: Number(e.timestampMs) })),
       ...ev3.data.map((e: any) => ({ tipo: 'inviato' as const, testo: `${e.parsedJson.importo} AULA a «${e.parsedJson.a}»`, quando: Number(e.timestampMs) })),
     ].sort((a, b) => b.quando - a.quando).slice(0, 6)

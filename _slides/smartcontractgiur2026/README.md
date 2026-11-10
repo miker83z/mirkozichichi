@@ -2,7 +2,7 @@
 
 Lecture on blockchain, smart contracts and digital coins for the UniBo law seminar "Blockchain e Smart Contract: aspetti giuridici e tecnologici", rebuilt from the 2025 deck (`25.11.UNIBO-smart-contracts.pdf`) as an interactive [Slidev](https://sli.dev) deck, in Italian, for law students. The theme follows the 2025 deck (dark navy, flowing-line covers, the IOTA logo), with one layout for every content slide.
 
-It opens with the first 30 slides of `../sicurezzagiur2026` (news, attacks, Capo I on security), reuses that deck's hash and signature diagrams and demos, adds crypto notions with their theory (Byzantine generals, Nakamoto consensus, seed phrases, Move resources, AMMs, MEV, stablecoins…) and a class activity on a real IOTA test network, done from the students' phones. The programming-language slides of 2025 are gone, at the lecturer's request.
+It opens with the first 30 slides of `../sicurezzagiur2026` (news, attacks, Capo I on security), reuses that deck's hash and signature diagrams and demos, adds crypto notions with their theory (Byzantine generals, Nakamoto consensus, seed phrases, AMMs, stablecoins…) and a class activity on a real IOTA test network, done from the students' phones. The programming-language slides of 2025 are gone, at the lecturer's request.
 
 The folder starts with `_`, so Jekyll ignores it; only the build output in `slides/smartcontractgiur2026/` (deck and class app) and the PDF in `assets/tutor/slides/` are published with the website.
 
@@ -40,7 +40,7 @@ Run them in this folder (Node 22.22+; tested with Node 26).
 - `components/Lavagna.vue`: the live board on the projector; it contacts the network only after "Collega".
 
 Before the lecture:
-1. `iota client active-env` must be `devnet`; check the contract still exists (devnet can be reset): open the app, or `iota client object <Rubinetto id>`. If it is gone: fund the CLI address from the faucet, then `node scripts/aula-pubblica.mjs` (publishes and rewrites `aula/config.json`) and `npm run build`.
+1. `iota client active-env` must be `devnet`; check the contract still exists (devnet can be reset): open the app, or `iota client object <Rubinetto id>`. If it is gone: fund the CLI address from the faucet, then `node scripts/aula-pubblica.mjs` (publishes and rewrites `aula/config.json`) and `npm run build`, then recreate the poll with the command in step 2 and update the date in the speaker notes.
 2. The class poll is already open on devnet (created on 10/11/2026): «Che cosa impedisce di riscrivere un blocco già confermato?», four answers, the right one is the second (see the speaker notes). The app lists it as step 5, after sending AULA; the board on the token slide shows only joins and transfers. To ask another question: `node scripts/aula-sondaggio.mjs "Domanda?" "Risposta 1" "Risposta 2"` (the app and the board show the latest poll); to close it after the lecture: `node scripts/aula-sondaggio.mjs --chiudi`.
 3. Try the faucet from a phone on the university network.
 

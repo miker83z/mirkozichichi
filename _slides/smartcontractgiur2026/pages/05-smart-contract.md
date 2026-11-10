@@ -17,7 +17,7 @@ Programmi che nessuno può fermare da solo
 <v-clicks>
 
 - Il codice e i suoi dati stanno sulla blockchain, visibili a tutti; ogni nodo lo esegue e ottiene lo stesso risultato
-- Il contratto della classe: 208 righe di Move, pubblicate oggi sulla devnet con una sola transazione
+- Il contratto della classe: 208 righe di Move, pubblicate sulla devnet il 10 novembre 2026 con una sola transazione
 
 </v-clicks>
 
@@ -45,7 +45,7 @@ L'esempio è di Szabo (1996–1997): "A canonical real-life example, which we mi
 
 <SchemaFiduciaContratto />
 
-<p class="lead" v-click>Codice pubblico, più di due terzi dei validatori onesti, nessuno che possa cambiarlo da solo: allora il contratto non devia dall'accordo.</p>
+<p class="lead" v-click>Codice pubblico, più di due terzi del potere di voto in mano a validatori onesti, nessuno che possa cambiarlo da solo: allora il contratto non devia dall'accordo.</p>
 
 <!--
 Correzione rispetto al 2025: non "la maggioranza (⅔ + 1)", ma più di ⅔ della quota (n ≥ 3f + 1).
@@ -83,8 +83,8 @@ voce: 1
 
 <v-clicks>
 
-- **IOTA**: rete attiva dal 5 maggio 2025, software open source; a novembre 2026 la fanno girare **61 validatori**
-- Una nuova versione del protocollo parte solo quando l'ha installata più dell'83% del potere di voto: la v39 è attiva dal 5 novembre 2026
+- **IOTA**: rete attuale attiva dal 5 maggio 2025, software open source; a novembre 2026 la fanno girare **61 validatori** (60 nel comitato che vota)
+- Una nuova versione del protocollo parte solo quando l'ha installata almeno l'83,34% del potere di voto: la v39 è attiva dal 5 novembre 2026
 
 </v-clicks>
 
@@ -120,8 +120,12 @@ piattaforma: 4
 
 <p class="lead" v-click>Su un exchange le chiavi non sono vostre: «not your keys, not your coins».</p>
 
+<div class="sigle">
+  <p v-click="1"><strong>MPC</strong>: multi-party computation, la chiave divisa tra più macchine</p>
+</div>
+
 <!--
-Hot wallet: sempre online, firma i prelievi in automatico; cold wallet: offline, firma raramente e a mano. È il compromesso tra disponibilità e sicurezza (ETTO, Capo I).
+Hot wallet: sempre online, firma i prelievi in automatico; cold wallet: offline, firma raramente e a mano. È il compromesso tra disponibilità e sicurezza.
 MPC (multi-party computation): la chiave è divisa tra più macchine, nessuna la possiede intera.
 Per il giurista: nel diritto UE chi custodisce cripto-attività per conto dei clienti risponde della loro perdita per un incidente a lui imputabile, nel limite del valore di mercato (Reg. (UE) 2023/1114, MiCA, art. 75, par. 8).
 -->
@@ -142,7 +146,8 @@ piattaforma: 4
 </v-clicks>
 
 <div class="sigle">
-  <p v-click="2"><strong>HR</strong>: risorse umane; <strong>IA</strong>: intelligenza artificiale</p>
+  <p v-click="2"><strong>HR</strong>: risorse umane</p>
+  <p v-click="3"><strong>IA</strong>: intelligenza artificiale</p>
 </div>
 
 <!--
@@ -204,13 +209,13 @@ piattaforma: 5
 <v-clicks>
 
 - Scambi senza intermediario: **Uniswap**, dove il prezzo lo fa una formula
-- Prestiti senza banca: **Aave**, 11,8 miliardi prestati, sempre con garanzia superiore al prestito
+- Prestiti senza banca: **Aave**, 11,8 miliardi prestati, con una garanzia che vale più del prestito
 
 </v-clicks>
 
 <!--
-Fonte: DefiLlama, 10/11/2026 (76,7 miliardi; massimo storico 177,5 miliardi il 9/11/2021). Aave: 16,1 miliardi depositati, 11,8 prestati. Se la garanzia scende troppo, chiunque può liquidarla e guadagnarci: lo fa un programma, non un ufficio crediti.
-Terra/Luna (maggio 2022): una stablecoin algoritmica perde l'aggancio al dollaro e trascina con sé decine di miliardi; è uno dei motivi per cui MiCA vieta gli interessi sulle stablecoin e chiede riserve.
+Fonte: DefiLlama, 10/11/2026 (76,7 miliardi; massimo storico 177,5 miliardi il 9/11/2021). Aave: 11,8 miliardi prestati e altri 16,1 ancora nei contratti (DefiLlama non conta nel TVL i fondi prestati: depositati in tutto circa 28 miliardi). Se la garanzia scende troppo, chiunque può liquidarla e guadagnarci: lo fa un programma, non un ufficio crediti.
+Terra/Luna (maggio 2022): una stablecoin algoritmica perde l'aggancio al dollaro e trascina con sé decine di miliardi. Il divieto di interessi c'era già nella proposta MiCA del 2020; il testo finale precisa che anche le stablecoin «algoritmiche» ancorate a una valuta ricadono nelle regole su EMT e ART (considerando 41).
 -->
 
 ---
@@ -220,6 +225,8 @@ piattaforma: 5
 # Uno scambio senza banco: x · y = k
 
 <SchemaAmm />
+
+<p class="fonte" v-click="2">Senza la commissione dello 0,3%: con la commissione Alice riceve 0,907 ETH (nella prossima slide).</p>
 
 ---
 piattaforma: 5
@@ -248,7 +255,7 @@ piattaforma: 5
 <v-clicks>
 
 - **40 miliardi di dollari** di attività reali in token; 14 miliardi sono titoli di Stato USA (10/11/2026)
-- **Italia**: CDP, primo *digital bond* (2024); **BCE**: Pontes, per regolarli in euro di banca centrale (2026)
+- **Italia**: CDP, primo *digital bond* (2024); **BCE**: Pontes, per regolare i titoli tokenizzati in euro di banca centrale (2026)
 
 </v-clicks>
 
@@ -305,9 +312,7 @@ piattaforma: 6
 
 # Il voto, nel contratto della classe
 
-<div v-click>
-
-```move {2|3|4-6|7-8|all}
+```move {hide|2|3|4-6|7-8|all}
 public fun vota(sondaggio: &mut Sondaggio, scelta: u64, ctx: &TxContext) {
     assert!(sondaggio.aperto, EChiuso);
     assert!(scelta < sondaggio.opzioni.length(), ESceltaNonValida);
@@ -318,8 +323,6 @@ public fun vota(sondaggio: &mut Sondaggio, scelta: u64, ctx: &TxContext) {
     *conteggio = *conteggio + 1;
 }
 ```
-
-</div>
 
 <p class="lead" v-click>Le regole sono nel codice: sondaggio aperto, scelta valida, un voto per indirizzo.</p>
 
@@ -346,5 +349,5 @@ piattaforma: 6
 
 <!--
 Il sondaggio è già aperto sulla devnet (creato il 10/11/2026 con node scripts/aula-sondaggio.mjs "Che cosa impedisce di riscrivere un blocco già confermato?" "La firma del miner" "L'impronta del blocco dentro il successivo" "Una legge" "Il server di un'azienda"): nell'app è il passo 5, dopo l'invio di AULA. Per chiuderlo dopo la lezione: node scripts/aula-sondaggio.mjs --chiudi.
-Risposta giusta: l'impronta del blocco dentro il successivo (integrità, Capo II e «Blocchi veri»): cambiare un blocco cambia la sua impronta e rompe il legame con tutti i successivi. Per rifarli servirebbe rifare tutto il lavoro (Proof of Work) o avere più di due terzi dei voti (Proof of Stake). La firma del miner: in Bitcoin i blocchi non sono firmati dal miner. Una legge, il server di un'azienda: proprio ciò che una blockchain non usa.
+Risposta giusta: l'impronta del blocco dentro il successivo (integrità: Capo II e «Blocchi veri», Capo III): cambiare un blocco cambia la sua impronta e rompe il legame con tutti i successivi. Per rifarli servirebbe rifare tutto il lavoro (Proof of Work) o avere più di due terzi dei voti (Proof of Stake). La firma del miner: in Bitcoin i blocchi non sono firmati dal miner. Una legge, il server di un'azienda: proprio ciò che una blockchain non usa.
 -->

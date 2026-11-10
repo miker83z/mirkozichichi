@@ -80,7 +80,7 @@ E naturalmente efficiente: calcolare H(m) è veloce anche per file grandi.
 
 <!--
 Formalmente: deve essere computazionalmente impraticabile trovare x ≠ y con H(x) = H(y). Le collisioni esistono (principio dei cassetti: infiniti input, 2^256 impronte), ma nessuno sa trovarle.
-2^256 ≈ 1,16 × 10^77: lo stesso ordine di grandezza del numero di atomi stimato nell'universo osservabile.
+2^256 ≈ 1,16 × 10^77: non lontano dal numero di atomi stimato nell'universo osservabile (circa 10^80).
 -->
 
 ---
@@ -247,10 +247,10 @@ Partire da difficoltà 3, poi 4, poi 5: ogni zero in più moltiplica per 16 i te
 
 <v-clicks>
 
-- **MD5** (128 bit): **rotta**, una collisione costa una frazione di secondo
+- **MD5** (128 bit): **rotta**, una collisione si trova in pochi secondi su un PC
 - **SHA-1** (160 bit): **rotta**, prima collisione reale nel 2017 (SHAttered)
 - **SHA-2** (SHA-256/384/512): **raccomandata**
-- **SHA-3** (Keccak, 2015): **raccomandata**
+- **SHA-3** (standard dal 2015, derivata da Keccak): **raccomandata**
 
 </v-clicks>
 

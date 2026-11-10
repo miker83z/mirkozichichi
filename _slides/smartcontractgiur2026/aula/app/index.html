@@ -22,7 +22,7 @@
       <p class="indirizzo mono" id="indirizzo">…</p>
       <div class="azioni">
         <button type="button" id="copia">Copia l'indirizzo</button>
-        <a id="vedi-indirizzo" target="_blank" rel="noopener noreferrer">Vedi nell'esploratore</a>
+        <a id="vedi-indirizzo" target="_blank" rel="noopener noreferrer">Vedi nell'explorer</a>
       </div>
     </section>
 
@@ -41,7 +41,7 @@
       <p>Lo smart contract ti dà <strong>10 AULA</strong>, il token della classe, una sola volta per indirizzo. Il soprannome è pubblico e resta sulla blockchain: non usare nome e cognome.</p>
       <form id="form-iscrizione" class="riga">
         <label for="soprannome" class="nascosto">Soprannome</label>
-        <input id="soprannome" name="soprannome" autocomplete="off" autocapitalize="off" spellcheck="false" minlength="2" maxlength="20" placeholder="soprannome (2–20 caratteri)" required>
+        <input id="soprannome" name="soprannome" autocomplete="off" autocapitalize="off" spellcheck="false" minlength="2" maxlength="20" placeholder="soprannome (2–20 lettere, senza accenti)" required>
         <button type="submit">Iscriviti</button>
       </form>
       <p class="saldo">Saldo: <strong id="saldo-aula">0 AULA</strong></p>
@@ -65,6 +65,7 @@
     <section class="passo" id="passo-voto" hidden>
       <h2><span class="n">5</span> Vota</h2>
       <p class="domanda" id="domanda">…</p>
+      <p>Il voto è pubblico: sulla blockchain chiunque vede che cosa ha scelto il tuo indirizzo.</p>
       <div class="opzioni" id="opzioni"></div>
       <p class="stato" id="stato-voto" role="status"></p>
     </section>

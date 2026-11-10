@@ -36,7 +36,7 @@ const CARTE: { x: number, w: number, data: string, righe: Riga[] }[] = [
   ] },
   { x: 635, w: 236, data: '29 ottobre', righe: [
     { t: 'con credenziali rubate' }, { t: 'lanciano uno script; con' }, { t: 'EIP-7702 comandano', c: 'b' },
-    { t: 'un hot wallet', c: 'b' }, { t: '20:05 UTC: escono i fondi', c: 'r' }, { t: '00:10 UTC (30/10): bloccati' },
+    { t: 'un hot wallet', c: 'b' }, { t: '20:05 UTC: escono i fondi', c: 'r' }, { t: '00:10 (30/10): uscite fermate' },
     { t: 'rubati ≈ 6,3 miliardi di $', c: 'r' },
   ] },
 ]

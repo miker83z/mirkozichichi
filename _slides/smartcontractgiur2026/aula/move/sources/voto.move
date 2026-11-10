@@ -1,6 +1,6 @@
 /// A class vote, for the lecture "Blockchain & Smart Contracts" (UniBo, 2026).
 /// The lecturer (holder of the AdminCap) creates polls; each `Sondaggio` is a shared object that anyone
-/// can read; every address can vote once; counts and votes are public on the testnet.
+/// can read; every address can vote once; counts and votes are public on the devnet.
 module aula::voto;
 
 use iota::event;

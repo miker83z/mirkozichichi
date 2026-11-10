@@ -47,14 +47,14 @@ Dal 2026 gli obblighi di notifica NIS2 fanno crescere anche le segnalazioni.
 
 ---
 
-# Le cinque proprietà, con i fatti di quest'anno
+# Le cinque proprietà, con i fatti recenti
 
 <div class="proprieta-esempi">
   <div v-click><span class="nome">Riservatezza</span><span class="cosa">solo chi è autorizzato legge</span><span class="es">uno spyware legge le chat di un giornalista</span></div>
   <div v-click><span class="nome">Integrità</span><span class="cosa">nessuno modifica senza permesso</span><span class="es">qualcuno cambia da remoto la temperatura dei frigoriferi</span></div>
   <div v-click><span class="nome">Disponibilità</span><span class="cosa">il servizio c'è quando serve</span><span class="es">il sito della Farnesina sommerso di richieste</span></div>
   <div v-click><span class="nome">Autenticità</span><span class="cosa">sai con chi stai parlando</span><span class="es">la voce clonata di un ministro chiede soldi</span></div>
-  <div v-click><span class="nome">Non ripudio</span><span class="cosa">chi ha firmato non può negarlo</span><span class="es">un bonifico firmato con la tua chiave è tuo: non puoi dire «non sono stato io»</span></div>
+  <div v-click><span class="nome">Non ripudio</span><span class="cosa">chi ha firmato non può negarlo</span><span class="es">una transazione firmata: chiunque verifica quale chiave l'ha firmata</span></div>
 </div>
 
 <p class="lead mt-4" v-click>Le prime quattro le vediamo violate nelle notizie; la quinta è quella su cui si regge una blockchain.</p>
@@ -75,18 +75,19 @@ Per il giurista: le stesse parole sono nel GDPR: il titolare deve assicurare "la
 
 # 2 novembre 2026: i frigoriferi dei supermercati
 
-<p class="lead" v-click>Alle 4 del mattino qualcuno alza da remoto la temperatura dei frigoriferi in oltre 20 supermercati, da Palermo a Trapani.</p>
+<p class="lead" v-click>Alle 4 del mattino qualcuno alza da remoto la temperatura dei frigoriferi in oltre 20 supermercati in Sicilia, tra Palermo, Catania, Ragusa e Trapani.</p>
 
 <SchemaFrigoriferi />
 
-<p v-click>In Europa oltre 100 supermercati colpiti; la rivendicazione filorussa è <strong>contestata</strong> da esperti e ACN.</p>
+<p v-click>In Europa decine di supermercati colpiti (oltre 100 secondo alcune stime); la rivendicazione filorussa è <strong>contestata</strong> da diversi esperti.</p>
 
 <p class="fonte" v-click>Il Post, 3 e 6 novembre 2026; bollettino ACN per la filiera del freddo.</p>
 
 <!--
 Per il giurista: dall'11 settembre 2026 i produttori di dispositivi connessi devono segnalare le vulnerabilità sfruttate e gli incidenti gravi (art. 14, Reg. (UE) 2024/2847, Cyber Resilience Act).
 Nel 2024 la slide raccontava l'attacco al Comune di Palermo; due anni dopo l'obiettivo è la catena del freddo.
-Collegamento con il Capo I: "i sistemi che non vengono aggiornati divengono fragili e insicuri".
+Per un funzionario dell'ACN «è presto per capire» chi sia stato.
+Collegamento con il Capo I («Non esistono sistemi sicuri»): un sistema sicuro oggi può non esserlo domani, va aggiornato.
 -->
 
 ---
@@ -96,7 +97,7 @@ Collegamento con il Capo I: "i sistemi che non vengono aggiornati divengono frag
 <v-clicks>
 
 - Colpiti almeno 4 Coop del Gruppo Radenza e alcuni Decò; casi anche in Toscana e in provincia di Trento
-- In Francia, a ottobre, circa 700 supermercati: impianti vecchi, console raggiungibili da Internet, password deboli
+- In Francia, a ottobre, circa 700 supermercati: impianti vecchi, console raggiungibili da Internet, accessi mal protetti
 
 </v-clicks>
 
@@ -114,7 +115,7 @@ Le sei verifiche urgenti chieste dall'ACN (bollettino del 13/10, v1.1 del 3/11):
 
 ---
 
-# Un anno di attacchi: proviamo a classificarli
+# Gli attacchi recenti: proviamo a classificarli
 
 <p class="lead" v-click>Per ogni notizia: quale proprietà della sicurezza è stata violata? Cliccate su una scheda.</p>
 
@@ -126,9 +127,9 @@ Le sei verifiche urgenti chieste dall'ACN (bollettino del 13/10, v1.1 del 3/11):
 
 <!--
 Altri fatti della settimana 2-9 novembre 2026 (Il Post, 9/11): attacco alla società della galleria di base del Brennero (BBT SE, metà ottobre, reso noto il 7/11); dati personali del ministro Tajani pubblicati sul dark web (sua dichiarazione del 7/11); falsi allarmi bomba su oltre 30 voli, anche per Fiumicino; il ministro Piantedosi ha convocato il Comitato nazionale per l'ordine e la sicurezza pubblica per il 10/11.
-Una rivendicazione non è un fatto accertato: quella dei frigoriferi è contestata. Nel 2026 anche il caso dei presunti file della DIA in vendita sul dark web (9/11) si è rivelato, per gli inquirenti, solo dati già pubblici.
+Una rivendicazione non è un fatto accertato: quella dei frigoriferi è contestata. Anche il caso dei presunti file della DIA in vendita sul dark web (annuncio dell'8/11) riguardava, secondo fonti investigative, solo dati già pubblici.
 Nelle prossime slide: un caso per scheda, con la stessa griglia dei frigoriferi.
-Per il giurista: art. 615-ter c.p. (accesso abusivo); L. 90/2024; d.lgs. 138/2024 (NIS2), notifica al CSIRT entro 24 ore; art. 33 GDPR, notifica al Garante entro 72 ore.
+Per il giurista: art. 615-ter c.p. (accesso abusivo); L. 90/2024; d.lgs. 138/2024 (NIS2), pre-notifica al CSIRT Italia entro 24 ore e notifica entro 72 (art. 25); art. 33 GDPR, notifica al Garante entro 72 ore.
 -->
 
 ---
@@ -137,7 +138,7 @@ Per il giurista: art. 615-ter c.p. (accesso abusivo); L. 90/2024; d.lgs. 138/202
 
 <v-clicks>
 
-- Il sito del ministero degli Esteri riceve un'ondata di richieste: le difese la respingono «senza provocare disservizi»
+- Il sito del ministero degli Esteri subisce un attacco, per la stampa un DDoS: le difese lo mitigano «senza provocare disservizi»
 - Arriva dopo dure parole di Mosca contro il ministro Tajani; la stampa lo attribuisce a NoName057(16)
 
 </v-clicks>
@@ -165,7 +166,7 @@ Per il giurista: per il d.lgs. 138/2024 (NIS2) gli incidenti significativi vanno
 
 </v-clicks>
 
-<SchemaAttacco chi="hacktivisti\nfilorussi:\nNoName057(16)" come="DDoS contro\ncirca 120 siti" cosa="consolati, hotel,\nsiti dei Giochi" proprieta="disponibilità" difesa="piani preparati\nprima dei Giochi,\nfiltri sul traffico" />
+<SchemaAttacco chi="NoName057(16)\n(rivendicazione)" come="DDoS contro\ncirca 120 siti" cosa="consolati, hotel,\nsiti dei Giochi" proprieta="disponibilità" difesa="piani preparati\nprima dei Giochi,\nfiltri sul traffico" />
 
 <p v-click><strong>Hacktivism</strong>: attacchi per una causa politica, che cercano visibilità più che denaro. In Italia, nel 2025, 196 incidenti gravi su 507 (Clusit).</p>
 
@@ -184,12 +185,12 @@ Fonti: The Record, 5/2/2026; Cybersecurity360.
 
 <v-clicks>
 
-- Marzo 2026: le procure di Roma e Napoli trovano tracce di malware su tre telefoni: gli attivisti Luca Casarini e Giuseppe Caccia e il giornalista Francesco Cancellato (Fanpage)
+- Marzo 2026: le procure di Roma e Napoli rendono noto di aver trovato tracce di malware su tre telefoni: gli attivisti Luca Casarini e Giuseppe Caccia e il giornalista Francesco Cancellato (Fanpage)
 - Per Casarini e Caccia le operazioni risultano dell'intelligence italiana; per Cancellato no: chi lo ha spiato resta ignoto
 
 </v-clicks>
 
-<SchemaAttacco chi="ignoto, nel caso\ndel giornalista" come="spyware Graphite\ndi Paragon:\nentra di nascosto" cosa="il telefono\ne tutto ciò\nche contiene" proprieta="riservatezza\ne integrità" difesa="aggiornare il\ntelefono; analisi\nforense" />
+<SchemaAttacco chi="ignoto, nel caso\ndel giornalista" come="spyware (Paragon,\nsecondo la stampa):\nentra di nascosto" cosa="il telefono\ne tutto ciò\nche contiene" proprieta="riservatezza\ne integrità" difesa="aggiornare il\ntelefono; analisi\nforense" />
 
 <p class="lead" v-click>La cifratura <em>end-to-end</em> protegge il messaggio in viaggio, non il telefono: chi controlla il dispositivo legge prima che il messaggio sia cifrato.</p>
 
@@ -230,9 +231,9 @@ Fonti: Il Post, 11/2/2025; Corriere della Sera, 13/2/2025.
 
 <v-clicks>
 
-- In circa quattro ore escono dagli *hot wallet* del più grande exchange di criptovalute circa 6,3 miliardi di dollari
-- Era cominciato a settembre: un ingegnere, contattato su un sito di annunci, scarica il «compito» di un falso colloquio, con un malware che l'antivirus non riconosce
-- Per l'FBI è stata la Corea del Nord, che smentisce; 2,85 miliardi sono stati congelati, il resto Binance lo copre con fondi propri
+- In circa venti minuti escono dagli *hot wallet* del più grande exchange di criptovalute circa 6,3 miliardi di dollari
+- Era cominciato mesi prima: a settembre un ingegnere scarica il «compito» di un falso colloquio di lavoro, con un malware che l'antivirus non riconosce
+- Per l'FBI è stata la Corea del Nord, che smentisce; 2,85 miliardi congelati, il resto lo copre Binance
 
 </v-clicks>
 
@@ -247,9 +248,9 @@ Fonti: Il Post, 11/2/2025; Corriere della Sera, 13/2/2025.
 </div>
 
 <!--
-Il racconto di Binance (conferenza stampa del 3/11): a giugno un ingegnere installa un pacchetto software manomesso; il computer viene sostituito, ma gli aggressori sanno già chi lavora ai wallet. A settembre un altro ingegnere viene contattato su una piattaforma di annunci da un falso responsabile di progetto; due colloqui in video con falsi addetti del personale e un falso amministratore delegato; il «compito» da svolgere contiene un malware mai visto prima (zero-day) che elude i controlli. Il 20 ottobre, attraverso uno strumento interno di intelligenza artificiale, raggiungono i computer di due ingegneri dei wallet. Il 29 ottobre, con le credenziali rubate, eseguono un programma che ottiene i permessi su un hot wallet: i fondi escono dalle 20:05 UTC, il contenimento arriva alle 00:10 del 30 ottobre.
+Il racconto di Binance (conferenza stampa del 3/11): a giugno un ingegnere installa un pacchetto software manomesso; il computer viene sostituito, ma gli aggressori sanno già chi lavora ai wallet. A settembre un altro ingegnere viene contattato su una piattaforma di offerte di lavoro da un falso responsabile di progetto; due colloqui in video con falsi addetti del personale e un falso amministratore delegato; il «compito» da svolgere contiene un malware mai visto prima (zero-day) che elude i controlli. Il 20 ottobre, attraverso uno strumento interno di intelligenza artificiale, raggiungono i computer di due ingegneri dei wallet. Il 29 ottobre, con le credenziali rubate, eseguono un programma che ottiene i permessi su un hot wallet: i fondi escono dalle 20:05 UTC, il contenimento arriva alle 00:10 del 30 ottobre.
 Hot wallet: sempre connesso, per pagare i prelievi in tempo reale; il cold wallet è offline. È il compromesso tra disponibilità e sicurezza.
-Il furto supera di quattro volte il record precedente (Bybit, 1,5 miliardi, 2025). L'FBI (31/10) attribuisce l'attacco alla Corea del Nord; secondo TRM Labs è il gruppo TraderTraitor. Kim Yo Jong ha smentito il 3/11. Binance dice di aver bloccato nel 2026 altri 57 tentativi simili.
+Il furto supera di quattro volte il record precedente (Bybit, 1,5 miliardi, 2025). L'FBI (31/10) attribuisce l'attacco alla Corea del Nord e lo chiama TraderTraitor, come già TRM Labs e Chainalysis. Kim Yo Jong ha smentito il 3/11. Binance dice di aver bloccato nel 2026 altri 57 tentativi simili.
 Per il giurista: nel diritto UE chi custodisce cripto-attività per conto dei clienti risponde della loro perdita per un incidente a lui imputabile, nel limite del valore di mercato (Reg. (UE) 2023/1114, MiCA, art. 75, par. 8).
 -->
 

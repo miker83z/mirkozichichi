@@ -34,7 +34,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 - **N. Szabo, *Smart Contracts*** (1994) e ***The Idea of Smart Contracts*** (1997). [fon.hum.uva.nl/…/smart.contracts.html](https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html)
 - **The Move Book**: il linguaggio Move, abilità e risorse. [move-book.com](https://move-book.com/)
 - **MiCA, Reg. (UE) 2023/1114** sui mercati delle cripto-attività. [eur-lex.europa.eu/eli/reg/2023/1114/oj](https://eur-lex.europa.eu/eli/reg/2023/1114/oj?locale=it)
-- **D.lgs. 5 settembre 2024, n. 129**: l'attuazione italiana di MiCA. [normattiva.it](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;129)
+- **D.lgs. 5 settembre 2024, n. 129**: l'attuazione italiana di MiCA. [normattiva.it](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-05;129)
 - **Art. 8-ter, d.l. 135/2018**: tecnologie a registro distribuito e smart contract. [normattiva.it](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2018-12-14;135~art8ter)
 - **ESMA, rapporto sul MEV** (luglio 2025) e parere sulle stablecoin non conformi (ottobre 2026). [esma.europa.eu](https://www.esma.europa.eu/)
 - **BCE, l'euro digitale**: stato del progetto. [ecb.europa.eu/euro/digital_euro](https://www.ecb.europa.eu/euro/digital_euro/html/index.it.html)
@@ -67,7 +67,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 
 <div class="letture">
 
-- **Codice sorgente** del pacchetto Move usato in aula (moneta AULA e sondaggio), con i test: cartella `aula/move` del sito, nel repository pubblico [github.com/miker83z/mirkozichichi](https://github.com/miker83z/mirkozichichi)
+- **Codice sorgente** del pacchetto Move usato in aula (moneta AULA e sondaggio), con i test: cartella `_slides/smartcontractgiur2026/aula/move` del repository pubblico [github.com/miker83z/mirkozichichi](https://github.com/miker83z/mirkozichichi)
 - **L'app per il telefono**: [mirkozichichi.me/slides/smartcontractgiur2026/aula](https://mirkozichichi.me/slides/smartcontractgiur2026/aula/)
 - **Rete di prova IOTA** (devnet): i token non hanno valore e la rete può essere azzerata; il faucet chiede un captcha. [faucet.devnet.iota.cafe](https://faucet.devnet.iota.cafe/)
 - **Per programmare**: l'IOTA CLI e un'introduzione a Move. [docs.iota.org/developer/getting-started](https://docs.iota.org/developer/getting-started)
@@ -101,9 +101,9 @@ Per approfondire: testi, norme, strumenti e un glossario
 <table class="glossario">
 <thead><tr><th>Termine</th><th>Traduzione o originale</th><th>In breve</th></tr></thead>
 <tbody>
-<tr><td>Conferma</td><td>confirmation</td><td>blocco aggiunto dopo quello che contiene un pagamento</td></tr>
+<tr><td>Conferma</td><td>confirmation</td><td>ogni blocco della catena a partire da quello che contiene il pagamento</td></tr>
 <tr><td>Wallet</td><td>portafoglio</td><td>programma che custodisce le chiavi e firma le transazioni</td></tr>
-<tr><td>Seed phrase</td><td>frase di recupero (BIP-39)</td><td>12 o 24 parole da cui si ricalcolano tutte le chiavi</td></tr>
+<tr><td>Seed phrase</td><td>frase di recupero (BIP-39)</td><td>da 12 a 24 parole (di solito 12 o 24) da cui si ricalcolano tutte le chiavi</td></tr>
 <tr><td>Hot / cold wallet</td><td>portafoglio caldo / freddo</td><td>chiavi sempre online / chiavi offline</td></tr>
 <tr><td>Faucet</td><td>faucet</td><td>servizio che regala token di prova</td></tr>
 <tr><td>Gas</td><td>gas</td><td>unità di misura (e prezzo) del calcolo di una transazione</td></tr>

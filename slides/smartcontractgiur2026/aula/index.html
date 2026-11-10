@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <title>Aula · Blockchain &amp; Smart Contracts</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b2946'/%3E%3Cpath d='M32 14v36M14 32h36' stroke='%23fff' stroke-width='9' stroke-linecap='round'/%3E%3C/svg%3E">
-  <script type="module" crossorigin src="/slides/smartcontractgiur2026/aula/assets/index-DxiSiUGU.js"></script>
+  <script type="module" crossorigin src="/slides/smartcontractgiur2026/aula/assets/index-BbBwgNih.js"></script>
   <link rel="stylesheet" crossorigin href="/slides/smartcontractgiur2026/aula/assets/index-BIWYUU7k.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
       <p class="indirizzo mono" id="indirizzo">…</p>
       <div class="azioni">
         <button type="button" id="copia">Copia l'indirizzo</button>
-        <a id="vedi-indirizzo" target="_blank" rel="noopener noreferrer">Vedi nell'esploratore</a>
+        <a id="vedi-indirizzo" target="_blank" rel="noopener noreferrer">Vedi nell'explorer</a>
       </div>
     </section>
 
@@ -43,7 +43,7 @@
       <p>Lo smart contract ti dà <strong>10 AULA</strong>, il token della classe, una sola volta per indirizzo. Il soprannome è pubblico e resta sulla blockchain: non usare nome e cognome.</p>
       <form id="form-iscrizione" class="riga">
         <label for="soprannome" class="nascosto">Soprannome</label>
-        <input id="soprannome" name="soprannome" autocomplete="off" autocapitalize="off" spellcheck="false" minlength="2" maxlength="20" placeholder="soprannome (2–20 caratteri)" required>
+        <input id="soprannome" name="soprannome" autocomplete="off" autocapitalize="off" spellcheck="false" minlength="2" maxlength="20" placeholder="soprannome (2–20 lettere, senza accenti)" required>
         <button type="submit">Iscriviti</button>
       </form>
       <p class="saldo">Saldo: <strong id="saldo-aula">0 AULA</strong></p>
@@ -67,6 +67,7 @@
     <section class="passo" id="passo-voto" hidden>
       <h2><span class="n">5</span> Vota</h2>
       <p class="domanda" id="domanda">…</p>
+      <p>Il voto è pubblico: sulla blockchain chiunque vede che cosa ha scelto il tuo indirizzo.</p>
       <div class="opzioni" id="opzioni"></div>
       <p class="stato" id="stato-voto" role="status"></p>
     </section>

@@ -4,7 +4,8 @@
   11 bits and reads each group as a position in the official Italian list of 2048 words (2^11 = 2048).
   The bits of each word are shown under it, so the class sees that the words are just a way to write a
   number. Nothing leaves the browser; it is a demo: never use a phrase shown on a projector.
-  In the PDF the official test vector is shown: 128 zero bits → "abaco … abaco abete".
+  In the PDF, 128 zero bits are shown → "abaco … abaco abete": the input of the first official test vector,
+  which is in English ("abandon … about"); the Italian phrase is computed, not an official vector.
   Source: BIP-39, github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
 
   <SeedPhrase />
@@ -65,7 +66,7 @@ onMounted(() => {
         12 × 11 = 132 bit: <strong>128 casuali</strong> + <span class="cs">4 di controllo</span> (dall'impronta SHA-256).
         Una parola sbagliata quasi sempre rompe il controllo. Combinazioni possibili: 2<sup>128</sup> ≈ 3,4 × 10<sup>38</sup>.
       </p>
-      <p v-if="isPrintMode" class="grigio piccolo">Nella stampa: il vettore di prova ufficiale, 128 bit a zero.</p>
+      <p v-if="isPrintMode" class="grigio piccolo">Nella stampa: 128 bit a zero, lo stesso ingresso del primo vettore di prova ufficiale (in inglese «abandon … about»).</p>
     </template>
     <p v-else class="grigio vuoto">Premi «Genera»: il browser estrae 128 bit casuali.</p>
   </div>

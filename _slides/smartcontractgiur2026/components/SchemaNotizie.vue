@@ -3,7 +3,7 @@
   disponibilità, autenticità, non ripudio) with the news of the opening pinned to the properties they
   violated; a property turns red when a confirmed news item hits it (a claim only pins it, dashed).
   Frigoriferi dei supermercati → integrità + disponibilità; Farnesina e Milano-Cortina (DDoS) →
-  disponibilità; spyware Paragon → riservatezza; voce clonata di Crosetto → autenticità;
+  disponibilità; spyware Paragon → riservatezza + integrità; voce clonata di Crosetto → autenticità;
   furto a Binance → riservatezza (credentials) + integrità (unauthorised transfers).
   A news item with rivendicata: true is drawn dashed and marked "solo rivendicato" (a claim is not proof).
   6 clicks: the five properties, then one news item per click in this order.
@@ -22,7 +22,7 @@ interface Notizia { titolo: string, sotto: string, x: number, sopra: boolean, co
 const notizie: Notizia[] = [
   { titolo: 'Frigoriferi dei supermercati', sotto: '2 nov 2026', x: 353, sopra: true, colpite: [1, 2], puntine: [{ x: 300, da: 326 }, { x: 406, da: 380 }] },
   { titolo: 'Farnesina e Milano-Cortina', sotto: 'attacchi DDoS, feb e ott 2026', x: 440, sopra: false, colpite: [2], puntine: [{ x: 440, da: 440 }] },
-  { titolo: 'Spyware Paragon', sotto: 'mar 2026', x: 92, sopra: true, colpite: [0], puntine: [{ x: 92, da: 92 }] },
+  { titolo: 'Spyware Paragon', sotto: 'mar 2026', x: 179, sopra: true, colpite: [0, 1], puntine: [{ x: 130, da: 160 }, { x: 228, da: 198 }] },
   { titolo: 'Voce clonata di Crosetto', sotto: 'feb 2025', x: 614, sopra: true, colpite: [3], puntine: [{ x: 614, da: 614 }] },
   { titolo: 'Furto a Binance', sotto: 'ott 2026', x: 179, sopra: false, colpite: [0, 1], puntine: [{ x: 130, da: 160 }, { x: 228, da: 198 }] },
 ]
@@ -35,7 +35,7 @@ const yCapo = (n: Notizia) => (n.sopra ? 60 : 206)
 </script>
 
 <template>
-  <svg viewBox="0 0 880 252" class="schema" role="img" aria-label="Schema: le notizie dell'anno sulle cinque proprietà della sicurezza">
+  <svg viewBox="0 0 880 252" class="schema" role="img" aria-label="Schema: le notizie recenti sulle cinque proprietà della sicurezza">
     <g v-click>
       <g v-for="(p, i) in proprieta" :key="p">
         <rect :x="cx[i] - L / 2" :y="Y" :width="L" :height="H" rx="8" class="proprieta" />

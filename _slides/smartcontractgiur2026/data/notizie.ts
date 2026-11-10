@@ -27,7 +27,7 @@ export const notizie: Notizia[] = [
   {
     id: 'frigoriferi',
     data: '2 nov 2026',
-    titolo: 'Frigoriferi manomessi nei supermercati, da Palermo a Trapani',
+    titolo: 'Frigoriferi manomessi nei supermercati siciliani',
     sintesi: 'Temperature alzate da remoto in oltre 20 punti vendita in Sicilia e in altre regioni, probabilmente attraverso software di telegestione esposti e non aggiornati.',
     proprieta: ['integrità', 'disponibilità'],
     stato: 'confermato',
@@ -60,7 +60,7 @@ export const notizie: Notizia[] = [
   {
     id: 'paragon',
     data: '5 mar 2026',
-    titolo: 'Spyware Paragon: le procure confermano',
+    titolo: 'Spyware sui telefoni: le procure confermano',
     sintesi: 'Le procure di Roma e Napoli trovano tracce di malware sui telefoni di due attivisti e del direttore di Fanpage. Chi ha spiato il giornalista resta ignoto.',
     proprieta: ['riservatezza', 'integrità'],
     stato: 'confermato',
@@ -83,7 +83,7 @@ export const notizie: Notizia[] = [
     id: 'binance',
     data: '29 ott 2026',
     titolo: 'Binance: rubati 6,3 miliardi di dollari in criptovalute',
-    sintesi: 'Tutto parte da un falso colloquio di lavoro: un malware, le credenziali degli ingegneri, poi gli hot wallet. L’FBI accusa la Corea del Nord.',
+    sintesi: 'Un falso colloquio di lavoro, un malware, le credenziali degli ingegneri, poi gli hot wallet. L’FBI accusa la Corea del Nord.',
     proprieta: ['riservatezza', 'integrità'],
     stato: 'confermato',
     gancio: 'Reg. (UE) 2023/1114, art. 75',
