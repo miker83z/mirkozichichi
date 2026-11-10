@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1b2946">
+  <meta name="robots" content="noindex">
+  <title>Aula · Blockchain &amp; Smart Contracts</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b2946'/%3E%3Cpath d='M32 14v36M14 32h36' stroke='%23fff' stroke-width='9' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="testata">
+    <p class="corso">Blockchain &amp; Smart Contracts · UniBo 2026</p>
+    <h1>Aula</h1>
+    <p class="rete">Rete di prova <strong id="nome-rete">devnet</strong>: token senza valore</p>
+  </header>
+
+  <main>
+    <section class="passo" id="passo-portafoglio">
+      <h2><span class="n">1</span> Il tuo wallet</h2>
+      <p>Il telefono ha creato una coppia di chiavi. L'<strong>indirizzo</strong> è il tuo pseudonimo sulla blockchain; la chiave privata resta solo in questo browser.</p>
+      <p class="indirizzo mono" id="indirizzo">…</p>
+      <div class="azioni">
+        <button type="button" id="copia">Copia l'indirizzo</button>
+        <a id="vedi-indirizzo" target="_blank" rel="noopener noreferrer">Vedi nell'esploratore</a>
+      </div>
+    </section>
+
+    <section class="passo" id="passo-gas">
+      <h2><span class="n">2</span> Token per il gas</h2>
+      <p>Ogni operazione costa un po' di <em>gas</em>. Il <strong>faucet</strong> regala token di prova: risolvi il captcha, premi il pulsante, poi torna qui.</p>
+      <p class="saldo">Saldo: <strong id="saldo-iota">…</strong></p>
+      <div class="azioni">
+        <a class="pulsante" id="apri-faucet" target="_blank" rel="noopener noreferrer">Apri il faucet</a>
+      </div>
+      <p class="stato" id="stato-gas" role="status"></p>
+    </section>
+
+    <section class="passo" id="passo-iscrizione">
+      <h2><span class="n">3</span> Iscriviti alla classe</h2>
+      <p>Lo smart contract ti dà <strong>10 AULA</strong>, il token della classe, una sola volta per indirizzo. Il soprannome è pubblico e resta sulla blockchain: non usare nome e cognome.</p>
+      <form id="form-iscrizione" class="riga">
+        <label for="soprannome" class="nascosto">Soprannome</label>
+        <input id="soprannome" name="soprannome" autocomplete="off" autocapitalize="off" spellcheck="false" minlength="2" maxlength="20" placeholder="soprannome (2–20 caratteri)" required>
+        <button type="submit">Iscriviti</button>
+      </form>
+      <p class="saldo">Saldo: <strong id="saldo-aula">0 AULA</strong></p>
+      <p class="stato" id="stato-iscrizione" role="status"></p>
+    </section>
+
+    <section class="passo" id="passo-invio">
+      <h2><span class="n">4</span> Invia AULA a un compagno</h2>
+      <form id="form-invio">
+        <label for="destinatario">A chi</label>
+        <select id="destinatario" required></select>
+        <label for="importo">Quanti AULA</label>
+        <div class="riga">
+          <input id="importo" type="number" inputmode="numeric" min="1" value="1" required>
+          <button type="submit">Invia</button>
+        </div>
+      </form>
+      <p class="stato" id="stato-invio" role="status"></p>
+    </section>
+
+    <section class="passo" id="passo-voto" hidden>
+      <h2><span class="n">5</span> Vota</h2>
+      <p class="domanda" id="domanda">…</p>
+      <div class="opzioni" id="opzioni"></div>
+      <p class="stato" id="stato-voto" role="status"></p>
+    </section>
+
+    <section class="passo" id="passo-registro">
+      <h2>Le tue transazioni</h2>
+      <ol class="registro" id="registro"><li class="vuoto">Ancora nessuna.</li></ol>
+    </section>
+  </main>
+
+  <footer class="piede">
+    <p>Esercitazione su una rete di prova di IOTA. La pagina parla solo con i server pubblici della rete (IOTA Foundation) e salva la chiave di prova nel browser. <button type="button" id="nuovo" class="link">Crea un nuovo wallet</button></p>
+    <p><a href="https://mirkozichichi.me/privacy.html">Privacy</a> · <a href="https://mirkozichichi.me/slides/smartcontractgiur2026/">Le slide</a></p>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

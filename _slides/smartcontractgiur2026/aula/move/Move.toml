@@ -1,0 +1,11 @@
+[package]
+name = "aula"
+edition = "2024"
+license = "MIT"
+authors = ["Mirko Zichichi"]
+
+[dependencies]
+# The IOTA framework (iota, std) is added implicitly by the IOTA CLI.
+
+[addresses]
+aula = "0x0"

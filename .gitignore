@@ -12,3 +12,4 @@ vendor/
 _slides/**/node_modules/
 _slides/**/.slidev/
 slides/**/_redirects
+_slides/**/aula/move/build/

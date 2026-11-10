@@ -1,0 +1,1 @@
+var e=`/slides/smartcontractgiur2026/img/iota-logo-bianco.svg`;export{e as t};

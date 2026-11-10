@@ -11,10 +11,12 @@
   title: "Blockchain & Smart Contracts"
   venue: "Legal and Technological Aspects (seminar)."
   venue_url: "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/472765"
-  details: "November 2026. Interactive slides on cryptography and digital signatures for law students."
+  details: "November 2026. Interactive slides for law students: cryptography and digital signatures; blockchain, smart contracts and digital coins, with a class exercise on the IOTA test network."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2026.pdf" }
     - { kind: "external", url: "/slides/sicurezzagiur2026/" }
+    - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2026.pdf" }
+    - { kind: "external", url: "/slides/smartcontractgiur2026/" }
 - type: "lecture"
   role: "Invited Lecturer"
   year: "2026"

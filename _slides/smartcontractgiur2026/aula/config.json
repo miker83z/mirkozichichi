@@ -1,0 +1,9 @@
+{
+  "rete": "devnet",
+  "rpc": "https://api.devnet.iota.cafe",
+  "faucet": "https://faucet.devnet.iota.cafe/",
+  "esploratore": "https://explorer.iota.org",
+  "pacchetto": "0x568ad843637484c2c27e0822c0911b10bb20ba2e6c1163f3c5f40b02a3016f3f",
+  "rubinetto": "0xa90d2bdd4816382eb37f8b389568c761c48d3de4e9c82db03644df3b7df9ace2",
+  "pubblicato": "2026-11-10"
+}

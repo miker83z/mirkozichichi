@@ -1,0 +1,449 @@
+/* Fonts are bundled from npm (no Google Fonts: the website promises no third-party requests). */
+@import '@fontsource-variable/montserrat';
+@import '@fontsource-variable/source-sans-3';
+@import '@fontsource-variable/source-sans-3/wght-italic.css';
+@import '@fontsource-variable/jetbrains-mono';
+
+/*
+ * Theme derived from the 2025 deck (25.11.UNIBO-smart-contracts.pdf): dark navy slides with white
+ * Montserrat titles, a deep-blue side panel, red key words, green ticks, and covers with blue and
+ * teal flowing lines on black. Colours sampled from the rendered PDF.
+ *
+ * The tokens keep the names of the sicurezzagiur2026 deck, so its diagrams and demos work here:
+ * on a navy slide they draw light on dark; inside a white card (.carta, layout pannello) they get
+ * the light values below.
+ */
+:root {
+  --notte: #1b2946;
+  --pannello: #164779;
+  --nero: #000000;
+  --acqua: #58c8c0;
+  --blu: #2438e0;
+
+  --carta: var(--notte);
+  --inchiostro: #ffffff;
+  --grigio: #aeb8cf;
+  --linea: #3b4d72;
+  --campo: #23355a;
+  --rubrica: #ff6b5b;
+  --glossa: #f8d060;
+  --ok: #8fd17a;
+  --ko: #ffa15c;
+  --link: var(--acqua);
+
+  --titoli: 'Montserrat Variable', 'Montserrat', system-ui, sans-serif;
+  --sans: 'Source Sans 3 Variable', 'Source Sans 3', system-ui, sans-serif;
+  --serif: var(--sans);
+  --mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+
+  --slidev-theme-primary: var(--acqua);
+}
+
+/* A white card, as in the diagrams of the 2025 deck: the same components, in light colours. */
+.carta {
+  --carta: #ffffff;
+  --inchiostro: #1b2946;
+  --grigio: #5d6680;
+  --linea: #d5dae5;
+  --campo: #f2f4f8;
+  --rubrica: #c8323c;
+  --glossa: #8a6a12;
+  --ok: #2e7d4f;
+  --ko: #c2410c;
+  --link: #1f6f69;
+  background: var(--carta);
+  color: var(--inchiostro);
+}
+
+.slidev-layout {
+  background: var(--notte);
+  color: var(--inchiostro);
+  font-family: var(--sans);
+  font-size: 1.2rem;
+  line-height: 1.45;
+  padding: 2.2rem 3rem 2.6rem;
+}
+
+/* Titles: white Montserrat, with the "+" mark of the 2025 deck above the start of the line. */
+.slidev-layout h1 {
+  position: relative;
+  font-family: var(--titoli);
+  font-weight: 700;
+  font-size: 1.95rem;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+  color: var(--inchiostro);
+  margin: 0.35rem 0 1rem;
+}
+.slidev-layout h1::before {
+  content: "+";
+  position: absolute;
+  left: -1.55rem;
+  top: -1.05rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--inchiostro);
+}
+.slidev-layout h2 {
+  font-family: var(--titoli);
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--inchiostro);
+  margin: 0.4rem 0 0.6rem;
+}
+.slidev-layout h3 {
+  font-family: var(--titoli);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0.3rem 0 0.4rem;
+}
+.slidev-layout p {
+  margin: 0.55rem 0;
+  line-height: 1.45;
+}
+.slidev-layout ul,
+.slidev-layout ol {
+  margin: 0.3rem 0 0.3rem 1.3rem;
+}
+.slidev-layout ul {
+  list-style: square;
+}
+.slidev-layout ul ul {
+  list-style: circle;
+  font-size: 0.92em;
+}
+.slidev-layout li {
+  line-height: 1.4;
+  margin: 0.28rem 0;
+}
+.slidev-layout li::marker {
+  color: var(--inchiostro);
+}
+.slidev-layout strong {
+  font-weight: 700;
+}
+.slidev-layout a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  border: 0;
+}
+.slidev-layout code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--campo);
+  color: var(--inchiostro);
+  padding: 0.05em 0.3em;
+  border-radius: 3px;
+}
+.slidev-layout blockquote {
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  background: none;
+  color: var(--inchiostro);
+  border-left: 3px solid var(--acqua);
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  margin: 0.8rem 0;
+}
+.slidev-layout blockquote p {
+  margin: 0.3rem 0;
+}
+.slidev-layout table {
+  font-size: 0.85em;
+  border-collapse: collapse;
+  width: 100%;
+}
+.slidev-layout th {
+  text-align: left;
+  font-weight: 700;
+  border-bottom: 2px solid var(--inchiostro);
+  padding: 0.3rem 0.5rem;
+}
+.slidev-layout td {
+  border-bottom: 1px solid var(--linea);
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+}
+
+/* A key word, in red as in the 2025 deck; a tick for the platform checklist. */
+.chiave {
+  color: var(--rubrica);
+  font-weight: 700;
+}
+.spunta {
+  color: var(--ok);
+  font-weight: 700;
+}
+
+/* The one-sentence plain-language summary that opens a technical slide. */
+.lead {
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin: 0 0 0.8rem;
+  max-width: 36em;
+}
+.piccolo {
+  font-size: 0.85em;
+}
+.fonte {
+  font-size: 0.72rem;
+  color: var(--grigio);
+  line-height: 1.3;
+}
+.fonte a {
+  color: var(--grigio);
+}
+/* Footnotes for acronyms the slides do not explain: pinned above the footer, each line on the
+   same click as its acronym (v-click="n", the click that reveals it). */
+.sigle {
+  position: absolute;
+  left: 3rem;
+  right: 3rem;
+  bottom: 2.1rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--grigio);
+}
+.sigle p {
+  margin: 0;
+}
+.sigle p:first-child::before {
+  content: "";
+  display: block;
+  width: 5rem;
+  border-top: 1px solid var(--linea);
+  margin-bottom: 0.3rem;
+}
+.sigle strong {
+  color: var(--inchiostro);
+  font-weight: 600;
+}
+.attenzione {
+  color: var(--ko);
+  font-weight: 700;
+}
+.grigio {
+  color: var(--grigio);
+}
+.rosso {
+  color: var(--rubrica);
+}
+.hex {
+  font-family: var(--mono);
+  font-size: 0.8em;
+  word-break: break-all;
+  letter-spacing: 0.01em;
+}
+.formula {
+  font-family: var(--mono);
+  font-size: 1.35rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Interactive demos: flat panels, state shown by colour and by words. */
+.demo {
+  background: var(--campo);
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.demo label {
+  font-size: 0.85rem;
+  color: var(--grigio);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+.demo input[type='text'],
+.demo input[type='number'],
+.demo textarea,
+.demo select {
+  font-family: var(--sans);
+  font-size: 1rem;
+  background: var(--carta);
+  color: var(--inchiostro);
+  border: 1px solid #b9b7c0;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+}
+.demo textarea {
+  resize: none;
+}
+.demo input[type='range'] {
+  accent-color: var(--rubrica);
+  width: 100%;
+}
+.demo input:focus-visible,
+.demo textarea:focus-visible,
+.demo select:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--rubrica);
+  outline-offset: 2px;
+}
+.btn {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--carta);
+  color: var(--rubrica);
+  border: 1.5px solid var(--rubrica);
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: color-mix(in srgb, var(--rubrica) 12%, var(--carta));
+}
+.btn.pieno {
+  background: var(--rubrica);
+  color: var(--carta);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.esito-ok {
+  color: var(--ok);
+  font-weight: 700;
+}
+.esito-ko {
+  color: var(--ko);
+  font-weight: 700;
+}
+.bordo-ok {
+  border-color: var(--ok) !important;
+  box-shadow: inset 0 0 0 1px var(--ok);
+}
+.bordo-ko {
+  border-color: var(--ko) !important;
+  box-shadow: inset 0 0 0 1px var(--ko);
+}
+
+/* Slidev UI chrome stays out of the PDF. */
+@media print {
+  .slidev-nav-controls {
+    display: none;
+  }
+}
+
+/* The default theme fades the paragraph that follows a title; here it carries the main idea. */
+.slidev-layout h1 + p {
+  opacity: 1;
+  margin-top: 0;
+}
+
+/* Appendix: reading lists and glossary tables (shared by several slides). */
+.letture ul {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-left: 1rem;
+}
+.letture li {
+  margin: 0.32rem 0;
+}
+.letture a {
+  word-break: break-all;
+}
+.glossario {
+  font-size: 0.72rem;
+}
+.glossario td,
+.glossario th {
+  padding: 0.18rem 0.45rem;
+}
+.glossario td:first-child {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.glossario td:nth-child(2) {
+  font-style: italic;
+  color: var(--grigio);
+}
+
+/* Diagrams (components/Schema*.vue, built from the Sv* blocks). Each step appears with a click. */
+.schema {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.schema text {
+  font-family: var(--sans);
+  fill: var(--inchiostro);
+}
+.schema text.mono,
+.schema .mono {
+  font-family: var(--mono);
+}
+.schema .nota {
+  fill: var(--grigio);
+  font-size: 13px;
+}
+.schema .titoletto {
+  font-weight: 700;
+  font-size: 15px;
+}
+.sv-riquadro rect { fill: var(--campo); stroke: var(--linea); stroke-width: 1.5; }
+.sv-riquadro.sv-rubrica rect { fill: color-mix(in srgb, var(--rubrica) 14%, var(--carta)); stroke: var(--rubrica); }
+.sv-riquadro.sv-ok rect { fill: color-mix(in srgb, var(--ok) 14%, var(--carta)); stroke: var(--ok); }
+.sv-riquadro.sv-ko rect { fill: color-mix(in srgb, var(--ko) 14%, var(--carta)); stroke: var(--ko); }
+.sv-riquadro.sv-vuoto rect { fill: var(--carta); stroke: var(--inchiostro); }
+.sv-riquadro.sv-scuro rect { fill: var(--inchiostro); stroke: var(--inchiostro); }
+.sv-riquadro.sv-scuro text { fill: var(--carta); }
+.sv-freccia path { stroke: var(--inchiostro); stroke-width: 2; }
+.sv-freccia polygon { fill: var(--inchiostro); }
+.sv-freccia.sv-rubrica path { stroke: var(--rubrica); }
+.sv-freccia.sv-rubrica polygon, .sv-freccia.sv-rubrica text { fill: var(--rubrica); }
+.sv-freccia.sv-ok path { stroke: var(--ok); }
+.sv-freccia.sv-ok polygon, .sv-freccia.sv-ok text { fill: var(--ok); }
+.sv-freccia.sv-ko path { stroke: var(--ko); }
+.sv-freccia.sv-ko polygon, .sv-freccia.sv-ko text { fill: var(--ko); }
+.sv-freccia.sv-grigio path { stroke: var(--grigio); }
+.sv-freccia.sv-grigio polygon, .sv-freccia.sv-grigio text { fill: var(--grigio); }
+.sv-persona circle, .sv-persona path { fill: var(--inchiostro); }
+.sv-persona.sv-rubrica circle, .sv-persona.sv-rubrica path { fill: var(--rubrica); }
+.sv-persona.sv-ok circle, .sv-persona.sv-ok path { fill: var(--ok); }
+.sv-persona.sv-ko circle, .sv-persona.sv-ko path { fill: var(--ko); }
+.sv-persona .nome { font-weight: 700; }
+.sv-documento .foglio { fill: var(--carta); stroke: var(--inchiostro); stroke-width: 1.5; }
+.sv-documento.sv-ok .foglio { stroke: var(--ok); stroke-width: 2.5; }
+.sv-documento.sv-ko .foglio { stroke: var(--ko); stroke-width: 2.5; }
+.sv-documento .piega { stroke: var(--inchiostro); stroke-width: 1.5; }
+.sv-documento .riga { stroke: var(--linea); stroke-width: 2; }
+.sv-documento .segno-alterato { stroke: var(--ko); stroke-width: 3; }
+.sv-chiave circle, .sv-chiave path { stroke-width: 1.2; }
+.sv-chiave-segreta circle, .sv-chiave-segreta path { fill: #b08a2e; stroke: #6b4e16; }
+.sv-chiave-pubblica circle, .sv-chiave-pubblica path { fill: #3f9e6b; stroke: var(--ok); }
+.sv-chiave-privata circle, .sv-chiave-privata path { fill: #c94a3f; stroke: var(--rubrica); }
+.sv-chiave .foro { fill: var(--carta); }
+.sv-chiave .etichetta { font-weight: 700; }
+.sv-chiave-pubblica .etichetta { fill: var(--ok); }
+.sv-chiave-privata .etichetta { fill: var(--rubrica); }
+.sv-chiave-segreta .etichetta { fill: #6b4e16; }
+.sv-lucchetto rect { fill: var(--inchiostro); }
+.sv-lucchetto .arco { stroke: var(--inchiostro); stroke-width: 3.5; }
+.sv-lucchetto .foro { fill: var(--carta); }
+.schema .pedice {
+  font-size: 0.72em;
+  baseline-shift: sub;
+}
+
+/* A white card on a navy slide, for diagrams that read better on white (as in the 2025 deck). */
+.riquadro {
+  padding: 0.7rem 1rem;
+  border-radius: 3px;
+}
+
+/* Code on the slides (a transaction, a Move function): large enough for the back of the room. */
+.slidev-layout pre.slidev-code,
+.slidev-layout .slidev-code {
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+  border-radius: 4px;
+}

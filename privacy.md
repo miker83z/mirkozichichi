@@ -4,7 +4,7 @@ title: Privacy
 description: "Privacy notice for mirkozichichi.me: no cookies, no analytics, no tracking. Hosting by GitHub Pages, your rights under the GDPR and the German and Italian rules."
 ---
 
-<p class="entry-note">Last updated: 9 November 2026</p>
+<p class="entry-note">Last updated: 10 November 2026</p>
 
 **In short:** this website sets no cookies, uses no analytics or tracking, embeds no content from other websites and has no forms or comments. I do not collect any data about visitors. The only processing of personal data happens at the hosting provider, GitHub, as described below.
 
@@ -26,7 +26,9 @@ If you use the light/dark switch, your browser remembers your choice in its sess
 
 ## Interactive lecture slides
 
-The interactive slides under [/slides/](/slides/sicurezzagiur2026/) remember their display settings, such as the zoom level and the presenter options, in your browser's local storage. These settings stay on your device, are never sent to me or to anyone else, and are removed when you clear this site's data in your browser. Storing them is strictly necessary to provide the slide viewer you opened, so no consent is needed (same legal basis as above). The demonstrations in the slides run entirely in your browser: nothing you type into them is transmitted.
+The interactive slides under /slides/ ([sicurezzagiur2026](/slides/sicurezzagiur2026/), [smartcontractgiur2026](/slides/smartcontractgiur2026/)) remember their display settings, such as the zoom level and the presenter options, in your browser's local storage. These settings stay on your device, are never sent to me or to anyone else, and are removed when you clear this site's data in your browser. Storing them is strictly necessary to provide the slide viewer you opened, so no consent is needed (same legal basis as above). The demonstrations in the slides run entirely in your browser: nothing you type into them is transmitted.
+
+One exception is the classroom exercise of the lecture "Blockchain & Smart Contracts". Its phone app, at [/slides/smartcontractgiur2026/aula/](/slides/smartcontractgiur2026/aula/), and the live board on one slide (only after the presenter presses "Collega") read and write a test blockchain. For this they send requests to the public servers of the IOTA test network, run by the IOTA Foundation, which therefore see your IP address. The app creates a test key in your browser's local storage, and the nickname you choose is published on the test blockchain, where anyone can read it: do not use your real name. The test tokens have no value. If you open the faucet page linked from the app, that page is run by the IOTA Foundation and protected by a Cloudflare captcha, and their privacy terms apply. Nothing of this reaches me.
 
 ## Links to other websites
 
