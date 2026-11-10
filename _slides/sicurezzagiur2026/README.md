@@ -33,6 +33,10 @@ While presenting: arrow keys or space to move, `o` for the overview, `g` to go t
 
 The deck loads nothing from other websites: fonts and images are bundled, links open only when clicked, and the demos (hashes, keys, signatures, codes) run entirely in the browser. This keeps the website's privacy notice true.
 
+## Dependency overrides
+
+`package.json` forces patched versions of two packages that Slidev pulls in but this deck never ships: `dompurify` (used by the Monaco code editor, disabled here) and `image-size` (used by `pptxgenjs` for PowerPoint export, not used here; it moves to the 2.x major, so `slidev export --format pptx` may not work). Drop the `overrides` once Slidev depends on fixed versions, and check with `npm audit`.
+
 ## Updating for a new edition
 
 1. Refresh the news in `pages/00-apertura.md` and `data/notizie.ts`, and the items listed under "Da ricontrollare" in `VERIFICA.md`.
