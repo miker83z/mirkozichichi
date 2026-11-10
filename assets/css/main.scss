@@ -588,12 +588,14 @@ table.entries td.entry-links {
   $dark-muted: #a6a6a6;
   $dark-link: #7cbcf0;
   $dark-year: #d9a273;
-  $dark-sidebar: #111922; // deep blue-slate, set apart from the neutral grey content
+  // the light mode's charcoal in a deeper shade, so the sidebar stays darker than the grey content
+  $dark-sidebar: darken($sidebar-bg-color, 5%);
 
-  // the sidebar (and the phone header and footer) is the body background
+  // the sidebar (and the phone header and footer) is the body background, with the theme's
+  // top-to-bottom gradient
   body {
     background-color: $dark-sidebar;
-    background-image: linear-gradient(to bottom, lighten($dark-sidebar, 7%), darken($dark-sidebar, 3%));
+    background-image: linear-gradient(to bottom, lighten($dark-sidebar, 4%), darken($dark-sidebar, 5%));
   }
 
   .content {
