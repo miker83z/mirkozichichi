@@ -1,10 +1,9 @@
 ---
-layout: index
+layout: page
 title: Home
+heading: "Hello! I’m Mirko"
 description: "Mirko Zichichi, Engineering Team Lead at the IOTA Foundation, working on the Move smart contract language, distributed ledger technologies and personal data protection."
 ---
-
-# Hello! I'm Mirko
 
 Passionate about Distributed Ledger Technologies, with expertise in designing and developing protocols for smart contract implementation and optimization. I hold a PhD in _Law, Science, and Technology_ with the thesis titled _“Decentralized Systems for the Protection and Portability of Personal Data.”_
 

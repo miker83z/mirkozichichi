@@ -1,14 +1,14 @@
 <div id="sidebar">
   <header>
     <p class="lead"><img class="responsive-image" src="{{ "/profilepic.jpg" | relative_url }}" alt="Mirko Zichichi" width="400" height="400"></p> 
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+    <div class="site-title">
       <a href="{{ "/" | relative_url }}">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
         {{ site.title }}        
       </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    </div>
     <p class="lead">{{ site.description }}</p>
   </header>
   {% include sidebar-nav-links.html %}

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{%- comment -%}
+  The theme's page layout, with the title shown on the page taken from page.heading when it is set
+  (the home page's greeting), so page.title can stay the short name used in the menu and the browser tab.
+  Every page has a title this way, which on phones fills the header band under the menu.
+{%- endcomment %}
+<header>
+  {% include back-link.html %}
+  <h1 class="page-title">{{ page.heading | default: page.title }}</h1>
+</header>
+<div class="content">
+  {{ content }}
+</div>
+{% include back-link.html %}
