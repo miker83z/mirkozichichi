@@ -47,6 +47,11 @@ $link-color: #1a6fb0; // 5.3:1 on white; the theme's blue (#268bd2) is 3.7:1
   background-image: url('/figs/ppt.svg');
 }
 
+// interactive slides (the decks under /slides/)
+.get_slides {
+  background-image: url('/figs/slides.svg');
+}
+
 .get_cite {
   background-image: url('/figs/quote.svg');
 }

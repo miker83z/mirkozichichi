@@ -1,5 +1,6 @@
 # Talks & Activities, in page order (newest first). type: lecture | talk | organization | committee | review
-# (colours and filter labels in talk_types.yml). links: kind is the icon (ppt, external, decentr).
+# (colours and filter labels in talk_types.yml). links: kind is the icon (ppt, slides, external, decentr);
+# slides is for the interactive decks under /slides/.
 # date: "YYYY-MM" when the month is known (shown next to the year).
 # star: true also lists the entry in the Highlights on the home page.
 
@@ -14,9 +15,9 @@
   details: "November 2026. Interactive slides for law students: cryptography and digital signatures; blockchain, smart contracts and digital coins, with a class exercise on the IOTA test network."
   links:
     - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2026.pdf" }
-    - { kind: "external", url: "/slides/sicurezzagiur2026/" }
+    - { kind: "slides", url: "/slides/sicurezzagiur2026/" }
     - { kind: "ppt", url: "/assets/tutor/slides/smartcontractgiur2026.pdf" }
-    - { kind: "external", url: "/slides/smartcontractgiur2026/" }
+    - { kind: "slides", url: "/slides/smartcontractgiur2026/" }
 - type: "lecture"
   role: "Invited Lecturer"
   year: "2026"
