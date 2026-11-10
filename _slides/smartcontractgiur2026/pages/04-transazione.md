@@ -164,7 +164,7 @@ Nel 2025 qui c'era una transazione Ethereum "legacy": Ethereum firma l'impronta 
 </style>
 
 <!--
-Prima della lezione: controllare che la devnet non sia stata azzerata (il contratto deve esistere) e provare il faucet dal telefono. Il sondaggio resta chiuso fino al Capo V: l'app mostra la sezione «Vota» solo quando il sondaggio è aperto.
+Prima della lezione: controllare che la devnet non sia stata azzerata (il contratto deve esistere) e provare il faucet dal telefono. Il sondaggio è già aperto: nell'app «Vota» è il passo 5, dopo l'invio; lo usiamo nel Capo V. Sulla lavagna di questa slide si vedono solo iscrizioni e invii.
 Il faucet pubblico chiede un captcha: è la protezione contro chi lo svuoterebbe con programmi automatici. Se la rete dell'università viene limitata, l'app accetta un altro faucet: aggiungere ?faucet=<indirizzo> al link.
 -->
 

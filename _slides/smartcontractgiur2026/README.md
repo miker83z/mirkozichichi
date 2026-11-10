@@ -41,7 +41,7 @@ Run them in this folder (Node 22.22+; tested with Node 26).
 
 Before the lecture:
 1. `iota client active-env` must be `devnet`; check the contract still exists (devnet can be reset): open the app, or `iota client object <Rubinetto id>`. If it is gone: fund the CLI address from the faucet, then `node scripts/aula-pubblica.mjs` (publishes and rewrites `aula/config.json`) and `npm run build`.
-2. The first exercise is about tokens only: keep the poll closed (`node scripts/aula-sondaggio.mjs --chiudi`) and the app hides the vote. When the lecture reaches the vote (Capo V), open it: `node scripts/aula-sondaggio.mjs "Domanda?" "Sì" "No" "Dipende"` (the app and the board show the latest poll).
+2. The class poll is already open on devnet (created on 10/11/2026): «Che cosa impedisce di riscrivere un blocco già confermato?», four answers, the right one is the second (see the speaker notes). The app lists it as step 5, after sending AULA; the board on the token slide shows only joins and transfers. To ask another question: `node scripts/aula-sondaggio.mjs "Domanda?" "Risposta 1" "Risposta 2"` (the app and the board show the latest poll); to close it after the lecture: `node scripts/aula-sondaggio.mjs --chiudi`.
 3. Try the faucet from a phone on the university network.
 
 ## Privacy

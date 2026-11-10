@@ -345,5 +345,6 @@ piattaforma: 6
 <Lavagna solo="voto" />
 
 <!--
-Prima di questa slide aprire il sondaggio: node scripts/aula-sondaggio.mjs "Uno smart contract è un contratto in senso giuridico?" "Sì" "No" "Dipende". Nell'app compare la sezione «Vota». Alla fine: node scripts/aula-sondaggio.mjs --chiudi.
+Il sondaggio è già aperto sulla devnet (creato il 10/11/2026 con node scripts/aula-sondaggio.mjs "Che cosa impedisce di riscrivere un blocco già confermato?" "La firma del miner" "L'impronta del blocco dentro il successivo" "Una legge" "Il server di un'azienda"): nell'app è il passo 5, dopo l'invio di AULA. Per chiuderlo dopo la lezione: node scripts/aula-sondaggio.mjs --chiudi.
+Risposta giusta: l'impronta del blocco dentro il successivo (integrità, Capo II e «Blocchi veri»): cambiare un blocco cambia la sua impronta e rompe il legame con tutti i successivi. Per rifarli servirebbe rifare tutto il lavoro (Proof of Work) o avere più di due terzi dei voti (Proof of Stake). La firma del miner: in Bitcoin i blocchi non sono firmati dal miner. Una legge, il server di un'azienda: proprio ciò che una blockchain non usa.
 -->
