@@ -194,9 +194,9 @@ $link-color: #1a6fb0; // 5.3:1 on white; the theme's blue (#268bd2) is 3.7:1
   }
 
   // Without the back link (hidden above), the theme's negative top margin would pull the page title
-  // into the header
+  // into the header; a little space instead sets the title apart from the menu
   .container > header {
-    margin-top: 0;
+    margin-top: 0.75rem;
   }
 
   // Icons, email and copyright move to the footer (see _includes/custom-foot.html)
