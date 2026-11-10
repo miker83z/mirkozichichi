@@ -4,15 +4,6 @@
 # star: true also lists the entry in the Highlights on the home page.
 
 - type: "current"
-  year: "2024–26"
-  people: "Zichichi Mirko, IOTA Foundation"
-  title: "IOTA"
-  description: "The monorepo for the software that allows you to run the IOTA DLT and related tools. I contributed to the development of the core software of the DLT node, with particular focus on the whole process of executing transactions and system operations implemented in Move, including the genesis and migration tooling for the transition from IOTA Stardust to IOTA Rebased, the Move framework, the execution layer and account abstraction."
-  details: "2024-2026."
-  tags: ["rust", "move"]
-  links:
-    - { kind: "github", url: "https://github.com/iotaledger/iota" }
-- type: "current"
   star: true
   year: "2026"
   people: "Zichichi Mirko, Reutov Valerii, Pap Levente, Botnar Pavlo"
@@ -25,15 +16,6 @@
     - { kind: "github", url: "https://github.com/miker83z/iota-lean-imt-account" }
     - { kind: "github", url: "https://github.com/miker83z/iota-move-aa-authcontext-examples" }
 - type: "current"
-  year: "2025–26"
-  people: "Zichichi Mirko, Reutov Valerii, Pap Levente"
-  title: "IOTA Improvement Proposals"
-  description: "Standards for the IOTA technology stack: IIP-0005 Move View Functions, a standardized interface for application-specific queries to on-chain state; IIP-0009 Abstract IOTA Accounts; and IIP-0010 Package Metadata, an immutable on-chain object that provides trusted metadata about Move packages during execution."
-  details: "2025-2026."
-  tags: ["move"]
-  links:
-    - { kind: "github", url: "https://github.com/iotaledger/IIPs" }
-- type: "current"
   year: "2026"
   date: "2026-06"
   people: "Zichichi Mirko"
@@ -43,6 +25,24 @@
   tags: ["move"]
   links:
     - { kind: "github", url: "https://github.com/miker83z/move-ctf-2026" }
+- type: "current"
+  year: "2025–26"
+  people: "Zichichi Mirko, Reutov Valerii, Pap Levente"
+  title: "IOTA Improvement Proposals"
+  description: "Standards for the IOTA technology stack: IIP-0005 Move View Functions, a standardized interface for application-specific queries to on-chain state; IIP-0009 Abstract IOTA Accounts; and IIP-0010 Package Metadata, an immutable on-chain object that provides trusted metadata about Move packages during execution."
+  details: "2025-2026."
+  tags: ["move"]
+  links:
+    - { kind: "github", url: "https://github.com/iotaledger/IIPs" }
+- type: "current"
+  year: "2024–26"
+  people: "Zichichi Mirko, IOTA Foundation"
+  title: "IOTA"
+  description: "The monorepo for the software that allows you to run the IOTA DLT and related tools. I contributed to the development of the core software of the DLT node, with particular focus on the whole process of executing transactions and system operations implemented in Move, including the genesis and migration tooling for the transition from IOTA Stardust to IOTA Rebased, the Move framework, the execution layer and account abstraction."
+  details: "2024-2026."
+  tags: ["rust", "move"]
+  links:
+    - { kind: "github", url: "https://github.com/iotaledger/iota" }
 - type: "current"
   year: "2023"
   people: "Zichichi Mirko"
