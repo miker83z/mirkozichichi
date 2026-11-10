@@ -1,0 +1,299 @@
+/* Fonts are bundled from npm (no Google Fonts: the website promises no third-party requests). */
+@import '@fontsource-variable/literata/opsz.css';
+@import '@fontsource-variable/literata/opsz-italic.css';
+@import '@fontsource-variable/source-sans-3/wght-italic.css';
+@import '@fontsource-variable/source-sans-3';
+@import '@fontsource-variable/jetbrains-mono';
+
+/*
+ * Visual idea: a Bologna legal manuscript, kept modern.
+ * Titles are "rubriche" in Alma Mater red; the legal remarks sit in a "glossa" column
+ * in the margin, as the Glossators did around the text of the law.
+ */
+:root {
+  --carta: #ffffff;
+  --inchiostro: #1e1d24;
+  --grigio: #5f5d68;
+  --linea: #d8d6dd;
+  --campo: #f4f4f6;
+  --rubrica: #a51c1c;
+  --glossa: #6b4e16;
+  --ok: #17663f;
+  --ko: #c2410c;
+
+  --serif: 'Literata Variable', Georgia, serif;
+  --sans: 'Source Sans 3 Variable', system-ui, sans-serif;
+  --mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+
+  --slidev-theme-primary: var(--rubrica);
+}
+
+.slidev-layout {
+  background: var(--carta);
+  color: var(--inchiostro);
+  font-family: var(--sans);
+  font-size: 1.25rem;
+  line-height: 1.45;
+  padding: 2.1rem 3rem 2.6rem;
+}
+
+/* Rubrics: titles in red serif, with a short red rule under the main title. */
+.slidev-layout h1 {
+  font-family: var(--serif);
+  font-weight: 620;
+  font-size: 2.05rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--rubrica);
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--rubrica);
+  display: inline-block;
+}
+.slidev-layout h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.45rem;
+  color: var(--rubrica);
+  margin: 0.4rem 0 0.6rem;
+}
+.slidev-layout h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0.3rem 0 0.4rem;
+}
+.slidev-layout p {
+  margin: 0.55rem 0;
+  line-height: 1.45;
+}
+.slidev-layout ul,
+.slidev-layout ol {
+  margin: 0.3rem 0 0.3rem 1.3rem;
+}
+.slidev-layout ul {
+  list-style: square;
+}
+.slidev-layout ul ul {
+  list-style: circle;
+  font-size: 0.92em;
+}
+.slidev-layout li {
+  line-height: 1.4;
+  margin: 0.28rem 0;
+}
+.slidev-layout li::marker {
+  color: var(--rubrica);
+}
+.slidev-layout strong {
+  font-weight: 700;
+}
+.slidev-layout a {
+  color: var(--rubrica);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  border: 0;
+}
+.slidev-layout code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--campo);
+  color: var(--inchiostro);
+  padding: 0.05em 0.3em;
+  border-radius: 3px;
+}
+.slidev-layout blockquote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1.4;
+  background: none;
+  color: var(--inchiostro);
+  border-left: 3px solid var(--rubrica);
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  margin: 0.8rem 0;
+}
+.slidev-layout blockquote p {
+  margin: 0.3rem 0;
+}
+.slidev-layout table {
+  font-size: 0.85em;
+  border-collapse: collapse;
+  width: 100%;
+}
+.slidev-layout th {
+  text-align: left;
+  font-weight: 700;
+  border-bottom: 2px solid var(--inchiostro);
+  padding: 0.3rem 0.5rem;
+}
+.slidev-layout td {
+  border-bottom: 1px solid var(--linea);
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+}
+
+/* The one-sentence plain-language summary that opens a technical slide. */
+.lead {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  line-height: 1.35;
+  margin: 0 0 0.8rem;
+  max-width: 34em;
+}
+.piccolo {
+  font-size: 0.85em;
+}
+.fonte {
+  font-size: 0.72rem;
+  color: var(--grigio);
+  line-height: 1.3;
+}
+.fonte a {
+  color: var(--grigio);
+}
+.attenzione {
+  color: var(--ko);
+  font-weight: 700;
+}
+.grigio {
+  color: var(--grigio);
+}
+.rosso {
+  color: var(--rubrica);
+}
+.hex {
+  font-family: var(--mono);
+  font-size: 0.8em;
+  word-break: break-all;
+  letter-spacing: 0.01em;
+}
+.formula {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Interactive demos: flat panels, state shown by colour and by words. */
+.demo {
+  background: var(--campo);
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.demo label {
+  font-size: 0.85rem;
+  color: var(--grigio);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+.demo input[type='text'],
+.demo input[type='number'],
+.demo textarea,
+.demo select {
+  font-family: var(--sans);
+  font-size: 1rem;
+  background: var(--carta);
+  color: var(--inchiostro);
+  border: 1px solid #b9b7c0;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+}
+.demo textarea {
+  resize: none;
+}
+.demo input[type='range'] {
+  accent-color: var(--rubrica);
+  width: 100%;
+}
+.demo input:focus-visible,
+.demo textarea:focus-visible,
+.demo select:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--rubrica);
+  outline-offset: 2px;
+}
+.btn {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--carta);
+  color: var(--rubrica);
+  border: 1.5px solid var(--rubrica);
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #fbeeee;
+}
+.btn.pieno {
+  background: var(--rubrica);
+  color: var(--carta);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.esito-ok {
+  color: var(--ok);
+  font-weight: 700;
+}
+.esito-ko {
+  color: var(--ko);
+  font-weight: 700;
+}
+.bordo-ok {
+  border-color: var(--ok) !important;
+  box-shadow: inset 0 0 0 1px var(--ok);
+}
+.bordo-ko {
+  border-color: var(--ko) !important;
+  box-shadow: inset 0 0 0 1px var(--ko);
+}
+
+/* Slidev UI chrome stays out of the PDF. */
+@media print {
+  .slidev-nav-controls {
+    display: none;
+  }
+}
+
+/* The default theme fades the paragraph that follows a title; here it carries the main idea. */
+.slidev-layout h1 + p {
+  opacity: 1;
+  margin-top: 0;
+}
+
+/* Appendix: reading lists and glossary tables (shared by several slides). */
+.letture ul {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-left: 1rem;
+}
+.letture li {
+  margin: 0.32rem 0;
+}
+.letture a {
+  word-break: break-all;
+}
+.glossario {
+  font-size: 0.72rem;
+}
+.glossario td,
+.glossario th {
+  padding: 0.18rem 0.45rem;
+}
+.glossario td:first-child {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.glossario td:nth-child(2) {
+  font-style: italic;
+  color: var(--grigio);
+}

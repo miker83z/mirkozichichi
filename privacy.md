@@ -4,7 +4,7 @@ title: Privacy
 description: "Privacy notice for mirkozichichi.me: no cookies, no analytics, no tracking. Hosting by GitHub Pages, your rights under the GDPR and the German and Italian rules."
 ---
 
-<p class="entry-note">Last updated: 6 November 2026</p>
+<p class="entry-note">Last updated: 9 November 2026</p>
 
 **In short:** this website sets no cookies, uses no analytics or tracking, embeds no content from other websites and has no forms or comments. I do not collect any data about visitors. The only processing of personal data happens at the hosting provider, GitHub, as described below.
 
@@ -23,6 +23,10 @@ The website is served by GitHub Pages, a service of GitHub, Inc. (88 Colin P. Ke
 ## Light/dark mode preference
 
 If you use the light/dark switch, your browser remembers your choice in its session storage for the current visit. It is deleted when you close the tab and is never sent to me or to anyone else. Storing it is strictly necessary to provide the function you asked for, so no consent is needed (Art. 5(3) of the ePrivacy Directive 2002/58/EC; § 25(2) no. 2 TDDDG in Germany; Art. 122(1) of the Italian Privacy Code).
+
+## Interactive lecture slides
+
+The interactive slides under [/slides/](/slides/sicurezzagiur2026/) remember their display settings, such as the zoom level and the presenter options, in your browser's local storage. These settings stay on your device, are never sent to me or to anyone else, and are removed when you clear this site's data in your browser. Storing them is strictly necessary to provide the slide viewer you opened, so no consent is needed (same legal basis as above). The demonstrations in the slides run entirely in your browser: nothing you type into them is transmitted.
 
 ## Links to other websites
 

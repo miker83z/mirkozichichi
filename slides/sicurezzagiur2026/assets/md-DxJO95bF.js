@@ -1,0 +1,5 @@
+import{t as e}from"./HashPlayground-BHwXmknG.js";import{A as t,E as n,Tt as r,U as i,at as a,b as o,nt as s,x as c}from"./modules/shiki-BmS9ZtMj.js";import{t as l}from"./slidev/default-BWuREWKH.js";import{Q as u,Z as d}from"./index-Bb_DuBt_.js";var f={__name:`05-hash.md__slidev_67`,setup(f){let{$slidev:p,$nav:m,$clicksContext:h,$clicks:g,$page:_,$renderContext:v,$frontmatter:y}=u();return h.setup(),(u,f)=>{let p=e;return i(),c(l,a(t(r(d)(r(y),66))),{default:s(()=>[f[0]||=o(`h1`,null,`Esempio: SHA-256 dal vivo`,-1),f[1]||=o(`p`,{class:`lead`},`Cambiamo una sola lettera, la J maiuscola di "Jack", nella seconda riga.`,-1),n(p,{a:`All work and no play makes Jack a dull boy
+All work and no play makes Jack a dull boy
+All work and no play makes Jack a dull boy`,b:`All work and no play makes Jack a dull boy
+All work and no play makes jack a dull boy
+All work and no play makes Jack a dull boy`,righe:3,eco:``})]),_:1},16)}}};export{f as default};

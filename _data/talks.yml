@@ -6,6 +6,18 @@
 - type: "lecture"
   role: "Invited Lecturer"
   year: "2026"
+  date: "2026-11"
+  people: "Zichichi Mirko"
+  title: "Blockchain & Smart Contracts"
+  venue: "Legal and Technological Aspects (seminar)."
+  venue_url: "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/472765"
+  details: "November 2026. Interactive slides on cryptography and digital signatures for law students."
+  links:
+    - { kind: "ppt", url: "/assets/tutor/slides/sicurezzagiur2026.pdf" }
+    - { kind: "external", url: "/slides/sicurezzagiur2026/" }
+- type: "lecture"
+  role: "Invited Lecturer"
+  year: "2026"
   date: "2026-06"
   people: "Zichichi Mirko, Vigneri Luigi"
   title: "Move: the Language for Secure Next-Gen Smart Contracts"

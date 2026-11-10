@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Rete di fiducia: sei persone che si firmano a vicenda i certificati">
+  <g stroke="#a51c1c" stroke-width="1.6">
+    <line x1="160" y1="40" x2="60" y2="110"/><line x1="160" y1="40" x2="260" y2="110"/>
+    <line x1="60" y1="110" x2="90" y2="215"/><line x1="260" y1="110" x2="230" y2="215"/>
+    <line x1="160" y1="40" x2="160" y2="140"/><line x1="160" y1="140" x2="90" y2="215"/>
+    <line x1="160" y1="140" x2="230" y2="215"/><line x1="60" y1="110" x2="160" y2="140"/>
+  </g>
+  <g fill="#ffffff" stroke="#1e1d24" stroke-width="1.5">
+    <circle cx="160" cy="40" r="28"/><circle cx="60" cy="110" r="28"/><circle cx="260" cy="110" r="28"/>
+    <circle cx="160" cy="140" r="28"/><circle cx="90" cy="215" r="28"/><circle cx="230" cy="215" r="28"/>
+  </g>
+  <g fill="#1e1d24" font-family="Source Sans 3, Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">
+    <text x="160" y="44">Alice</text><text x="60" y="114">Bob</text><text x="260" y="114">Dana</text>
+    <text x="160" y="144">Charlie</text><text x="90" y="219">Elena</text><text x="230" y="219">Franco</text>
+  </g>
+</svg>
