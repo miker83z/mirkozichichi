@@ -28,6 +28,8 @@ While presenting: arrow keys or space to move, `o` for the overview, `g` to go t
 - `layouts/`: `capo` (section dividers) and `copertina` (title slide).
 - Diagrams: `components/Schema*.vue`, built from the `Sv*` blocks (box, arrow, person, document, key, padlock); each step appears with a click (`v-click` on SVG groups). Every paragraph and list on the slides also appears with a click; the PDF shows each slide complete.
 - Legal references for the lecturer (formerly the "Per il giurista" notes) are in the speaker notes, visible in the presenter view.
+- Opening news: each attack has its own slide with `SchemaAttacco` (who attacks, how, what it hits, the property violated, the defence). When a news item changes, update its card in `data/notizie.ts`, its slide in `pages/00-apertura.md` and the summary map `components/SchemaNotizie.vue`.
+- Acronyms not spelled out anywhere in the slides get a footnote: a `<div class="sigle">` at the end of the slide, one `<p v-click="n">` per line, where `n` is the click that reveals the acronym (no `v-click` if it is in the title). If you add or remove clicks on such a slide, recheck `n`.
 - `style.css`: colours, fonts (bundled, no Google Fonts), shared classes.
 - `VERIFICA.md` and `verifica/`: the fact-check of every claim, with sources, and what to recheck before the lecture.
 

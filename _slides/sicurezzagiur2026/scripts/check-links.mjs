@@ -21,7 +21,7 @@ for (const file of files) {
 }
 
 // Sites that refuse automated requests but work in a browser: reported, not failed.
-const browserOnly = [/^https:\/\/(www\.)?(x|twitter|linkedin)\.com\//]
+const browserOnly = [/^https:\/\/(www\.)?(x|twitter|linkedin|coindesk)\.com\//]
 // Not real links: invented example domains, and this deck's own address (online only after publishing).
 const skip = [/^https?:\/\/[^/]*(esempio|example)\./, /^https:\/\/mirkozichichi\.me\/slides\/sicurezzagiur2026\/?$/]
 

@@ -106,6 +106,10 @@ Lessico: nel diritto italiano "firma digitale" ha un significato più stretto: �
 
 </v-clicks>
 
+<div class="sigle">
+  <p v-click="1"><strong>RFC</strong>: Request for Comments, la serie di documenti che fissa gli standard di Internet</p>
+</div>
+
 <!--
 Oggi si usa TLS 1.3 (RFC 9846, 2026); il vecchio SSL è obsoleto.
 -->
@@ -123,6 +127,10 @@ Oggi si usa TLS 1.3 (RFC 9846, 2026); il vecchio SSL è obsoleto.
 <SchemaCampiX509 />
 
 <p class="grigio" v-click>Nel browser: clic sul lucchetto accanto all'indirizzo per vedere questi campi su un sito vero.</p>
+
+<div class="sigle">
+  <p v-click="1"><strong>CN</strong>, <strong>O</strong>, <strong>C</strong>: nome (Common Name), organizzazione (Organization), Paese (Country); <strong>EC</strong> P-256: chiave su curva ellittica (Elliptic Curve) di 256 bit</p>
+</div>
 
 ---
 
@@ -146,6 +154,10 @@ Oggi si usa TLS 1.3 (RFC 9846, 2026); il vecchio SSL è obsoleto.
 
 <SchemaReteFiducia />
 
+<div class="sigle">
+  <p><strong>PGP</strong>: Pretty Good Privacy, il programma di cifratura e firma creato da Phil Zimmermann nel 1991</p>
+</div>
+
 <!--
 Usata soprattutto per la posta elettronica cifrata (standard OpenPGP, RFC 9580; programmi come GnuPG).
 -->
@@ -164,6 +176,11 @@ Usata soprattutto per la posta elettronica cifrata (standard OpenPGP, RFC 9580; 
 </v-clicks>
 
 <p v-click><a href="https://ec.europa.eu/digital-building-blocks/DSS/webapp-demo/sign-a-document">ec.europa.eu/digital-building-blocks/DSS/webapp-demo</a></p>
+
+<div class="sigle">
+  <p v-click="1"><strong>DSS</strong>: Digital Signature Service, il software libero della Commissione europea per creare e verificare firme</p>
+  <p v-click="3"><strong>JAdES</strong>: JSON Advanced Electronic Signature, firma avanzata nel formato di dati JSON (JavaScript Object Notation), usato dalle applicazioni web</p>
+</div>
 
 <!--
 I file caricati vengono trasmessi ai server della Commissione: usate documenti di esempio, mai atti riservati.
@@ -198,6 +215,10 @@ Per il giurista: il regolamento è stato profondamente modificato dal Reg. (UE) 
 - In Italia: **IT-Wallet**, nell'app IO
 
 </v-clicks>
+
+<div class="sigle">
+  <p v-click="1"><strong>EUDI</strong>: European Digital Identity, l'identità digitale europea</p>
+</div>
 
 <!--
 Termine: 24 mesi dopo l'entrata in vigore degli atti di esecuzione (art. 5 bis, par. 1). Gli Stati possono limitare la gratuità agli usi non professionali (art. 5 bis, par. 5, lett. g). Sistema IT-Wallet: art. 64-quater CAD.
@@ -254,6 +275,11 @@ Per il giurista: la FEA "italiana" del d.P.C.M. 22 febbraio 2013 (firma grafomet
 .formati div { border: 1.5px solid var(--inchiostro); border-radius: 6px; padding: 0.8rem; font-size: 1.3rem; }
 </style>
 
+<div class="sigle">
+  <p v-click="2"><strong>XML</strong>: eXtensible Markup Language, un formato di testo strutturato, leggibile da persone e programmi</p>
+  <p v-click="5"><strong>ASiC</strong>: Associated Signature Containers, un contenitore (come un file .zip) che tiene insieme documenti e firme</p>
+</div>
+
 <!--
 Correzione rispetto al 2024: questi atti non dicono quali formati una FEA "deve avere" (una FEA è tale per i requisiti dell'art. 26), ma quali formati la PA deve accettare.
 -->
@@ -289,6 +315,10 @@ Correzione rispetto al 2024: le modalità sono tre (interna, avvolgente, distacc
 
 <SchemaCades />
 
+<div class="sigle">
+  <p><strong>CMS</strong>: Cryptographic Message Syntax, il formato della «busta» che contiene documento e firma</p>
+</div>
+
 <!--
 Correzione rispetto al 2024: CAdES non è limitato ai "dati binari" e consente la firma di più soggetti (firme parallele e controfirme); per più documenti insieme si usa ASiC-E. .p7m = dati dentro la busta; .p7s = firma separata.
 Per il giurista: nel processo civile telematico gli atti possono essere in CAdES o in PAdES: le Sezioni Unite li hanno ritenuti equivalenti (Cass., S.U., 27 aprile 2018, n. 10266). Nel processo amministrativo telematico è ammesso solo PAdES.
@@ -309,6 +339,11 @@ Correzione rispetto al 2024: la verifica di una firma PAdES è automatica come p
 # 3. Firma elettronica qualificata (FEQ)
 
 <SchemaQES />
+
+<div class="sigle">
+  <p v-click="2"><strong>QSCD</strong>: Qualified Signature Creation Device, il dispositivo per la creazione di una firma qualificata</p>
+  <p v-click="2"><strong>HSM</strong>: Hardware Security Module, l'apparato protetto in cui il prestatore custodisce le chiavi</p>
+</div>
 
 <!--
 Una firma avanzata con certificato qualificato (rilasciato da un prestatore qualificato, QTSP) e dispositivo qualificato (QSCD). Ha gli stessi effetti giuridici della firma autografa (art. 25, par. 2, eIDAS).
@@ -355,6 +390,10 @@ Riferimenti: art. 20, c. 1-bis e 1-ter, CAD; art. 21, c. 2-bis, CAD; art. 24, c.
 
 </div>
 
+<div class="sigle">
+  <p v-click="1"><strong>OTP</strong>: One-Time Password, password monouso (tra poche slide)</p>
+</div>
+
 ---
 
 # Password monouso e verifica in due passaggi
@@ -372,6 +411,10 @@ Per il giurista: è l'"autenticazione forte del cliente" della PSD2: due o più 
 # Il codice che cambia ogni 30 secondi
 
 <SchemaTotp />
+
+<div class="sigle">
+  <p v-click="3"><strong>HMAC</strong>: Hash-based Message Authentication Code, un codice di autenticazione (MAC) calcolato con una funzione hash e una chiave segreta</p>
+</div>
 
 <!--
 Standard TOTP (RFC 6238), basato su HOTP (RFC 4226): non è una sfida-risposta, la "sfida" è l'ora corrente. È lo standard delle app di autenticazione e di molti token bancari.
@@ -427,6 +470,10 @@ Il server conserva solo chiavi pubbliche, inutili a chi le ruba, e la firma è l
 
 </div>
 
+<div class="sigle">
+  <p v-click="1"><strong>FIDO2</strong>: lo standard delle passkey dell'alleanza FIDO (Fast IDentity Online); <strong>WebAuthn</strong> (Web Authentication) ne è la parte per i browser</p>
+</div>
+
 ---
 
 # Verifica rapida
@@ -448,4 +495,9 @@ Il server conserva solo chiavi pubbliche, inutili a chi le ruba, e la firma è l
   spiegazione="Il codice è calcolato dall’ora corrente (TOTP) o da una sfida nuova: vale una sola volta e per poco tempo."
 />
 </div>
+</div>
+
+<div class="sigle">
+  <p v-click="1"><strong>CAD</strong>: Codice dell'amministrazione digitale, d.lgs. 82/2005</p>
+  <p v-click="2"><strong>TOTP</strong>: Time-based One-Time Password, il codice monouso calcolato dall'ora</p>
 </div>

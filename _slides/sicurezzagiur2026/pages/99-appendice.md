@@ -86,9 +86,10 @@ Per approfondire: norme, standard, strumenti e un glossario
 - **ACN, Relazione annuale 2025** (sintesi). [puntosicuro.it](https://www.puntosicuro.it/sicurezza-informatica-C-90/relazione-acn-2025-cresce-la-minaccia-cyber-aumenta-la-resilienza-AR-26601/)
 - **Frigoriferi dei supermercati**, Il Post, 3 novembre 2026. [ilpost.it](https://www.ilpost.it/2026/11/03/attacchi-informatici-hacker-supermercati/)
 - **Una settimana di attacchi hacker e allarmi bomba**, Il Post, 9 novembre 2026. [ilpost.it](https://www.ilpost.it/2026/11/09/attacchi-hacker-allarmi-bomba-italia-europa-in-ordine/)
-- **Presunti file della DIA**, AGI, 9 novembre 2026. [agi.it](https://www.agi.it/cronaca/news/2026-11-09/hacker-dia-attacco-informatico-39947807/)
+- **Farnesina e Milano-Cortina**: Open, 8 ottobre 2026, [open.online](https://www.open.online/2026/10/08/farnesina-attacco-hacker-indagini/); The Record, 5 febbraio 2026, [therecord.media](https://therecord.media/italy-blames-russia-linked-hackers-winter-games-cyberattack)
 - **Caso Paragon**, Internazionale, 12 marzo 2026. [internazionale.it](https://www.internazionale.it/magazine/stephanie-kirchgaessner/2026/03/12/la-procura-conferma-che-il-giornalista-era-spiato)
 - **La voce clonata del ministro Crosetto**, Il Post, 11 febbraio 2025. [ilpost.it](https://www.ilpost.it/2025/02/11/truffa-ministro-difesa-crosetto-indagini/)
+- **Il furto a Binance**: Il Post, 3 novembre 2026, [ilpost.it](https://www.ilpost.it/2026/11/03/indagini-furto-attacco-binance/); CoinDesk, 3 novembre 2026, [coindesk.com](https://www.coindesk.com/business/2026/11/03/binance-s-usd6-3-billion-hack-began-with-a-fake-job-interview-exchange-says)
 - **Record di fattorizzazione RSA-260**, Cognition, 9 settembre 2026. [cognition.com](https://cognition.com/blog/factoring-rsa-260)
 - **Normativa**: [l. 90/2024](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-06-28;90), [d.lgs. 138/2024 (NIS2)](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138~art25), [Cyber Resilience Act](https://eur-lex.europa.eu/eli/reg/2024/2847/oj?locale=it)
 

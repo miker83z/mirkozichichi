@@ -83,6 +83,11 @@ Blocchi da 64 bit cifrati uno per uno.
 
 <p class="lead mt-4" v-click>Protegge ogni giorno il Wi-Fi, i dischi dei portatili, WhatsApp, HTTPS.</p>
 
+<div class="sigle">
+  <p v-click="1"><strong>FIPS</strong>: Federal Information Processing Standards, gli standard informatici del governo federale statunitense</p>
+  <p v-click="5"><strong>HTTPS</strong>: HyperText Transfer Protocol Secure, il protocollo dei siti web protetti (il lucchetto nel browser)</p>
+</div>
+
 <!--
 Per il giurista: se i dati sottratti erano cifrati, il titolare non deve comunicare la violazione agli interessati (art. 34, par. 3, lett. a, GDPR). Resta l'obbligo di notificarla al Garante, se ci sono rischi (art. 33).
 -->

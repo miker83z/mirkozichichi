@@ -152,6 +152,31 @@
 .fonte a {
   color: var(--grigio);
 }
+/* Footnotes for acronyms the slides do not explain: pinned above the footer, each line on the
+   same click as its acronym (v-click="n", the click that reveals it). */
+.sigle {
+  position: absolute;
+  left: 3rem;
+  right: 3rem;
+  bottom: 2.1rem;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--grigio);
+}
+.sigle p {
+  margin: 0;
+}
+.sigle p:first-child::before {
+  content: "";
+  display: block;
+  width: 5rem;
+  border-top: 1px solid var(--linea);
+  margin-bottom: 0.3rem;
+}
+.sigle strong {
+  color: var(--inchiostro);
+  font-weight: 600;
+}
 .attenzione {
   color: var(--ko);
   font-weight: 700;

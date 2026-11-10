@@ -6,8 +6,10 @@
   <DictionaryAttack />                          target password 'sunshine' (found at try 20)
   <DictionaryAttack password="juventus" />      must be in data/password-comuni.ts to be found
   <DictionaryAttack account="dott.rossi" :intervallo="120" />
+  <DictionaryAttack :righe="6" />              a shorter log, for a slide with more text
 
-  Props: password?: string, account?: string, intervallo?: number (ms between tries)
+  Props: password?: string, account?: string, intervallo?: number (ms between tries),
+  righe?: number (lines of the log, default 9)
 -->
 <script setup lang="ts">
 import { computed, onUnmounted, ref } from 'vue'
@@ -15,10 +17,11 @@ import { onSlideLeave, useNav } from '@slidev/client'
 import { sha256, short } from '../utils/crypto'
 import { passwordComuni } from '../data/password-comuni'
 
-const props = withDefaults(defineProps<{ password?: string, account?: string, intervallo?: number }>(), {
+const props = withDefaults(defineProps<{ password?: string, account?: string, intervallo?: number, righe?: number }>(), {
   password: 'sunshine',
   account: 'avv.bianchi',
   intervallo: 60,
+  righe: 9,
 })
 
 const { isPrintMode } = useNav()
@@ -40,7 +43,7 @@ const finito = computed(() => trovata.value || fatti.value >= dizionario.length)
 const inCorso = ref(false)
 
 const righe = computed(() =>
-  dizionario.slice(Math.max(0, fatti.value - 8), fatti.value).map((d, i, arr) => ({
+  dizionario.slice(Math.max(0, fatti.value - (props.righe - 1)), fatti.value).map((d, i, arr) => ({
     n: fatti.value - arr.length + i + 1,
     parola: d.parola,
     hash: `${d.hash.slice(0, 6)}…`,
@@ -88,7 +91,7 @@ onUnmounted(ferma)
       <span class="contatore">Tentativi: <strong>{{ fatti }}</strong> su {{ dizionario.length }} parole del dizionario</span>
     </div>
 
-    <div class="log" role="log" aria-live="polite">
+    <div class="log" role="log" aria-live="polite" :style="{ '--righe': props.righe }">
       <p v-if="fatti === 0" class="vuoto">In attesa: premi «Avvia l'attacco».</p>
       <p v-for="r in righe" :key="r.n" :class="{ colpo: r.ok }">
         tentativo {{ r.n }}: {{ r.parola }} → {{ r.hash }} <span :class="r.ok ? 'esito-ok' : 'no'">{{ r.ok ? '✓' : '✗' }}</span>
@@ -139,7 +142,7 @@ onUnmounted(ferma)
   border-left: 3px solid var(--inchiostro);
   border-radius: 4px;
   padding: 0.35rem 0.7rem;
-  height: calc(9 * 1.42 * 0.85rem + 0.7rem + 2px);
+  height: calc(var(--righe) * 1.42 * 0.85rem + 0.7rem + 2px);
   overflow: hidden;
 }
 .log p {

@@ -18,17 +18,6 @@ Cosa vogliamo proteggere, da chi, e perché non basta mai
 
 ---
 
-# Sicurezza informatica: la terminologia
-
-<SchemaTerminologia />
-
-<!--
-Correzione rispetto al 2024: "garantire l'autenticità della fonte" non è riservatezza ma autenticazione.
-Per il giurista: le stesse parole sono nel GDPR: il titolare deve assicurare "la riservatezza, l'integrità, la disponibilità e la resilienza dei sistemi e dei servizi di trattamento" (art. 32, par. 1, lett. b).
--->
-
----
-
 # Tre aspetti fondamentali
 
 <div class="tre">
@@ -198,6 +187,10 @@ Correzione rispetto al 2024: la slide riportava i numeri della prima versione de
 
 <p class="piccolo" v-click>Anche i dati personali aiutano: con nome, data di nascita e una password trapelata altrove si indovina in 100 tentativi la password di oltre il 73% degli utenti <span class="fonte">(Wang et al., ACM CCS 2016)</span>.</p>
 
+<div class="sigle">
+  <p v-click="2"><strong>ACM CCS</strong>: la conferenza sulla sicurezza informatica dell'Association for Computing Machinery</p>
+</div>
+
 <!--
 Far provare una password inventata, mai una vera: il calcolo avviene solo nel browser.
 Per il giurista: entrare in un account con la password altrui è accesso abusivo a un sistema informatico (art. 615-ter c.p.); procurarsi o diffondere le password altrui è reato a sé (art. 615-quater c.p.).
@@ -211,11 +204,15 @@ Per il giurista: entrare in un account con la password altrui è accesso abusivo
 
 <div v-click>
 
-<DictionaryAttack />
+<DictionaryAttack :righe="6" />
 
 </div>
 
 <p v-click><strong>Difese</strong> (NIST, 2025): rifiutare le password comuni o già trapelate, limitare i tentativi, almeno 15 caratteri.</p>
+
+<div class="sigle">
+  <p v-click="3"><strong>NIST</strong>: National Institute of Standards and Technology, l'ente federale statunitense che scrive gli standard di sicurezza</p>
+</div>
 
 <!--
 NIST SP 800-63B-4 (2025), § 3.1.1.2: niente obbligo di simboli né di cambio periodico.
@@ -228,7 +225,7 @@ Per il giurista: la NIS2 chiede ai soggetti essenziali e importanti l'autenticaz
 
 <SchemaPhishing />
 
-<p v-click><strong>Febbraio 2025</strong>: una voce clonata del ministro Crosetto chiede soldi a imprenditori; uno versa circa 980.000 €, poi bloccati.</p>
+<p v-click>L'esca non è solo un'email: nel caso Crosetto era una voce al telefono.</p>
 
 <p class="fonte" v-click>Video: una scena di phishing dalla serie <em>Mr. Robot</em>, <a href="https://www.youtube.com/watch?v=JMYEr4Bgey4">youtube.com/watch?v=JMYEr4Bgey4</a></p>
 
@@ -286,4 +283,8 @@ Principio ETTO (Efficiency-Thoroughness Trade-Off): non si può essere insieme m
   spiegazione="Lunghezza e assenza dalle liste di password note contano più delle regole di composizione (NIST SP 800-63B-4)."
 />
 </div>
+</div>
+
+<div class="sigle">
+  <p v-click="2"><strong>SP</strong>: Special Publication, una delle linee guida tecniche del NIST</p>
 </div>

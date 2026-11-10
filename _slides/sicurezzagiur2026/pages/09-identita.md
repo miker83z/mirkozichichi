@@ -22,6 +22,10 @@ Quando la chiave pubblica diventa un nome
 
 <SchemaNuovaIdentita />
 
+<div class="sigle">
+  <p v-click="1"><strong>sk</strong>, <strong>pk</strong>: chiave privata (secret key) e chiave pubblica (public key)</p>
+</div>
+
 <!--
 La chiave pubblica pk è il "nome" dell'identità: uno pseudonimo. In pratica si usa spesso l'impronta di pk come indirizzo: in Ethereum (formato 0x…) gli ultimi 20 byte dell'impronta Keccak-256 di pk; in Bitcoin, nel formato classico, RIPEMD-160(SHA-256(pk)). La chiave privata sk permette di "parlare a nome" dell'identità: di firmare.
 -->
@@ -49,6 +53,11 @@ Caso reale: nel 2013 un difetto del generatore casuale di Android espose al furt
 
 <SchemaPortafoglio />
 
+<div class="sigle">
+  <p v-click="1"><strong>BTC</strong>: bitcoin, l'unità della valuta</p>
+  <p v-click="1"><strong>BIP</strong>: Bitcoin Improvement Proposal, i documenti che definiscono le regole di Bitcoin (la BIP 173 fissa questo formato di indirizzo)</p>
+</div>
+
 ---
 
 # Proviamo: creare un'identità
@@ -64,6 +73,11 @@ Caso reale: nel 2013 un difetto del generatore casuale di Android espose al furt
 # Pseudonimo non vuol dire anonimo
 
 <SchemaPseudonimo />
+
+<div class="sigle">
+  <p v-click="1"><strong>ETH</strong>: ether, la valuta della blockchain Ethereum</p>
+  <p v-click="2"><strong>KYC</strong>: Know Your Customer, l'adeguata verifica della clientela imposta dalle norme antiriciclaggio</p>
+</div>
 
 <!--
 Per il giurista: i dati pseudonimizzati restano dati personali per chi può ricondurli a una persona (art. 4, n. 5, e considerando 26 GDPR). Corte di giustizia UE, C-413/23 P, GEPD c. SRB (4 settembre 2025): conta la prospettiva di chi tratta i dati; per l'obbligo di informazione si guarda al titolare al momento della raccolta.
@@ -127,7 +141,7 @@ Correzione rispetto al 2024: data e firma non fanno parte del documento DID nell
 
 </div>
 
-<p class="fonte">Schema: <a href="https://www.w3.org/TR/did-core/">w3.org/TR/did-core</a></p>
+<p class="fonte" v-click="1">Schema: <a href="https://www.w3.org/TR/did-core/">w3.org/TR/did-core</a></p>
 
 <style>
 .slidev-code { font-size: 0.95rem !important; line-height: 1.45 !important; }
@@ -154,6 +168,10 @@ Correzione rispetto al 2024: data e firma non fanno parte del documento DID nell
   spiegazione="Nessuna autorità centrale: il controllo del DID deriva dal possesso della chiave privata."
 />
 </div>
+</div>
+
+<div class="sigle">
+  <p v-click="1"><strong>GDPR</strong>: General Data Protection Regulation, il regolamento generale sulla protezione dei dati, Reg. (UE) 2016/679</p>
 </div>
 
 ---

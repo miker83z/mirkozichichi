@@ -22,6 +22,10 @@ L'impronta digitale di un documento
 
 <SchemaEsempiHash />
 
+<div class="sigle">
+  <p v-click="1"><strong>SHA-256</strong>: Secure Hash Algorithm con impronte di 256 bit, standard del NIST</p>
+</div>
+
 ---
 
 # Proviamo: calcolare un'impronta
@@ -251,6 +255,10 @@ Partire da difficoltà 3, poi 4, poi 5: ogni zero in più moltiplica per 16 i te
 </v-clicks>
 
 <p class="fonte" v-click>La slide del 2024 diceva che per SHA-1 c'erano solo "attacchi teorici": non è più vero dal 2017.</p>
+
+<div class="sigle">
+  <p v-click="3"><strong>MD5</strong>: Message-Digest Algorithm 5, del 1992</p>
+</div>
 
 <!--
 SHA-1: collisioni a prefisso scelto nel 2020; il NIST la ritira entro il 2030. Per l'ACN, MD5 e SHA-1 "sono obsoleti e non vengono consigliati per alcuna applicazione" (Linee guida Funzioni di hash, v1.1, 2026).

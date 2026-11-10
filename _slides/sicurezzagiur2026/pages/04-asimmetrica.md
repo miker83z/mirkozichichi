@@ -108,6 +108,10 @@ Non si conosce un algoritmo classico (non quantistico) efficiente per fattorizza
 
 <p v-click><strong>"Raccogli ora, decifra dopo"</strong>: ciò che oggi viene intercettato cifrato potrà essere letto tra 10–15 anni.</p>
 
+<div class="sigle">
+  <p v-click="6"><strong>ECC</strong>: Elliptic Curve Cryptography, la crittografia su curve ellittiche (tra due slide)</p>
+</div>
+
 <!--
 Per atti coperti da segreto professionale, dati sanitari o giudiziari, la riservatezza deve durare più a lungo della crittografia che la protegge. Le firme, invece, non corrono questo rischio.
 Standard NIST del 13/8/2024: FIPS 203, 204, 205 (ML-KEM, ML-DSA, SLH-DSA); a marzo 2025 HQC come riserva. NIST IR 8547 (finale 27/10/2026): RSA ed ECC deprecati dopo il 2030, non più ammessi dopo il 2035.
@@ -126,6 +130,10 @@ Per il giurista: la tabella di marcia UE (giugno 2025) è soft law (Racc. (UE) 2
 - Anche le curve cadrebbero con un computer quantistico: arriva ML-DSA (FIPS 204)
 
 </v-clicks>
+
+<div class="sigle">
+  <p v-click="4"><strong>ML-DSA</strong>: Module-Lattice-Based Digital Signature Algorithm, la firma basata sui reticoli, resistente ai computer quantistici</p>
+</div>
 
 <!--
 Fonti: NIST SP 800-57 (equivalenze), curva secp256k1 per Bitcoin ed Ethereum, RFC 8032 (EdDSA), FIPS 186-5 (2023).

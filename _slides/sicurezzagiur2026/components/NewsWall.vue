@@ -202,16 +202,22 @@ const classeStato = (s: StatoNotizia) => s.replace(' ', '-')
   color: var(--glossa);
   font-family: var(--serif);
 }
-.gancio span {
-  white-space: nowrap;
-  flex: none;
-}
+.gancio span,
 .gancio a {
-  font-family: var(--sans);
-  color: var(--grigio);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
+}
+/* When the line is too long the source gives way first, so the legal hook stays readable. */
+.gancio span {
+  flex: 0 1 auto;
+}
+.gancio a {
+  flex: 0 1000 auto;
+  min-width: 2.5rem;
+  font-family: var(--sans);
+  color: var(--grigio);
 }
 .invito {
   margin: auto 0 0;

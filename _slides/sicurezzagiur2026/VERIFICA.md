@@ -1,6 +1,6 @@
 # Verifica delle affermazioni
 
-Controllo eseguito il 9 novembre 2026 su fonti primarie (EUR-Lex, Normattiva, Gazzetta Ufficiale, NIST, IETF, W3C, ACN, Garante, CURIA) e, per le notizie, su testate affidabili. I rapporti completi, con citazioni testuali e link, sono in `verifica/`:
+Controllo eseguito il 9 novembre 2026 (furto a Binance: 10 novembre) su fonti primarie (EUR-Lex, Normattiva, Gazzetta Ufficiale, NIST, IETF, W3C, ACN, Garante, CURIA) e, per le notizie, su testate affidabili. I rapporti completi, con citazioni testuali e link, sono in `verifica/`:
 
 - `verifica/A-sicurezza-crittografia.md`: pagine originali 5–41 (Capi I–IV)
 - `verifica/B-hash-tempo-identita.md`: pagine 42–77 e 109–124 (Capi V, VI, VIII, IX)
@@ -10,7 +10,7 @@ Controllo eseguito il 9 novembre 2026 su fonti primarie (EUR-Lex, Normattiva, Ga
 
 | Pag. 2024 | Affermazione | Nella nuova versione | Fonte |
 |---|---|---|---|
-| 3–4 | Notizie del 2024 (PMI, Comune di Palermo) | Sostituite da notizie 2025–2026 verificate (Clusit, ACN, frigoriferi dei supermercati, Farnesina, Milano-Cortina, Paragon, Crosetto, DIA) | rapporto C, parte 2 |
+| 3–4 | Notizie del 2024 (PMI, Comune di Palermo) | Sostituite da notizie 2025–2026 verificate (Clusit, ACN, frigoriferi dei supermercati, Farnesina, Milano-Cortina, Paragon, Crosetto, furto a Binance; il caso DIA, solo rivendicato, è stato tolto) | rapporto C, parte 2 |
 | 6 | Riservatezza = "garantire l'autenticità della fonte" | L'autenticità è autenticazione, non riservatezza | NIST CSRC Glossary |
 | 13 | "Top Passwords 2018" | Classifica NordPass 2025, mondo e Italia | nordpass.com |
 | 14 | 4,7% / 9,8% / 91% tra le top 1000 (attribuito al 2018) | Numeri del 2011, ritrattati dall'autore; valori corretti: 1,6% top 10, 4,4% top 100, 13,2% top 1000, 30% top 10.000 | M. Burnett, xato.net (copia Wayback) |
@@ -48,7 +48,7 @@ Controllo eseguito il 9 novembre 2026 su fonti primarie (EUR-Lex, Normattiva, Ga
 ## Da ricontrollare poco prima della lezione
 
 - **NordPass**: l'edizione 2026 della classifica potrebbe uscire a metà novembre (pagina "3. Humanware: le password più usate").
-- **Notizie della settimana**: sviluppi su DIA, Brennero e frigoriferi; esito del Comitato per l'ordine e la sicurezza pubblica del 10/11.
+- **Notizie della settimana**: sviluppi su frigoriferi, Brennero e furto a Binance (fondi congelati, riciclaggio, indagini); esito del Comitato per l'ordine e la sicurezza pubblica del 10/11.
 - **Video YouTube** di *Mr. Robot*: caricato da un privato, può essere rimosso.
 - **Art. 8-ter, c. 4**: che gli standard AgID non siano mai stati adottati è un'inferenza (nessun atto trovato); conviene un controllo su agid.gov.it.
 - **SPID**: il dettaglio dei livelli (L2 = password + secondo fattore) è conoscenza consolidata ma non estratta automaticamente dalla pagina ufficiale.

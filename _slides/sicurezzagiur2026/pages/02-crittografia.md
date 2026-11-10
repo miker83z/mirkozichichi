@@ -51,6 +51,10 @@ figcaption { font-size: 0.9rem; line-height: 1.35; margin-top: 0.5rem; }
 img { border-radius: 4px; }
 </style>
 
+<div class="sigle">
+  <p v-click="2"><strong>NSA</strong>: National Security Agency, l'agenzia statunitense per la crittografia e le intercettazioni; <strong>CC BY-SA</strong>: licenza Creative Commons «Attribuzione – Condividi allo stesso modo»</p>
+</div>
+
 <!--
 Jefferson descrisse il cilindro quando era Segretario di Stato (1790–93); forse mai costruito, non risulta che l'abbia usato (Monticello). Reinventato da Bazeries (1891). La slide del 2024 diceva "1800, comunicazioni diplomatiche": corretto.
 Enigma: forzata prima dai crittoanalisti polacchi (Rejewski, 1932), poi a Bletchley Park (Turing e altri). Il segreto non era la macchina ma le impostazioni giornaliere: anticipa Kerckhoffs.

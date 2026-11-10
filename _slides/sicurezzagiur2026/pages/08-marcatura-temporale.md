@@ -16,6 +16,11 @@ Dimostrare che un documento esisteva a una certa data
 
 <SchemaTempoUnix />
 
+<div class="sigle">
+  <p v-click="2"><strong>UTC</strong>: tempo coordinato universale, l'ora di riferimento mondiale, senza fusi né ora legale</p>
+  <p v-click="4"><strong>ISO</strong>: International Organization for Standardization; ISO 8601 è la sua norma per scrivere date e ore</p>
+</div>
+
 <!--
 Formato standard ISO 8601 (su Internet il profilo RFC 3339); nei computer spesso Unix time, i secondi trascorsi dal 1° gennaio 1970, ore 00:00 UTC (senza secondi intercalari).
 "Z" significa UTC; in Italia d'inverno siamo a +01:00, d'estate a +02:00.
@@ -80,6 +85,11 @@ Per il giurista: una validazione temporale elettronica qualificata gode della pr
 <p class="lead" v-click>Oltre all'RFC 3161 esistono altri standard (ANSI X9.95 per la finanza, ISO/IEC 18014) e altre famiglie di schemi.</p>
 
 <SchemaX995 />
+
+<div class="sigle">
+  <p><strong>ANSI</strong>: American National Standards Institute, l'ente di normazione statunitense; <strong>ASC X9</strong> (Accredited Standards Committee X9): il suo comitato per i servizi finanziari</p>
+  <p v-click="1"><strong>IEC</strong>: International Electrotechnical Commission, che pubblica le norme ISO/IEC insieme all'ISO</p>
+</div>
 
 <!--
 Correzione rispetto al 2024: l'elenco non è "il contenuto di X9.95" (norma a pagamento, non verificabile) ma una classificazione generale degli schemi. Schemi collegati: Haber e Stornetta, 1991.

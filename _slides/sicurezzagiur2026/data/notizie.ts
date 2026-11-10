@@ -1,4 +1,4 @@
-// News for <NewsWall />. Facts checked on 9 November 2026 (see VERIFICA.md); recheck the latest ones before the lecture.
+// News for <NewsWall />. Facts checked on 9–10 November 2026 (see VERIFICA.md); recheck the latest ones before the lecture.
 // At most 6 cards fit on a slide (3 columns × 2 rows); <NewsWall :ids="[…]" /> picks and orders them.
 
 export type Proprieta = 'riservatezza' | 'integrità' | 'disponibilità' | 'autenticità'
@@ -16,7 +16,7 @@ export interface Notizia {
   /** Security properties violated (shown when the card is revealed). */
   proprieta: Proprieta[]
   stato: StatoNotizia
-  /** Short legal hook, e.g. 'art. 615-ter c.p.'. */
+  /** Short legal hook that fits one line of the card (about 30 characters), e.g. 'art. 615-ter c.p.'. */
   gancio: string
   /** Source label, e.g. the newspaper's name. */
   fonte: string
@@ -28,7 +28,7 @@ export const notizie: Notizia[] = [
     id: 'frigoriferi',
     data: '2 nov 2026',
     titolo: 'Frigoriferi manomessi nei supermercati, da Palermo a Trapani',
-    sintesi: 'Temperature alzate da remoto in oltre 20 punti vendita in Sicilia e in altre regioni, sfruttando software di telegestione non aggiornati.',
+    sintesi: 'Temperature alzate da remoto in oltre 20 punti vendita in Sicilia e in altre regioni, probabilmente attraverso software di telegestione esposti e non aggiornati.',
     proprieta: ['integrità', 'disponibilità'],
     stato: 'confermato',
     gancio: 'art. 14 Cyber Resilience Act',
@@ -42,7 +42,7 @@ export const notizie: Notizia[] = [
     sintesi: 'Un attacco DDoS, attribuito dalla stampa al gruppo filorusso NoName057(16), viene mitigato senza disservizi.',
     proprieta: ['disponibilità'],
     stato: 'confermato',
-    gancio: 'd.lgs. 138/2024 (NIS2): notifica entro 24 ore',
+    gancio: 'd.lgs. 138/2024, art. 25',
     fonte: 'Open, 8/10/2026',
     url: 'https://www.open.online/2026/10/08/farnesina-attacco-hacker-indagini/',
   },
@@ -53,7 +53,7 @@ export const notizie: Notizia[] = [
     sintesi: 'Il governo dichiara sventati attacchi di origine russa a sedi diplomatiche e a siti legati alle Olimpiadi; NoName057(16) rivendica attacchi DDoS.',
     proprieta: ['disponibilità'],
     stato: 'confermato',
-    gancio: 'L. 90/2024 sulla cybersicurezza nazionale',
+    gancio: 'L. 90/2024 (cybersicurezza)',
     fonte: 'The Record, 5/2/2026',
     url: 'https://therecord.media/italy-blames-russia-linked-hackers-winter-games-cyberattack',
   },
@@ -75,19 +75,19 @@ export const notizie: Notizia[] = [
     sintesi: 'Con una voce ricreata al computer, truffatori ottengono da un imprenditore circa 980.000 €, poi bloccati su un conto olandese.',
     proprieta: ['autenticità'],
     stato: 'confermato',
-    gancio: 'artt. 640 e 494 c.p. (truffa, sostituzione di persona)',
+    gancio: 'artt. 640 e 494 c.p.',
     fonte: 'Il Post, 11/2/2025',
     url: 'https://www.ilpost.it/2025/02/11/truffa-ministro-difesa-crosetto-indagini/',
   },
   {
-    id: 'dia',
-    data: '9 nov 2026',
-    titolo: 'File della DIA in vendita sul dark web?',
-    sintesi: 'Un venditore offre 302 file attribuiti alla Direzione investigativa antimafia. Per gli inquirenti nessuna intrusione: solo dati già pubblici.',
-    proprieta: ['riservatezza'],
-    stato: 'rivendicato',
-    gancio: 'una rivendicazione non è una prova',
-    fonte: 'AGI, 9/11/2026',
-    url: 'https://www.agi.it/cronaca/news/2026-11-09/hacker-dia-attacco-informatico-39947807/',
+    id: 'binance',
+    data: '29 ott 2026',
+    titolo: 'Binance: rubati 6,3 miliardi di dollari in criptovalute',
+    sintesi: 'Tutto parte da un falso colloquio di lavoro: un malware, le credenziali degli ingegneri, poi i portafogli online. L’FBI accusa la Corea del Nord.',
+    proprieta: ['riservatezza', 'integrità'],
+    stato: 'confermato',
+    gancio: 'Reg. (UE) 2023/1114, art. 75',
+    fonte: 'Il Post, 3/11/2026',
+    url: 'https://www.ilpost.it/2026/11/03/indagini-furto-attacco-binance/',
   },
 ]

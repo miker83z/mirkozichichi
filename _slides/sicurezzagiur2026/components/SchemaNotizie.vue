@@ -4,7 +4,8 @@
   violated; a property turns red when a confirmed news item hits it (a claim only pins it, dashed).
   Frigoriferi dei supermercati → integrità + disponibilità; Farnesina e Milano-Cortina (DDoS) →
   disponibilità; spyware Paragon → riservatezza; voce clonata di Crosetto → autenticità;
-  DIA "file in vendita" → riservatezza, dashed and marked "solo rivendicato" (a claim is not proof).
+  furto a Binance → riservatezza (credentials) + integrità (unauthorised transfers).
+  A news item with rivendicata: true is drawn dashed and marked "solo rivendicato" (a claim is not proof).
   6 clicks: the five properties, then one news item per click in this order.
   <SchemaNotizie />
 -->
@@ -23,7 +24,7 @@ const notizie: Notizia[] = [
   { titolo: 'Farnesina e Milano-Cortina', sotto: 'attacchi DDoS, feb e ott 2026', x: 440, sopra: false, colpite: [2], puntine: [{ x: 440, da: 440 }] },
   { titolo: 'Spyware Paragon', sotto: 'mar 2026', x: 92, sopra: true, colpite: [0], puntine: [{ x: 92, da: 92 }] },
   { titolo: 'Voce clonata di Crosetto', sotto: 'feb 2025', x: 614, sopra: true, colpite: [3], puntine: [{ x: 614, da: 614 }] },
-  { titolo: 'DIA: «file in vendita»', sotto: 'solo rivendicato', x: 92, sopra: false, colpite: [], puntine: [{ x: 92, da: 92 }], rivendicata: true },
+  { titolo: 'Furto a Binance', sotto: 'ott 2026', x: 179, sopra: false, colpite: [0, 1], puntine: [{ x: 130, da: 160 }, { x: 228, da: 198 }] },
 ]
 
 // Text block above the boxes (title at y 34, date at y 52, leader from y 60) or below (leader to y 206, title at y 226).
