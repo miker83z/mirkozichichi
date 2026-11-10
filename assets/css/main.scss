@@ -470,9 +470,12 @@ table.entries--compact {
   }
 }
 
+// The links of an entry on one row, in the order of the data, never wrapping: the column takes the
+// width of the longest row in the list, and every row starts at its left edge, so the first links line up
 table.entries td.entry-links {
-  width: 5.4rem;
-  text-align: right;
+  width: 1%;
+  white-space: nowrap;
+  text-align: left;
 
   // entries without links give the space back to the text
   &:empty {
