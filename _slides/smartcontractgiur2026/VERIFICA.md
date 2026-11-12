@@ -45,9 +45,18 @@ Una rilettura completa delle slide, dei componenti, dell'app e dei documenti con
 - **`privacy.md`**: la lavagna è su due slide e legge soltanto; voti e invii sono pubblici e legati al soprannome.
 - **Clic**: «Blocchi veri» e il codice del voto avevano clic a vuoto (Vue registra prima i clic interni); ora ogni clic mostra qualcosa.
 
+## Aggiunte del 12/11/2026 (durante la lezione)
+
+- **Slide 3, dati ACN 2026**: eventi gennaio–settembre 2026 = 2.171 (primo semestre) + 305 + 309 + 485 = 3.270; incidenti circa 1.072 + 188 + 185 + 235 ≈ 1.680 (Operational Summary ACN); 2025: 2.729 eventi e 615 incidenti (Relazione annuale ACN 2025). Evento e incidente secondo l'ACN; incidente, quasi-incidente e incidente significativo secondo la NIS2 (art. 6) e il d.lgs. 138/2024 (art. 2).
+- **«Tracciare merci e prodotti con IOTA»** (nuova slide dopo la tokenizzazione):
+  - la demo dpp.demo.iota.org («DPP with IOTA Trust Framework»): batteria di e-bike, dalla produzione al riciclo; catena di accreditamenti autorità pubblica → produttore → riparatore (Hierarchies), Identity, Notarization, Gas Station, premio in token (github.com/iotaledger/dpp-demonstrator). Nell'esempio di docs.iota.org (*Digital Product Passport*): manutenzione annuale con salute della batteria al 76% e premio di 1 LCC (Lifecycle Credit). La IOTA Foundation la presenta come riferimento concettuale, non come prodotto pronto per la conformità;
+  - TWIN e ADAPT: righe 8.1–8.4 di `verifica/C` (ADAPT lanciato il 17/11/2025; primi Paesi Kenya, Marocco, Nigeria dal 19/5/2026; blog.iota.org/first-adapt-implementations);
+  - ESPR: regolamento (UE) 2024/1781, in vigore dal 18/7/2024, prodotti e dati fissati dagli atti delegati; passaporto delle batterie: regolamento (UE) 2023/1542, art. 77, dal 18/2/2027 per le batterie dei mezzi di trasporto leggeri, quelle industriali oltre 2 kWh e quelle dei veicoli elettrici (testo dell'art. 77: gesetze.legal/eu/vo_eu_2023_1542/77; da riaprire su EUR-Lex).
+- **Sondaggio della classe**: chiuso il 12/11/2026 con `node scripts/aula-sondaggio.mjs --chiudi` (0x41b24a3c…b16d; voti 2, 2, 0, 0).
+
 ## Da ricontrollare poco prima della lezione
 
-- **Contratto della classe sulla devnet**: la devnet può essere azzerata; verificare che il pacchetto in `aula/config.json` esista; il sondaggio della lezione è già aperto (README). Se la rete è stata azzerata, ripubblicare e ricreare il sondaggio.
+- **Contratto della classe sulla devnet**: la devnet può essere azzerata; verificare che il pacchetto in `aula/config.json` esista; il sondaggio del 2026 è chiuso (12/11/2026): per una nuova lezione crearne uno nuovo (README). Se la rete è stata azzerata, ripubblicare il pacchetto prima.
 - **Riserve di Tether** (7,95 miliardi, attestazione BDO): solo fonte secondaria (verifica/C 1.5); aprire il PDF dell'attestazione.
 - **Faucet**: oggi chiede un captcha (Cloudflare Turnstile); provarlo da un telefono sulla rete dell'università.
 - **Validatori IOTA** (61 il 10/11/2026) e dati di mercato (Bitcoin, stablecoin, DeFi, RWA): aggiornarli il giorno della lezione.

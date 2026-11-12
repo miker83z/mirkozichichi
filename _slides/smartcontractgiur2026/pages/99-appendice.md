@@ -38,6 +38,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 - **Art. 8-ter, d.l. 135/2018**: tecnologie a registro distribuito e smart contract. [normattiva.it](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2018-12-14;135~art8ter)
 - **ESMA, rapporto sul MEV** (luglio 2025) e parere sulle stablecoin non conformi (ottobre 2026). [esma.europa.eu](https://www.esma.europa.eu/)
 - **BCE, l'euro digitale**: stato del progetto. [ecb.europa.eu/euro/digital_euro](https://www.ecb.europa.eu/euro/digital_euro/html/index.it.html)
+- **Passaporto digitale dei prodotti**: [ESPR, Reg. (UE) 2024/1781](https://eur-lex.europa.eu/eli/reg/2024/1781/oj?locale=it); la demo di IOTA, [dpp.demo.iota.org](https://dpp.demo.iota.org/)
 - **Uniswap v2, whitepaper** (2020): la formula x · y = k. [uniswap.org/whitepaper.pdf](https://uniswap.org/whitepaper.pdf)
 - **Dati aperti**: DeFi e stablecoin su [defillama.com](https://defillama.com/), titoli tokenizzati su [rwa.xyz](https://app.rwa.xyz/)
 
@@ -50,7 +51,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 <div class="letture">
 
 - **Rapporto Clusit 2026**, presentazione del 17 marzo 2026. [securitysummit.it](https://api.securitysummit.it/files/69c1418335195c00025a851e/2026_PlenariaRapporto_Clusit_17marzo_securitysummit-Milano2026_1920x1080.pdf)
-- **ACN, Relazione annuale 2025** (sintesi). [puntosicuro.it](https://www.puntosicuro.it/sicurezza-informatica-C-90/relazione-acn-2025-cresce-la-minaccia-cyber-aumenta-la-resilienza-AR-26601/)
+- **ACN, Relazione annuale 2025** (sintesi). [puntosicuro.it](https://www.puntosicuro.it/sicurezza-informatica-C-90/relazione-acn-2025-cresce-la-minaccia-cyber-aumenta-la-resilienza-AR-26601/); **Operational Summary 2026**: primo semestre, [cybersecurity360.it](https://www.cybersecurity360.it/news/acn-nel-primo-semestre-2026-resta-elevata-la-pressione-da-parte-delle-minacce-cyber/); settembre, [dirittobancario.it](https://www.dirittobancario.it/art/operational-summary-acn-le-minacce-cyber-di-settembre-2026/)
 - **Frigoriferi dei supermercati**, Il Post, 3 novembre 2026. [ilpost.it](https://www.ilpost.it/2026/11/03/attacchi-informatici-hacker-supermercati/)
 - **Una settimana di attacchi hacker e allarmi bomba**, Il Post, 9 novembre 2026. [ilpost.it](https://www.ilpost.it/2026/11/09/attacchi-hacker-allarmi-bomba-italia-europa-in-ordine/)
 - **Farnesina e Milano-Cortina**: Open, 8 ottobre 2026, [open.online](https://www.open.online/2026/10/08/farnesina-attacco-hacker-indagini/); The Record, 5 febbraio 2026, [therecord.media](https://therecord.media/italy-blames-russia-linked-hackers-winter-games-cyberattack)
@@ -111,6 +112,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 <tr><td>Applicazione decentralizzata</td><td>dApp</td><td>interfaccia che usa smart contract invece di un server</td></tr>
 <tr><td>Oracolo</td><td>oracle</td><td>servizio che porta dati esterni sulla blockchain</td></tr>
 <tr><td>Validatore</td><td>validator</td><td>nodo che vota i blocchi nella Proof of Stake</td></tr>
+<tr><td>Layer 2</td><td>livello 2</td><td>sistema che esegue transazioni fuori dalla catena principale</td></tr>
 </tbody>
 </table>
 
@@ -129,7 +131,7 @@ Per approfondire: testi, norme, strumenti e un glossario
 <tr><td>Finanza decentralizzata</td><td>DeFi</td><td>scambi e prestiti tramite smart contract, senza intermediari</td></tr>
 <tr><td>DAO</td><td>decentralized autonomous organization</td><td>organizzazione che decide con voti registrati in un contratto</td></tr>
 <tr><td>Tokenizzazione</td><td>tokenization</td><td>rappresentare un bene reale (titolo, fondo) con un token</td></tr>
-<tr><td>Layer 2</td><td>livello 2</td><td>sistema che esegue transazioni fuori dalla catena principale</td></tr>
+<tr><td>Passaporto digitale</td><td>digital product passport (DPP)</td><td>i dati di un prodotto per tutta la sua vita</td></tr>
 <tr><td>Euro digitale</td><td>digital euro (CBDC)</td><td>moneta digitale emessa dalla banca centrale</td></tr>
 </tbody>
 </table>

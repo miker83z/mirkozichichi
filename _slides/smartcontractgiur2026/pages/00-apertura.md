@@ -30,19 +30,21 @@ Attivazione delle versioni (verifica/D, codice di iotaledger/iota): i validatori
 
 <SchemaCrescitaAttacchi />
 
-<p v-click>E il 2026? Nei primi nove mesi il CSIRT Italia dell'ACN ha gestito più eventi che in tutto il 2025 (2.729, di cui 615 incidenti).</p>
+<p v-click>E il 2026? In nove mesi l'ACN ha già gestito più eventi che in tutto il 2025, e quasi il triplo degli incidenti: anche perché con la NIS2 più soggetti devono segnalarli.</p>
 
-<p class="fonte" v-click>Rapporto Clusit 2026 (17 marzo 2026); Relazione annuale ACN 2025; Operational Summary ACN 2026.</p>
+<p class="fonte" v-click>Rapporto Clusit 2026 (17 marzo 2026); Relazione annuale ACN 2025; Operational Summary ACN, gennaio–settembre 2026.</p>
 
 <div class="sigle">
   <p v-click="1"><strong>Clusit</strong>: Associazione italiana per la sicurezza informatica</p>
-  <p v-click="3"><strong>ACN</strong>: Agenzia per la cybersicurezza nazionale; <strong>CSIRT</strong> (Computer Security Incident Response Team): la sua squadra di risposta agli incidenti</p>
+  <p v-click="3"><strong>ACN</strong>: Agenzia per la cybersicurezza nazionale; <strong>NIS2</strong>: la direttiva europea sulla sicurezza delle reti e dei sistemi informativi (UE 2022/2555)</p>
 </div>
 
 <!--
 Come leggere i numeri: Clusit conta gli incidenti gravi resi noti da fonti aperte; l'ACN quelli segnalati al CSIRT. Misurano cose diverse.
+Eventi e incidenti (ACN): un evento è qualsiasi fatto di sicurezza trattato dal CSIRT Italia (una segnalazione, un tentativo, una campagna di phishing, un servizio esposto); un incidente è un evento con impatto confermato su riservatezza, integrità o disponibilità. Ogni incidente è un evento, non il contrario. Nella NIS2 (art. 6; d.lgs. 138/2024, art. 2): incidente = evento che compromette disponibilità, autenticità, integrità o riservatezza; quasi-incidente = evento evitato o che non si è verificato; si notifica l'incidente significativo (grave disservizio, perdita economica o danno ad altri). Esempi: il DDoS alla Farnesina, mitigato senza disservizi, è un evento; una mail di phishing è un evento, la password rubata dopo il clic è un incidente. Gli «incidenti gravi» di Clusit sono un sottoinsieme ancora più ristretto: quelli con impatto rilevante diventati pubblici.
 Gran parte della crescita italiana del 2025 viene dall'hacktivism (196 incidenti): senza, l'aumento sarebbe del 12%, non del 42%. Nel mondo: 5.265 incidenti gravi (+48,7%), il massimo mai registrato; l'Italia ne conta il 9,6%.
 Dal 2026 gli obblighi di notifica NIS2 fanno crescere anche le segnalazioni.
+ACN, gennaio–settembre 2026 (Operational Summary): eventi 2.171 nel primo semestre + 305 a luglio + 309 ad agosto + 485 a settembre = 3.270; incidenti circa 1.072 + 188 + 185 + 235 ≈ 1.680. Nel 2025: 2.729 eventi e 615 incidenti (Relazione annuale). Clusit e ACN misurano cose diverse: per questo due grafici separati.
 -->
 
 ---

@@ -272,6 +272,34 @@ Fonti: rwa.xyz (40,0 miliardi "distributed", 402,7 miliardi "represented"); CDP 
 piattaforma: 5
 ---
 
+# Tracciare merci e prodotti con IOTA
+
+<SchemaPassaporto />
+
+<v-clicks>
+
+- **Commercio**: TWIN, documenti doganali digitali; con ADAPT, nel 2026 in Kenya, Marocco e Nigeria
+- **UE**: passaporto digitale (DPP) obbligatorio prodotto per prodotto (ESPR); batterie da febbraio 2027
+
+</v-clicks>
+
+<p class="lead" v-click>Provatela voi: <a href="https://dpp.demo.iota.org/">dpp.demo.iota.org</a></p>
+
+<div class="sigle">
+  <p v-click="4"><strong>TWIN</strong>: Trade Worldwide Information Network; <strong>ADAPT</strong>: il programma dell'area di libero scambio africana (AfCFTA) per il commercio digitale</p>
+  <p v-click="5"><strong>DPP</strong>: Digital Product Passport; <strong>ESPR</strong>: Ecodesign for Sustainable Products Regulation, il regolamento (UE) 2024/1781</p>
+</div>
+
+<!--
+La demo (dpp.demo.iota.org, codice su github.com/iotaledger/dpp-demonstrator) usa i prodotti di IOTA insieme: Identity (identità decentralizzate e credenziali verificabili), Hierarchies (chi accredita chi: autorità pubblica → produttore → riparatore), Notarization (la traccia degli eventi), Gas Station (le commissioni le paga il servizio: l'utente non vede token né gas) e un premio in token. Nella demo voi siete il riparatore. È un riferimento concettuale, non un prodotto pronto per la conformità (lo dice la stessa IOTA Foundation). Nell'esempio della documentazione: batteria al 76% dopo la manutenzione annuale, 1 LCC di premio.
+Commercio: TLIP con TradeMark East Africa (dal 2021), poi TWIN (fondazione dall'8/5/2025); in Kenya si è partiti dai fiori verso Paesi Bassi e Regno Unito, ora collegati KenTrade e Kenya Revenue Authority; il rilascio pubblico di TLIP aspetta gli adempimenti privacy (luglio 2026). ADAPT: lanciato il 17/11/2025 dal Segretariato AfCFTA con Tony Blair Institute, World Economic Forum e IOTA Foundation; il 19/5/2026 scelti Kenya, Marocco e Nigeria come primi Paesi. Sono piloti e integrazioni in corso, con dati per lo più dichiarati dai promotori (verifica/C, 8.1–8.4). Sul DPP c'è anche Orobo (Singapore), che usa IOTA per verificare i dati dei prodotti (8.6).
+Per il giurista: ESPR, regolamento (UE) 2024/1781, in vigore dal 18/7/2024; i prodotti e i dati del passaporto li fissano gli atti delegati, gruppo per gruppo. Batterie: regolamento (UE) 2023/1542, art. 77, passaporto dal 18/2/2027 per le batterie dei mezzi di trasporto leggeri (e-bike), quelle industriali oltre 2 kWh e quelle dei veicoli elettrici. Dati personali: la storia delle riparazioni può riguardare il proprietario; per questo sulla catena va l'impronta, non il dato (GDPR, diritto alla cancellazione).
+-->
+
+---
+piattaforma: 5
+---
+
 # Che cos'è una DAO
 
 <SchemaDao />
@@ -348,6 +376,6 @@ piattaforma: 6
 <Lavagna solo="voto" />
 
 <!--
-Il sondaggio è già aperto sulla devnet (creato il 10/11/2026 con node scripts/aula-sondaggio.mjs "Che cosa impedisce di riscrivere un blocco già confermato?" "La firma del miner" "L'impronta del blocco dentro il successivo" "Una legge" "Il server di un'azienda"): nell'app è il passo 5, dopo l'invio di AULA. Per chiuderlo dopo la lezione: node scripts/aula-sondaggio.mjs --chiudi.
+Il sondaggio della lezione (creato il 10/11/2026 con node scripts/aula-sondaggio.mjs "Che cosa impedisce di riscrivere un blocco già confermato?" "La firma del miner" "L'impronta del blocco dentro il successivo" "Una legge" "Il server di un'azienda"): nell'app era il passo 5, dopo l'invio di AULA. Chiuso il 12/11/2026 con node scripts/aula-sondaggio.mjs --chiudi: 2 voti alla firma del miner, 2 all'impronta del blocco, 0 alle altre. Per un nuovo anno si crea un nuovo sondaggio con lo stesso script.
 Risposta giusta: l'impronta del blocco dentro il successivo (integrità: Capo II e «Blocchi veri», Capo III): cambiare un blocco cambia la sua impronta e rompe il legame con tutti i successivi. Per rifarli servirebbe rifare tutto il lavoro (Proof of Work) o avere più di due terzi dei voti (Proof of Stake). La firma del miner: in Bitcoin i blocchi non sono firmati dal miner. Una legge, il server di un'azienda: proprio ciò che una blockchain non usa.
 -->
